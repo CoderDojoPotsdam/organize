@@ -22,15 +22,15 @@ Sobald Wie Möglich
 
 - Rosina.Geiger⍟hpi⚜de eine Mail schreiben, dass wir einen Raum brauchen. Ort & Zeit incl Stunden.
 - Admin⍟hpi⚜de eine Mail schreiben, dass ein WLAN für das Coder Dojo gebraucht wird. Ort & Zeit incl Stunden.
-- "Sebastian Seitz" <Seitz⍟tsb-berlin⚜de> und "Robert Lehmann" <robert⍟opentechschool⚜org> eine Mail schreiben, um die [Arduinos](http://arduino.cc/), [MakeyMakeys](http://www.makeymakey.com/) und [RaspberryPis](http://www.raspberrypi.org/) auszuleihen.
+- "Sebastian Seitz" Seitz⍟tsb-berlin⚜de und "Robert Lehmann" robert⍟opentechschool⚜org eine Mail schreiben, um die [Arduinos](http://arduino.cc/), [MakeyMakeys](http://www.makeymakey.com/) und [RaspberryPis](http://www.raspberrypi.org/) auszuleihen.
 
 1 Woche Vorher
 --------------
 
 - Mentoren anwerben
-- im IFI, HPI, sonstwo Poster aufhängen.
-- In der OpentTechSchool Bescheid sagen, "Robert Lehmann" <robert⍟opentechschool⚜org> und "Nicco Kunzmann" <nicco⍟opentechschool⚜org> wäre da Ansprechpartner. gerne aush erwähnen, dass wir ihr Material benutzen und Python coachen.
-- "Tiffany Conroy" <tif⍟tif⚜ca> und "Philip Brechler" <philip⚜brechler⍟gmail⚜com> sind die Organisatoren vom Coder Dojo Berlin und können darüber informiert werden, dass es statfindet und eingeladen werden.
+- Im IFI, HPI, sonstwo Poster aufhängen.
+- In der OpentTechSchool Bescheid sagen, "Robert Lehmann" robert⍟opentechschool⚜org und "Nicco Kunzmann" nicco⍟opentechschool⚜org wären da Ansprechpartner. Gerne auch erwähnen, dass wir [ihr Material](http://www.opentechschool.org/material.html) benutzen und Python coachen.
+- "Tiffany Conroy" tif⍟tif⚜ca und "Philip Brechler" philip⚜brechler⍟gmail⚜com sind die Organisatoren vom [Coder Dojo Berlin](https://zen.coderdojo.com/dojo/522) und können darüber informiert werden, dass es statfindet und eingeladen werden.
 - Mit der Haustechnik FM⍟hpi⚜de am HPI klarmachen, dass die Wand zwischen den Räumen aufgemacht werden muss. Außerdem liegen Steckdosenleisten im Raum H-E.51, die, wenn sie nicht reichen, die Haustechnik nachfüllen kann.
 - Fotoklub anschreiben, vielleicht wollen sie ja Fotos machen.
 
@@ -51,8 +51,8 @@ Kurz Vorher
 - Ankommenden die unterschriebenen Teilnahmebedingungen abnehmen
 
 
-[Ablauf](Ablauf.md)
--------------------
+[Währenddessen](Ablauf.md)
+--------------------------
 - Bilder machen
 
 Danach
