@@ -61,7 +61,7 @@ Wie kann ich mich als Mentor vorbereiten?
 
 Mentoren empfehle ich, den [Coaching Guide der Open Tech School](http://opentechschool.github.io/slides/presentations/coaching/) zu lesen. Der hilft dabei, zu verstehen, wie du dich als Helfer verhalten solltest.
 
-Des weiteren kannst du dich mit dem Material beschäftigen, das auf der [Coder Dojo Potsdam Seite](https://zen.coderdojo.com/dojo/861) verlinkt ist. Das wird aber jedes Mal vorgestellt.
+Des Weiteren kannst du dich mit dem Material beschäftigen, das auf der [Coder Dojo Potsdam Seite](https://zen.coderdojo.com/dojo/861) verlinkt ist. Das wird aber jedes Mal vorgestellt, siehe [Ablauf](Ablauf.md).
 
 Welche Programmiersprachen werden verwendet?
 --------------------------------------------
