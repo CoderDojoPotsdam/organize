@@ -1,7 +1,8 @@
 Welchen Ablauf hat das Coder Dojo Organisieren?
 ===============================================
 
-Das sind so die Zeiten, wenn es gut geht: 
+Das sind Zeiten, die beim ersten Mal geklappt haben.
+Alle Organisatorischen Sachen können über die [Mailingliste](https://groups.google.com/forum/#!forum/coderdojopotsdam-discuss) delegiert und diskutiert werden. 
 
 Sobald Wie Möglich
 ------------------
