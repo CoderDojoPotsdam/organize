@@ -30,7 +30,7 @@ Sobald Wie Möglich
 - Mentoren anwerben
 - Im IFI, HPI, sonstwo Poster aufhängen.
 - In der OpentTechSchool Bescheid sagen, "Robert Lehmann" robert⍟opentechschool⚜org und "Nicco Kunzmann" nicco⍟opentechschool⚜org wären da Ansprechpartner. Gerne auch erwähnen, dass wir [ihr Material](http://www.opentechschool.org/material.html) benutzen und Python coachen.
-- "Tiffany Conroy" tif⍟tif⚜ca und "Philip Brechler" philip⚜brechler⍟gmail⚜com sind die Organisatoren vom [Coder Dojo Berlin](https://zen.coderdojo.com/dojo/522) und können darüber informiert werden, dass es statfindet und eingeladen werden.
+- "Tiffany Conroy" tif⍟tif⚜ca und "Philip Brechler" philip⚜brechler⍟gmail⚜com sind die Organisatoren vom [Coder Dojo Berlin](https://zen.coderdojo.com/dojo/522) und können darüber informiert werden, dass es stattfindet und eingeladen werden.
 - Mit der Haustechnik FM⍟hpi⚜de am HPI klarmachen, dass die Wand zwischen den Räumen aufgemacht werden muss. Außerdem liegen Steckdosenleisten im Raum H-E.51, die, wenn sie nicht reichen, die Haustechnik nachfüllen kann.
 - Fotoklub anschreiben, vielleicht wollen sie ja Fotos machen.
 
@@ -61,3 +61,4 @@ Danach
 - [Coder Dojo Potsdam Seite](https://zen.coderdojo.com/dojo/861) aktualisieren auf "In Planning" statt "Come Along".
 - Blogpost schreiben
 - Teilnehmer von Eventbrite kopieren und in die Google-Mailingliste einladen
+- 
