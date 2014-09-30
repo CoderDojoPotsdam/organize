@@ -6,7 +6,7 @@ Das Coder Dojo Potsdam ist da - der Klub traf sich erstmals in Potsdam
 
 Coder Dojos sind Klubs für Kinder und Jugendliche, um programmieren zu lernen. Programmieren ermöglicht ihnen Stück für Stück, hinter die digitalen Anwendungen und Apps zu schauen, die sie tagtäglich verwenden. Diesmal hat sich fast die Hälfte der Teilnehmer entschieden, Apps zu bauen.
 
-Die erste Veranstaltung war als Testlauf geplant, um das Interesse abzuschätzen. Am 27.September waren drei Stunden lang ca. 35 Personen dabei. Das Feedback fiel sehr positiv aus. So wünschten sich viele der Teilnehmer, dass das Dojo alle zwei Wochen stattfindet. Am 11. Oktober ist das nächste geplant.
+Die erste Veranstaltung war als Testlauf geplant, um das Interesse abzuschätzen. Am 27.September waren drei Stunden lang ca. 35 Personen dabei. Das Feedback fiel sehr positiv aus. So wünschten sich viele der Teilnehmer, dass das Dojo alle zwei Wochen stattfindet. [Am 11. Oktober ist das nächste geplant.](https://zen.coderdojo.com/dojo/861)
 
 Was passierte da?
 ----------------
