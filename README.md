@@ -1,13 +1,10 @@
+Coder Dojo Potsdam
+==================
 
-Nicht umbenennen oder löschen:
+Dieses Repository ist fÃ¼r die Organisation des Dojos gedacht.
+Es gibt Seiten fÃ¼r
 
-- supporters.png wird über die HPI-ownCloud direkt auf 
-  https://zen.coderdojo.com/dojo/861 angezeigt
-    
-- Teilnahmebedingungen-CoderDojo-Potsdam.pdf wird über 
-  HPI-ownCloud direkt zum Download angeboten.
-
-In den Ordener `teilnahmebestätigungen` tue ich die per mail gesendeten, 
-unterschriebenen rein.
-
-`logo-02` ist der Ordner mit Patrick Lühnes Logo für das Coder Dojo Potsdam.
+- [FAQ, hÃ¤ufige Fragen](FAQ.md)
+- [Wie organisiere ich das Coder Dojo in Potsdam?](Organisation.md)
+- [Wie ist das Repository aufgebaut?](repository.md)
+- [Blogposts](blog)
