@@ -1,5 +1,5 @@
 
-Das Coder Dojo Potsdam ist da - der Klub traf sich erstmals in Potsdam
+[Das Coder Dojo Potsdam ist da - der Klub traf sich erstmals in Potsdam](http://tinyurl.com/erster-coder-dojo-potsdam)
 ======================================================================
 
 ![](bilder/björnfelsch/banner.jpg)
@@ -38,7 +38,7 @@ Da waren 3 Monate Zeit, in denen ich das Dojo organisieren konnte und Personen a
 
 Mario vom [FabLab Potsdam](http://machbar-potsdam.de/) war da und will die nächsten Treffen auch mit mehr Hardware machen. Stefan Gehrmann auch, der seinerseits schon viel bei solchen Veranstaltungen rumgekommen ist. Sebastian Seitz von der [Technologiestiftung Berlin](http://www.technologiestiftung-berlin.de/) und Robert Lehrmann von den [IT-Labs Berlin](http://itlabsberlin.de/) haben die [Arduinos](http://fritzing.org/shop/starter-kit/) organisiert.
 
-Das zweite Coder Dojo Potsdam organisiert Christoh Sterz, da ich dann nicht anwesend bin. Ich hoffe, es wird noch viele, ebenso gut besuchte Veranstaltungen geben. Ich danke allen Mentoren und Teilnehmern für die nette und gelungene, stressfreie Veranstaltung. Leider habe ich vergessen, die Namen der Mentoren aufzuschreiben. Sonst stünden diese jetzt hier mit einem großen Dankesehr!
+Das zweite Coder Dojo Potsdam organisiert Christoph Sterz, da ich dann nicht anwesend bin. Ich hoffe, es wird noch viele, ebenso gut besuchte Veranstaltungen geben. Ich danke allen Mentoren und Teilnehmern für die nette und gelungene, stressfreie Veranstaltung. Leider habe ich vergessen, die Namen der Mentoren aufzuschreiben. Sonst stünden diese jetzt hier mit einem großen Dankesehr!
 
 In meiner Nähe sollte es auch so einen Klub geben.
 --------------------------------------------------
