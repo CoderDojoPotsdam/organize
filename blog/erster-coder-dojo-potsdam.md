@@ -1,5 +1,5 @@
 
-[Das Coder Dojo Potsdam ist da - der Klub traf sich erstmals in Potsdam](http://tinyurl.com/erster-coder-dojo-potsdam)
+Das Coder Dojo Potsdam ist da - der Klub traf sich erstmals in Potsdam
 ======================================================================
 
 ![](bilder/björnfelsch/banner.jpg)
@@ -45,3 +45,5 @@ In meiner Nähe sollte es auch so einen Klub geben.
 
 Stimmt. Dann organisier' DU einen. Tiffany und ich und andere Coder Dojo Organisatoren in Deutschland helfen dir gerne dabei, deine Fragen zu beantworten und herauszufinden, was du alles dazu brauchst. Man muss zum organisieren ja auch nicht programmieren können.  
 Außerdem: wenn DU das denkst, denken das andere in der Umgebung auch. Das Prolem ist nicht, dass du alleine bist, sondern dass du die anderen finden musst. Das geht. Es nennt sich Organisieren.
+
+http://tinyurl.com/erster-coder-dojo-potsdam linkt auf diesen Blogpost.
