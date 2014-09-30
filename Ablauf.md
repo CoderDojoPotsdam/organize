@@ -4,7 +4,7 @@ Ablauf
 Ankommen
 --------
 
-Wenn du ankommst, kannst du das alles machen, helfen, da der Organisator nicht alles slebst machen kann:
+Wenn du ankommst, kannst du das alles machen, helfen, da der Organisator nicht alles selbst machen kann:
 
 - Wir müssen die Tische so stellen, dass genug Platz ist und ein guter Blick auf den Beamer.
 - Die Tische brauchen alle Strom. Steckerleisten liegen rum, fühl' dich frei, sie so zu verteilen, dass überall Strom ist.
@@ -20,26 +20,27 @@ Wenn alle da sind geht es los mit einer Vorstellung.
 - Gibt es was zu trinken, Tassen, wo?
 - Gibt es Aushänge oder Flyer zu interessanten Veranstaltungen?
 - Die Materialien werden präsentiert
-	- Diese werden vorher schon auf der [Coder Dojo Potsdam Seite](https://zen.coderdojo.com/dojo/861) in der Materialabteilung gelistet. 
+	- Manche werden vorher schon auf der [Coder Dojo Potsdam Seite](https://zen.coderdojo.com/dojo/861) in der Materialabteilung gelistet. 
 	- Mentoren können dabei ihre Spezialgebiete und Projekte anpreisen, damit alle Teilnehmer wissen, was man heute machen kann. Auf jeden Fall sagt jeder Mentor was zu sich. 
-	- Wenn Teilnehmer spezielle vorstellungen haben und Projektmitglieder haben, ist das auch der richtige Zeitpunkt für sie, was zu sagen.
+	- Wenn Teilnehmer spezielle Vorstellungen haben und Projektmitglieder haben, ist das auch der richtige Zeitpunkt für sie, was zu sagen.
+- Gibt es Fragen?
 
 Programmieren
 -------------
 
 Dann finden sich die Gruppen. Alle, die es übers Herz bringen, gehen auf Leute zu, die aussehen, als bräuchten sie Hilfe.
 
-Abschlusspresentationen
+Abschlusspräsentationen
 -----------------------
 
 Ca. eine Stunde vor Ende sollte angesagt werden, dass in einer halben Stunde Presentationen losgehen. Dabei sollte auch schon erwähnt werden, worum es da geht.
 
-Eine halbe Stunde vor Ende werden dann Presenationen gehalten. Wenn man eine gute Laptopkamera hat, empfiehlt es sich, mit [Google Chrome](http://html5-demos.appspot.com/static/getusermedia/photobooth.html) die Laptops zu filmen, da man sich so das Umschalten des Projektors zwischen den Geräten spart.
+Eine halbe Stunde vor Ende werden dann Präsenationen gehalten. Wenn man eine gute Laptopkamera hat, empfiehlt es sich, mit [Google Chrome die Laptops zu filmen](http://html5-demos.appspot.com/static/getusermedia/photobooth.html), da man sich so das Umschalten des Projektors zwischen den Geräten spart.
 
-Worum geht es dabei?
+Worum geht es bei den Präsentationen?
 
 - es geht nicht darum, ein fertiges Produkt zu zeigen.
-- Ziel ist es, den anderen ein Gefühl zu geben, was sie hier im Dojo machen können, welche Materialien sie online ansehen können und schon zu Hause bearbeiten oder auch einen Wunsch zu erzeugen wie: "Das nächste Mal programmiere ich eine App!"
+- Ziel ist es, den anderen ein Gefühl zu geben, was sie hier im Dojo machen können, welche Materialien sie online ansehen können und auch schon zu Hause bearbeiten oder auch einen Wunsch zu erzeugen wie: "Das nächste Mal programmiere ich eine App!"
 - Teilnehmer, die nichts zu zeigen haben, wollen ungern vor gehen. Sie können auch vom Platz aus reden.
 - Schön ist es, wenn zu allem, was benutzt wurde, ein Teilnhmer was sagt.
 
