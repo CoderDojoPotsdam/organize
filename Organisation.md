@@ -64,4 +64,5 @@ Danach
 
 - [Coder Dojo Potsdam Seite](https://zen.coderdojo.com/dojo/861) aktualisieren auf "In Planning" statt "Come Along".
 - Blogpost schreiben
-- Teilnehmer von Eventbrite kopieren und in die Google-Mailingliste einladen
+- Teilnehmer von Eventbrite kopieren und in die Google-Mailingliste einladen.
+	- Verwalten -> alle anzeigen -> Exportieren. Das was da rauskommt, muss mit 7zip geöffnet werden.
