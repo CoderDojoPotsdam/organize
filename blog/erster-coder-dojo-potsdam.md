@@ -25,7 +25,7 @@ Wer will nicht sein eigenes Spiel entwickeln? Mit [Scratch](http://scratch.mit.e
 
 Die [OpenTechSchool](http://www.opentechschool.org/) stellt online auch [ihre Tutorials](http://learn.opentechschool.org/) bereit. So wählten einige Teilnehmer Python als ihre erste Programmiersprache aus. Wie sich herausstellte, waren sie nicht die einzigen. Andere Teilnehmer hatten wohl über den [Programmieranfängerkurs mit Python](https://open.hpi.de/courses/pythonjunior2014) vom Coder Dojo erfahren.
 
-Zwanzig Minuten am Ende nutzten wir, damit die Teilnehmer vorstellen konnten, womit und woran sie sich beschäftigt hatten. So kann man inspiriert und mich Vorfreude und Plänen nach hause gehen.
+Zwanzig Minuten am Ende nutzten wir, damit die Teilnehmer vorstellen konnten, womit und woran sie sich beschäftigt hatten. So kann man inspiriert mit Vorfreude und Plänen nach Hause gehen.
 
 Wie kam es zum Coder Dojo?
 --------------------------
@@ -38,7 +38,7 @@ Da waren 3 Monate Zeit, in denen ich das Dojo organisieren konnte und Personen a
 
 Mario vom [FabLab Potsdam](http://machbar-potsdam.de/) war da und will die nächsten Treffen auch mit mehr Hardware machen. Stefan Gehrmann auch, der seinerseits schon viel bei solchen Veranstaltungen rumgekommen ist. Sebastian Seitz von der [Technologiestiftung Berlin](http://www.technologiestiftung-berlin.de/) und Robert Lehrmann von den [IT-Labs Berlin](http://itlabsberlin.de/) haben die [Arduinos](http://fritzing.org/shop/starter-kit/) organisiert.
 
-Das zweite Coder Dojo Potsdam organisiert Christoh Sterz, da ich dann nicht anwesend bin. Ich hoffe, es wird noch viele, ebenso gut besuchte Veranstaltungen geben.
+Das zweite Coder Dojo Potsdam organisiert Christoh Sterz, da ich dann nicht anwesend bin. Ich hoffe, es wird noch viele, ebenso gut besuchte Veranstaltungen geben. Ich danke allen Mentoren und Teilnehmern für die nette und gelungene, stressfreie Veranstaltung. Leider habe ich vergessen, die Namen der Mentoren aufzuschreiben. Sonst stünden diese jetzt hier mit einem großen Dankesehr!
 
 In meiner Nähe sollte es auch so einen Klub geben.
 --------------------------------------------------
