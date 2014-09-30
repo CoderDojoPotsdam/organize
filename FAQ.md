@@ -29,17 +29,17 @@ Fragen von Teilnehmern
 Können auch Tablets verwendet werden?
 -------------------------------------
 
-Für IPads und IPhones gibt es [Hopscotch](http://www.gethopscotch.com/), [ScratchJr](http://www.scratchjr.org/) und [Lightbot](https://itunes.apple.com/de/app/lightbot-programming-puzzles/id657638474?mt=8). [Lightbot](https://itunes.apple.com/de/app/lightbot-programming-puzzles/id657638474?mt=8) ist auch für Android erhältlich. Außerdem kann man mit [App Inventor](http://appinventor.mit.edu/) [Android apps programmieren](http://www.universalsubtitles.org/en/videos/Uhxo9Ar9G9N3/info/talk-to-me-part-1-mit-app-inventor-tutorial-1/), wenn man einen Laptop hat.
+Ja. Mitbringen. Für IPads und IPhones gibt es [Hopscotch](http://www.gethopscotch.com/), [ScratchJr](http://www.scratchjr.org/) und [Lightbot](https://itunes.apple.com/de/app/lightbot-programming-puzzles/id657638474?mt=8). [Lightbot](https://itunes.apple.com/de/app/lightbot-programming-puzzles/id657638474?mt=8) ist auch für Android erhältlich. Außerdem kann man mit [App Inventor](http://appinventor.mit.edu/) [Android apps programmieren](http://www.universalsubtitles.org/en/videos/Uhxo9Ar9G9N3/info/talk-to-me-part-1-mit-app-inventor-tutorial-1/), wenn man einen Laptop hat.
 
 Kann ich meinen Laptop mitbringen?
 ----------------------------------
 
-Ja. Programmiert werden kann auf allen Betriebssystemen. Egal, ob es ein Mac, Windows, Linux oder anderes ist. Bestimmt kennt sich ein Mentor auch mit dem Betriebssystem aus.
+Ja. Programmiert werden kann auf allen Betriebssystemen. Egal, ob es ein Mac, Windows, Linux oder anderes ist. Bestimmt kennt sich ein Mentor auch mit deinem Betriebssystem aus.
 
 Ich habe noch mehr Fragen. Wie kann ich euch kontaktieren?
 ----------------------------------------------------------
 
-Es gibt die Mailingliste [coderdojopotsdam-discuss](https://groups.google.com/forum/#!forum/coderdojopotsdam-discuss). Dort können fragen dran gepostet werden. 
+Es gibt die Mailingliste [coderdojopotsdam-discuss](https://groups.google.com/forum/#!forum/coderdojopotsdam-discuss). Dort können Fragen gepostet werden, per Email an coderdojopotsdam-discuss⍟googlegroups⚜com (Zeichen entsprechend ersetzen). 
 
 
 Wie bekomme ich mit, wann das nächste Dojo ist?
@@ -72,12 +72,12 @@ Wie kann ich mich als Mentor vorbereiten?
 
 Mentoren empfehle ich, den [Coaching Guide der Open Tech School](http://opentechschool.github.io/slides/presentations/coaching/) zu lesen. Der hilft dabei, zu verstehen, wie du dich als Helfer verhalten solltest.
 
-Des Weiteren kannst du dich mit dem Material beschäftigen, das auf der [Coder Dojo Potsdam Seite](https://zen.coderdojo.com/dojo/861) verlinkt ist. Das wird aber jedes Mal vorgestellt, siehe [Ablauf](Ablauf.md).
+Des Weiteren kannst du dich mit dem Material beschäftigen, das auf der [Coder Dojo Potsdam Seite](https://zen.coderdojo.com/dojo/861) verlinkt ist. Das wird auch jedes Mal vorgestellt, siehe [Ablauf](Ablauf.md).
 
 Welche Programmiersprachen werden verwendet?
 --------------------------------------------
 
-Alle. Wenn du gerne Grundlagen in einer bestimmten Sprache beibringen magst, kannst du das auch ansagen, siehe [Ablauf](Ablauf.md#begrüßungsrede). Wir haben Material auf der [Coder Dojo Potsdam Seite](https://zen.coderdojo.com/dojo/861) verlinkt. Das ist als sehr gut befunden und sorgt dafür, dass die Teilnehmer fast keine Betreuung brauchen.
+Alle. Wenn du gerne Grundlagen in einer bestimmten Sprache beibringen magst, kannst du das auch ansagen, siehe [Ablauf](Ablauf.md#begrüßungsrede) und wenn du vorher Bescheid sagst, können wir es auch auf die [Coder Dojo Potsdam Seite](https://zen.coderdojo.com/dojo/861) schreiben. Wir haben Material auf der [Coder Dojo Potsdam Seite](https://zen.coderdojo.com/dojo/861) verlinkt. Das ist als sehr gut befunden und sorgt dafür, dass die Teilnehmer fast keine Betreuung brauchen.
 
 Was muss ich tun, wenn ich ankomme?
 -----------------------------------
