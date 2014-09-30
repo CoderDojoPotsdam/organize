@@ -2,7 +2,7 @@
 Das Coder Dojo Potsdam ist da - der Klub traf sich erstmals in Potsdam
 ======================================================================
 
-![](bilder/björnfelsch/banner.png)
+![](bilder/björnfelsch/banner.jpg)
 
 Coder Dojos sind Klubs für Kinder und Jugendliche, um programmieren zu lernen. Programmieren ermöglicht ihnen Stück für Stück, hinter die digitalen Anwendungen und Apps zu schauen, die sie tagtäglich verwenden. Diesmal hat sich fast die Hälfte der Teilnehmer entschieden, Apps zu bauen.
 
@@ -16,6 +16,8 @@ Was die Anwesenden wollten. Nach einer kurzen Vorstellung vom Material, konnten 
 Andere widmeten sich der Entwicklung ihrer eigenen App mit [App Inventor](http://appinventor.mit.edu/). Schon bald meldete sich das erste Tablet und grüßte auf Knopfdruck. Später beschwerte sich ein Smartphone, dass es nicht geschüttelt werden möchte.
 
 Aber man kann Apps auch in Java entwickeln und so sammelte sich eine Gruppe um den Mentor Ralf Teusner, die ohne Tutorial den harten Weg einschlug. Am Ende lief die erste Testapp und die Teilnehmer hatten auf drei verschiedenenn Betriebssystemen die Möglichkeit, zu Hause weiter zu entwickeln.
+
+![](bilder/clemensschielicke/arduino.jpg)
 
 Apps sind nicht alles. Mit Arduinos von der [Technologiestiftung Berlin](http://www.technologiestiftung-berlin.de/) und der [OpenTechSchool](http://www.opentechschool.org/) entwickelten zwei Teilnehmer eine Ampelsteuerung mit roten, gelben und grünen LEDs. Die Anweisungen and die Ampelsteuerung programmierten sie auf dem Laptop. Diese wurden dann über ein USB-Kabel auf einen kleinen [Arduino](http://fritzing.org/shop/starter-kit/)-Rechner übertragen, der sie befolgte und die LEDs ein und ausschaltete.
 
