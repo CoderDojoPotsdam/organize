@@ -12,7 +12,7 @@ Siehe [Ablauf](Ablauf.md).
 
 Wann/Wo?
 --------
-Das steht auf der [Coder Dojo Potsdam Webseite](https://zen.coderdojo.com/dojo/861).
+Das steht auf der [Coder Dojo Potsdam Webseite](https://zen.coderdojo.com/dojo/861). Wir versuchen es jetzt alle zwei Wochen stattfinden zu lassen.
 
 Was muss ich mitbringen?
 ------------------------
@@ -31,10 +31,16 @@ Können auch Tablets verwendet werden?
 
 Für IPads und IPhones gibt es [Hopscotch](http://www.gethopscotch.com/), [ScratchJr](http://www.scratchjr.org/) und [Lightbot](https://itunes.apple.com/de/app/lightbot-programming-puzzles/id657638474?mt=8). [Lightbot](https://itunes.apple.com/de/app/lightbot-programming-puzzles/id657638474?mt=8) ist auch für Android erhältlich. Außerdem kann man mit [App Inventor](http://appinventor.mit.edu/) [Android apps programmieren](http://www.universalsubtitles.org/en/videos/Uhxo9Ar9G9N3/info/talk-to-me-part-1-mit-app-inventor-tutorial-1/), wenn man einen Laptop hat.
 
+Kann ich meinen Laptop mitbringen?
+----------------------------------
+
+Ja. Programmiert werden kann auf allen Betriebssystemen. Egal, ob es ein Mac, Windows, Linux oder anderes ist. Bestimmt kennt sich ein Mentor auch mit dem Betriebssystem aus.
+
 Ich habe noch mehr Fragen. Wie kann ich euch kontaktieren?
 ----------------------------------------------------------
 
 Es gibt die Mailingliste [coderdojopotsdam-discuss](https://groups.google.com/forum/#!forum/coderdojopotsdam-discuss). Dort können fragen dran gepostet werden. 
+
 
 Wie bekomme ich mit, wann das nächste Dojo ist?
 -----------------------------------------------
@@ -42,6 +48,11 @@ Wie bekomme ich mit, wann das nächste Dojo ist?
 1. Melde dich beim [nächsten Dojo](https://zen.coderdojo.com/dojo/861) an.
 2. Trage dich in den [Coder Dojo Potsdam Mailverteiler](https://groups.google.com/forum/#!forum/coderdojopotsdam) ein.
 3. Folge [@DojoPotsdam](https://twitter.com/DojoPotsdam) auf Twitter.
+
+Bin ich zu alt?
+---------------
+
+Wenn du knapp an der Altersgrenze dran bist, vielleicht 18 bist und dich das Dojo interessiert, komme einfach vorbei, sei hilfsbereit und genieße das Dojo. Lernen kann man hier immer was, auch als Mentor.
 
 Fragen von Mentoren
 ===================
