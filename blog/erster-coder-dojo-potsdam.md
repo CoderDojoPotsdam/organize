@@ -49,4 +49,4 @@ Außerdem: wenn DU das denkst, denken das andere in der Umgebung auch. Das Prole
 ---------------
 
 http://tinyurl.com/erster-coder-dojo-potsdam linkt auf diesen Blogpost.
-Wenn ich noch Beispiele vergessen habe oder ihr eure Namen hier sehen wollt, schreibt mir einfach.
+Wenn ich noch Beispiele vergessen habe oder ihr eure Namen hier sehen wollt, schreibt mir einfach. Vielen Dank an Björn Felsch und Clemens Schielicke für die Bilder.
