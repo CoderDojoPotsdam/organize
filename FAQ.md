@@ -23,6 +23,11 @@ Was muss ich mitbringen?
 - Eine unterschriebene [Teilnahmeerklärung](https://github.com/CoderDojoPotsdam/organize/blob/master/Teilnahmebedingungen-CoderDojo-Potsdam.pdf?raw=true). Diese muss nur 1x für das Coder Dojo Potsdam ausgefüllt werden und gilt für alle weiteren Veranstaltungen.
 - Eventuell Smartphone oder Tablet.
 
+Wie alt sind die anderen?
+-------------------------
+
+Die Teilnehmer sind im Alter zwischen 9 und 18 Jahren. Die Mentoren dementsprechend 9 Jahre und älter. Es ist bestimmt jemand anderes in deinem Alter ± ein Jahr da. Es gibt das [Material von der OpenTechSchool](http://learn.opentechschool.org/), das Erwachsene verwenden, und mit [code.org](http://code.org/) können sich sehr junge Teilnehmer beschäftigen. Das waren die beiden Extreme. Auf der [Website](https://zen.coderdojo.com/dojo/861) steht das gesamte Material.
+
 Fragen von Teilnehmern
 ======================
 
@@ -52,7 +57,7 @@ Wie bekomme ich mit, wann das nächste Dojo ist?
 Bin ich zu alt?
 ---------------
 
-Wenn du knapp an der Altersgrenze dran bist, vielleicht 18 bist und dich das Dojo interessiert, komme einfach vorbei, sei hilfsbereit und genieße das Dojo. Lernen kann man hier immer was, auch als Mentor.
+Wenn du knapp an der Altersgrenze dran bist, vielleicht 18 bist und dich das Dojo interessiert, komme einfach vorbei, sei hilfsbereit und genieße das Dojo. Lernen kann man hier immer was.
 
 Fragen von Mentoren
 ===================
