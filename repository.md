@@ -10,4 +10,4 @@ Nicht umbenennen oder löschen:
 In den Ordener `teilnahmebestätigungen` tue ich die per mail gesendeten, 
 unterschriebenen rein.
 
-`logo-02` ist der Ordner mit Patrick Lühnes Logo für das Coder Dojo Potsdam.
+`logo` ist der Ordner mit Patrick Lühnes Logo für das Coder Dojo Potsdam.

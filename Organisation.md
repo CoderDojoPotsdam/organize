@@ -31,6 +31,7 @@ Sobald Wie Möglich
 --------------
 
 - Mentoren anwerben
+- Patrick bitten, ein neues Poster zu entwerfen.
 - Im IFI, HPI, sonstwo Poster aufhängen.
 - In der OpentTechSchool Bescheid sagen, "Robert Lehmann" robert⍟opentechschool⚜org und "Nicco Kunzmann" nicco⍟opentechschool⚜org wären da Ansprechpartner. Gerne auch erwähnen, dass wir [ihr Material](http://www.opentechschool.org/material.html) benutzen und Python coachen.
 - "Tiffany Conroy" tif⍟tif⚜ca und "Philip Brechler" philip⚜brechler⍟gmail⚜com sind die Organisatoren vom [Coder Dojo Berlin](https://zen.coderdojo.com/dojo/522) und können darüber informiert werden, dass es stattfindet und eingeladen werden.
@@ -46,7 +47,7 @@ Freitag vorher
 Kurz Vorher
 -----------
 
-- [Schilder](logo-02/schilder) aufhängen
+- [Schilder](logo/schilder) aufhängen
 - Ordner mit Teilnahmebedingungen mitbringen
 - Für Getränke sorgen
 - Steckdosenleisten verteilen
