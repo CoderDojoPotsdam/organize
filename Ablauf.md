@@ -15,7 +15,7 @@ Begrüßungsrede
 
 Wenn alle da sind geht es los mit einer Vorstellung.
 
-- Es wird gesagt, was wir hier vorhaben.
+- Es wird gesagt, was wir hier vorhaben. http://coderdojo.com/about
 - Wo sind die Toiletten?
 - Gibt es was zu trinken, Tassen, wo?
 - Gibt es Aushänge oder Flyer zu interessanten Veranstaltungen?
