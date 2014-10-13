@@ -11,6 +11,7 @@ Sobald Wie Möglich
 - Eventbrite Event kopieren.
 	- Dabei die Erinnerungsmail selbst nochmal kopieren, diese wird nicht automatisch kopiert.
 	- Das Event auf der [Coder Dojo Potsdam Seite](https://zen.coderdojo.com/dojo/861) eintragen.
+	- Dort überprüfen, da vielleicht manche Anmeldungen wie "Coder" oder "Eltern" auch nicht richtig kopiert werden
 - Email an Verteiler
 - Twittern von @DojoPotsdam
 
