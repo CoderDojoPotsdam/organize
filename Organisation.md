@@ -66,7 +66,8 @@ Kurz Vorher
 Danach
 ------
 
-- [Coder Dojo Potsdam Seite](https://zen.coderdojo.com/dojo/861) aktualisieren auf "In Planning" statt "Come Along".
+- [Coder Dojo Potsdam Seite](https://zen.coderdojo.com/dojo/861) aktualisieren auf "In Planning".
 - Blogpost schreiben
 - Teilnehmer von Eventbrite kopieren und in die Google-Mailingliste einladen.
 	- Verwalten -> alle anzeigen -> Exportieren. Das was da rauskommt, muss mit 7zip geöffnet werden.
+- [Coder Dojo Potsdam Seite](https://zen.coderdojo.com/dojo/861) aktualisieren auf "Register Ahead".
