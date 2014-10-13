@@ -50,6 +50,8 @@ Kurz Vorher
 
 - [Schilder](logo/schilder) aufhängen
 - Ordner mit Teilnahmebedingungen mitbringen
+- genug ausgedruckte Teilnahmebednigungen haben
+- Feedbackbögen ausdrucken
 - Für Getränke sorgen
 - Steckdosenleisten verteilen
 - Tische umstellen, sodass der Projektor sichtbar bleibt, auch wenn der Raum voll wird
