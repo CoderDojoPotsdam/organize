@@ -19,7 +19,7 @@ Sobald Wie Möglich
 4 Wochen Vorher
 ---------------
 
-[Rafael Zender](http://apache.cs.uni-potsdam.de/de/profs/ifi/mm/projekte/scratchdrone-1) eine Mail schrieben, dass wir gerne [ScratchDrone](http://apache.cs.uni-potsdam.de/de/profs/ifi/mm/projekte/scratchdrone-1) einsetzen möchten.
+[Rafael Zender](http://apache.cs.uni-potsdam.de/de/profs/ifi/mm/projekte/scratchdrone-1) eine Mail schreiben, dass wir gerne [ScratchDrone](http://apache.cs.uni-potsdam.de/de/profs/ifi/mm/projekte/scratchdrone-1) einsetzen möchten.
 
 2 Wochen Vorher
 ---------------
