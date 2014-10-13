@@ -50,7 +50,9 @@ Folgendes sollte gut sichtbar wohin geschrieben werden:
 - Was war dein Ziel? (Was kann man mit den Technologien machen?)
 - Eventuell Demo.
 
-Danach ein Dankeschön an alle. Das Dojo wird dann geschlossen aber niemand herausgeworfen. Die meisten sind 10 Minuten nach Ende auch weg.
+Danach ein Dankeschön an alle und auf Feedbackbögen verweisen. Diese sind eine gute Möglichkeit zur Qualitätswahrung gegenüber Eltern ud Teilnehmern.
+
+Das Dojo wird dann geschlossen aber niemand herausgeworfen. Die meisten sind 10 Minuten nach Ende auch weg.
 
 Ende
 ----
