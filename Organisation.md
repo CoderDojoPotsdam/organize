@@ -24,7 +24,7 @@ Sobald Wie Möglich
 2 Wochen Vorher
 ---------------
 
-- Rosina.Geiger⍟hpi⚜de eine Mail schreiben, dass wir einen Raum brauchen. Ort & Zeit incl Stunden.
+- Wenn der Termin außerplanmäßig stattfindet, dann Rosina.Geiger⍟hpi⚜de eine Mail schreiben, dass wir einen Raum brauchen. Ort & Zeit incl Stunden. Für Treffen alle zwei Wochen ist das Coder Dojo eingetragen.
 - Admin⍟hpi⚜de eine Mail schreiben, dass ein WLAN für das Coder Dojo gebraucht wird. Ort & Zeit incl Stunden.
 - "Sebastian Seitz" Seitz⍟tsb-berlin⚜de und "Robert Lehmann" robert⍟opentechschool⚜org eine Mail schreiben, um die [Arduinos](http://arduino.cc/), [MakeyMakeys](http://www.makeymakey.com/) und [RaspberryPis](http://www.raspberrypi.org/) auszuleihen.
 
