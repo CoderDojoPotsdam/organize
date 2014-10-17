@@ -13,7 +13,7 @@ Sobald Wie Möglich
 	- Das Event auf der [Coder Dojo Potsdam Seite](https://zen.coderdojo.com/dojo/861) eintragen.
 	- Dort überprüfen, da vielleicht manche Anmeldungen wie "Coder" oder "Eltern" auch nicht richtig kopiert werden
 - Email an Verteiler
-- Twittern von @DojoPotsdam
+- Twittern von [@DojoPotsdam](https://twitter.com/DojoPotsdam)
 
 
 4 Wochen Vorher
