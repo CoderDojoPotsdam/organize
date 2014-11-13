@@ -53,6 +53,7 @@ Wie bekomme ich mit, wann das nächste Dojo ist?
 1. Melde dich beim [nächsten Dojo](https://zen.coderdojo.com/dojo/861) an.
 2. Trage dich in den [Coder Dojo Potsdam Mailverteiler](https://groups.google.com/forum/#!forum/coderdojopotsdam) ein.
 3. Folge [@DojoPotsdam](https://twitter.com/DojoPotsdam) auf Twitter.
+4. [Facebook](https://www.facebook.com/groups/1526949497552279/)
 
 Bin ich zu alt?
 ---------------
