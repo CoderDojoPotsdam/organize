@@ -8,3 +8,4 @@ Es gibt Seiten für
 - [Wie organisiere ich das Coder Dojo in Potsdam?](Organisation.md)
 - [Wie ist das Repository aufgebaut?](repository.md)
 - [Blogposts](blog)
+- [Facebook](https://www.facebook.com/groups/1526949497552279/)
