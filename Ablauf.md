@@ -42,7 +42,7 @@ Worum geht es bei den Präsentationen?
 - es geht nicht darum, ein fertiges Produkt zu zeigen.
 - Ziel ist es, den anderen ein Gefühl zu geben, was sie hier im Dojo machen können, welche Materialien sie online ansehen können und auch schon zu Hause bearbeiten oder auch einen Wunsch zu erzeugen wie: "Das nächste Mal programmiere ich eine App!"
 - Teilnehmer, die nichts zu zeigen haben, wollen ungern vor gehen. Sie können auch vom Platz aus reden.
-- Schön ist es, wenn zu allem, was benutzt wurde, ein Teilnhmer was sagt.
+- Schön ist es, wenn zu allem, was benutzt wurde, ein Teilnehmer was sagt.
 
 Folgendes sollte gut sichtbar wohin geschrieben werden:
 
