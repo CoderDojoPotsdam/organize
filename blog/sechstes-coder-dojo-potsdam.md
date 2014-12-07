@@ -1,4 +1,4 @@
-Programmieren, Basteln, Spaß - Das Coder Dojo Potsdam
+Programmieren, Basteln, Spaß – Das Coder Dojo Potsdam
 =====================================================
 
 ![](bilder/niccokunzmann/6.Dezember-2.jpg)
