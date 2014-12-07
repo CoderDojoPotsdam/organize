@@ -18,8 +18,8 @@ Wer braucht es nicht – einen Selbstzerstörungsknopf für das Smartphone, wenn
 
 Unter dem Tisch summt ein kleiner [Holzroboter](https://github.com/niccokunzmann/rustyrobots/tree/master/john) über den Boden. Dass er sich ein Rad bricht, ist nicht schlimm. Man kann es wieder ausdrucken. Wenn er die nötigen Sensoren und eine aufwändige Programmierung bekommt, fährt er nicht mehr überall davor.
 
-Während sich die Schüler mit ihren Projekten beschäftigen und austauschten, halfen die  vier Mentoren bei Problemen und standen mit Rat und Tat zur Seite. Das ist sehr wichtig, da eine Programmiersprache zu lernen sehr frustrierend sein kann. Der Computer hat kaum Tolleranz und antwortet nur mit Fehlermeldungen in seiner Spache. Deswegen den Mentoren  an dieser Stelle großen Dank! Ohne sie wäre ein so vielfältiges Dojo nur schwer möglich.
+Während sich die Schüler mit ihren Projekten beschäftigen und austauschten, halfen die  vier Mentoren bei Problemen und standen mit Rat und Tat zur Seite. Das ist sehr wichtig, da eine Programmiersprache zu lernen sehr frustrierend sein kann. Der Computer hat kaum Tolleranz und antwortet nur mit Fehlermeldungen in seiner Spache. Deswegen den Mentoren  an dieser Stelle großen Dank! Ohne sie wäre ein so vielfältiges Dojo unmöglich.
 
-Einer der Mentoren war auch [Dimitrij](https://twitter.com/aleshkov) vom [Coder Dojo Helsingborg in Schweden](http://www.creativelab.nu/coderdojo/). Auf Englisch konnte er gut mentorieren. Einer der Teilnehmer konnte Dänisch. So unterschiedlich sind die Sprachen nicht, wie sich herausstellte.
+Einer der Mentoren war [Dimitrij](https://twitter.com/aleshkov) vom [Coder Dojo Helsingborg in Schweden](http://www.creativelab.nu/coderdojo/). Auf Englisch konnte er gut mentorieren. Einer der Teilnehmer konnte Dänisch. So unterschiedlich sind die Sprachen nicht, wie sich herausstellte.
 
 Die [nächsten Termine](http://www.eventbrite.de/o/coder-dojo-potsdam-6787334071) stehen schon fest und wir hoffen, dass wieder so viele Mentoren und Teilnehmer kommen. 
