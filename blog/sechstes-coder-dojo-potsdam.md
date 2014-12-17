@@ -8,7 +8,7 @@ Coder Dojos sind Klubs für Kinder, Jugendliche und Schüler um Programmieren zu
 
 Am 6. Dezember fand das Coder Dojo zum sechten Mal am Hasso-Plattner-Institut statt. Es gibt heißen Tee und Bobons und – viel wichtiger – es gibt andere Menschen, die sich für das Programmieren interessieren. Nach dem das [Material](http://zen.coderdojo.com/dojo/861) vorgestellt wurde, wird ausprobiert, was man sich für den Nachmittag als Projekt vornehmen möchte. Wer schonmal da war, hat oft schon ein Projekt oder weiß, was er will. 
 
-So beschäftigen sich zwei Absolventen des [Python-Online-Kurses](https://open.hpi.de/courses/pythonjunior2014) mit der Entwicklung von Oberflächen. Die eine Oberfläche ist für ein Spiel, Schere-Stein-Papier, das man gegen den Computer spielt. Die andere Oberfläche quadriert Zahlen. Beides verlangt umdenken – wo früher das Konsolenprogramm auf den Nutzer gewartet hat, muss der Programmfluss jetzt ein Funktionen zerstückelt und die Kontrolle an die Oberfläche weitergereicht werden. 
+So beschäftigen sich zwei Absolventen des [Python-Online-Kurses](https://open.hpi.de/courses/pythonjunior2014) mit der Entwicklung von Oberflächen. Die eine Oberfläche ist für ein Spiel, [Schere-Stein-Papier](https://github.com/CoderDojoPotsdam/projects/tree/5a3c0f1dc1dc4d2a337bd243424acf61ecff2134/Schere-Stein-Papier), das man gegen den Computer spielt. Die andere Oberfläche quadriert Zahlen. Beides verlangt umdenken – wo früher das Konsolenprogramm auf den Nutzer gewartet hat, muss der Programmfluss jetzt ein Funktionen zerstückelt und die Kontrolle an die Oberfläche weitergereicht werden. 
 
 ![](bilder/niccokunzmann/6.Dezember-1.jpg)
 
