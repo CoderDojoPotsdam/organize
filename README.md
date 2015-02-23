@@ -11,4 +11,3 @@ Es gibt Seiten für
 - [Blogposts](blog)
 - [Facebook](https://www.facebook.com/groups/1526949497552279/)
 - [Die Termine und Anmeldung mit Eventbrite](http://www.eventbrite.de/o/coder-dojo-potsdam-6787334071)
-- [Material](https://github.com/CoderDojoPotsdam/material)
