@@ -6,7 +6,7 @@ Ankommen
 
 Wenn du ankommst, kannst du das alles machen, helfen, da der Organisator nicht alles selbst machen kann:
 
-- Wir müssen die Tische so stellen, dass genug Platz ist und ein guter Blick auf den Beamer.
+- Wir müssen die Tische so stellen, dass genug Platz ist zum Durchgehen und ein guter Blick auf den Beamer.
 - Die Tische brauchen alle Strom. Steckerleisten liegen rum, fühl' dich frei, sie so zu verteilen, dass überall Strom ist.
 - Am Eingang kann jemand die [unterschriebenen Teilnahmebedingungen](https://github.com/CoderDojoPotsdam/organize/blob/master/Teilnahmebedingungen-CoderDojo-Potsdam.pdf?raw=true) geordnet abheften. Diese beinhalten die Kontaktadressen für den Notfall. Manche sind schon registriert und müssen es nicht zweimal abgeben.
 
