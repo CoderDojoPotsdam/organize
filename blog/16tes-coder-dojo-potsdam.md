@@ -9,3 +9,7 @@ Dieses Mal fand das Coder Dojo Potsdam am Campus am Neuen Palais statt. Es gab v
 Da das Coder Dojo hier eher zum kurzen Ausprobieren war und viele sehr junge Teilnehmer da waren, haben wir uns hauptsächlich mit den Programmierrätseln von [code.org](http://code.org) und [Lightbot](https://coderdojo.com/lightbot-coderdojo-edition/) beschäftigt. 
 
 Vielen Dank an die Mentoren Adrian Strehlau, Elias Lehnert, Friedrich Schumann, Christoph Sterz, Stefan Gehrmann, Kirstin Heidler und Nicco Kunzmann.
+
+---------------------------------------------------
+
+Photos (CC) by Nicco Kunzmann
