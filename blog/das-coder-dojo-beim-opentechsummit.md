@@ -55,7 +55,8 @@ kannte wahrscheinlich den ein oder anderen.
 
 ![](bilder/ChristopherLehnert/SDC12104.JPG)  
 Es ist auch möglich, als junger Mentor teilzunehmen. 
-Elias ist etwas mehr als ein halbes Jahr dabei und bringt anderen Python, Java und Arduino bei.
+Elias ist etwas mehr als ein halbes Jahr dabei und bringt anderen Python, Java und Arduino bei. 
+Mika ist öfter bei Tech-Veranstaltungen in Berlin und war diesmal auch Mentor.
 
 
 
