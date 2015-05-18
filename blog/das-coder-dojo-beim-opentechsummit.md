@@ -1,5 +1,5 @@
-Das Coder Dojo beim OpenTechSummit
-==================================
+Das Coder Dojo un Junge Tüftler beim OpenTechSummit
+===================================================
 
 Das [Coder Dojo Potsdam](http://zen.coderdojo.com/dojo/861) und [Junge Tüftler](http://junge-tueftler.de/) organisierten zusammen den Kinder-Track beim [OpenTechSummit](http://opentechsummit.net/). 
 Ohne die vielen Mentoren wäre das aber garnicht so gut möglich gewesen. 
