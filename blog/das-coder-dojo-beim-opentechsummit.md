@@ -3,7 +3,7 @@ Coder Dojo & Junge Tüftler beim OpenTechSummit
 
 Das [Coder Dojo Potsdam](http://zen.coderdojo.com/dojo/861) und [Junge Tüftler](http://junge-tueftler.de/) organisierten zusammen den Kinder-Track beim [OpenTechSummit](http://opentechsummit.net/). 
 Ohne die vielen Mentoren wäre das aber garnicht so gut möglich gewesen. 
-Viele Dank die Mentoren Hubert Hesse, Ramin Soleymani, Stephan Klinger, Jakob Schade, Fabian Sommer, Christoph Sterz, Elias Lehnert, Christopher Lehnert, Fredi Alexander, Thomas Kumlehn, Mika Kumlehn, Julia Kleeberger, Nicco Kunzmann, Friedrich Schumann, Iwan Gabovitch, Frieder Reuter, Kirsten Genenger, Byung Han Kim, Fabian Bitter, Marianna Poppitz, Franzi Schmid, Fredi Alexander.
+Viele Dank die Mentoren Hubert Hesse, Ramin Soleymani, Stephan Klinger, Jakob Schade, Fabian Sommer, Christoph Sterz, Elias Lehnert, Christopher Lehnert, Fredi Alexander, Thomas Kumlehn, Mika Kumlehn, Julia Kleeberger, Nicco Kunzmann, Friedrich Schumann, Iwan Gabovitch, Frieder Reuter, Kirsten Genenger, Byung Han Kim, Fabian Bitter, Marianna Poppitz, Franzi Schmid, Fredi Alexander, Suse Brettin.
 
 Zuerst haben wir mit Programmierrätseln und Spielen wie 
 [code.org](http://code.org), 
