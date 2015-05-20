@@ -73,6 +73,7 @@ Mika ist öfter bei Tech-Veranstaltungen in Berlin und war diesmal auch Mentor.
 ![](bilder/ChristopherLehnert/SDC12113.JPG)  
 Bei der Bastelsession der [Jungen Tüftler](http://junge-tueftler.de/) ist viel Interessantes entstanden: 
 Leuchttürme und hier zu sehen ein Schlagzeug mit [MakeyMakey](http://www.makeymakey.com/).
+Auf Youtube gibt es auch [ein Video davon](https://youtu.be/nvZsLxjl1yg).
 
 
 
@@ -96,7 +97,7 @@ Auf der Konferenz selbst gab es auch was zu sehen.
 Nebenan gab es Installationen und 3d-Drucker. 
 Die Teilnehmer des Kids-Spaces konnten sich frei auf der Konferenz bewegen und auch die Vorträge ansehen. 
 
-
+Weitere [Bilder hat Iwan gepostet](https://www.flickr.com/photos/qubodup/sets/72157652676120350).
 
 
 
