@@ -10,7 +10,7 @@ Zuerst haben wir mit Programmierrätseln und Spielen wie
 [blockly](https://blockly-games.appspot.com/?lang=en), 
 [LightBot](https://coderdojo.com/lightbot-coderdojo-edition/) und 
 [codecombat](http://codecombat.com/) begonnen. 
-Die volständige Liste ist [hier](http://tinyurl.com/ots15-kids). 
+Die volständige Liste ist [hier](#material). 
 Diese Spiele führen in die Programmierung ein. 
 Da die Teilnehmer sich aussuchen konnten, womit sie sich beschäftigen, 
 führten viele ihre Spiele weiter.
@@ -101,4 +101,59 @@ Weitere [Bilder hat Iwan gepostet](https://www.flickr.com/photos/qubodup/sets/72
 
 
 
+-------------------
 
+Material
+--------
+
+     9:30 - 10:30   Hour of Code Programmierrätsel und -spiele age: 5+ 
+
+                                   Material: http://code.org/
+                                                  https://blockly-games.appspot.com/?lang=en
+                                                  https://coderdojo.com/lightbot-coderdojo-edition/ (also as app)
+                                                  http://codecombat.com/
+                                                  Hopscotch -- Programming made easy! https://appsto.re/de/f2cYK.i
+                                                  Pythonista https://appsto.re/de/P0xGF.i
+                                   Mentoren: Nicco Kunzmann, Thomas Kumlehn
+
+    11:00 - 12:30   Programming for Beginners - Python, Javascript, Ruby
+
+                                   Material: Python: http://learn.opentechschool.org/
+                                                               https://hourofpython.com/
+                                                  Apps: http://tinyurl.com/AI-tutorial-untertitel
+                                                            Pythonista https://appsto.re/de/P0xGF.i
+                                                  Ruby: https://www.bloc.io/ruby-warrior/
+                                                             http://tryruby.org/levels/1/challenges/0
+                                                  Javascript: http://www.codecademy.com/hour-of-code/iphone
+                                                                    https://www.khanacademy.org/hourofcode 
+                                                                    https://www.khanacademy.org/computing/computer-programming 
+                                                                    https://de.khanacademy.org  - das Angebot der Khanacademy ist ingesamt sehr gut, allerdings  größtenteils auf englisch. Es gibt aber einige Kapitel auf Deutsch. Ich  liste diese auf einer Seite, damit sie leicht beim Workshop aufzurufen  sind. Den Link kannst du hier reintun.. ich kopiere vorher die Materialien nochma lin ein etherpad
+                                                                    
+                                                                    http://learn.opentechschool.org/
+                                                  Webmaker: https://webmaker.org/en-US, https://webmaker.org/de
+                                   Mentoren: Stephan Klinger, ab 11:35: Thomas Kumlehn, Hubert Hesse, Elias Lehnert, 
+
+    13:00 - 15:00   Hardwarehacking - Arduino & Raspberry Pi, Schaltungen bauen
+
+                                   Material: Arduino: http://starthardware.org/
+                                                                http://www.arduino-tutorial.de/inhaltsverzeichnis/
+                                                  Robots: http://git.io/vU0KH
+                                                  MakeyMakey: ????
+                                                  Raspberry Pi: http://tinyurl.com/raspi-installation
+                                   Mentoren: Elias Lehnert, Stephan Klinger, Ramin
+
+    13.00 - 17.00   Tüfteln mit Knete und Papier
+
+                                   Material: ...
+                                   Menoren: Julia Kleeberger, Franzi Schmid
+
+    15:30 - 17:30   Freies Hacken
+
+                                   Material: Minecraftmods: http://tinyurl.com/ojwya4k
+                                   Mentoren: Nicco Kunzmann, Ramin
+
+    17:30 - 18:00   Presentations
+
+                                   Mentoren: Nicco Kunzmann
+
+Kopiert von [http://tinyurl.com/ots15-kids](http://tinyurl.com/ots15-kids)
