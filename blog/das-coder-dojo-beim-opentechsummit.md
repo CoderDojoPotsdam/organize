@@ -106,7 +106,7 @@ Weitere [Bilder hat Iwan gepostet](https://www.flickr.com/photos/qubodup/sets/72
 Material
 --------
 
-Von [Sebastian Seitz](http://s-seitz.de/index.php/2013/12/hacken-mit-offener-hard-und-software/#comments) von der [Technologiestiftung Berlin](http://www.technologiestiftung-berlin.de) haben wir die [Hackingboxen](http://s-seitz.de/index.php/2013/12/hacken-mit-offener-hard-und-software/#comments) mit [Raspberry Pis](http://www.raspberrypi.org/), [Arduinos](https://arduino.cc) und [MakeyMakeys](http://makeymakey.com/) ausgeliehen.
+Von [Sebastian Seitz](http://s-seitz.de/index.php/2013/12/hacken-mit-offener-hard-und-software/#comments) von der [Technologiestiftung Berlin](http://www.technologiestiftung-berlin.de) haben wir die [Hackingboxen](https://www.technologiestiftung-berlin.de/de/top-themen/work/hacking-box/) mit [Raspberry Pis](http://www.raspberrypi.org/), [Arduinos](https://arduino.cc) und [MakeyMakeys](http://makeymakey.com/) ausgeliehen.
 
  - 9:30 - 10:30   Hour of Code Programmierrätsel und -spiele age: 5+
     - http://code.org/ 
