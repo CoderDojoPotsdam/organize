@@ -26,7 +26,7 @@ Was muss ich mitbringen?
 Wie alt sind die anderen?
 -------------------------
 
-Die Teilnehmer sind im Alter zwischen 9 und 18 Jahren. Die Mentoren dementsprechend 9 Jahre und älter. Es ist bestimmt jemand anderes in deinem Alter ± ein Jahr da. Es gibt das [Material von der OpenTechSchool](http://learn.opentechschool.org/), das Erwachsene verwenden, und mit [code.org](http://code.org/) können sich sehr junge Teilnehmer beschäftigen. Das waren die beiden Extreme. Auf der [Website](https://zen.coderdojo.com/dojo/861) steht das gesamte Material.
+Die Teilnehmer sind im Alter bis 18 Jahren. Die Mentoren dementsprechend meistens älter. Es ist bestimmt jemand anderes in deinem Alter ± ein Jahr da. Es gibt das [Material von der OpenTechSchool](http://learn.opentechschool.org/), das Erwachsene verwenden, und mit [code.org](http://code.org/) können sich sehr junge Teilnehmer beschäftigen, selbst für Vorschulkinder gibt es ScratchJr und Lightbot. Das waren die beiden Extreme. Auf der [Website](https://zen.coderdojo.com/dojo/861) steht das gesamte Material. Es zählt das Interesse, es mal auszuprobieren.
 
 Fragen von Teilnehmern
 ======================
@@ -39,13 +39,14 @@ Ja. Mitbringen. Für IPads und IPhones gibt es [Hopscotch](http://www.gethopscot
 Kann ich meinen Laptop mitbringen?
 ----------------------------------
 
-Ja. Programmiert werden kann auf allen Betriebssystemen. Egal, ob es ein Mac, Windows, Linux oder anderes ist. Bestimmt kennt sich ein Mentor auch mit deinem Betriebssystem aus.
+Ja. Programmiert werden kann auf allen Betriebssystemen. Egal, ob es ein Mac, Windows, Linux oder anderes ist. Bestimmt kennt sich ein Mentor auch mit deinem Betriebssystem aus. 
+
+Wenn du ihn mitbringst, kannst du auf ihm zu Hause weiter machen. Dadurch entfällt das Aufsetzen und Kopieren des Arbeitsstandes, welche die Hälfte der Arbeit sind.
 
 Ich habe noch mehr Fragen. Wie kann ich euch kontaktieren?
 ----------------------------------------------------------
 
 Es gibt die Mailingliste [coderdojopotsdam-discuss](https://groups.google.com/forum/#!forum/coderdojopotsdam-discuss). Dort können Fragen gepostet werden, per Email an coderdojopotsdam-discuss⍟googlegroups⚜com (Zeichen entsprechend ersetzen). 
-
 
 Wie bekomme ich mit, wann das nächste Dojo ist?
 -----------------------------------------------
