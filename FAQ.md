@@ -60,6 +60,14 @@ Bin ich zu alt?
 
 Wenn du knapp an der Altersgrenze dran bist, vielleicht 18 bist und dich das Dojo interessiert, komme einfach vorbei, sei hilfsbereit und genieße das Dojo. Lernen kann man hier immer was.
 
+Fragen von Eltern
+=================
+
+Darf ich auch programmieren lernen?
+-----------------------------------
+
+Ja. Du kannst das selbe ausprobieren, aber auch schon was anderes. Sprich uns darauf an, was es gibt und sei bei der Vorstellungsrunde dabei. Es wäre schade, wenn wir Verständnislosigkeit der Eltern fördern würden. Deswegen kannst du mitmachen und auch was lernen und so dein Kind besser untersützen.
+
 Fragen von Mentoren
 ===================
 
