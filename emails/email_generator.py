@@ -3,6 +3,8 @@ try:
     import sys
     import os.path
     import hashlib
+    import time
+    
     if sys.version_info[0] != 3:
         print("require Python 3 but got", sys.version)
         input()
@@ -11,9 +13,9 @@ try:
         file = input('filename:')
     else:
         file = sys.argv[1]
-    name = os.path.splitext(os.path.basename(file))[0]
+    Subject = name = os.path.splitext(os.path.basename(file))[0]
 
-    s = open(file).read()
+    s = open(file, encoding = "UTF-8").read()
 
     h = hashlib.sha1(name.lower().encode('utf-8'))
     mail_identifier = h.hexdigest()
@@ -35,7 +37,11 @@ try:
         elif not last_line and "@" in line:
             print("error: ", line)
         elif line:
-            n += '  - ' + line + '\n'
+            if '<' in line:
+                add = line[:line.find('<')].strip()
+            else:
+                add = line
+            n += '  - ' + add + '\n'
         last_line = line
 
     print(n)
@@ -55,17 +61,21 @@ try:
                 To += b' ' + name + b" <" + mail.encode('ASCII') + b">,\r\n"
         assert To[-3:] == b",\r\n"
         To = To[:-3] + b"\r\n"
-        Subject = "Subject: Coder Dojo Hangout"
         Content = n
         
         f.write(To)
-        f.write(Subject.encode("UTF-8"))
+        f.write(("Subject: " + Subject).encode("UTF-8") + b'\r\n')
         # reference the original email to enable a tree view
-        f.write("\r\nIn-Reply-To: <{identifier}@{domain}>\r\nReferences: <{identifier}@{domain}>\r\n".format(identifier = mail_identifier,
-                                                                                                              domain = domain).encode())
-        f.write(b"Content-Type: text/plain; charset=UTF-8\r\nContent-Transfer-Encoding: 8bit")
-        f.write(b"\r\n\r\n")
-        f.write(n.encode('UTF-8'))
+        f.write("In-Reply-To: <{identifier}@{domain}>\r\n"\
+                "References: <{identifier}@{domain}>\r\n"\
+                "Message-ID: <{identifier}1@{domain}>\r\n".format(identifier = mail_identifier, domain = domain).encode())
+        f.write(b"Content-Type: text/html; charset=UTF-8\r\nContent-Transfer-Encoding: 8bit\r\n")
+        f.write(("Date: " + time.strftime("%a, %d %b %Y %H:%M:%S") + "\r\n").encode('UTF-8'))
+        f.write(b"\r\n")
+        content = n
+        content = content.replace('&', "&amp;").replace("<", "&lt;").replace('>', "&gt;").replace("\n", "<br/>\n").replace("  ", '&nbsp;'*2)
+        content = "<html><head></head><body>\n" + content + '\n</body></html>'
+        f.write(content.encode('UTF-8'))
 
 except:
     import traceback
