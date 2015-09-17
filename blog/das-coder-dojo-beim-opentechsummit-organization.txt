@@ -1,0 +1,171 @@
+Kids-Space at OpenTechSummit
+
+Announcement Links - Bitte Crossposten
+Nicco's Workshop:
+http://www.meetup.com/OpenXLab/events/222288988/
+Junge Tueftler:
+http://www.meetup.com/OpenXLab/events/222289208/
+http://www.meetup.com/FashionTec-Meetup-Berlin/events/222289188/
+
+Kinder-/Jugendlichen-hackathon für das OpenTechSummit
+Mentors Meeting: 
+    Wann: 11.Mai  18.00 
+    Wo: Betahaus Berlin (Prinzessinnenstr. 19/20, U8 Moritzplatz)
+    Agenda: http://piratepad.net/iubuPeMikB
+
+These people are organizers for decisions concerning the Kids-Space in general (feel free to add and inform)
+- Julia Kleeberger
+    ----------------------------
+    tel: .------------------------. 
+    ,
+
+- Nicco Kunzmann
+        skype: ---------------------
+        tel: --------------------------
+        hello:------------------------
+
+These people can be referred to concerning OpenTechSummit in general:
+- Mario Behling
+- Iris Wessolowki
+- Monic Meisel
+- Andre Rebentisch 
+- Ramin
+
+Schedule (9:00 - 17:30) 
+
+
+      9:30 - 10:30   Hour of Code Programmierrätsel und -spiele age: 5+ 
+
+                                   Material: http://code.org/
+                                                  https://blockly-games.appspot.com/?lang=en
+                                                  https://coderdojo.com/lightbot-coderdojo-edition/ (also as app)
+                                                  http://codecombat.com/
+                                                  Hopscotch -- Programming made easy! https://appsto.re/de/f2cYK.i
+                                                  Pythonista https://appsto.re/de/P0xGF.i
+                                   Mentoren: Nicco Kunzmann, Thomas Kumlehn
+
+    11:00 - 12:30   Programming for Beginners - Python, Javascript, Ruby
+
+                                   Material: Python: http://learn.opentechschool.org/
+                                                               https://hourofpython.com/
+                                                  Apps: http://tinyurl.com/AI-tutorial-untertitel
+                                                            Pythonista https://appsto.re/de/P0xGF.i
+                                                  Ruby: https://www.bloc.io/ruby-warrior/
+                                                             http://tryruby.org/levels/1/challenges/0
+                                                  Javascript: http://www.codecademy.com/hour-of-code/iphone
+                                                                    https://www.khanacademy.org/hourofcode 
+                                                                    https://www.khanacademy.org/computing/computer-programming 
+                                                                    https://de.khanacademy.org - das Angebot der Khanacademy ist ingesamt sehr gut, allerdings größtenteils auf englisch. Es gibt aber einige Kapitel auf Deutsch. Ich liste diese auf einer Seite, damit sie leicht beim Workshop aufzurufen sind. Den Link kannst du hier reintun.. ich kopiere vorher die Materialien nochma lin ein etherpad
+                                                                    
+                                                                    http://learn.opentechschool.org/
+                                                  Webmaker: https://webmaker.org/en-US, https://webmaker.org/de
+                                   Mentoren: Stephan Klinger, ab 11:35: Thomas Kumlehn, Hubert Hesse, Elias Lehnert, 
+
+    13:00 - 15:00   Hardwarehacking - Arduino & Raspberry Pi, Schaltungen bauen
+
+                                   Material: Arduino: http://starthardware.org/
+                                                                http://www.arduino-tutorial.de/inhaltsverzeichnis/
+                                                  Robots: http://git.io/vU0KH
+                                                  MakeyMakey: ????
+                                                  Raspberry Pi: http://tinyurl.com/raspi-installation
+                                   Mentoren: Elias Lehnert, Stephan Klinger, Ramin
+
+    13.00 - 17.00   Tüfteln mit Knete und Papier
+
+                                   Material: ...
+                                   Menoren: Julia Kleeberger, Franzi Schmid
+
+    15:30 - 17:30   Freies Hacken
+
+                                   Material: Minecraftmods: http://tinyurl.com/ojwya4k
+                                   Mentoren: Nicco Kunzmann, Ramin
+
+    17:30 - 18:00   Presentations
+
+                                   Mentoren: Nicco Kunzmann
+
+Ziel dieser Struktur ist es, die Interessen zu bündeln und den Mentoren Pausen zu geben. Die Kinder können weiter sitzen bleiben und immer an allem arbeiten.
+Du Dich gerne noch mit was anderem beschäftigen möchtest, bitte trage es hier ein. Weiteres Material gibt es hier: http://zen.coderdojo.com/dojo/861 und hier: http://jugendprogrammiert.weebly.com/programmieren
+
+TODO @ OpenTechSummit
+
+- create a time table for everyone to see
+- document the creations
+- copy material into etherpad to show it to participants
+
+Hardware
+We can use: 
+Tables, chairs, electricity
+5 Laptops with Ubuntu (Nicco Kunzmann)
+1 iPad with Hobscotch (like Scratch) and Pythonista (Python on iOS with a 2D and casual game framework)
+a lot of making stuff - LED, Paper, cloth, wire, dough, fasteners,  ... (Julia Kleeberger & Franzi Schmid)
+10 Arduinos, 10 MakeyMakeys, 10 Raspberry Pis (Nicco Kunzmann)
+Robots (Nicco Kunzmann)
+Steckdosen mit 30 Steckplätze (#Teilnehmer * 1.5)
+30 Sitze, Sitzplätze an Tischen (#Teilnehmer * 1.5)
+1 beamer mit Bildfläche
+1 flipchart/whiteboard
+
+if we have: poster, banner, etc.
+
+Information
+
+We will be in the big main hall in a corner. We can start from 8:00 to build up the space.
+
+Getting the news out
+
+a) OpenTechSchool? (Nicco)
+b) Mailing lists - which ones?
+    1. Coder Dojo Potsdam (Nicco)
+    2. Coder Dojo Berlin (Nicco)
+    3. Hackschule (Nicco)
+    4. Jugend Hackt (Nicco)
+c) Meetup.com (OpenXlab, Weitere?)
+d) Twitter opntec (Mario, Monic)
+e) Junge Tüftler (Julia)
+f) school newsletter (Nelson Mandela)
+
+Registrations so far
+10 kids (28.04.2015)
+
+Tickets
+
+We can hand out free tickets to lots of people (parents, supporters, friends, community). Free ticket link: https://ots15.eventbrite.com/?discount=space
+________________________________
+
+Description for Websites/Sendouts (Deutsch)
+
+Titel
+
+
+Ort: Kalkscheune, Johannisstr. 2, Berlin
+
+
+Datum: 14.05.2015
+
+
+Zeit
+
+
+Programm
+
+
+Beschreibung
+
+(Julia's Beschreibung) How can fabrics conduct electricity and is it possible to build electric  circuits out of paper? In our 3 hour workshop children aged 6 and older  will have the possibility to tinker and explore the impact of  electricity in a playful way. They can craft figures made out of paper  or felt and enrich them with electric functions. With our workshop  we wanna share the fascination of technology with kids and want to  encourage them to hack and tinker around with everyday objects. 
+
+(Niccos Beschreibung) You can learn programming guided by mentors. It is possible to learn programming by playing a game, writing your own apps, programs and games. You can choose from a variety of materials. We start with programming games and puzzles at 9:30.  At 11:00 we introduce you to programming languages guided by mentors and material. After lunch we start programming hardware - Arduinos and Raspberry Pis - to get you started on building your own wearables, gadgets and robots. at 18:00 there will be presentations of some of the projects. Once you are happy with your project you can continue even if the topic is over.
+
+Links to Meetup groups: 
+Programming Workshop:
+http://www.meetup.com/OpenXLab/events/222288988/
+Junge Tueftler:
+http://www.meetup.com/OpenXLab/events/222289208/
+http://www.meetup.com/FashionTec-Meetup-Berlin/events/222289188/
+
+Photos (Links)
+
+
+ORGADOCUMENT FROM http://piratepad.net/XjZsgKTm18
+
+

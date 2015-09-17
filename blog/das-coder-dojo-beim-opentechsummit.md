@@ -137,3 +137,5 @@ Von [Sebastian Seitz](http://s-seitz.de/index.php/2013/12/hacken-mit-offener-har
     - Minecraftmods: http://tinyurl.com/ojwya4k
 
 Kopiert von [http://tinyurl.com/ots15-kids](http://tinyurl.com/ots15-kids)
+
+Das Organisationsdokument befindet sich [hier](piratepad.net/ep/pad/view/ro.a3w4r-AUpP5/latest) und [hier](das-coder-dojo-beim-opentechsummit-organization.txt).
