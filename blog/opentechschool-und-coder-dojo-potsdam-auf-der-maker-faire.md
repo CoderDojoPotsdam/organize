@@ -9,7 +9,7 @@ Im Python Workshopraum lernten die Teilnehmer [Programmieren mit der Schildkröt
 
 Die Jüngsten beschäftigte, wie man mit dem Angry-Bird das Schwein erreicht. Die Programmierrätsel von [Code.org](https://code.org/learn) eignen sich für jedes Alter.
 
-Im Javasciptbereich wurden Webseiten gestaltet. Dabei kam das [Tutorial von der OpenTechSchool](http://opentechschool.github.io/js-beginners-4h-workshop-1/) zur Anwendung. 
+Im JavaScript-Bereich wurden Webseiten gestaltet. Dabei kam das [Tutorial von der OpenTechSchool](http://opentechschool.github.io/js-beginners-4h-workshop-1/) zur Anwendung. 
 
 Im von der Sonne erwärmten Zelt befassten wir uns mit Arduinos. Die Teilnehmer wurde in die [Mikrokontrollerprogrammiernug](http://starthardware.org/) eingeführt oder bauten [Roboter](https://github.com/niccokunzmann/rustyrobots).  
 [Awesome Shield](http://awesomeshield.com/) hielt seinen Workshop parallel zu unserem, weil dass super passte. 
@@ -92,6 +92,6 @@ Vielen Dank an dieser Stelle an alle Mentoren und Helfer! Das an dieser Stelle m
 - [Junge Tüftler](http://junge-tueftler.de/)
   - Julia Kleeberger
 
-Dankeschön an Mario behling für die Umgebung der Mashcon, auf der unser Workshop stattfand. Danke an [Mozilla](https://www.mozilla.org) und das [HPI](http://hpi.de/) für die Freitickets, Verteilersteckdosen und anderes Material. Vielen Dank and die [Technologiestiftung Berlin](https://www.technologiestiftung-berlin.de/) für ihre [Hackingboxen](https://www.technologiestiftung-berlin.de/de/top-themen/work/hacking-box/) mit den Arduinos.
+Dankeschön an Mario Behling für die Umgebung der Mashcon, auf der unser Workshop stattfand. Danke an [Mozilla](https://www.mozilla.org) und das [HPI](http://hpi.de/) für die Freitickets, Verteilersteckdosen und anderes Material. Vielen Dank and die [Technologiestiftung Berlin](https://www.technologiestiftung-berlin.de/) für ihre [Hackingboxen](https://www.technologiestiftung-berlin.de/de/top-themen/work/hacking-box/) mit den Arduinos.
 
 Die Tutorialseite ist [hier](opentechschool-und-coder-dojo-potsdam-auf-der-maker-faire-tutorials.md) einzusehen, das Orgadokument ist [hier](opentechschool-und-coder-dojo-potsdam-auf-der-maker-faire-orga.md). Meetup waren vom [Coder Dojo](http://www.meetup.com/OpenXLab/events/225644499/) und der [OpenTechSchool](http://www.meetup.com/opentechschool-berlin/events/225532149/).
