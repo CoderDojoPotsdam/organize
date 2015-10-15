@@ -95,3 +95,7 @@ Vielen Dank an dieser Stelle an alle Mentoren und Helfer! Das an dieser Stelle m
 Dankeschön an Mario Behling für die Umgebung der Mashcon, auf der unser Workshop stattfand. Danke an [Mozilla](https://www.mozilla.org) und das [HPI](http://hpi.de/) für die Freitickets, Verteilersteckdosen und anderes Material. Vielen Dank and die [Technologiestiftung Berlin](https://www.technologiestiftung-berlin.de/) für ihre [Hackingboxen](https://www.technologiestiftung-berlin.de/de/top-themen/work/hacking-box/) mit den Arduinos.
 
 Die Tutorialseite ist [hier](opentechschool-und-coder-dojo-potsdam-auf-der-maker-faire-tutorials.md) einzusehen, das Orgadokument ist [hier](opentechschool-und-coder-dojo-potsdam-auf-der-maker-faire-orga.md). Meetup waren vom [Coder Dojo](http://www.meetup.com/OpenXLab/events/225644499/) und der [OpenTechSchool](http://www.meetup.com/opentechschool-berlin/events/225532149/).
+
+-----------
+
+Diese Seite ist auch unter [tinyurl.com/ots-coderdojo-makerfaire](http://tinyurl.com/ots-coderdojo-makerfaire) erreichbar.
