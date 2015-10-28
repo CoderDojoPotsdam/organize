@@ -23,3 +23,7 @@ Während sich die Schüler mit ihren Projekten beschäftigen und austauschten, h
 Einer der Mentoren war [Dimitrij](https://twitter.com/aleshkov) vom [Coder Dojo Helsingborg in Schweden](http://www.creativelab.nu/coderdojo/). Auf Englisch konnte er gut mentorieren. Einer der Teilnehmer konnte Dänisch. So unterschiedlich sind die Sprachen nicht, wie sich herausstellte.
 
 Die [nächsten Termine](http://www.eventbrite.de/o/coder-dojo-potsdam-6787334071) stehen schon fest und wir hoffen, dass wieder so viele Mentoren und Teilnehmer kommen. 
+
+---
+
+Diese Seite ist erreichbar unter [http://tinyurl.com/cdp-helsingborg](http://tinyurl.com/cdp-helsingborg)
