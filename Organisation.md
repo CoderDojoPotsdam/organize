@@ -24,9 +24,8 @@ Sobald Wie Möglich
 2 Wochen Vorher
 ---------------
 
-- Wenn der Termin außerplanmäßig stattfindet, dann Rosina.Geiger⍟hpi⚜de eine Mail schreiben, dass wir einen Raum brauchen. Ort & Zeit incl Stunden. Für Treffen alle zwei Wochen ist das Coder Dojo eingetragen.
-- Admin⍟hpi⚜de eine Mail schreiben, dass ein WLAN für das Coder Dojo gebraucht wird. Ort & Zeit incl Stunden.
-- "Sebastian Seitz" Seitz⍟tsb-berlin⚜de und "Robert Lehmann" robert⍟opentechschool⚜org eine Mail schreiben, um die [Arduinos](http://arduino.cc/), [MakeyMakeys](http://www.makeymakey.com/) und [RaspberryPis](http://www.raspberrypi.org/) auszuleihen.
+- Finde einen [Ort](Orte.md).
+- "Sebastian Seitz" Seitz⍟tsb-berlin⚜de eine Mail schreiben, um die [Arduinos](http://arduino.cc/), [MakeyMakeys](http://www.makeymakey.com/) und [RaspberryPis](http://www.raspberrypi.org/) auszuleihen in der [Hackingbox](https://www.technologiestiftung-berlin.de/de/top-themen/work/hacking-box/).
 
 1 Woche Vorher
 --------------
@@ -43,7 +42,6 @@ Freitag vorher
 --------------
 
 - Überprüfen, ob die Wand offen ist. Sonst braucht es etwas Glück, dass man am Samstag jemanden von der Haustechnik trifft.
-- Coder Dojo Potsdam Seite auf "Open, come along." aktualisieren
 
 Kurz Vorher
 -----------
@@ -69,5 +67,5 @@ Danach
 - [Coder Dojo Potsdam Seite](https://zen.coderdojo.com/dojo/861) aktualisieren auf "In Planning".
 - Blogpost schreiben
 - Teilnehmer von Eventbrite kopieren und in die Google-Mailingliste einladen.
-	- Verwalten -> alle anzeigen -> Exportieren. Das was da rauskommt, muss mit 7zip geöffnet werden.
+	- Verwalten -> alle anzeigen -> Exportieren.
 - [Coder Dojo Potsdam Seite](https://zen.coderdojo.com/dojo/861) aktualisieren auf "Register Ahead".
