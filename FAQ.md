@@ -12,7 +12,7 @@ Siehe [Ablauf](Ablauf.md).
 
 Wann/Wo?
 --------
-Das steht auf der [Coder Dojo Potsdam Webseite](https://zen.coderdojo.com/dojo/861). Wir versuchen es jetzt alle zwei Wochen stattfinden zu lassen.
+Das steht auf der [Coder Dojo Potsdam Webseite](https://CoderDojoPotsdam.github.io). Wir versuchen es jetzt alle zwei Wochen stattfinden zu lassen.
 
 Was muss ich mitbringen?
 ------------------------
@@ -26,7 +26,7 @@ Was muss ich mitbringen?
 Wie alt sind die anderen?
 -------------------------
 
-Die Teilnehmer sind im Alter bis 18 Jahren. Die Mentoren dementsprechend meistens älter. Es ist bestimmt jemand anderes in deinem Alter ± ein Jahr da. Es gibt das [Material von der OpenTechSchool](http://learn.opentechschool.org/), das Erwachsene verwenden, und mit [code.org](http://code.org/) können sich sehr junge Teilnehmer beschäftigen, selbst für Vorschulkinder gibt es ScratchJr und Lightbot. Das waren die beiden Extreme. Auf der [Website](https://zen.coderdojo.com/dojo/861) steht das gesamte Material. Es zählt das Interesse, es mal auszuprobieren.
+Die Teilnehmer sind im Alter bis 18 Jahren. Die Mentoren dementsprechend meistens älter. Es ist bestimmt jemand anderes in deinem Alter ± ein Jahr da. Es gibt das [Material von der OpenTechSchool](http://learn.opentechschool.org/), das Erwachsene verwenden, und mit [code.org](http://code.org/) können sich sehr junge Teilnehmer beschäftigen, selbst für Vorschulkinder gibt es ScratchJr und Lightbot. Das waren die beiden Extreme. Auf der [Website](https://CoderDojoPotsdam.github.io) steht das gesamte Material. Es zählt das Interesse, es mal auszuprobieren.
 
 Fragen von Teilnehmern
 ======================
@@ -51,7 +51,7 @@ Es gibt die Mailingliste [coderdojopotsdam-discuss](https://groups.google.com/fo
 Wie bekomme ich mit, wann das nächste Dojo ist?
 -----------------------------------------------
 
-1. Melde dich beim [nächsten Dojo](https://zen.coderdojo.com/dojo/861) an.
+1. Melde dich beim [nächsten Dojo](https://CoderDojoPotsdam.github.io) an.
 2. Trage dich in den [Coder Dojo Potsdam Mailverteiler](https://groups.google.com/forum/#!forum/coderdojopotsdam) ein.
 3. Folge [@DojoPotsdam](https://twitter.com/DojoPotsdam) auf Twitter.
 4. [Facebook](https://www.facebook.com/groups/1526949497552279/)
@@ -87,12 +87,12 @@ Wie kann ich mich als Mentor vorbereiten?
 
 Mentoren empfehle ich, den [Coaching Guide der Open Tech School](http://opentechschool.github.io/slides/presentations/coaching/) zu lesen. Der hilft dabei, zu verstehen, wie du dich als Helfer verhalten solltest.
 
-Des Weiteren kannst du dich mit dem Material beschäftigen, das auf der [Coder Dojo Potsdam Seite](https://zen.coderdojo.com/dojo/861) verlinkt ist. Das wird auch jedes Mal vorgestellt, siehe [Ablauf](Ablauf.md). Wir sind üblicherweise auch eine halbe Stunde vorher schon da, um Mentoren einzuführen.
+Des Weiteren kannst du dich mit dem Material beschäftigen, das auf der [Coder Dojo Potsdam Seite](https://CoderDojoPotsdam.github.io) verlinkt ist. Das wird auch jedes Mal vorgestellt, siehe [Ablauf](Ablauf.md). Wir sind üblicherweise auch eine halbe Stunde vorher schon da, um Mentoren einzuführen.
 
 Welche Programmiersprachen werden verwendet?
 --------------------------------------------
 
-Alle. Wenn du gerne Grundlagen in einer bestimmten Sprache beibringen magst, kannst du das auch ansagen, siehe [Ablauf](Ablauf.md#begrüßungsrede) und wenn du vorher Bescheid sagst, können wir es auch auf die [Coder Dojo Potsdam Seite](https://zen.coderdojo.com/dojo/861) schreiben. Wir haben Material auf der [Coder Dojo Potsdam Seite](https://zen.coderdojo.com/dojo/861) verlinkt. Das ist als sehr gut befunden und sorgt dafür, dass die Teilnehmer fast keine Betreuung brauchen.
+Alle. Wenn du gerne Grundlagen in einer bestimmten Sprache beibringen magst, kannst du das auch ansagen, siehe [Ablauf](Ablauf.md#begrüßungsrede) und wenn du vorher Bescheid sagst, können wir es auch auf die [Coder Dojo Potsdam Seite](https://CoderDojoPotsdam.github.io) schreiben. Wir haben Material auf der [Coder Dojo Potsdam Seite](https://CoderDojoPotsdam.github.io) verlinkt. Das ist als sehr gut befunden und sorgt dafür, dass die Teilnehmer fast keine Betreuung brauchen.
 
 Was muss ich tun, wenn ich ankomme?
 -----------------------------------
