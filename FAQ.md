@@ -12,7 +12,9 @@ Siehe [Ablauf](Ablauf.md).
 
 Wann/Wo?
 --------
-Das steht auf der [Coder Dojo Potsdam Webseite](https://CoderDojoPotsdam.github.io). Wir versuchen es jetzt alle zwei Wochen stattfinden zu lassen.
+
+Die Anreise für findest du [hier](http://coderdojopotsdam.github.io/Anreise). Nicht alle Coder Dojos finden an der selben Stelle statt.
+Zeit und Ort stehen auf der [Coder Dojo Potsdam Webseite](https://CoderDojoPotsdam.github.io). Wir versuchen es jetzt alle zwei Wochen stattfinden zu lassen.
 
 Was muss ich mitbringen?
 ------------------------
