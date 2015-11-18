@@ -20,7 +20,7 @@ Das ganze tröpfelte dann aus, sodass am Ende keine Vorstellung von Projekten me
 
 Deswegen - eigendlich immer eine gute Idee - ging das Feedback von den Mentoren/Coaches aus. 
 
-1. Was fand ich gut?
+1. **Was fand ich gut?**
 	- Dass es so viele verschiedene Angebote gab.
 	- Dass wir genug Mentoren hatten.
 	- Verpflegung war gut
@@ -37,7 +37,7 @@ Deswegen - eigendlich immer eine gute Idee - ging das Feedback von den Mentoren/
 	- alles!!!!!
 	- Die Atmosphäre vom Team fand ich gut.
 	- Dass es ein Lernhackathon für alle Alterstufen war. 
-2. Was würde ich verbessern?
+2. **Was würde ich verbessern?**
 	- Jemanden haben, der weiß, wo sich alle Verteilerleisten befinden.
 	- Schilder aufhängen, damit man uns findet
 	- Im Programm der Maker Faire ungekündigt werden
@@ -52,7 +52,7 @@ Deswegen - eigendlich immer eine gute Idee - ging das Feedback von den Mentoren/
 	- Der Komm-Und-Mach-Ansatz liegt mir nicht so – jedenfalls nicht ohne Vorbereitung. 
 	- Der Workshop-Platz hat nicht so zum Mitmachen eingeladen und Zuschauer waren schwer abzuholen und zu integrieren. 
 	- Gleich ein eine Kooperation mit anderen denken und diese Fragen. Dadurch kann man alle besser ankündigen.
-3. Was nehme ich mit/habe ich Neues erfahren?
+3. **Was nehme ich mit/habe ich Neues erfahren?**
 	- Man sollte vorbereitet sein, dass Teilnehmer "nein danke" zu Scratch sagen, weil sie's schon können. Wäre gut, ihnen etwas anderes anbieten zu können.
 	- Touchpads sind anstrengend, Teilnehmer haben's besser mit Mäusen.
 	- Durch die Vielfalt des Angebotes hat man selbst als Coach noch neue Dinge kennen gelernt.
