@@ -427,16 +427,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="317.89045"
+     inkscape:zoom="1"
+     inkscape:cx="268.73611"
      inkscape:cy="358.70168"
      inkscape:document-units="px"
-     inkscape:current-layer="g4296"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1053"
-     inkscape:window-x="-9"
-     inkscape:window-y="1071"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:snap-bbox="true"
      inkscape:snap-page="true"
@@ -481,14 +481,14 @@
        clip-path="url(#clipPath4327)"
        transform="translate(7.3563765e-6,-485.81357)">
       <image
-         sodipodi:absref="C:\Users\cheche\Documents\programmiertes\organize\posters\2015-06-04-mentoren\foto.jpg"
+         sodipodi:absref="/home/patrick/Documents/Projects/Coder Dojo/posters/2015-11-18-mentoren/foto.jpg"
          xlink:href="foto.jpg"
-         width="929.57117"
-         height="756.71704"
-         preserveAspectRatio="none"
-         id="image4203"
+         y="449.28665"
          x="-10.301514"
-         y="449.28665" />
+         id="image4203"
+         preserveAspectRatio="none"
+         height="756.71704"
+         width="929.57117" />
     </g>
     <path
        style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
@@ -545,7 +545,7 @@
            sodipodi:role="line"
            id="tspan5298"><tspan
    id="tspan5319"
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.875px;font-family:Aleo;-inkscape-font-specification:'Aleo Bold'">aller 2 Wochen samstags</tspan>, 14:00–17:00 Uhr</tspan></text>
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.875px;font-family:Aleo;-inkscape-font-specification:'Aleo Bold'">alle 2 Wochen samstags</tspan>, 14:00–17:00 Uhr</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.875px;line-height:150%;font-family:Aleo;-inkscape-font-specification:Aleo;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
