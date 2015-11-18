@@ -1,9 +1,9 @@
 Programmieren egal in welchem Alter - Unser Workshop auf der Maker Faire
 ========================================================================
 
-Die [Maker Faire](http://makerfaire.berlin) ist eine der größten Messen. Für Bastler und Tüftler aus aller Welt. Hier in Berlin fand sie am 3. und 4. Oktober statt. Weil wir schonmal beim [OpenTechSummit](http://2015.opentechsummit.net/) das Jugend- und Kinderprogramm gemacht haben, waren wir bei der [Meshcon](http://2015.meshcon.net/) auf der Maker Faire dabei.
+Die [Maker Faire](http://makerfaire.berlin) ist eine der größten Messen für Bastler und Tüftler aus aller Welt. Hier in Berlin fand sie am 3. und 4. Oktober statt. Weil wir schonmal beim [OpenTechSummit](http://2015.opentechsummit.net/) das Jugend- und Kinderprogramm gemacht haben, waren wir bei der [Meshcon](http://2015.meshcon.net/) auf der Maker Faire dabei.
 
-Die Idee war ein Workshop für jedes Alter, zum Programmieren lernen. Wir starteten 13:00 Uhr mit der Vorstellung der [Tutorials](opentechschool-und-coder-dojo-potsdam-auf-der-maker-faire-tutorials.html). Dann teilten wir, Coaches und Teilnehmer, uns auf die Workshopräume auf, um die eigenen Tutorials zu suchen.
+Die Idee war ein Workshop für jedes Alter, zum Programmieren lernen. Deswegen war auch die [OpenTechSchool](http://www.opentechschool.org/) dabei.Wir starteten 13:00 Uhr mit der Vorstellung der [Tutorials](opentechschool-und-coder-dojo-potsdam-auf-der-maker-faire-tutorials.html). Dann teilten wir, Coaches und Teilnehmer, uns auf die Workshopräume auf, um die eigenen Tutorials zu suchen.
 
 Im Python Workshopraum lernten die Teilnehmer [Programmieren mit der Schildkröte](http://opentechschool.github.io/python-beginners/) aber auch [Code Combat](http://codecombat.com/) war mit dabei. Aber auch fortgeschrittene Themen wurden behandelt.
 
