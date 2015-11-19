@@ -14,3 +14,4 @@ Es gibt Seiten für
 - [Die Termine und Anmeldung mit Eventbrite](http://www.eventbrite.de/o/coder-dojo-potsdam-6787334071)
 - [Material](https://github.com/CoderDojoPotsdam/material)
 - [Das Organisationsrepository](https://github.com/CoderDojoPotsdam/organize)
+- [Poster](posters) zum Aushängen
