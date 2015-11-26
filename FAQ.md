@@ -101,6 +101,11 @@ Was muss ich tun, wenn ich ankomme?
 
 Siehe [Ablauf](Ablauf.md) und den [Coaching Guide der Open Tech School](http://opentechschool.github.io/slides/presentations/coaching/). Es kommt darauf an, wann du kommst.
 
+Wie viele Teilnehmer muss ich betreuen?
+---------------------------------------
+
+Ziel ist es, dass es dir und anderen gut geht. Die Teilnehmer kommen an, bekommen eine Vorstellung von dem Material. Daraus wählen sie dann und wir können ihnen bei Fragen helfen. Viele bringen auch ihre eigenen Projekte und Probleme, wo sie weiter kommen wollen. Du kannst rumlaufen und möglichst viele betreuen oder bei einer Menge an Teilnehmern bleiben und denen helfen - je nach dem, was du magst. Du kannst dich also auch zu einem setzen und wenn es langweilig wird, weitere Teilnehmer ansprechen... . Wenn richtig viele Teilnehmer pro Mentor da sind, schränken wir das Material ein, sodass die Betreuung leichter fällt.
+
 
 
 
