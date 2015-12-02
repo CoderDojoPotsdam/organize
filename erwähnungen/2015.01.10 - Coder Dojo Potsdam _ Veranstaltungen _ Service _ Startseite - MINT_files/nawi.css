@@ -1,0 +1,2823 @@
+/* helper styles */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+.hidden{ display: none;}
+.floatLeft{ float: left;}
+.floatRight{ float: right;}
+
+.nawi article {
+    background-color: #FFF;
+    position: relative;
+}
+
+.nawi article img.backgroundImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1020;
+}
+
+.nawi strong, .nawi em, .nawi article .bold{
+    font-weight: bold;
+}
+
+.nawi .sup{
+    vertical-align: super;
+}
+
+.nawi .nowrap{
+    white-space: nowrap;
+}
+
+.nawi .sub{
+    vertical-align: sub;
+}
+
+.nawi p.justify{
+    text-align: justify;
+}
+
+.nawi .orange,.nawi .orange a{
+    color: #f46717;
+}
+
+.nawi .white, .nawi .white a{
+    color: #FFF;
+}
+
+.nawi .blue, .nawi .blue a{
+    color: #5c64b8;
+}
+
+.nawi .right{
+    text-align: right;
+}
+
+.nawi p.center{
+    text-align: center;
+}
+
+.nawi article > div, .nawi article header, .nawi article aside, .nawi article > nav, cite{
+    position: absolute;
+    z-index: 1080;
+}
+
+.nawi a{
+    text-decoration: none;
+}
+
+.nawi a:hover, .nawi a:focus{
+    text-decoration: underline;
+}
+
+.nawi address{
+    font-style: normal;
+}
+
+.nawi a{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nawi a:hover, .nawi a:select{
+    text-decoration: underline;
+}
+
+.nawi div.doubleBox{
+    left: 2.5em;
+}
+
+.nawi div.doubleBox p{
+    float: left;
+    width: 28em;
+    text-align: justify;
+    color: #FFF;
+    font-size: 0.56em;
+    line-height: 1.25em;
+    margin-right: 1.1em;
+}
+
+.nawi article header{
+    top: 5em;
+    left: 3.2em;
+    width: 32em;
+}
+
+.nawi header h2{
+    color: #a5a3a4;
+    font-size: 1.3em;
+    font-weight: normal;
+}
+
+.nawi div h3.arrows{
+    font-size: 0.7em;
+    font-family: 'Finger Paint';
+    color: #f4691b;
+    margin-bottom: 0.9em;   
+    padding-left: 65px;
+    background: #FFF url(/images/epager/nawi/6_3.jpg) no-repeat left top;
+    line-height: 1.6em; 
+}
+
+.nawi div h3.beCleverBlue{
+    font-size: 0.75em;
+    color: #5c64b8;
+    padding-left: 2.4em;
+    background: #FFF url(/images/epager/nawi/8_2.jpg) no-repeat left;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+
+.nawi article > div > p, .nawi article > aside > p, .nawi article div > ul li{
+    font-size: 0.56em;
+    line-height: 1.25em;
+    color: #767374;
+}
+
+.nawi article div.enum h3{
+    padding-left: 15px;
+    background: transparent url(/images/epager/nawi/11_2.jpg) no-repeat left top;
+    color: #f46d20;
+    font-size: 0.58em;
+    font-family: "Finger Paint";
+    margin-bottom: 0.5em;
+    line-height: 1.4em;
+}
+
+/*################ page 2 #####################*/
+.nawi #page2 #div1{
+    top: 7em;
+    left: 19em;
+    width: 13em;
+}
+
+.nawi #page2 #div1 p{
+    font-size: 0.54em;
+    line-height: 1.6em;
+    margin-bottom: 0.7em;
+    color: #605d5e;
+}
+
+.nawi #page2 #div2{
+    top: 12.5em;
+    left: 1.7em;
+    width: 13em;
+}
+
+.nawi #page2 #div2 dl{
+    font-size: 0.56em;
+    line-height: 1.25em;
+    color: #FFF;
+}
+
+.nawi #page2 #div2 dl dd{
+    margin-bottom: 1em;
+}
+
+.nawi #page2 #div2 dl dt{
+    margin-bottom: 0.3em;
+}
+
+.nawi #page2 #div3{
+    top: 32em;
+    left: 1.5em;
+    width: 30em;
+}
+
+.nawi #page2 #div3 p, .nawi #page2 #div3 h2{
+    font-size: 0.43em;
+    line-height: 1.08em;
+    margin-bottom: 1.2em;    
+    color: #605d5e;
+}
+
+.nawi #page2 #div3 p a{
+    color:  #605d5e;
+}
+
+.nawi #page2 #div3 h2{
+    font-weight: bold;
+}
+
+.nawi #page2 #div4{
+    top: 49em;
+    left: 5em;
+    width: 20em;
+}
+
+.nawi #page2 #div4 p{
+    font-size: 0.56em;
+    line-height: 1.25em;
+    margin-bottom: 0.4em;
+    color: #FFF;
+}
+
+/*#################### page 3 (content) ##################*/
+
+.nawi #page3 nav{
+    top: 2em;
+    left: 1em;
+    width: 35em;
+}
+
+.nawi #page3 nav li{
+    -moz-transform:rotate(-5deg);
+    -webkit-transform:rotate(-5deg);
+    -o-transform:rotate(-5deg);
+    -ms-transform:rotate(-5deg);
+    transform:rotate(-5deg);    
+    font-size: 0.56em;
+    list-style-type: none;
+    margin-bottom: 0.85em;
+}
+
+.nawi #page3 nav li .big{    
+    font-size: 2.5em;
+}
+
+.nawi #page3 nav li .middle{
+    font-size: 1.7em;
+}
+
+.nawi #page3 nav li.list1 a, .nawi #page3 nav li.list4 a{
+    color: #719211;
+}
+
+.nawi #page3 nav li.list2 a{
+    color: #0c6bab;
+    margin-left: 30em;
+}
+
+.nawi #page3 nav li.list3 a{
+    color: #f46717;
+    margin-left: 15em;
+}
+
+.nawi #page3 nav li.main{    
+    padding-top: 0.9em;
+    padding-bottom: 1em;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-color: #FFF;
+}
+
+.nawi #page3 nav li.list4{
+    background-image: url(/images/epager/nawi/3_3.jpg);
+    margin-left: 3em;
+    padding-left: 27em;
+}
+
+.nawi #page3 nav li.list5 a{
+    color: #a3d71c;
+    margin-left: 6em;
+}
+
+.nawi #page3 nav li.list6 a{
+    color: #9fbbb0;
+    margin-left: 27em;
+}
+
+.nawi #page3 nav li.list7 a{
+    color: #659569;
+    margin-left: 2em;
+}
+
+.nawi #page3 nav li.list8 a{
+    color: #719211;
+    margin-left: 16em;
+}
+
+.nawi #page3 nav li.list9 a{
+    color: #a3d71c;
+    margin-left: 6em;
+}
+
+.nawi #page3 nav li.list10 {
+    background-image: url(/images/epager/nawi/3_4.jpg);
+    margin-left: 5em;
+}
+
+.nawi #page3 nav li.list10 a{
+    color: #0c6bab;
+    margin-left: 2.2em;
+}
+
+.nawi #page3 nav li.list11 a{
+    color: #a2b8e4;
+    margin-left: 20em;
+}
+
+.nawi #page3 nav li.list12 a{
+    color: #7785cb;
+    margin-left: 4em;
+}
+
+.nawi #page3 nav li.list13 a{
+    color: #0c6bab;
+    margin-left:16em;
+}
+
+.nawi #page3 nav li.list14 a{
+    color: #a2b8e4;
+    margin-left:7em;
+}
+
+.nawi #page3 nav li.list15 {
+    background-image: url(/images/epager/nawi/3_5.jpg);
+    margin-left: 2em;
+}
+
+.nawi #page3 nav li.list15 a{
+    color: #f46717;
+    margin-left:27em;
+}
+
+.nawi #page3 nav li.list16 a{
+    color: #e48726;
+    margin-left: 9em;
+}
+
+.nawi #page3 nav li.list17 {
+    background-image: url(/images/epager/nawi/3_6.jpg);
+    margin-left: 4em;
+}
+
+.nawi #page3 nav li.list17 a{
+    color: #719211;
+    margin-left: 28em;
+}
+
+.nawi #page3 nav li.list18 a{
+    color: #a3d71c;
+    margin-left: 12.5em;
+}
+
+.nawi #page3 nav li.list19 {
+    background-image: url(/images/epager/nawi/3_7.jpg);
+    margin-left: 2em;
+    width: 55em;
+}
+
+.nawi #page3 nav li.list19 a{
+    color: #0c6bab;
+    margin-left: 3em;
+}
+
+.nawi #page3 nav li.list20 a{
+    color: #a4b9e5;
+    margin-left: 18em;
+}
+
+.nawi #page3 nav li.list21 a{
+    color: #7785cb;
+    margin-left: 0;
+}
+
+.nawi #page3 nav li.list22 a{
+    color: #0c6bab;
+    margin-left: 24em;
+}/*################# page 4 #####################*/
+
+.nawi #page3 nav li.list23 a{
+    color: #a2b8e4;
+    margin-left: 9em;
+}
+
+.nawi #page3 nav li.list24 a{
+    color: #7785cb;
+    margin-left: 20em;
+}
+
+.nawi #page3 nav li.list25 a{
+    color: #0c6bab;
+    margin-left: 6em;
+}
+
+.nawi #page3 nav li.list26 a{
+    color: #f46717;
+    margin-left: 38em;
+    margin-top: 0.8em;
+}
+
+.nawi #page3 nav li.list27 a{
+    color: #719211;
+    margin-left: 18em;
+}
+
+.nawi #page3 nav li.list28 a{
+    color: #0c6bab;
+    margin-left: 31em;
+}
+
+/*################# page 4 #####################*/
+
+.nawi #page4 header, .nawi #page4 div {
+    -moz-transform:rotate(-5deg);
+    -webkit-transform:rotate(-5deg);
+    -o-transform:rotate(-5deg);
+    -ms-transform:rotate(-5deg);
+    transform:rotate(-5deg);    
+}
+
+.nawi #page4 header{
+    color: #f47920;
+    left: 12em;
+    top: 7.5em;
+    width: 20em;    
+}
+
+.nawi #page4 header .from{
+    font-size: 1.2em;
+}
+
+.nawi #page4 header .ministre{
+    font-size: 0.8em;
+}
+
+.nawi #page4 div{
+    left: 3em;
+    top: 13.5em;
+    width: 30em;
+}
+
+.nawi #page4 div p{
+    color: #757978;
+    font-size: 0.58em;
+    margin-bottom: 2em;
+    line-height: 1.28em;
+    width: 28em;
+}
+
+.nawi #page4 div p.width{
+    width: 40em;
+}
+
+.nawi #page4 div p.inblock{
+    margin-bottom: 0;
+}
+
+/*###################### page 5 ##################*/
+
+.nawi #page5 #div1{
+    top: 6.2em;
+    left: 4em;
+    width: 16em;
+}
+
+.nawi #page5 #div1 p{
+    color: #a5a3a4;
+    font-size: 0.6em;
+    margin-bottom: 0.5em;
+    line-height: 1.25em;
+}
+
+.nawi #page5 #div1 p.from{
+    font-size: 1em;
+}
+
+.nawi #page5 #div2{
+    top: 12.2em;
+    left: 4em;
+    width: 20em;
+}
+
+.nawi #page5 #div2 p{
+    color: #626da6;
+    font-size: 0.54em;
+    line-height: 1.16em;
+    margin-bottom: 1em;
+}
+
+.nawi #page5 #div2 p.small{
+    width: 32em;
+}
+
+/*##################### page 6 ######################*/
+
+.csstransforms .nawi #page6 img.text{
+    display: none;
+}
+
+.nawi #page6 header{
+    top: 5em;
+    left: 3.1em;
+    width: 25em;
+}
+
+.nawi #page6 header h2{
+    color: #a5a3a4;
+    font-size: 1.3em;
+    font-weight: normal;
+}
+
+.nawi #page6 #div1{
+    top: 8em;    
+}
+
+.nawi #page6 #div2{
+    top: 12em;
+    left: 1.5em;
+    width: 33em;
+}
+
+.nawi #page6 #div2 p{
+    font-size: 0.52em;
+    line-height: 1.15em;
+    color: #767374;
+    margin-bottom: 1em;
+    padding-left: 3em;
+}
+
+.nawi #page6 h3, .nawi #page7 #div10 h3{
+    font-size: 0.7em;
+    font-family: 'Finger Paint';
+    color: #f4691b;
+    line-height: 1.25em;
+}
+
+.nawi #page6 #div2 h3,.nawi #page7 #div10 h3{   
+    margin-bottom: 0.7em;   
+    padding-left: 75px;
+    background: #FFF url(/images/epager/nawi/6_3.jpg) no-repeat left top;
+    line-height: 1.6em;    
+}
+
+.nawi #page6 #div3{
+    top: 26em;
+    left: 3em;
+    width: 25em;
+}
+
+.nawi #page6 #div3 h3{
+    margin-bottom: 0.4em;
+    font-size: 0.6em;
+}
+
+.nawi #page6 #div3 ul li{    
+    font-size: 0.56em; 
+    width: 30em;
+    border-bottom: 1px dotted #83a6a1;
+    list-style-image: url(/images/epager/nawi/6_4.jpg);
+    list-style-position: inside;
+    list-style-type: none;
+    padding: 0.6em 0;    
+}
+
+.nawi #page6 #div3 ul li.listitem1{
+    color: #e5279d;
+}
+
+.nawi #page6 #div3 ul li.listitem2{
+    color: #a3d71c;
+}
+
+.nawi #page6 #div3 ul li.listitem3{
+    color: #0c6bab;
+}
+
+.nawi #page6 #div3 ul li.listitem4{
+    color: #6452a1;
+}
+
+.nawi #page6 #div3 ul li.listitem5{
+    color: #a21247;
+}
+
+.nawi #page6 #div4{
+    top: 35.5em;
+    width: 30em;
+    left: 2em;
+}
+
+.nawi #page6 #div4 p{
+    font-size: 0.56em;
+    line-height: 1.25em;
+    color: #5a5758;
+}
+
+.no-csstransforms .nawi #page6 #div5{
+    display: none;
+}
+
+.csstransforms .nawi #page6 #div5{
+    -moz-transform:rotate(-5.5deg);
+    -webkit-transform:rotate(-5.5deg);
+    -o-transform:rotate(-5.5deg);
+    -ms-transform:rotate(-5.5deg);
+    transform:rotate(-5.5deg); 
+    left: 2em;
+    top: 38em;
+    width: 35em;
+}
+
+.nawi #page6 #div5 p{
+    font-size: 0.56em;
+    line-height: 1.15em;
+    color: #FFF;
+    font-family: courier;
+    margin-bottom: 1em;
+}
+
+.nawi #page6 #div5 p .strong{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.nawi #page6 #div5 p.source{
+    font-size: 0.5em;
+}
+
+.nawi #page6 #div6{
+    left: 6em;
+    top: 48.7em;
+    width: 30em;
+}
+
+.nawi #page6 #div6 p{
+    font-size: 0.56em;
+    color: #FFF;
+    line-height: 1.25em;
+}
+
+.nawi #page6 #div6 a{
+    color: #FFF;
+}
+
+/*############## page 7 ##############*/
+
+.nawi #page7 #div7{
+    left: 1em;
+    width: 24em;
+    top: 8em;
+}
+
+.nawi #page7 #div7 p{
+    color: #FFF;
+    font-size: 0.54em;
+    line-height: 1.25em;
+    margin-bottom: 1em;
+}
+
+.nawi #page7 #div7 p.firstP{
+    width: 40em;
+}
+
+.nawi #page7 #div8{
+    left: 13em;
+    top: 20.7em;
+    width: 21em;
+}
+
+.nawi #page7 #div8 h3{
+    font-size: 0.6em;
+    line-height: 1.6em;
+    color: #5c41a2;
+    margin-bottom: 0.5em;
+}
+
+
+.nawi #page7 #div8 p, .nawi #page7 #div9 p, .nawi #page7 #div10 p{
+    color: #5a5758;
+    font-size: 0.56em;
+    line-height: 1.25em;
+}
+
+.nawi #page7 #div8 p{   
+    margin-bottom: 0.5em;   
+    font-weight: bold;
+    font-size: 0.52em;
+    line-height: 1.2em;
+}
+
+.nawi #page7 #div8 p .thin{
+    font-weight: normal;
+}
+
+.nawi #page7 #div9{
+    top: 35em;
+    left: 3.6em;
+    width: 32em;
+}
+
+.nawi #page7 #div10{
+    top: 39em;
+    left: 2em;
+    width: 33em;
+}
+
+.nawi #page7 #div10 p{
+    padding-left: 3em;
+}
+
+.nawi #page7 #div10 p a{
+    color: #5a5758;
+}
+
+.nawi #page7 #div11{
+    left: 2em;
+    top: 48.7em;
+    width: 29em;
+}
+
+.nawi #page7 #div11 p{
+    font-size: 0.56em;
+    line-height: 1.25em;
+}
+
+.nawi #page7 #div11 p, .nawi #page7 #div11 p a{
+    color: #FFF;
+}
+
+/* ############################ page 8 ####################################################*/
+
+.nawi #page8 #div1{   
+    top: 7.7em;    
+}
+
+.nawi #page8 #div1 p{
+    line-height: 1.18em;
+}
+
+.nawi #page8 #div2{
+    top: 16em;
+    left: 1.5em;
+    width: 23.5em;
+}
+
+.nawi #page8 #div2 p{
+    line-height: 1.25em;
+    font-size: 0.52em;
+    color: #726f70;
+    margin-left: 3em;
+}
+
+.nawi #page8 #div3{
+    top: 38em;
+    left: 9.5em;
+    width: 21.5em;
+}
+
+.nawi #page8 #div3 p{
+    color: #5c64b8;
+    font-size: 0.54em;
+    line-height: 1.2em;
+}
+
+.nawi #page8 #div4{
+    left: 5.7em;
+    top: 49em;
+    width: 30em;
+}
+
+.nawi #page8 #div4 p{
+    color: #FFF;
+}
+
+.nawi #page8 #div4 p a{
+    color: #FFF;
+}
+
+/*############################### page 9 ##############################*/
+
+.nawi #page9 #div1{
+    left: 2.5em;
+    top: 5em;
+    width: 30em;
+}
+
+.nawi #page9 #div1 p{
+    color: #FFF;
+    font-size: 0.54em;
+    margin-bottom: 1.5em;
+}
+
+.nawi #page9 #div1 p.firstP{
+    width: 38em;
+}
+
+.nawi #page9 #div1 p.thirdP{
+    width: 50em;
+}
+
+.nawi #page9 #div2{
+    left: 11.2em;
+    width: 24em;
+    top: 26.5em;
+}
+
+.nawi #page9 #div2 p{
+    color: #6a6768;
+    font-size: 0.52em;
+}
+
+/*############################# page 10 ############################*/
+
+.nawi #page10 #div1{
+    top: 7.8em;
+    color: #FFF;
+}
+
+.nawi #page10 #div2{
+    left: 14em;
+    top: 14em;
+    width: 21.5em;
+}
+
+.nawi #page10 #div2 p{
+    color: #726f70;
+    margin-bottom: 1.5em;
+    line-height: 1.15em;
+}
+
+.nawi #page10 #div2 h3.arrows{
+    line-height: 1.4em;
+    margin-bottom: 0.5em;
+}
+
+.nawi #page10 #div2 .slim{
+    width: 31em;
+    margin-left: 8em;
+}
+
+.nawi #page10 #div3{
+    left: 2.8em;
+    top: 37.3em;
+    width: 11em;
+}
+
+.nawi #page10 #div3 p, .nawi #page10 #div3 p a{
+    color: #5c64b8;
+}
+
+/*############################ page 11 ##################*/
+
+.nawi #page11 #div1{
+    left: 27.7em;
+    top: 12.5em;
+    width: 6.7em;
+}
+
+.nawi #page11 #div1 p{
+    color: #FFF;
+}
+
+.nawi #page11 #div2{
+    left: 1em;
+    top: 18.5em;
+    width: 34em;
+}
+
+.nawi #page11 #div2 p{
+    color: #767374;
+    margin: 0 0 0.8em 2em;
+    line-height: 1.18em;
+}
+
+.nawi #page11 #div2 p.firstP{
+    width: 43em;
+}
+
+.nawi #page11 #div2 p.secondP{
+    width: 40em;
+}
+
+.nawi #page11 #div2 h3.shiftright{
+    margin-left: 14em;
+}
+
+.nawi #page11 #div2 p.shiftright{
+    margin-left: 16.5em;
+}
+
+/*############################## page 12 ###################################*/
+
+.nawi #page12 #div1{
+    left: 3em;
+    top: 8em;
+    width: 24em;
+}
+
+.nawi #page12 #div1 p{
+    color: #FFF;
+}
+
+.nawi #page12 div h3.arrows{    
+    line-height: 3em;
+    font-size: 0.54em;
+}
+
+.nawi #page12 #div2, .nawi #page12 #div3{
+     top: 15em;
+}
+
+.nawi #page12 #div2{
+    left: 1em;   
+    width: 18em;
+}
+
+.nawi #page12 #div2 p, .nawi #page12 #div3 p{
+    font-size: 0.54em;
+    margin-left: 5em;
+}
+
+.nawi #page12 #div3{
+    left: 20em;
+    width: 15em;
+}
+
+.nawi #page12 #div4{
+    left: 11em;
+    top: 41.2em;
+    width: 22em;
+}
+
+.nawi #page12 #div4 p, .nawi #page12 #div4 p a{
+    color: #5C64B8;
+}
+
+/*######################## page 13 #####################*/
+
+.nawi #page13 #div6{
+    left: 27.8em;
+    top: 13.5em;
+    width: 6.5em;
+}
+
+.nawi #page13 #div6 p{
+    color: #FFF;    
+}
+
+.nawi #page13 #div7{
+    left: 7em;
+    top: 11.2em;
+    width: 29em;    
+}
+
+.nawi #page13 #div7 h3{
+    color: #f46818;
+    font-size: 0.54em;
+    padding-left: 2.6em;
+    line-height: 1.5em;
+/*    background: transparent url(/images/epager/nawi/11_2.jpg) no-repeat left top;    */
+    margin-bottom: 0.4em;
+}
+
+.nawi #page13 #div7 p{
+    text-align: justify;
+    padding-left: 2.6em;
+    margin-bottom: 0.8em;
+    line-height: 1.15em;
+    font-size: 0.54em;
+}
+
+.nawi #page13 #div7 h3.small, .nawi #page13 #div7 p.small{
+    width: 34em;   
+}
+
+/*########################### page 15 ############################ */
+.nawi #page14 aside{
+    left: 2.5em;
+    top: 21em;
+    width: 6.9em;
+}
+
+.nawi #page14 aside p{
+    font-size: 0.56em;
+    line-height: 1.25em;
+    color: #FFF;
+    font-size: 0.54em;
+}
+
+.nawi #page14 #div1{
+    top: 7.8em;
+    left: 2.5em;
+    width: 31.5em;
+}
+
+.nawi #page14 #div1 h3{
+    color: #FFF;
+    font-weight: bold;
+    font-size: 0.7em;
+    margin-bottom: 0.6em;
+}
+
+.nawi #page14 #div1 p{
+    color: #FFF;
+    width: 26em;
+    margin-right: 1.5em;
+}
+
+.nawi #page14 #div2{
+    left: 1em;
+    top: 14.5em;
+    width: 33em;
+}
+
+.nawi #page14 #div2 h3{
+    font-family: "Finger Paint";
+    font-size: 0.54em;
+    padding-left: 1.8em;
+    background: transparent url(/images/epager/nawi/11_2.jpg) no-repeat left top;
+    color: #f46c1f;
+    font-size: 0.54em;
+    margin: 0 0 0.5em 18em;   
+    width: 40em;
+    
+    line-height: 1.3em;
+}
+
+.nawi #page14 #div2 p{
+    margin-bottom: 1em;
+    font-size: 0.52em;
+    width: 42.5em;
+    margin-left: 20.5em;
+}
+
+.nawi #page14 #div2 p.firstP, .nawi #page14 #div2 h3.firstH3{
+    width: 100%;
+    margin-left: 0;
+}
+
+/*################## page 15 ##################################*/
+
+.nawi #page15 #div6{
+    left: 2em;
+    top: 7.8em;
+    width: 17em;
+}
+
+.nawi #page15 #div6 h3, .nawi #page16 #div1 h3{
+    color: #FFF;
+    font-size: 0.7em;
+    margin-bottom: 0.8em;
+}
+
+.nawi #page15 #div6 p{
+    color: #FFF;
+    line-height: 1.2em;
+}
+
+.nawi #page15 aside{
+    left: 27.6em;
+    top: 19em;
+    width: 6.8em;   
+}
+
+.nawi #page15 aside p{
+    color: #FFF;
+    font-size: 0.54em;
+}
+
+.nawi #page15 #div7{
+    left: 3.2em;
+    top: 21em;
+    width: 23em;
+}
+
+.nawi #page15 #div7 p{
+    margin-bottom: 1em;
+    font-size: 0.54em;
+}
+
+.nawi #page15 #div8{
+    top: 39.4em;
+    left: 5.7em;
+    width: 26.3em;
+}
+
+.nawi #page15 #div8 h3{
+    color: #49be5f;
+    font-size: 0.7em;
+    margin:  0 0 0.6em 2em;
+}
+
+.nawi #page15 #div8 p{
+    margin-left: 10em;
+    font-size: 0.54em;
+}
+
+/*################################# page 16 #####################################*/
+
+.nawi #page16 #div1{
+    left: 13em;
+    top: 7.8em;
+    width: 21.8em;
+}
+
+.nawi #page16 #div1 p{
+    color: #FFF;
+    font-size: 0.54em;
+    line-height: 1.3em;
+}
+
+.nawi #page16 #div1 h3{
+    margin-bottom: 0.4em;
+}
+
+.nawi #page16 aside{
+    top: 22em;
+    left: 2.5em;
+    width: 6.8em;
+}
+
+.nawi #page16 aside p{
+    color: #FFF;
+}
+
+.nawi #page16 #div2{
+    left: 1.5em;
+    top: 17em;
+    width: 33.5em;
+}
+
+.nawi #page16 #div2 h3, .nawi #page17 #div6 h3{
+    font-size: 0.54em;
+    padding-left: 2.5em;
+    background: transparent url(/images/epager/nawi/11_2.jpg) no-repeat left top;    
+    margin-bottom: 0.5em;
+}
+
+.nawi #page16 #div2 p{
+    font-size: 0.54em;
+    margin-bottom: 1em;
+}
+
+.nawi #page16 #div2 p.secondP,
+.nawi #page16 #div2 p.thirdP,
+.nawi #page16 #div2 h3.shiftright{
+    margin-left: 17em;
+}
+
+.nawi #page16 #div2 p.fourthP, .nawi #page16 #div2 h3.shiftrightwide{
+    margin-left: 19em;
+}
+
+/*####################### page 17 #############################*/
+
+.nawi #page17 aside{
+    left: 27.7em;
+    top: 10em;
+    width: 6.8em;
+}
+
+.nawi #page17 aside p{
+    color: #FFF;
+}
+
+.nawi #page17 #div6{
+    left: 0.7em;
+    top: 18em;
+    width: 33em;
+}
+
+.nawi #page17 #div6 h3{
+    line-height: 1.4em;
+    font-size: 0.56em;
+}
+
+.nawi #page17 #div6 p{
+    margin: 0 0 1em 2.5em;
+    font-size: 0.54em;    
+}
+
+.nawi #page17 #div7{
+    left: 2.1em;
+    top: 48.8em;
+    width: 27.5em;
+}
+
+.nawi #page17 #div7 p,.nawi #page17 #div7 p a{
+    color: #FFF;
+}
+
+/*########################### page 18 ######################### */
+
+.csstransforms .nawi #page18 img.text{
+    display: none;
+}
+
+.nawi #page18 #div1{
+    left: 3em;
+    top: 7.7em;
+    width: 16em;
+}
+
+.nawi #page18 #div2{
+    left: 1em;
+    top: 13.3em;
+    width: 18.3em;
+}
+
+.nawi #page18 #div2 h3{
+    font-size: 0.58em;
+    line-height: 3em;
+}
+
+.nawi #page18 #div2 p{
+    margin-left: 2.5em;
+}
+
+.nawi #page18 #div3{
+    left: 21.5em;
+    top: 19.2em;
+    width: 12.9em;
+}
+
+.nawi #page18 #div3 h3{
+    font-size: 0.7em;
+    margin-bottom: 0.5em;
+}
+
+.no-csstransforms .nawi #page18 #div4{
+    display: none;
+}
+
+.nawi #page18 #div4{
+    left: 1em;
+    top: 37.5em;
+    width: 35em;
+    -moz-transform:rotate(-5.5deg);
+    -webkit-transform:rotate(-5.5deg);
+    -o-transform:rotate(-5.5deg);
+    -ms-transform:rotate(-5.5deg);
+    transform:rotate(-5.5deg);        
+}
+
+.nawi #page18 #div4 p .strong{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.nawi #page18 #div4 p.source{
+    font-size: 0.5em;
+    margin-top: 1em;
+}
+
+.nawi #page18 #div5{
+    left: 6em;
+    top: 48.7em;
+    width: 20em;
+}
+
+.nawi #page18 #div5 li{
+    font-size: 0.58em;
+    list-style-type: none;
+    margin-bottom: 0.3em;
+    line-height: 1em;
+}
+
+/*############################# page 19 ##########################*/
+.nawi #page19 #div6{
+    left: 6em;
+    top:8em;
+    width: 20em;
+}
+
+.nawi #page19 #div6 p.firstP{
+    margin-bottom: 1.1em;
+    width: 31em;
+}
+    
+.nawi #page19 #div7{
+    left: 14.7em;
+    top: 22em;
+    width: 20.5em;
+}
+
+.nawi #page19 #div8{
+    left: 3em;
+    top: 37em;
+    width: 20.5em;
+}
+
+.nawi #page19 #div8 h3{
+    font-size: 0.65em;
+    color: #5a3fa1;
+    margin-bottom: 0.6em;
+}
+
+.nawi #page19 #div8 p.source{
+    font-size: 0.5em;
+    margin-top: 1em;
+}
+
+.nawi #page19 #div9{
+    left: 3em;
+    top: 48.8em;
+    width: 25em;
+}
+
+/*############################# page 20 #############################*/
+
+.nawi #page20 #div1{   
+    top: 7.9em;
+}
+
+.nawi #page20 #div2{
+    left: 19em;
+    top: 12.5em;
+    width: 16.5em;
+}
+
+.nawi #page20 #div2 h3{
+    font-size: 0.56em;
+}
+
+.nawi #page20 #div2 h3.second{
+    line-height: 3em;
+}
+
+.nawi #page20 #div2 p{
+    font-size: 0.54em;
+    margin-bottom: 1em;
+}
+
+.nawi #page20 #div3{
+    left: 6.2em;
+    top: 39.8em;
+    width: 20em;
+}
+
+/*############################### page 21 ###############################*/
+
+.csstransforms .nawi #page21 img.text{
+    display: none;
+}
+
+.nawi #page21 aside{
+    left: 27.7em;
+    top: 13em;
+    width: 6.8em;
+}
+
+.nawi #page21 #div6{
+    left: 2em;
+    top: 6em;
+    width: 23.8em;
+}
+
+.nawi #page21 #div6 h2, .nawi #page21 #div6 h3{
+    color: #be268a;
+    margin-bottom: 0.6em;
+}
+
+.nawi #page21 #div6 h2{
+    font-size: 0.8em;
+    margin-bottom: 1em;
+}
+
+.nawi #page21 #div6 h3{
+    font-size: 0.56em;
+    line-height: 1.5em;
+}
+
+.nawi #page21 #div6 p{
+    margin-bottom: 1.5em;
+}
+
+.nawi #page21 #div6 h2.shiftright{
+    margin-left: 15.3em;
+}
+
+.nawi #page21 #div6 h3.shiftright, .nawi #page21 #div6 p.shiftright{
+    margin-left: 22em;
+}
+
+.nawi #page21 #div7{
+    left: 1.5em;
+    top: 37.5em;
+    width: 33em;
+}
+
+.nawi #page21 #div7 p{
+    -moz-transform:rotate(-5.5deg);
+    -webkit-transform:rotate(-5.5deg);
+    -o-transform:rotate(-5.5deg);
+    -ms-transform:rotate(-5.5deg);
+    transform:rotate(-5.5deg);   
+    margin-bottom: 1em;
+}
+
+.no-csstransforms .nawi #page21 #div7{
+    display: none;
+}
+
+.nawi #page21 #div7 p .strong{
+    font-size: 1.2em;    
+}
+
+.nawi #page21 #div7 p.source{
+    margin-left: 0.5em;
+}
+
+/*############################# page 22 ######################## */
+
+.nawi #page22 #div1{
+    left: 3em;
+    top: 7.7em;
+    width: 13em;
+}
+
+.nawi #page22 #div2{
+    top: 13em;
+    left: 3em;
+    width: 14em;
+}
+
+.nawi #page22 #div2 p{
+    width: 21em;
+}
+
+.nawi #page22 #div2 h3, .nawi #page22 #div3 h3{
+    font-size: 0.56em;
+    line-height: 2.7em;
+    background-color: transparent;
+    margin-bottom: 0.6em;
+}
+
+.nawi #page22 #div2 p, .nawi #page22 #div3 p{
+    font-size: 0.52em;
+}
+
+.nawi #page22 #div3{
+    left: 18em;
+    top: 8em;
+    width: 18em;
+}
+
+.nawi #page22 #div4{
+    left: 3em;
+    top: 23em;
+    width: 27.5em;
+}
+
+.nawi #page22 #div4 p{
+    font-size: 0.52em;
+    margin-bottom: 0.9em;
+}
+
+.nawi #page22 #div4 h3{
+    margin-bottom: 0.3em;
+}
+
+.nawi #page22 #div4 p.firstP{
+    width: 50em;
+}
+
+.nawi #page22 #div5{
+    left: 15em;
+    top: 36.5em;
+    width: 16em;
+}
+
+.nawi #page22 #div5 p{
+    font-size: 0.54em;
+}
+
+.nawi #page22 #div5 h3{
+    font-size: 0.75em;
+    margin-bottom: 0.8em;
+}
+
+/*############################## page 23 #######################*/
+.nawi #page23 aside{
+    left: 27.7em;
+    top: 19em;
+    width: 6.8em;
+}
+
+.nawi #page23 aside p{
+    font-size: 0.52em;
+    line-height: 1.3em;
+}
+
+.nawi #page23 #div6{
+    top: 4.2em;
+    left: 1.5em;
+    width: 23.5em;
+}
+
+.nawi #page23 #div6 p, .nawi #page23 #div6 h3{
+    font-size: 0.54em;
+    margin-left: 2.5em;
+    margin-bottom: 1em;
+}
+
+.nawi #page23 #div6 .shiftright{
+    margin-left: 23em;
+}
+
+.nawi #page23 #div6 .shiftright2{
+    margin-left: 16em;
+}
+
+.nawi #page23 #div6 h3{
+    background: transparent url(/images/epager/nawi/11_2.jpg) no-repeat left top;
+}
+
+/*############################ page 24 ################################*/
+
+.nawi #page24 aside{
+    left: 18.5em;
+    top: 8em;
+    width: 15em;
+}
+
+.nawi #page24 aside h3{
+    font-size: 0.7em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.nawi #page24 aside p{
+    font-size: 0.52em;
+    line-height: 1.28em;
+}
+
+.nawi #page24 #div1{
+    left: 2em;
+    top: 22.3em;
+    width: 32em;
+}
+
+.nawi #page24 #div1 h3, .nawi #page25 #div6 h3{
+    background: transparent url(/images/epager/nawi/11_2.jpg) no-repeat left top;
+    line-height: 1.5em;
+}
+
+.nawi #page24 #div1 h3,.nawi #page24 #div1 p,
+.nawi #page25 #div6 h3, .nawi #page25 #div6 p{
+    font-size: 0.56em;
+    padding-left: 3em;
+    margin-bottom: 1em;
+}
+
+.nawi #page24 #div1 .shiftright{
+    margin: 0 0 0 28em;    
+}
+
+.nawi #page24 #div1 h3.shiftright{
+    margin-bottom: 1em;
+}
+
+/*############################ page 25 ##########################*/
+.nawi #page25 #div6{
+    left: 1.5em;
+    top: 22.3em;
+    width: 24.5em;
+}
+
+.nawi #page25 #div6 h3, .nawi #page25 #div6 p{
+    margin-bottom: 0.6em;
+}
+
+.nawi #page25 #div6 p{
+    line-height: 1.15em;
+}
+
+.nawi #page25 #div7{
+    left: 27.7em;
+    top: 11em;
+    width: 6.8em;
+}
+
+.nawi #page25 #div7 p{
+    font-size: 0.54em;
+}
+
+/*#################### page 26 #################################*/
+
+.nawi #page26 aside{
+    left: 1em;
+    top: 7.7em;
+    width: 18em;
+}
+
+.nawi #page26 aside h3{
+    font-size: 0.7em;
+    font-weight: bold;
+    margin-bottom: 0.7em;
+}
+
+.nawi #page26 #div1{
+    left: 2.7em;
+    width: 6.8em;
+    top: 29.3em;
+}
+
+.nawi #page26 #div1 p{
+    font-size: 0.54em;  
+}
+
+.nawi #page26 #div2{
+    left: 2.5em;
+    top: 16.5em;
+    width: 33.5em;
+}
+
+.nawi #page26 #div2 h3, .nawi #page27 #div6 h3{
+    background: transparent url(/images/epager/nawi/11_2.jpg) no-repeat left top;
+    line-height: 1.5em;
+    padding-left: 2em;
+    font-size: 0.54em;
+    margin-bottom:  1em;    
+}
+
+.nawi #page26 #div2 p, .nawi #page27 #div6 p{
+    font-size: 0.52em;
+    margin-bottom: 1em;
+}
+
+.nawi #page26 #div2 h3.second{
+    margin-left: 16.6em;
+}
+
+.nawi #page26 #div2 p.secondP{
+    margin-left: 17.5em;
+}
+
+.nawi #page26 #div2 h3.shiftright{
+    margin-left: 15em;
+}
+
+.nawi #page26 #div2 p.shiftright{
+    margin-left: 17em;
+}
+
+.nawi #page26 #div2 h3.last{
+    margin-left: 26.6em;
+}
+
+/*########################### page 27 ##########################*/
+
+.nawi #page27 #div6{
+    left: 1em;
+    top: 8em;
+    width: 24em;
+}
+
+.nawi #page27 #div6 h3{
+    margin-bottom: 0.2em;
+}
+
+.nawi #page27 #div6 p{
+    margin-left: 2em;
+    margin-bottom: 0.8em;
+    line-height: 1.2em;
+}
+
+.nawi #page27 #div7{
+    left: 27.7em;
+    top: 10.6em;
+    width: 6.7em;
+}
+
+.nawi #page27 #div7 p{
+    font-size: 0.52em;
+}
+
+/*########################### page 28 #########################*/
+
+.csstransforms .nawi #page28 img.text{
+    display: none;
+}
+
+.nawi #page28 #div1{
+    left: 2.6em;
+    top: 8em;
+    width: 19.5em;
+}
+
+.nawi #page28 #div1 p{
+    font-size: 0.54em;
+}
+
+.nawi #page28 #div2{
+    left: 1em;
+    top: 17em;
+    width: 27em;
+}
+
+.nawi #page28 #div2 h3{
+    line-height: 1.5em;
+    margin-bottom: 0.8em;
+    background-color: transparent;
+}
+
+.nawi #page28 #div2 p{
+/*    font-size: 0.54em;*/
+    margin: 0 0 0.5em 2em;
+}
+
+.nawi #page28 #div2 p.firstP{
+    width: 35em;
+    margin-bottom: 0;
+}
+
+.nawi #page28 #div3{
+    left: 1em;
+    top: 37.4em;
+    width: 33em;
+}
+
+.no-csstransforms #div3{
+    display: none;
+}
+
+.nawi #page28 #div3 p, .nawi #page28 #div3 ul{
+    -moz-transform:rotate(-5.5deg);
+    -webkit-transform:rotate(-5.5deg);
+    -o-transform:rotate(-5.5deg);
+    -ms-transform:rotate(-5.5deg);
+    transform:rotate(-5.5deg); 
+    
+}
+
+.nawi #page28 #div3 p{
+    margin-bottom: 0.5em;
+}
+
+.nawi #page28 #div3 ul li{
+    color: #FFF;
+    list-style-position: inside;
+}
+
+.nawi #page28 #div3 ul li:nth-child(2){
+    margin-left: 0.06em;
+}
+
+.nawi #page28 #div3 ul li:nth-child(3){
+    margin-left: 0.12em;
+}
+
+.nawi #page28 #div3 ul li:nth-child(4){
+    margin-left: 0.18em;
+}
+
+.nawi #page28 #div3 ul li:nth-child(5){
+    margin-left: 0.24em;
+}
+
+.nawi #page28 #div3 p .strong{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.nawi #page28 #div3 p.secondP{
+    margin-bottom: 0;
+}
+
+.nawi #page28 #div4{
+    left: 6em;
+    top: 48.7em;
+    width: 20em;
+}
+
+.nawi #page28 #div4 li{
+    list-style-type: none;
+}
+
+/*################################### page 29 ###########################*/
+.nawi #page29 #div6{
+    left: 6em;
+    top: 8em;
+    width: 12.5em;
+}
+
+.nawi #page29 #div6 p{
+    font-size: 0.54em;
+}
+
+.nawi #page29 #div7{
+    left: 5.5em;
+    top: 19em;
+    width: 19.5em;
+}
+
+.nawi #page29 #div7 h3{
+    font-size: 0.54em;        
+}
+
+.nawi #page29 #div7 h3:nth-of-type(2){
+    line-height: 2.5em;
+}
+
+.nawi #page29 #div7 p{
+    margin-bottom: 1em;
+    font-size: 0.54em;   
+}
+
+.nawi #page29 #div7 p img{
+    display: inline;
+}
+
+.nawi #page29 #div7 p a{
+    color: #767374;
+}
+
+.nawi #page29 #div8{
+    left: 3em;
+    top: 48.7em;
+    width: 28em;
+}
+
+/*######################## page 30 ########################*/
+.nawi #page30 #div1{
+    top: 7.5em;
+}
+
+.nawi #page30 #div1 h3{
+    line-height: 2.5em;
+    background: transparent url(/images/epager/nawi/30_2.jpg) no-repeat left center;
+    color: #FFF;
+    margin-bottom: 0.5em;
+    padding-left: 9em;
+    font-size: 0.56em;
+}
+
+.nawi #page30 #div2{
+    left: 2.7em;
+    top: 29.7em;
+    width: 10.5em;
+}
+
+.nawi #page30 #div2 h3{
+    font-size: 0.6em;
+    padding-left: 4em;
+}
+
+.nawi #page30 #div2 p, .nawi #page30 #div2 p a{
+    color: #5d65b8;
+}
+
+.nawi #page30 #div2 p{
+    font-size: 0.52em;
+    line-height: 1.3em;
+}
+
+/*###################### page 31 ##########################*/
+.nawi #page31 #div6{
+    left: 1.5em;
+    top: 8em;
+    width: 20em;
+}
+
+.nawi #page31 #div6 h3{
+    font-size: 0.7em;
+    margin-bottom: 0.4em;
+}
+
+.nawi #page31 #div6 p{
+    font-size: 0.54em;
+    line-height: 1.3em;
+}
+
+.nawi #page31 aside{
+    left: 27.7em;
+    top: 22.3em;
+    width: 6.8em;
+}
+
+.nawi #page31 aside p{
+    font-size: 0.54em;
+}
+
+.nawi #page31 #div7{
+    left: 1.7em;
+    top: 17em;
+    width: 28em;
+}
+
+.nawi #page31 #div7 h3{
+    font-size: 0.54em;
+    padding-left: 2.8em;
+    background: transparent url(/images/epager/nawi/31_2.png) no-repeat left top;
+    line-height: 1.4em;
+}
+
+.nawi #page31 #div7 p{
+    font-size: 0.54em;
+    margin: 0 0 1em 2.8em;
+    line-height: 1.15em;
+}  
+
+.nawi #page31 #div7 p.first{
+    width: 39em;
+}
+
+.nawi #page31 #div7 p.second{
+    width: 20em;
+}
+
+.nawi #page31 #div7 p.third{
+    width: 42em;
+}
+
+.nawi #page31 #div7 p.fourth{
+    width: 45em;
+}
+
+/*############################# page 32 ##########################*/
+.nawi #page32 #div1{
+    left: 2.7em;
+    top: 7.9em;
+    width: 17.3em;
+}
+
+.nawi #page32 #div1 p{
+    font-size: 0.54em;
+}
+
+.nawi #page32 #div2{
+    left: 1.5em;
+    top: 19em;
+    width: 32.5em;
+}
+
+.nawi #page32 #div2 p{
+    font-size: 0.54em;
+}
+
+.nawi #page32 #div2 h3{
+    line-height: 1.5em;
+    margin-bottom: -0.5em;
+}
+
+.nawi #page32 #div2 p.third{
+    margin: 0.6em 0 0 23em;
+}
+
+.nawi #page32 #div3{
+    left: 14em;
+    top: 38em;
+    width: 19.5em;
+}
+
+.nawi #page32 #div3 h3{
+    background-color: transparent;
+}
+
+.nawi #page32 #div4{
+    left: 5.5em;
+    top: 48.7em;
+    width: 31em;
+}
+
+.nawi #page32 #div4 p{
+    font-size: 0.52em;
+    line-height: 1.3em;
+}
+
+/*################################## page 33 ###########################*/
+.nawi #page33 #div6{
+    left: 5.5em;
+    top: 7.9em;
+    width: 18em;
+}
+
+.nawi #page33 #div7{
+    left: 1.5em;
+    top: 19em;
+    width: 33em;
+}
+
+.nawi #page33 #div7 h3{
+    font-size: 0.56em;
+    line-height: 2.5em;
+}
+
+.nawi #page33 #div7 p{
+    margin: 0 0 1em 3em;
+}
+
+.nawi #page33 #div7 h3.third{
+    background-color: transparent;
+    width: 30em;
+}
+
+.nawi #page33 #div7 p.third{
+    width: 30em;
+}
+
+.nawi #page33 #div8{
+    left: 1.5em;
+    top: 48.7em;
+    width: 30em;
+}
+
+/*############################# page 34 ##############################*/
+.nawi #page34 #div1{
+    left: 17em;
+    top: 7.8em;
+    width: 14.4em;
+}
+
+.nawi #page34 #div1 h3{
+    font-size: 0.65em;
+    margin-bottom: 0.7em;
+}
+
+.nawi #page34 #div1 p{
+    line-height: 1.2em;
+    font-size: 0.54em;
+}
+
+.nawi #page34 aside{
+    left: 2.6em;
+    top: 32.5em;
+    width: 6.8em;
+}
+
+.nawi #page34 #div2{
+    left: 12em;
+    top: 24.3em;
+    width: 23.6em;
+}
+
+.nawi #page34 #div2 p{
+    margin-bottom: 1em;
+}
+
+.nawi #page34 #div2 h3{
+    color: #48bd5e;
+    font-size: 0.65em;
+    line-height: 1.4em;
+    margin-bottom: 0.6em;
+}
+
+.nawi #page34 #div2 p a{
+    color: #767374;
+}
+
+/*############################# page 35 #####################*/
+.nawi #page35 aside{
+    left: 27.6em;
+    top: 21em;
+    width: 6.8em;
+}
+
+.nawi #page35 aside p{
+    font-size: 0.54em;
+}
+
+.nawi #page35 #div6{
+    left: 1.5em;
+    top: 10.8em;
+    width: 32.5em;
+}
+
+.nawi #page35 #div6 h3,.nawi #page35 #div6 p{
+    font-size: 0.56em;
+    padding-left: 2em;
+}
+
+.nawi #page35 #div6 h3{
+    line-height: 1.4em;   
+    background: transparent url(/images/epager/nawi/31_2.png) no-repeat left top;
+    margin-bottom: 0.35em;
+}
+
+.nawi #page35 #div6 p{
+    margin-bottom: 0.8em;
+}
+
+.nawi #page35 #div6 h3.first,.nawi #page35 #div6 p.first{
+    margin-left: 13.5em;
+}
+
+.nawi #page35 #div6 p.first{
+    margin-bottom: 0;
+}
+
+.nawi #page35 #div6 h3.first{
+    letter-spacing: -0.05em;    
+}
+
+.nawi #page35 #div6 p.second,
+.nawi #page35 #div6 p.third,
+.nawi #page35 #div6 h3.fourth{
+    width: 42.5em;
+}
+
+.nawi #page35 #div6 p.fourth{
+    width: 55em;
+}
+
+.nawi #page35 #div6 p.fifth{
+    margin-left: 4em;
+}
+
+/*############################ page 36 ###################*/
+.csstransforms .nawi #page36 img.text{
+    display: none;
+}
+
+.nawi #page36 #div1{
+    top: 7.8em;
+}
+
+.nawi #page36 #div2{
+    left: 12em;
+    top: 14.8em;
+    width: 23em;
+}
+
+.nawi #page36 #div2 h3{
+    font-size: 0.56em;
+    margin-bottom: 0.7em;
+}
+
+.nawi #page36 #div2 p{
+    margin-left: 2em;
+}
+
+.nawi #page36 #div3{
+    left: 1em;
+    top: 37.5em;
+    width: 34em;
+}
+
+.nawi #page36 #div3 p{
+    -moz-transform:rotate(-5.5deg);
+    -webkit-transform:rotate(-5.5deg);
+    -o-transform:rotate(-5.5deg);
+    -ms-transform:rotate(-5.5deg);
+    transform:rotate(-5.5deg); 
+}
+
+.nawi #page36 #div3 p.source{
+    font-size: 0.45em;
+    margin: 1em 0 0 1em;
+}
+
+.no-csstransforms .nawi #page36 #div3{
+    display: none;
+}
+
+.nawi #page36 #div4{
+    left: 6em;
+    top: 48.8em;
+    width: 30em;
+}
+
+/*####################### page 37 ###################*/
+.nawi #page37 #div6{
+    left: 2.5em;
+    top: 6.3em;
+    width: 20.5em;
+}
+
+.nawi #page37 #div6 p{
+    font-size: 0.52em;
+    line-height: 1.3em;
+}
+
+.nawi #page37 #div7{
+    top: 16.1em;
+    left: 1.5em;
+    width: 14em;        
+}
+
+.nawi #page37 #div8{
+    left: 16.5em;
+    top: 15em;
+    width: 18.5em;
+}
+
+.nawi #page37 #div8 h3{
+    line-height: 1.5em;
+}
+
+.nawi #page37 #div8 p{
+    margin: 0 0 0.8em 2em;
+    line-height: 1.15em;
+}
+
+.nawi #page37 #div8 p a,
+.nawi #page37 #div9 p a{
+    color: #767374;
+}
+
+.nawi #page37 #div9{
+    left:3em;
+    top: 36.5em;
+    width: 30em;
+}
+
+.nawi #page37 #div9 h3{
+    color: #5a3fa1;
+    font-size: 0.7em;
+    margin-bottom: 0.7em;
+}
+
+.nawi #page37 #div9 p.source{
+    font-size: 0.5em;
+    margin-top: 1em;
+}
+
+.nawi #page37 #div10{
+    left: 1.5em;
+    top: 48.8em;
+    width: 29em;
+}
+
+/*################# page 38 ##################*/
+
+.nawi #page38 #div1{
+    left: 1.5em;
+    top: 7.7em;
+    width: 17em;
+}
+
+.nawi #page38 #div2{
+    left: 1em;
+    top: 17.7em;
+    width: 34em;
+}
+
+.nawi #page38 #div2 h3{
+    font-size: 0.56em;
+    line-height: 2.5em;
+    background-color: transparent;
+}
+
+.nawi #page38 #div2 p{
+    margin: 0 0 0.8em 2em;
+}
+
+.nawi #page38 #div2 h3.first{
+  
+} 
+
+.nawi #page38 #div2 h3.first{
+    width: 24em;
+    line-height: 1.5em;
+}
+
+.nawi #page38 #div3{
+    left: 12em;
+    top: 41.5em;
+    width: 21em;
+}
+
+/*######################## page 39 #####################*/
+.nawi #page39 aside{
+    left: 27.7em;
+    top: 12.6em;
+    width: 6.7em;
+}
+
+.nawi #page39 #div6{
+    left:4em;
+    top: 6em;
+    width: 22.5em;
+}
+
+.nawi #page39 #div6 h3{
+    font-size: 0.56em;
+    margin-bottom: 0.2em;
+    padding-left: 2.2em;
+    background: transparent url(/images/epager/nawi/31_2.png) no-repeat left top;
+    line-height: 1.6em;
+}
+
+.nawi #page39 #div6 p{
+    margin-left: 2.2em;
+}
+
+.nawi #page39 #div6 p.margin{
+    margin-bottom: 0.8em;    
+}
+
+.nawi #page39 #div6 .first,
+.nawi #page39 #div6 .second{
+    width: 25.5em;
+}
+
+/*########################## page 40 #####################*/
+.nawi #page40 #div1{
+    left: 1.7em;
+    top: 7.8em;
+    width: 17em;
+}
+
+.nawi #page40 #div2{
+    left: 11.5em;
+    top: 22.5em;
+    width: 24em;
+}
+
+.nawi #page40 #div2 h3{
+    margin-bottom: 0.5em;
+    font-size: 0.6em;
+}
+
+.nawi #page40 #div2 p{
+    margin-left: 4.5em;
+    font-size: 0.54em;
+}
+
+.nawi #page40 #div3{
+    left: 3em;
+    top: 37.2em;
+    width: 26em;
+}
+
+.nawi #page40 #div3 h3.beCleverBlue{
+    font-size: 0.65em;
+}
+
+.nawi #page40 #div3 p{
+    margin-bottom: 1em;
+}
+
+/*########################## page 41 #####################*/
+.csstransforms .nawi #page41 img.text{
+    display: none;
+}
+
+.nawi #page41 aside{
+    left: 27.8em;
+    top:12em;
+    width: 6.7em;
+}
+
+.nawi #page41 #div6{
+    left: 1.5em;
+    top: 6.5em;
+    width: 34em;
+}
+
+.nawi #page41 #div6 h3{
+    font-size: 0.56em;
+    line-height: 1.5em;
+    padding-left: 2em;
+    background: transparent url(/images/epager/nawi/31_2.png) no-repeat left top;
+    margin-bottom: 0.3em;
+}
+
+.nawi #page41 #div6 p{
+    padding-left: 2em;
+    margin-bottom: 0.7em;
+    line-height: 1.15em;
+}
+
+.nawi #page41 #div6 p.third{
+    width: 42em;
+}
+
+.nawi #page41 #div6 .shiftright{
+    margin-left: 7em;
+    width: 34.5em;
+}
+
+.nawi #page41 #div7{
+    left: 1em;
+    top: 40.7em;
+    width: 34em;
+}
+
+.nawi #page41 #div7 p{
+    -moz-transform: rotate(-5.5deg);
+    -webkit-transform: rotate(-5.5deg);
+    -o-transform: rotate(-5.5deg);
+    -ms-transform: rotate(-5.5deg);
+    transform: rotate(-5.5deg);
+}
+
+.nawi #page41 #div7 p .strong{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/*########################## page 42 ###################*/
+.nawi #page42 #div1{
+    top: 36.7em;
+    left: 2.5em;
+    width: 25em;
+}
+
+.nawi #page42 #div1 h3{
+    font-size: 0.7em;
+    margin-bottom: 0.4em;
+}
+
+/*######################## page 43 #########################*/
+
+.nawi #page43 aside{
+    left: 27.75em;
+    top: 14.7em;
+    width: 6.7em;
+}
+
+.nawi #page43 aside p{
+    font-size: 0.52em;
+}
+
+.nawi #page43 #div6{
+    left: 1em;
+    top: 5.5em;
+    width: 25.5em;
+}
+
+.nawi #page43 #div6 h3{
+    padding-left: 2em;
+    font-size: 0.56em;
+    margin-bottom: 0.2em;
+    line-height: 1.5em;
+    background: transparent url(/images/epager/nawi/31_2.png) no-repeat left top;
+}
+
+.nawi #page43 #div6  p{
+    margin:0 0 1em 2em;
+}
+
+/*########################## page 44 #############################*/
+.nawi #page44 #div1{
+    top: 7.8em;
+}
+
+.nawi #page44 #div1 h3{
+    font-size: 0.7em;
+    margin-bottom: 0.5em;
+}
+
+.nawi #page44 aside{
+    left: 2.6em;
+    top: 32em;
+    width: 6.7em;
+}
+
+.nawi #page44 #div2{
+    left: 11em;
+    top: 30em;
+    width: 23em;
+}
+
+.nawi #page44 #div2 p{
+    margin-bottom: 0.8em;
+}
+
+/*########################## page 45 ###########################*/
+
+.nawi #page45 header{
+    left: 20em;
+}
+
+.nawi #page45 #div6{
+    left: 2em;
+    top: 7.8em;
+    width: 17.5em;
+}
+
+.nawi #page45 #div6 h3{
+    font-size: 0.7em;
+    margin-bottom: 0.4em;
+}
+
+.nawi #page45 aside{
+    left: 27.7em;
+    top: 21em;
+    width: 6.6em;
+}
+
+.nawi #page45 #div7{
+    left: 11.3em;
+    top: 18.7em;
+    width: 15.2em;
+}
+
+.nawi #page45 #div7 p{
+    margin-bottom: 0.6em;
+    font-size: 0.54em;
+}
+
+/*################################ page 46 #######################*/
+
+.nawi #page46 #div1{
+    left: 2em;
+    top: 7.9em; 
+    width: 16.6em;
+}
+
+.nawi #page46 #div1 h3{
+    font-size: 0.7em;
+    margin-bottom: 0.5em;
+}
+
+.nawi #page46 #div2{
+    left: 1em;
+    top: 16.2em;
+    width: 34em;
+}
+
+.nawi #page46 #div2 h3, .nawi #page47 #div6 h3{
+    font-size: 0.56em;
+    padding-left: 2em;
+    background: transparent url(/images/epager/nawi/31_2.png) no-repeat left top;
+    margin-bottom: 0.5em;
+    line-height: 1.5em;
+}
+
+.nawi #page46 #div2 p, .nawi #page47 #div6 p{
+    margin: 0 0 0.8em 2em;
+}
+
+.nawi #page46 #div2 .first, .nawi #page46 #div2 h3.second{
+    width: 30.5em;
+}
+
+/*########################## page 47 ##########################*/
+
+.nawi #page47 #div6{
+    left: 4em;
+    top: 7em;
+    width: 21.5em;
+}
+
+.nawi #page47 aside{
+    left: 27.7em;
+    top: 15em;
+    width: 6.7em;
+}
+
+.nawi #page47 #div7{
+    left: 6.5em;
+    top: 34em;
+    width: 24em;
+}
+
+.nawi #page47 #div7 h3{
+    font-size: 0.7em;
+    margin-bottom: 0.5em;
+    color: #47bd5d;
+}
+
+.nawi #page47 #div7 p.second{
+    margin-left: 10em;
+}
+
+/*########################## page 48 #####################*/
+.nawi #page48 #div1{
+    left: 2.6em;
+    top: 11em;
+    width: 11.4em;
+}
+
+.nawi #page48 #div1 p{
+    font-size: 0.54em;
+    margin-bottom: 0.6em;
+}
+
+.nawi #page48 #div2{
+    left: 15.5em;
+    top: 6em;
+    width: 18.5em;
+}
+
+.nawi #page48 .up{
+    -moz-transform:rotate(-5deg);
+    -webkit-transform:rotate(-5deg);
+    -o-transform:rotate(-5deg);
+    -ms-transform:rotate(-5deg);
+    transform:rotate(-5deg);    
+}
+
+.nawi #page48 .down{
+    -moz-transform:rotate(5deg);
+    -webkit-transform:rotate(5deg);
+    -o-transform:rotate(5deg);
+    -ms-transform:rotate(5deg);
+    transform:rotate(5deg);       
+}
+
+.nawi #page48 #div2 li{
+    list-style-type: none;
+    margin-bottom: 3em;
+    font-size: 0.54em;
+    text-align: justify;
+}
+
+.nawi #page48 #div2 h2{
+    background: transparent url(/images/epager/nawi/48_2.jpg) repeat-x bottom;
+    line-height: 1.5em;
+    font-size: 0.8em;
+    margin: 0 0 2em 8em;
+    padding: 0 0 0.5em 3em;
+}
+
+.nawi #page48 #div2 li h3{
+    padding-bottom: 1em;
+    line-height: 1.2em;
+    background-color: transparent;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 0.2em;
+} 
+
+.nawi #page48 #div2 li.first h3, 
+.nawi #page48 #div2 li.first a{
+    color: #7b317e;
+} 
+
+.nawi #page48 #div2 li.first h3{
+    background-image: url(/images/epager/nawi/48_3.jpg);
+    padding-left: 20em;
+}
+
+.nawi #page48 #div2 li.second{
+    margin-left: 2em;
+}
+
+.nawi #page48 #div2 li.second h3, 
+.nawi #page48 #div2 li.second a{
+    color: #9a9f05;
+} 
+
+.nawi #page48 #div2 li.second h3{
+    background-image: url(/images/epager/nawi/48_4.jpg);
+    padding-left: 3em;
+}
+
+.nawi #page48 #div2 li.third h3, 
+.nawi #page48 #div2 li.third a{
+    color: #c22319;
+} 
+
+.nawi #page48 #div2 li.third h3{
+    background-image: url(/images/epager/nawi/48_5.jpg);
+    padding-left: 8em;
+}
+
+.nawi #page48 #div2 li.fourth{
+    margin-left: 2em;
+}
+
+.nawi #page48 #div2 li.fourth h3, 
+.nawi #page48 #div2 li.fourth a{
+    color: #3354a8;
+} 
+
+.nawi #page48 #div2 li.fourth h3{
+    background-image: url(/images/epager/nawi/48_6.jpg);
+    padding-left: 8em;
+}
+
+.nawi #page48 #div2 li.fifth h3, 
+.nawi #page48 #div2 li.fifth a{
+    color: #e5279d;
+} 
+
+.nawi #page48 #div2 li.fifth h3{
+    background-image: url(/images/epager/nawi/48_7.jpg);
+    padding-left: 13em;
+}
+
+/*###################### page 49 #################*/
+
+.nawi #page49 #div6{
+    left: 2.5em;
+    top: 30.5em;
+    width: 28em;
+}
+
+.nawi #page49 #div6 h3{
+    font-size: 0.7em;
+    margin-bottom: 0.8em;
+}
+
+.nawi #page49 #div6 p{
+    margin-bottom: 0.8em;
+}
+
+/*##################### page 50 #####################*/
+
+.nawi #page50 h3{
+    margin-bottom: 0.5em;
+    font-size: 0.65em;
+}
+
+.nawi #page50 ul li{
+    list-style-type: none;
+    margin-bottom: 0.5em;
+    font-size: 0.54em;
+}
+
+.nawi #page50 #div1{
+    left: 3.3em;
+    top: 12.3em;
+    width: 13.7em;
+}
+
+.nawi #page50 #div1 h3, .nawi #page50 #div1 ul li, .nawi #page50 #div1 li a{
+    color: #c3261c;
+}
+
+.nawi #page50 #div2{
+    left: 19.2em;
+    top: 12.3em;
+    width: 15em;
+}
+
+.nawi #page50 #div2 li{
+    font-size: 0.52em;
+    line-height: 1.28em;
+}
+
+.nawi #page50 #div2 h3, .nawi #page50 #div2 ul li, .nawi #page50 #div2 li a,
+.nawi #page50 #div3 h3, .nawi #page50 #div3 ul li, .nawi #page50 #div3 li a{
+    color: #f46717;
+}
+
+.nawi #page50 #div3{
+    left: 3.3em;
+    top: 28em;
+    width: 8.9em;
+}
+
+.nawi #page50 #div3 li, .nawi #page50 #div5 li{
+    font-size: 0.5em;
+}
+
+.nawi #page50 #div4{
+    left: 14em;
+    top: 28em;
+    width: 8.9em;
+}
+
+.nawi #page50 #div4 h3, .nawi #page50 #div4 ul li, .nawi #page50 #div4 li a{
+    color: #5c64b8;
+}
+
+.nawi #page50 #div5{
+    left: 24.8em;
+    top: 28em;
+    width: 8.9em;
+}
+
+.nawi #page50 #div5 h3, .nawi #page50 #div5 ul li, .nawi #page50 #div5 li a{
+    color: #a0138e;
+}
+
+/*######################## page 51 #######################*/
+.nawi #page51 h3, .nawi #page51 ul li, .nawi #page51 ul li a{
+    color: #FFF;
+}
+
+.nawi #page51 h3{
+    font-size: 0.7em;
+    margin-bottom: 0.7em;
+    line-height: 1.2em;
+}
+
+.nawi #page51 ul li{
+    font-size: 0.54em;
+    margin-bottom: 1em;
+    list-style-type: none;
+}
+
+.nawi #page51 ul li a, .nawi #page51 ul li div.linkdiv{
+    display: block;
+    border-bottom: 1px dotted #FFF;
+    padding-bottom: 0.2em;
+    margin-bottom: 0.25em;
+    
+}
+
+.nawi #page51 ul li div.linkdiv a{
+    display: inline;
+    padding-bottom: 0;
+    margin-bottom: 0;
+     border: none;
+}
+
+.nawi #page51 #div6{
+    left: 2em;
+    top: 23em;
+    width: 10em;
+}
+
+.nawi #page51 #div7{
+    left: 13.5em;
+    top: 23.3em;
+    width: 9em;
+}
+
+.nawi #page51 #div7 h3{
+    margin-left: 2em;
+}
+
+.nawi #page51 #div8{
+    left: 24em;
+    top: 22.6em;
+    width: 9.5em;
+}
+
+.nawi #page51 #div8 li{
+    font-size: 0.52em;
+    line-height: 1.3em;
+}

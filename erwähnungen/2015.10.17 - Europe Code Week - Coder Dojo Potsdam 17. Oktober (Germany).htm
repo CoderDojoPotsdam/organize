@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html style="" dir="ltr" class="no-js" lang="en"><head><style type="text/css">.gm-style .gm-style-mtc label,.gm-style .gm-style-mtc div{font-weight:400}</style><link href="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/css.css" rel="stylesheet" type="text/css"><style type="text/css">.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}</style><style type="text/css">@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style><style type="text/css">.gm-style{font-family:Roboto,Arial,sans-serif;font-size:11px;font-weight:400;text-decoration:none}.gm-style img{max-width:none}</style>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="http://events.codeweek.eu/static/img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="http://events.codeweek.eu/static/img/favicon.ico" type="image/x-icon">
+
+	<!-- TODO: check this -->
+	<link rel="stylesheet" type="text/css" href="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/style_002.css">
+
+	<!-- Custom font -->
+	<link href="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/css_002.css" rel="stylesheet" type="text/css">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/43cab574820d.css" type="text/css" media="screen">
+
+	<!-- Theme stylesheets -->
+	<link rel="stylesheet" href="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/style.css" type="text/css">
+	<link rel="stylesheet" href="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/dark.css" type="text/css">
+	<link rel="stylesheet" href="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/font-icons.css" type="text/css">
+	<link rel="stylesheet" href="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/responsive.css" type="text/css">
+	<link rel="stylesheet" href="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/customizations.css" type="text/css">
+	<!--[if lt IE 9]>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
+	<link rel="stylesheet" href="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/colors.css" type="text/css">
+
+	<!-- TODO: remove font-awesome? -->
+	<link href="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/font-awesome.css" rel="stylesheet">
+    
+    <link href="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/custom.css" media="screen" rel="stylesheet">
+
+	<!-- Early scripts; the rest are included at the end -->
+	<div class="fit-vids-style">­<style> .fluid-width-video-wrapper { width: 100%; position: relative; padding: 0; } .fluid-width-video-wrapper iframe, .fluid-width-video-wrapper object, .fluid-width-video-wrapper embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; } </style></div><script style="" src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/analytics.js" async=""></script><script src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/all.js" id="facebook-jssdk"></script><script src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/widgets.js" id="twitter-wjs"></script><script type="text/javascript" src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/modernizr.js"></script>
+
+	<!-- Title, keywords, description -->
+	<meta name="description" content="October 10 - 18, 2015: a week to celebrate coding in Europe, encouraging citizens to learn more about technology, and connecting communities and organizations who can help you learn coding.">
+	<meta property="og:image" content="/img/codeweekEU-logo-600.png">
+	
+	<meta name="description" content="CoderDojo ist ein Club für Kinder und Jugendliche im Alter von 5 bis 17 Jahren, die programmieren lernen und Spass haben wollen. 
+
+Es gibt eine Einführung in was man alles machen kann und dann kann sich jeder ein Projekt aussuchen.">
+
+	<meta property="og:title" content="Coder Dojo Potsdam 17. Oktober">
+	<meta property="og:type" content="website">
+	
+	<meta property="og:image" content="http://codeweekeu.s3.amazonaws.com/event_picture/logo-256.png">
+	
+	<meta property="og:url" content="http://events.codeweek.eu/view/3882/coder-dojo-potsdam-17-oktober/">
+	<meta property="og:description" content="CoderDojo ist ein Club für Kinder und Jugendliche im Alter von 5 bis 17 Jahren, die programmieren lernen und Spass haben wollen. 
+
+Es gibt eine Einführung in was man alles machen kann und dann kann sich jeder ein Projekt aussuchen.">
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:url" content="http://events.codeweek.eu/view/3882/coder-dojo-potsdam-17-oktober/">
+	<meta name="twitter:title" content="Coder Dojo Potsdam 17. Oktober">
+	<meta name="twitter:description" content="CoderDojo ist ein Club für Kinder und Jugendliche im Alter von 5 bis 17 Jahren, die programmieren lernen und Spass haben wollen. 
+
+Es gibt eine Einführung in was man alles machen kann und dann kann sich jeder ein Projekt aussuchen.">
+	
+	<meta name="twitter:image" content="http://codeweekeu.s3.amazonaws.com/event_picture/logo-256.png">
+	
+
+	<title>Europe Code Week - Coder Dojo Potsdam 17. Oktober (Germany)</title>
+<script src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/button.js" async="" charset="utf-8" type="text/javascript"></script><script src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/common.js" charset="UTF-8" type="text/javascript"></script><script src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/map.js" charset="UTF-8" type="text/javascript"></script><script src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/util.js" charset="UTF-8" type="text/javascript"></script><script src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/marker.js" charset="UTF-8" type="text/javascript"></script><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow-x:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f6f7f8;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3a5795;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{width:auto;height:auto;min-height:initial;min-width:initial;background:none}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{color:#fff;display:block;padding-top:20px;clear:both;font-size:18px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #2f477a;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f8;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yD/r/t-wz8gw1xG1.png);background-repeat:no-repeat;background-position:50% 50%;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}</style><script src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/infowindow.js" charset="UTF-8" type="text/javascript"></script><script src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/onion.js" charset="UTF-8" type="text/javascript"></script><script src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/stats.js" charset="UTF-8" type="text/javascript"></script><script src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/controls.js" charset="UTF-8" type="text/javascript"></script></head>
+
+
+<body class="stretched no-transition device-lg">
+<a href="http://events.codeweek.eu/view/3882/coder-dojo-potsdam-17-oktober/">Quelle</a>
+<div class="cc-cookies ">We use cookies, just to track visits to our website, we store no personal details. <a href="#accept" class="cc-cookie-accept">ACCEPT COOKIES</a> <a href="http://www.allaboutcookies.org/" title="Visit All about cookies (External link)">What are cookies?</a></div>
+
+	<!-- Document Wrapper -->
+	<div id="wrapper" class="clearfix">
+
+		
+			
+
+
+
+<!-- Header -->
+<header id="header" class="page-section full-header sticky-header">
+	<div id="header-wrap">
+		<div class="container clearfix">
+			<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+			<!-- Logo -->
+			<div id="logo">
+				<a href="http://codeweek.eu/" class="standard-logo" data-dark-logo="/img/codeweekeu.png"><img src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/codeweekeu.png" alt="CodeWeekES"></a>
+				<a href="http://codeweek.eu/" class="retina-logo" data-dark-logo="/img/codeweekeu.png"><img src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/codeweekeu.png" alt="CodeWeekES"></a>
+			</div>
+
+			<nav id="primary-menu">
+
+				<!-- Primary Navigation -->
+				<!-- ============================================= -->
+				<ul class="sf-js-enabled">
+					<li><a href="http://codeweek.eu/">Home</a></li>
+					<li class=""><a href="http://events.codeweek.eu/">Events</a></li>
+					<li class=""><a href="http://events.codeweek.eu/ambassadors">Ambassadors</a></li>
+					<li><a href="http://codeweek.eu/resources/">Resources</a></li>
+					<li><a href="http://codeweek.eu/about/">About</a></li>
+					<li><a href="http://blog.codeweek.eu/">News</a></li>
+				</ul>
+
+				<!-- Top Search -->
+				<!-- ============================================= -->
+				<div id="top-search">
+					<a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
+					<form action="/search.html" method="get">
+						<input name="q" class="form-control" placeholder="Type &amp; hit Enter..." type="text">
+					</form>
+				</div><!-- #top-search end -->
+
+			</nav>
+			<!-- #primary-menu end -->
+		</div>
+	</div>
+</header>
+
+<div class="sticky-page-menu" id="page-menu">
+
+	<div id="page-menu-wrap">
+
+		<div class="container clearfix">
+            <div class="menu-title">CodeWeek <span>EU</span></div>
+            
+            <nav class="one-page-menu eventsm">
+		<ul class="nav navbar navbar-left" role="menu">
+			<li>
+				<a href="http://events.codeweek.eu/" class=" first" id="zoomEU">
+					<span class="fa-stack fa-lg">
+					  <i class="fa fa-circle fa-stack-2x"></i>
+					  <i class="fa fa-map-marker fa-stack-1x fa-inverse"></i>
+					</span>
+					Map
+				</a>
+			</li>
+			<li>
+				<a href="http://events.codeweek.eu/add/" class="">
+					<span class="fa-stack fa-lg">
+					  <i class="fa fa-circle fa-stack-2x"></i>
+					  <i class="fa fa-plus fa-stack-1x fa-inverse"></i>
+					</span>
+					Add Event
+				</a>
+			</li>
+			<li>
+				<a href="http://events.codeweek.eu/search/" class="">
+				<span class="fa-stack fa-lg">
+				  <i class="fa fa-circle fa-stack-2x"></i>
+				  <i class="fa fa-search fa-stack-1x fa-inverse"></i>
+				</span>
+					Search Events
+				</a>
+			</li>
+        </ul>
+        <ul class="nav navbar navbar-right nobottommargin">
+			<li class="dropdown pull-right">
+				
+					<a href="http://events.codeweek.eu/login/" class="signin">
+						<i class="fa fa-sign-in"></i>
+						Sign in</a>
+				
+			</li>
+		</ul>
+            </nav>
+
+			<div id="page-submenu-trigger"><i class="icon-reorder"></i></div>
+
+		</div>
+
+	</div>
+
+</div>
+
+
+
+
+
+		
+
+		
+			
+		
+
+		
+
+	<div class="container">
+		<div class=" fb_reset" id="fb-root"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/TlA_zCeMkxl.htm" style="border: medium none;" tabindex="-1" title="Facebook Cross Domain Communication Frame" aria-hidden="true" id="fb_xdm_frame_http" scrolling="no" allowfullscreen="true" allowtransparency="true" name="fb_xdm_frame_http" frameborder="0"></iframe><iframe src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/TlA_zCeMkxl_002.htm" style="border: medium none;" tabindex="-1" title="Facebook Cross Domain Communication Frame" aria-hidden="true" id="fb_xdm_frame_https" scrolling="no" allowfullscreen="true" allowtransparency="true" name="fb_xdm_frame_https" frameborder="0"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
+			<div class="edit-toolbar">
+			
+
+			
+
+			
+			</div>
+
+		<div class="about-event clearfix">
+			<div class="col-md-8 event-description first">
+				<h1>Coder Dojo Potsdam 17. Oktober</h1>
+				<strong>Organized by:</strong>
+
+				<p> Christoph Sterz</p>
+				
+					<strong>Contact email:</strong><br>
+					<p><a href="mailto:Christoph.Sterz@student.hpi.uni-potsdam.de">Christoph.Sterz@student.hpi.uni-potsdam.de</a></p>
+				
+				<address>
+					<strong>Happening at: </strong><br>
+					Prof.-Dr.-Helmert-Straße 2, 14482 Potsdam, Germany
+				</address>
+				<p>
+					<strong>From</strong> Saturday, October 17, 2015 at 14:00
+					<strong>to</strong> Saturday, October 17, 2015 at 17:00
+				</p>
+				<strong>Description:</strong>
+
+				<p>
+					CoderDojo ist ein Club für Kinder und Jugendliche im Alter von 5 
+bis 17 Jahren, die programmieren lernen und Spass haben wollen. <br><br>Es gibt eine Einführung in was man alles machen kann und dann kann sich jeder ein Projekt aussuchen.
+				</p>
+				
+					<strong>More information:</strong>
+					<p><a href="http://coderdojopotsdam.github.io/" target="_blank">http://coderdojopotsdam.github.io/</a></p>
+				
+				<strong>This event is for:</strong>
+
+				<p>
+					
+						Pre-school children,
+					
+				
+					
+						Elementary school students,
+					
+				
+					
+						High school students
+					
+				</p>
+				<strong>Main themes:</strong>
+
+				<p>
+					
+						Hardware,
+					
+				
+					
+						Robotics,
+					
+				
+					
+						Mobile app development,
+					
+				
+					
+						Web development,
+					
+				
+					
+						Basic programming concepts,
+					
+				
+					
+						Software development
+					
+				</p>
+				
+					<strong>Tags:</strong>
+					<p>
+						
+							
+								<a href="http://events.codeweek.eu/search/?q=programming">programming</a>,
+							
+						
+							
+								<a href="http://events.codeweek.eu/search/?q=code.org">code.org</a>,
+							
+						
+							
+								<a href="http://events.codeweek.eu/search/?q=Python">Python</a>,
+							
+						
+							
+								<a href="http://events.codeweek.eu/search/?q=Arduino">Arduino</a>,
+							
+						
+							
+								<a href="http://events.codeweek.eu/search/?q=hardware">hardware</a>,
+							
+						
+							
+								<a href="http://events.codeweek.eu/search/?q=software">software</a>,
+							
+						
+							
+								<a href="http://events.codeweek.eu/search/?q=advanced">advanced</a>,
+							
+						
+							
+								<a href="http://events.codeweek.eu/search/?q=coding">coding</a>,
+							
+						
+							
+								<a href="http://events.codeweek.eu/search/?q=C%2B%2B">C++</a>,
+							
+						
+							
+								<a href="http://events.codeweek.eu/search/?q=beginners">beginners</a>
+							
+						
+					</p>
+				
+
+				<strong>Share the event:</strong>
+				<div class="share-event-wrapper">
+
+					<div fb-iframe-plugin-query="action=recommend&amp;app_id=1415375708710844&amp;container_width=0&amp;href=http%3A%2F%2Fevents.codeweek.eu%2Fview%2F3882%2Fcoder-dojo-potsdam-17-oktober%2F&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=false" fb-xfbml-state="rendered" class="fb-like fb_iframe_widget" data-href="http://events.codeweek.eu/view/3882/coder-dojo-potsdam-17-oktober/" data-layout="button_count" data-action="recommend" data-show-faces="false" data-share="true"><span style="vertical-align: top; width: 0px; height: 0px; overflow: hidden;"><iframe class="vjbulyfbbbqroeuvapfb" src="http://www.facebook.com/plugins/like.php?action=recommend&amp;app_id=1415375708710844&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2FTlA_zCeMkxl.js%3Fversion%3D41%23cb%3Df3b1a0ca47cc4a4%26domain%3Devents.codeweek.eu%26origin%3Dhttp%253A%252F%252Fevents.codeweek.eu%252Ff1ea156b7c4b1c8%26relation%3Dparent.parent&amp;container_width=0&amp;href=http%3A%2F%2Fevents.codeweek.eu%2Fview%2F3882%2Fcoder-dojo-potsdam-17-oktober%2F&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=false" style="border: medium none; visibility: visible; width: 0px; height: 0px;" title="fb:like Facebook Social Plugin" scrolling="no" allowfullscreen="true" allowtransparency="true" name="f33ee96943f203" frameborder="0" height="1000px" width="1000px"></iframe></span></div>
+					<a data-twitter-extracted-i1449050903576628296="true" href="https://twitter.com/share" class="twitter-share-button" data-url="http://events.codeweek.eu/view/3882/coder-dojo-potsdam-17-oktober/" data-text="Check out Coder Dojo Potsdam 17. Oktober at" data-via="CodeWeekEU" data-hashtags="codeEU">Tweet</a>
+
+					<div class="g-plusone" data-size="medium" data-href="http://events.codeweek.eu"></div>
+					<a class="fa fa-envelope" title="Click to email this to a friend" href="mailto:?subject=Look%20at%20this%20awesome%20coding%20event&amp;body=Hi,%20check%20out%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20event%20at%20http://events.codeweek.eu/view/3882/coder-dojo-potsdam-17-oktober/"></a>
+				</div>
+			</div>
+			<div class="col-md-4 event-time-place">
+				
+					<div class="event-jumbotron">
+						<img src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/logo-256.png" alt="Coder Dojo Potsdam 17. Oktober Cover Image" role="image">
+					</div>
+				
+				<div id="calendar">
+					<table class="month" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr><th colspan="7" class="month">October 2015</th></tr>
+<tr><th class="mon">Mon</th><th class="tue">Tue</th><th class="wed">Wed</th><th class="thu">Thu</th><th class="fri">Fri</th><th class="sat">Sat</th><th class="sun">Sun</th></tr>
+<tr><td class="noday">&nbsp;</td><td class="noday">&nbsp;</td><td class="noday">&nbsp;</td><td class="thu"><span class="dayNumberNoEvents">1</span></td><td class="fri"><span class="dayNumberNoEvents">2</span></td><td class="sat"><span class="dayNumberNoEvents">3</span></td><td class="sun"><span class="dayNumberNoEvents">4</span></td></tr>
+<tr><td class="mon"><span class="dayNumberNoEvents">5</span></td><td class="tue"><span class="dayNumberNoEvents">6</span></td><td class="wed"><span class="dayNumberNoEvents">7</span></td><td class="thu"><span class="dayNumberNoEvents">8</span></td><td class="fri"><span class="dayNumberNoEvents">9</span></td><td class="sat"><span class="dayNumberNoEvents">10</span></td><td class="sun"><span class="dayNumberNoEvents">11</span></td></tr>
+<tr><td class="mon"><span class="dayNumberNoEvents">12</span></td><td class="tue"><span class="dayNumberNoEvents">13</span></td><td class="wed"><span class="dayNumberNoEvents">14</span></td><td class="thu"><span class="dayNumberNoEvents">15</span></td><td class="fri"><span class="dayNumberNoEvents">16</span></td><td class="sat filled"><span class="dayNumber">17</span> </td><td class="sun"><span class="dayNumberNoEvents">18</span></td></tr>
+<tr><td class="mon"><span class="dayNumberNoEvents">19</span></td><td class="tue"><span class="dayNumberNoEvents">20</span></td><td class="wed"><span class="dayNumberNoEvents">21</span></td><td class="thu"><span class="dayNumberNoEvents">22</span></td><td class="fri"><span class="dayNumberNoEvents">23</span></td><td class="sat"><span class="dayNumberNoEvents">24</span></td><td class="sun"><span class="dayNumberNoEvents">25</span></td></tr>
+<tr><td class="mon"><span class="dayNumberNoEvents">26</span></td><td class="tue"><span class="dayNumberNoEvents">27</span></td><td class="wed"><span class="dayNumberNoEvents">28</span></td><td class="thu"><span class="dayNumberNoEvents">29</span></td><td class="fri"><span class="dayNumberNoEvents">30</span></td><td class="sat"><span class="dayNumberNoEvents">31</span></td><td class="noday">&nbsp;</td></tr>
+</tbody></table>
+
+				</div>
+			</div>
+			<div class="col-md-12 first">
+				<hr>
+			</div>
+			<div id="view-event-map-wrapper" class="col-md-12 first">
+				<div style="position: relative; background-color: rgb(229, 227, 223); overflow: hidden;" id="view-event-map"><div class="gm-style" style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; z-index: 0;"><div style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; z-index: 0; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default;"><div style="position: absolute; left: 0px; top: 0px; z-index: 1; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;"><div style="width: 256px; height: 256px; position: absolute; left: 491px; top: -211px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 491px; top: 45px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 235px; top: -211px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 235px; top: 45px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 747px; top: -211px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 747px; top: 45px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -21px; top: -211px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -21px; top: 45px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1003px; top: -211px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1003px; top: 45px;"></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: -1;"><div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;"><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 491px; top: -211px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 491px; top: 45px;"><canvas width="256" height="256" style="-moz-user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;" draggable="false"></canvas></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 235px; top: -211px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 235px; top: 45px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 747px; top: -211px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 747px; top: 45px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -21px; top: -211px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -21px; top: 45px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 1003px; top: -211px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 1003px; top: 45px;"></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;"><div style="position: absolute; left: 491px; top: -211px; transition: opacity 200ms ease-out 0s;"><img alt="" draggable="false" src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/vt_003.png" style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 491px; top: 45px; transition: opacity 200ms ease-out 0s;"><img alt="" draggable="false" src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/vt_009.png" style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 235px; top: -211px; transition: opacity 200ms ease-out 0s;"><img alt="" draggable="false" src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/vt_010.png" style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 235px; top: 45px; transition: opacity 200ms ease-out 0s;"><img alt="" draggable="false" src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/vt_004.png" style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 747px; top: -211px; transition: opacity 200ms ease-out 0s;"><img alt="" draggable="false" src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/vt_005.png" style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 747px; top: 45px; transition: opacity 200ms ease-out 0s;"><img alt="" draggable="false" src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/vt.png" style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -21px; top: -211px; transition: opacity 200ms ease-out 0s;"><img alt="" draggable="false" src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/vt_006.png" style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -21px; top: 45px; transition: opacity 200ms ease-out 0s;"><img alt="" draggable="false" src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/vt_007.png" style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 1003px; top: -211px; transition: opacity 200ms ease-out 0s;"><img alt="" draggable="false" src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/vt_008.png" style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 1003px; top: 45px; transition: opacity 200ms ease-out 0s;"><img alt="" draggable="false" src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/vt_002.png" style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;"></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 2; width: 100%; height: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 3; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"></div></div></div><div style="background-color: white; padding: 15px 21px; border: 1px solid rgb(171, 171, 171); font-family: Roboto,Arial,sans-serif; color: rgb(34, 34, 34); box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2); z-index: 10000002; display: none; width: 256px; height: 148px; position: absolute; left: 413px; top: 35px;"><div style="padding: 0px 0px 10px; font-size: 16px;">Map Data</div><div style="font-size: 13px;">Map data ©2015 GeoBasis-DE/BKG (©2009), Google</div><div style="width: 13px; height: 13px; overflow: hidden; position: absolute; opacity: 0.7; right: 12px; top: 12px; z-index: 10000; cursor: pointer;"><img draggable="false" src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/mapcnt6.png" style="position: absolute; left: -2px; top: -336px; width: 59px; height: 492px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;"></div></div><div style="z-index: 1000001; position: absolute; right: 166px; bottom: 0px; width: 246px;" class="gmnoprint"><div class="gm-style-cc" style="-moz-user-select: none; height: 14px; line-height: 14px;" draggable="false"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto,Arial,sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a style="color: rgb(68, 68, 68); text-decoration: none; cursor: pointer; display: none;">Map Data</a><span style="">Map data ©2015 GeoBasis-DE/BKG (©2009), Google</span></div></div></div><div style="position: absolute; right: 0px; bottom: 0px;" class="gmnoscreen"><div style="font-family: Roboto,Arial,sans-serif; font-size: 11px; color: rgb(68, 68, 68); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">Map data ©2015 GeoBasis-DE/BKG (©2009), Google</div></div><div draggable="false" style="z-index: 1000001; -moz-user-select: none; height: 14px; line-height: 14px; position: absolute; right: 95px; bottom: 0px;" class="gmnoprint gm-style-cc"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto,Arial,sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a target="_blank" href="https://www.google.com/intl/en-US_US/help/terms_maps.html" style="text-decoration: none; cursor: pointer; color: rgb(68, 68, 68);">Terms of Use</a></div></div><div class="gm-style-cc" style="-moz-user-select: none; height: 14px; line-height: 14px; position: absolute; right: 0px; bottom: 0px;" draggable="false"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto,Arial,sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a href="https://www.google.com/maps/@52.39363,13.13175,15z/data=%2110m1%211e1%2112b1?source=apiv3&amp;rapsrc=apiv3" style="font-family: Roboto,Arial,sans-serif; font-size: 10px; color: rgb(68, 68, 68); text-decoration: none; position: relative;" title="Report errors in the road map or imagery to Google" target="_new">Report a map error</a></div></div><div controlheight="93" controlwidth="28" draggable="false" style="margin: 10px; -moz-user-select: none; position: absolute; bottom: 107px; right: 28px;" class="gmnoprint"><div controlheight="55" controlwidth="28" style="position: absolute; left: 0px; top: 38px;" class="gmnoprint"><div style="-moz-user-select: none; box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3); border-radius: 2px; cursor: pointer; background-color: rgb(255, 255, 255); width: 28px; height: 55px;" draggable="false"><div style="position: relative; width: 28px; height: 27px; left: 0px; top: 0px;" title="Zoom in"><div style="overflow: hidden; position: absolute; width: 15px; height: 15px; left: 7px; top: 6px;"><img draggable="false" src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/tmapctrl.png" style="position: absolute; left: 0px; top: 0px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none; width: 120px; height: 54px;"></div></div><div style="position: relative; overflow: hidden; width: 67%; height: 1px; left: 16%; background-color: rgb(230, 230, 230); top: 0px;"></div><div style="position: relative; width: 28px; height: 27px; left: 0px; top: 0px;" title="Zoom out"><div style="overflow: hidden; position: absolute; width: 15px; height: 15px; left: 7px; top: 6px;"><img draggable="false" src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/tmapctrl.png" style="position: absolute; left: 0px; top: -15px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none; width: 120px; height: 54px;"></div></div></div></div><div controlheight="28" controlwidth="28" style="box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3); border-radius: 2px; width: 28px; height: 28px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default; background-color: rgb(255, 255, 255); position: absolute; left: 0px; top: 0px;"><div style="position: absolute; left: 1px; top: 1px;"></div><div style="position: absolute; left: 1px; top: 1px;"><div aria-label="Street View Pegman Control" style="width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px;"><img draggable="false" src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/cb_scout5.png" style="position: absolute; left: -147px; top: -26px; width: 215px; height: 835px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;"></div><div aria-label="Pegman is on top of the Map" style="width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px; visibility: hidden;"><img draggable="false" src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/cb_scout5.png" style="position: absolute; left: -147px; top: -52px; width: 215px; height: 835px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;"></div><div aria-label="Street View Pegman Control" style="width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px; visibility: hidden;"><img draggable="false" src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/cb_scout5.png" style="position: absolute; left: -147px; top: -78px; width: 215px; height: 835px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;"></div></div></div><div style="display: none; position: absolute;" controlheight="0" controlwidth="28" class="gmnoprint"><div title="Rotate map 90 degrees" style="width: 28px; height: 28px; overflow: hidden; position: absolute; border-radius: 2px; box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3); cursor: pointer; background-color: rgb(255, 255, 255); display: none;"><img draggable="false" src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/tmapctrl4.png" style="position: absolute; left: -141px; top: 6px; width: 170px; height: 54px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;"></div><div class="gm-tilt" style="width: 28px; height: 28px; overflow: hidden; position: absolute; border-radius: 2px; box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3); top: 0px; cursor: pointer; background-color: rgb(255, 255, 255);"><img draggable="false" src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/tmapctrl4.png" style="position: absolute; left: -141px; top: -13px; width: 170px; height: 54px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;"></div></div></div><div style="margin: 10px; z-index: 0; position: absolute; cursor: pointer; left: 0px; top: 0px;" class="gmnoprint"><div class="gm-style-mtc" style="float: left;"><div title="Show street map" draggable="false" style="direction: ltr; overflow: hidden; text-align: center; position: relative; color: rgb(0, 0, 0); font-family: Roboto,Arial,sans-serif; -moz-user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 8px; border-bottom-left-radius: 2px; border-top-left-radius: 2px; background-clip: padding-box; box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3); min-width: 20px; font-weight: 500;">Map</div><div style="background-color: white; z-index: -1; padding: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3); position: absolute; left: 0px; top: 33px; text-align: left; display: none;"><div title="Show street map with terrain" draggable="false" style="color: rgb(0, 0, 0); font-family: Roboto,Arial,sans-serif; -moz-user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 6px 8px 6px 6px; direction: ltr; text-align: left; white-space: nowrap;"><span style="box-sizing: border-box; position: relative; line-height: 0; font-size: 0px; margin: 0px 5px 0px 0px; display: inline-block; background-color: rgb(255, 255, 255); border: 1px solid rgb(198, 198, 198); border-radius: 1px; width: 13px; height: 13px; vertical-align: middle;" role="checkbox"><div style="position: absolute; left: 1px; top: -2px; width: 13px; height: 11px; overflow: hidden; display: none;"><img draggable="false" src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/imgs8.png" style="position: absolute; left: -52px; top: -44px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none; width: 68px; height: 67px;"></div></span><label style="vertical-align: middle; cursor: pointer;">Terrain</label></div></div></div><div class="gm-style-mtc" style="float: left;"><div title="Show satellite imagery" draggable="false" style="direction: ltr; overflow: hidden; text-align: center; position: relative; color: rgb(86, 86, 86); font-family: Roboto,Arial,sans-serif; -moz-user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 8px; border-bottom-right-radius: 2px; border-top-right-radius: 2px; background-clip: padding-box; box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3); border-left: 0px none; min-width: 37px;">Satellite</div><div style="background-color: white; z-index: -1; padding: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3); position: absolute; right: 0px; top: 33px; text-align: left; display: none;"><div title="Show imagery with street names" draggable="false" style="color: rgb(0, 0, 0); font-family: Roboto,Arial,sans-serif; -moz-user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 6px 8px 6px 6px; direction: ltr; text-align: left; white-space: nowrap;"><span style="box-sizing: border-box; position: relative; line-height: 0; font-size: 0px; margin: 0px 5px 0px 0px; display: inline-block; background-color: rgb(255, 255, 255); border: 1px solid rgb(198, 198, 198); border-radius: 1px; width: 13px; height: 13px; vertical-align: middle;" role="checkbox"><div style="position: absolute; left: 1px; top: -2px; width: 13px; height: 11px; overflow: hidden;"><img draggable="false" src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/imgs8.png" style="position: absolute; left: -52px; top: -44px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none; width: 68px; height: 67px;"></div></span><label style="vertical-align: middle; cursor: pointer;">Labels</label></div></div></div></div><div style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;"><a title="Click to see this area on Google Maps" href="https://maps.google.com/maps?ll=52.39363,13.13175&amp;z=15&amp;t=m&amp;hl=en-US&amp;gl=US&amp;mapclient=apiv3" target="_blank" style="position: static; overflow: visible; float: none; display: inline;"><div style="width: 66px; height: 26px; cursor: pointer;"><img draggable="false" src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/google4.png" style="position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div></a></div></div></div>
+			</div>
+			</div>
+			<div class="col-md-12">
+				<hr>
+			</div>
+			
+				<div class="col-md-12">
+					<h3>Nearby events:</h3>
+					<div class="container-fluid ne-wrapper">
+						
+							
+
+<div class="col-md-3 col-sm-6 col-xs-12 ne-box"> 
+	<a href="http://events.codeweek.eu/view/3505/schnupperkurs-games-programmieren-mit-python/">
+		<div class="box-inner">
+			
+			<img src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/event_default_picture.png" alt="Schnupperkurs 'Games programmieren mit Python' Image">
+			
+		</div>
+		<div class="ne-description">
+			<h4>Schnupperkurs 'Games programmieren mit Python'</h4>
+			<span>January 1, 2015</span>
+			<p>Für Kinder und Jugendliche wird es immer wichtiger, ein Verständnis ...</p>
+		</div>
+	</a>
+</div>
+
+
+						
+							
+
+<div class="col-md-3 col-sm-6 col-xs-12 ne-box"> 
+	<a href="http://events.codeweek.eu/view/4828/programmier-wettbewerb-ein-scratch-projekt-zum-beratungstag-am-berufskolleg-kohlstrae-in-wuppertal/">
+		<div class="box-inner">
+			
+			<img src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/code2.jpg" alt="Programmier-Wettbewerb &quot;Ein Scratch-Projekt zum Beratungstag am Berufskolleg Kohlstraße in Wuppertal&quot; Image">
+			
+		</div>
+		<div class="ne-description">
+			<h4>Programmier-Wettbewerb "Ein Scratch-Projekt zum Beratungstag am Berufskolleg Kohlstraße in Wuppertal"</h4>
+			<span>September 30, 2015</span>
+			<p>Unser Code-Week-Event richtet sich an Schüler aller Bildungsgänge unserer Schule. ...</p>
+		</div>
+	</a>
+</div>
+
+
+						
+							
+
+<div class="col-md-3 col-sm-6 col-xs-12 ne-box"> 
+	<a href="http://events.codeweek.eu/view/3602/openhpi-fur-schuler-und-erwachsene-programmieren-lernen-in-vier-wochen/">
+		<div class="box-inner">
+			
+			<img src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/LA-openhpiFG8Q8427_resize.jpg" alt="openHPI für Schüler und Erwachsene – Programmieren lernen in vier Wochen Image">
+			
+		</div>
+		<div class="ne-description">
+			<h4>openHPI für Schüler und Erwachsene – Programmieren lernen in vier Wochen</h4>
+			<span>November 9, 2015</span>
+			<p>Die Grundlagen des Programmierens lernen Schüler ab dem 9. November ...</p>
+		</div>
+	</a>
+</div>
+
+
+						
+					</div>
+				</div>
+			
+		</div>
+
+
+	</div>
+
+	
+
+		<!-- Footer -->
+		<footer id="footer" class="dark">
+
+			<!-- Copyrights -->
+			<div id="copyrights">
+
+				<div class="container clearfix">
+
+					<div class="col_half">
+						<img src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/codeweekeu.png" alt="" class="footer-logo" style="width: 250px">
+						A project by the <a href="http://ec.europa.eu/digital-agenda/en/young-advisors">Young Advisors Group</a> at the <a href="http://ec.europa.eu/index_en.htm">European Commission</a>
+
+					</div>
+
+					<div class="col_half col_last tright">
+						<div class="copyrights-menu copyright-links fright clearfix">
+							<a href="http://codeweek.eu/">Home</a>/<a href="http://events.codeweek.eu/">Events</a>/<a href="http://events.codeweek.eu/ambassadors">Ambassadors</a>/<a href="http://codeweek.eu/resources/">Resources</a>/<a href="http://codeweek.eu/about/">About</a>/<a href="http://codeweek.eu/privacy/">Privacy</a>/<a href="http://blog.codeweek.eu/">News</a>
+						</div>
+						<div class="fright clearfix">
+							<a href="https://www.facebook.com/codeEU" class="social-icon si-small si-borderless nobottommargin si-facebook">
+								<i class="icon-facebook"></i>
+								<i class="icon-facebook"></i>
+							</a>
+
+							<a href="https://twitter.com/codeweekEU" class="social-icon si-small si-borderless nobottommargin si-twitter">
+								<i class="icon-twitter"></i>
+								<i class="icon-twitter"></i>
+							</a>
+
+							<a href="https://plus.google.com/+CodeweekEu/" class="social-icon si-small si-borderless nobottommargin si-gplus">
+								<i class="icon-gplus"></i>
+								<i class="icon-gplus"></i>
+							</a>
+
+							<a href="https://github.com/codeeu/codeeu.github.io" class="social-icon si-small si-borderless nobottommargin si-github">
+								<i class="icon-github"></i>
+								<i class="icon-github"></i>
+							</a>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+			<!-- #copyrights end -->
+
+		</footer>
+		<!-- #footer end -->
+
+
+
+
+
+
+	<!-- Scripts -->
+	<script type="text/javascript" src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/jquery.js"></script>
+	<script type="text/javascript" src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/plugins.js"></script>
+    <script type="text/javascript" src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/functions.js"></script>
+	<script type="text/javascript" src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/4ed9097d9207.js"></script>
+
+	
+	
+
+	<script type="text/javascript" src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/js">
+	</script>
+	<script>!function (d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+		if (!d.getElementById(id)) {
+			js = d.createElement(s);
+			js.id = id;
+			js.src = p + '://platform.twitter.com/widgets.js';
+			fjs.parentNode.insertBefore(js, fjs);
+		}
+	}(document, 'script', 'twitter-wjs');</script>
+	<!-- Place this tag in your head or just before your close body tag. -->
+	<script type="text/javascript" src="2015.10.17%20-%20Europe%20Code%20Week%20-%20Coder%20Dojo%20Potsdam%2017.%20Oktober%20%28Germany%29_files/platform.js">
+		{lang: 'en-GB'}
+	</script>
+	<script type="text/javascript">
+
+		function initialize() {
+			//localization fix!
+			var latitude = "52.39362999999999"
+			latitude = latitude.replace(',','.');
+			var longitude = "13.131750000000011"
+			longitude = longitude.replace(',','.');
+
+			var myLatlng = new google.maps.LatLng(latitude, longitude);
+			var mapOptions = {
+				zoom: 15,
+				center: myLatlng
+			};
+			var map = new google.maps.Map(document.getElementById('view-event-map'),
+					mapOptions);
+			var infowindow = new google.maps.InfoWindow({
+				content: "<p><strong>Coder Dojo Potsdam 17. Oktober</strong></p>Prof.-Dr.-Helmert-Straße 2, 14482 Potsdam, Germany"
+			});
+			var marker = new google.maps.Marker({
+				position: myLatlng,
+				animation: google.maps.Animation.DROP,
+				title: "Prof.-Dr.-Helmert-Straße 2, 14482 Potsdam, Germany",
+				zoomControl: true,
+				zoomControlOptions: {
+					style: google.maps.ZoomControlStyle.LARGE
+				}
+			});
+			marker.setMap(map);
+			google.maps.event.addListener(marker, 'click', function () {
+				infowindow.open(map, marker);
+			});
+		}
+		google.maps.event.addDomListener(window, 'load', initialize);
+
+	</script>
+
+
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=1415375708710844";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+	<script type="text/javascript">
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o),
+					m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+		ga('create', 'UA-49168926-1', 'codeweek.eu');
+		ga('require', 'displayfeatures');
+		ga('send', 'pageview');
+	</script>
+	<!-- End Scripts -->
+
+
+</body></html>

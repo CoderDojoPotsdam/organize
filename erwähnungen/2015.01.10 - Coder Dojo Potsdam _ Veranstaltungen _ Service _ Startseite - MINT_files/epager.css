@@ -1,0 +1,372 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+body {
+    line-height: 1;    
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* helper styles */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+.hidden{ display: none;}
+.floatLeft{ float: left;}
+.floatRight{ float: right;}
+.no-overflow{overflow: hidden;}
+
+html, body{
+    height: 100%;
+/*    font-family: 'arial';  */
+}
+
+.scEPagerOverlay{
+    position    : absolute;
+    top         : 0;
+    width       : 100%;  
+    z-index     : 1150; 
+    height      : 100%;
+    font-size   : 16px;
+    padding     : 0;
+}
+
+.scEPagerOverlay aside, .scEPagerOverlay header{
+    background-color: transparent;
+    background-image: none;
+}
+
+.hiddenBlock{
+    visibility: hidden;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#scEPager{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #DDD9D9;    
+}
+
+#scEPager h1, #scEPager h2, #scEPager h3, #scEPager div,#scEPager p{
+    font-family: 'arial';
+}
+
+#scEPager .draggable{
+    cursor: move;
+}
+
+#scEPager .brochurePage{
+    width: 37em; 
+    height: 53em;
+    float: left;
+    overflow: hidden;
+}
+
+#scEPager #pagerHeader{
+    position: absolute;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    z-index: 1100;
+   
+}
+
+/* override bootstrap styles */
+#scEPager #pagerHeader header{
+    min-height: 0;
+    background-color: transparent;
+    background-image: none;
+}
+
+.cssgradients #scEPager #pagerHeader{
+    background: -webkit-gradient(linear,left top,left bottom,from(yellow),to(blue));
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.8), rgba(0, 0,0, 0.6) 100%); 
+    background:    -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0,0, 0.6) 100%); 
+    background:     -ms-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0,0, 0.6) 100%); 
+    background:      -o-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0,0, 0.6) 100%);
+    color: #FFF;
+}
+
+.no-cssgradients #scEPager #pagerHeader{
+    background: transparent url(../images/epager/bg_top.png) repeat-x;
+}
+
+#pagerHeader h1{
+    color: #FFF;
+    margin: 15px  0 0 20px; 
+    font-size: 1.3em;
+    line-height: normal;
+    font-weight: bold;
+}
+
+#brochureTitle, #brochureSubtitle {
+	color: white !important;
+}
+
+#scEPager #pagerHeader #closePager{
+    margin: 8px 10px 0 0;
+}
+
+#scEPager #closePager{
+    background: transparent url(../images/epager/epager.png) no-repeat 0 -150px;
+}
+
+#scEPager a#closePager:focus, #scEPager a#closePager:hover{
+    -webkit-box-shadow: #FFF 0 0 10px;
+    -moz-box-shadow: #FFF 0 0 10px;
+    box-shadow: #FFF 0 0 10px;
+    behavior: url(./styles/PIE.htc);
+}
+
+#scEPager #toolbar{
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    color: #FFF;
+    z-index: 1100;    
+}
+
+#scEPager #toolbar * {
+   color: #fff;
+}
+
+#scEPager #toolbar{
+    background: transparent url(../images/epager/bg_bottom.png) repeat-x;
+}
+
+.cssgradients #scEPager #toolbar{
+    background-color: #000;
+    background: -webkit-gradient(linear,left top,left bottom,from(yellow),to(blue));
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.8), rgba(0, 0,0, 0.6) 100%); 
+    background:    -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0,0, 0.6) 100%); 
+    background:     -ms-linear-gradient(bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0,0, 0.6) 100%); 
+    background:      -o-linear-gradient(bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0,0, 0.6) 100%);
+}
+
+#scEPager #toolbar nav{
+    float: right;
+    margin: 10px 30px 0 0;
+}
+
+#scEPager #toolbar a, #scEPager #pagerHeader .zoomIn, #scEPager #pagerHeader .zoomOut{
+    color: #FFF;
+    display: block;
+    float: left;
+    text-decoration: none;
+    margin: 5px 10px 0 0;
+}
+
+#scEPager #pagerHeader .zoomIn, #scEPager #pagerHeader .zoomOut{
+    float: right;
+}
+
+#scEPager #toolbar a:hover,#scEPager #toolbar a:focus, 
+#scEPager #pagerHeader a.zoomIn:focus, #scEPager #pagerHeader a.zoomIn:hover, 
+#scEPager #pagerHeader a.zoomOut:focus, #scEPager #pagerHeader a.zoomOut:hover{
+    -webkit-box-shadow: #FFF 0 0 10px;
+    -moz-box-shadow: #FFF 0 0 10px;
+    box-shadow: #FFF 0 0 10px;
+    behavior: url(./styles/PIE.htc);
+}
+
+#scEPager #toolbar #downloadBrochure{
+    margin: 0 10px 0 0;
+}
+
+#scEPager #toolbar #contentLink{
+    margin: 0 30px 0 0;
+}
+
+#scEPager #toolbar #pageNumberInfo{
+    margin: 5px 10px 0 0;
+}
+
+#scEPager #toolbar img:hover, #scEPager #closePager img:hover{
+    box-shadow: #FFF 0 0 10px;
+}
+
+#scEPager .template{
+    display: none;
+}
+
+#scEPager #pagecontainer{
+    margin: 0 auto;
+    background-color: #FFF;
+    position: relative;
+    overflow: hidden;
+}
+
+#scEPager .doublePage{
+    width: 74.5em;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #FFF;
+    z-index: 1050;
+}
+
+#pageCache{
+    display: none;
+}
+
+#scEPager .pagewidth{
+    width: 100%; /*37.2em;*/
+}
+
+#scEPager .screenReader{
+    position: absolute;
+    left: -1000px;
+    font-size: 0px;
+    line-height: 0;
+    font-size: 0;
+}
+
+#scEPager .screenReader p{
+    line-height: 0;
+    font-size: 0;
+}
+
+#scEPager #closePager,#scEPager #zoomIn, #scEPager #zoomOut,#scEPager #downloadBrochure, #scEPager #contentLink,
+#scEPager #pagerHeader .zoomIn, #scEPager #pagerHeader .zoomOut{
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+
+#scEPager #zoomIn, #scEPager #pagerHeader .zoomIn{
+   background: transparent url(../images/epager/epager.png) no-repeat 0 -180px;
+}
+
+#scEPager #zoomOut, #scEPager #pagerHeader .zoomOut{
+    background: transparent url(../images/epager/epager.png) no-repeat 0 -210px;
+    visibility: hidden;
+}
+
+#scEPager #contentLink{
+    background: transparent url(../images/epager/epager.png) no-repeat 0 -120px;
+}
+#scEPager #downloadBrochure{
+    background: transparent url(../images/epager/epager.png) no-repeat 0 -240px;
+}
+
+#scEPager #pageBack,#scEPager #pageFirst, #scEPager #pageNext, #scEPager #pageLast{
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+#scEPager #pageFirst{
+    background: transparent url(../images/epager/epager.png) no-repeat 0 -30px;
+}
+
+#scEPager #pageLast{
+    background: transparent url(../images/epager/epager.png) no-repeat 0 -90px;
+}
+
+#scEPager #pageNext{
+    background: transparent url(../images/epager/epager.png) no-repeat 0 -60px;
+}
+
+#scEPager #pageBack{
+    background: transparent url(../images/epager/epager.png) no-repeat 0 0px;
+}
+
+#scEPager .rightPage{
+    margin-left: 2px;
+}

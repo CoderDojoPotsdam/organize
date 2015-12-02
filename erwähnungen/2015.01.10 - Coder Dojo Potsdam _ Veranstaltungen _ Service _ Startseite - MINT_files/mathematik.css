@@ -1,0 +1,2313 @@
+.mathematik article {
+    background-color: #FFF;
+    position: relative;
+}
+
+.mathematik article img.backgroundImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /*37em; */ 
+    z-index: 1020;
+}
+
+.mathematik article{
+    color: #5a5758;
+}
+
+.mathematik article .orange{
+    color: #F46717;
+}
+
+.mathematik article .sup{
+    vertical-align: super;
+    font-size: 0.8em;
+}
+
+.mathematik article .lightBlue{
+    color: #4587ad;
+}
+
+.mathematik article .red{
+    color: #ec038d;
+}
+
+em, .mathematik article .bold{
+    font-weight: bold;
+}
+
+.mathematik header h2{
+    font-weight: normal;
+    color: #a5a3a4;
+    font-size: 1.3em;
+}
+
+.mathematik article p, .mathematik article header, .mathematik article dl, .mathematik article h1,
+.mathematik article h2,.mathematik article h3, .mathematik article ul, .mathematik article aside{
+    position: relative;
+    z-index: 1040;
+}
+
+.mathematik #page1 img.logo{
+    width: 9.3em;
+}
+
+.mathematik #page1 img.aufstieg{
+    width: 6.975em;
+}
+
+/*############################# page 2 ###########################*/
+
+.mathematik #page2{
+    color: #767778;
+}
+
+.mathematik #page2 header{
+    margin: 2em 0 0 2.5em;
+}
+
+.mathematik #page2 header img{
+   width: 33em;
+}
+
+.mathematik #page2 .thanks{   
+    margin: 4.5em 0 0 5em;
+    padding: 2em 1.5em;
+    width: 22em;
+}
+
+.mathematik #page2 .thanks > div{
+    font-size: 0.65em;
+}
+
+.no-borderradius .mathematik #page2 .thanks{
+    
+}
+
+.borderradius .mathematik #page2 .thanks{
+    position: relative;
+    z-index: 1040;
+    background-color: #E1E7E6;
+    -webkit-border-radius: 20px;
+    border-radius: 20px; 
+    
+}
+
+.mathematik #page2 .thanks #promoted{
+    margin: 1em 0 0 8em;
+}
+
+.mathematik #page2 img.backgroundImage{
+    position: absolute;
+    z-index: 1030;
+    width: 20em;
+    top: 20em;
+    left:10em;
+}
+
+.mathematik #page2 #getItFromHere{
+    position: absolute;
+    left: 1em;
+    top: 15.5em;
+    z-index: 1045;
+}
+
+.mathematik #page2 #getItFromHere img{
+     width: 10em;
+}
+
+.mathematik #page2 #impressum{
+    position: relative;
+    z-index: 1050;
+    margin: 1.5em 0 0 15em;
+    
+}
+
+.mathematik #page2 #impressum dl{
+    font-size: 0.65em;
+    
+}
+
+.mathematik #page2 #impressum dt{
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+.mathematik #page2 #imageCredits{
+    margin: 3em 3em 0 4.5em;
+}
+
+.mathematik #page2 #imageCredits h2{
+    font-size: 0.7em;
+    margin-bottom: 1em;
+}
+
+.mathematik #page2 #imageCredits dl{
+    font-size: 0.5em;
+}
+
+.mathematik #page2 #imageCredits dt{
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.mathematik #page2 #imageCredits dd{
+    
+}
+
+.mathematik #page2 #imageCredits dt.inline{
+    float: left;
+    clear: left;
+    margin-top: 0;
+}
+
+.mathematik #page2 #imageCredits dd.inline{
+    float: left;
+}
+
+.mathematik #page2 #edition{
+    background-color: #a5a3a4;
+    color: #FFF;
+    margin: 0.8em 1.2em 0 4.5em;
+    padding: 0.7em 0.8em;
+}
+
+.mathematik #page2 #edition p{
+    font-size: 0.75em;
+    line-height: 1.2em;
+}
+
+/*############################ page 4 ##################################*/
+
+.mathematik #page4{
+    color: #767778;
+}
+
+.mathematik #page4 #letterSchavan{
+    font-size: 0.665em;
+    position: absolute;
+    top: 16em;
+    left: 8.5em;
+    padding-right: 11em;
+    z-index: 1050;
+}
+
+.mathematik #page4 #letterSchavan p{
+    margin-bottom: 1em;
+}
+
+.csstransforms .mathematik #page4 #letterSchavan{
+    -moz-transform:rotate(-7deg);
+    -webkit-transform:rotate(-7deg);
+    -o-transform:rotate(-7deg);
+    -ms-transform:rotate(-7deg);
+    transform:rotate(-7deg);
+}
+
+.csstransforms .mathematik #page4 #signatureSchavan{
+    height: 3em;
+    margin: 1em 0 0 11em;
+}
+
+/*################## page 5 ##########################*/
+
+.mathematik #page5{
+    color: #55619f;
+}
+
+.mathematik #page5 header{
+    padding: 3.5em 2.5em 0 0;
+    text-align: right;
+}
+
+.mathematik #page5 header h1,.mathematik #page5 header h2{
+    font-size: 1.25em;
+}
+
+.mathematik #page5 header h1{
+    font-weight: bold;
+    margin-bottom: 0.6em;
+}
+
+.mathematik #page5 header h2{
+    color: #d2d1d1;
+    font-weight: normal;
+}
+
+.mathematik #page5 p{
+    font-size: 0.65em;
+    margin-bottom: 1em;
+}
+
+.mathematik #page5 #content{
+    margin: 2em 2em 0 14em;
+    text-align: justify;
+}
+
+.mathematik #page5 #content img.signature{
+    position: absolute;
+    top: 45em;
+    left: 24em;
+    width: 10em;
+    z-index: 1080;
+}
+
+.mathematik #page5 #firstP{
+    margin-left: 1.2em;
+}
+
+.mathematik #page5 #secondP{
+    margin-left: 2.5em;
+}
+
+/*########################## page 6 ###############################*/
+.mathematik #page6{
+    font-size: 100%;
+}
+
+.mathematik #page6 header{
+    position: absolute;
+    top: 5em;
+    padding-left: 3.1em;
+}
+
+.mathematik #page6 header h2{    
+    font-size: 1.2em;  
+}
+
+.mathematik #page6 #aboutMath{
+    width: 15em;
+    position:absolute;
+    top: 8em;
+    left: 16.5em;
+}
+
+.mathematik #page6 #aboutMath p{
+    font-size: 0.58em;
+    line-height: 1.2em;
+    text-align: justify;
+    color: #FFF;
+}
+
+.mathematik #page6 #defintionCont{
+    position: absolute;
+    top: 27.5em;
+    padding: 0 2em;
+}
+
+.mathematik #page6 dl{
+    font-size: 0.6em;
+    line-height: 1.2em;
+    color: #518d86;
+}
+
+.mathematik #page6 #content6{
+    padding-left: 2.3em;
+    position: absolute;
+    top: 31.5em;
+}
+
+.mathematik #page6 #content6 h3{
+    color: #f46717;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.mathematik #page6 #content6 > div{
+    float: left;
+    position: relative;
+    left: 2em;
+    font-size: 0.51em;
+    line-height: 1.25em;
+    text-align: justify;
+}
+
+.mathematik #page6 #content6 #block1{
+    width: 20em;
+    position:absolute;
+    left: 4.5em;
+}
+
+.mathematik #page6 #content6 #block2{
+    width: 19em;
+    position: absolute;
+    left: 32em;
+}
+
+.mathematik #page6 #content6 #block3{
+    margin-right: 0;
+    width: 10em;
+    padding-top: 3em;
+    position: absolute;
+    left: 58em;
+}
+
+.mathematik #page6 #moreInfos{
+    position: absolute;
+    top: 47.5em;
+    padding-left: 5.8em;
+}
+
+.mathematik #page6 #moreInfos h1{
+    font-size: 0.65em;
+    color: #f46717;
+}
+
+.mathematik #page6 #moreInfos ul{
+    font-size: 0.55em;
+    list-style-type: none;
+    margin-top: 1em;
+    line-height: 1.3em;
+}
+
+.mathematik #page6 #moreInfos li a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.mathematik #page6 #moreInfos li a:hover, .mathematik #page6 aside li a:focus{
+    text-decoration: underline;
+    list-style-type: circle;
+}
+
+/*######################## page 7 #################################*/
+
+.mathematik #page7 header{
+    position: absolute;
+    top: 15em;
+    padding-left: 15em;
+}
+
+.mathematik #page7 header h1{
+    color: #55619f;
+    font-weight: bold;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.mathematik #page7 h2{
+    position: absolute;
+    top: 20em;
+    left: 5em;
+    width: 14em;
+    -moz-transform:rotate(8deg);
+    -webkit-transform:rotate(8deg);
+    -o-transform:rotate(8deg);
+    -ms-transform:rotate(8deg);
+    transform:rotate(8deg);
+    line-height: 0.6em;
+}
+
+.mathematik #page7 h2 span{
+    font-size: 0.45em;
+    
+    text-transform: uppercase;
+}
+
+.mathematik #page7 #content7{
+    position: absolute;
+    top: 26.7em;
+    padding-left: 6em;
+}
+
+.mathematik #page7 #content7 li{
+    list-style: url(../images/epager/mathematik/7_2.jpg) outside;
+    padding: 0.5em;
+    text-align: justify;
+    width: 28em;
+    color: #5a5758;
+}
+
+.mathematik #page7 #content7 li.topDotted{
+    border-top: 1px dotted #83a6a1;
+}
+
+.mathematik #page7 #content7 li.dotted{
+    border-top: 1px dotted #83a6a1;
+    border-bottom: 1px dotted #83a6a1;
+}
+
+.mathematik #page7 #content7 li p{
+    font-size: 0.55em;
+    line-height: 1.3em;
+}
+
+.mathematik #page7 #content7 #li1{
+    width: 13em;
+}
+
+/*############################# page 8 ###############################*/
+
+.mathematik #page8 header{
+    position: absolute;
+    left: 3.1em;
+    top: 5em;
+    width: 16em;
+}
+
+.mathematik #page8 header h2{  
+    font-size: 1.15em;    
+}
+
+.mathematik #page8 #div1{
+    position: absolute;
+    top: 8.7em;
+    left: 3em;
+    width: 13em;
+}
+
+.mathematik #page8 #div1 p,.mathematik #page8 #div2 p{
+    font-size: 0.56em;
+    color: #FFF;
+    margin-bottom: 1em;
+    text-align: justify;
+    line-height: 1.1em;
+}
+
+.mathematik #page8 #div2{
+    position: absolute;
+    top: 23.5em;
+    left: 3.15em;
+    width: 13em;
+}
+
+.mathematik #page8 #div2 p{
+    color: #f46717;
+}
+
+.mathematik #page8 #div3{
+    position: absolute;
+    top: 23.5em;
+    left: 20em;
+    width: 14em;
+}
+
+.mathematik #page8 #div3 p,.mathematik #page8 #div3 ul{
+    
+    font-size: 0.5em;
+}
+
+.mathematik #page8 #div3 li{
+    list-style: url(../images/epager/mathematik/7_2.jpg) outside;
+    padding: 0.5em;
+    text-align: justify;
+    width: 28em;
+    color: #55619f;
+    vertical-align: middle;
+}
+
+.mathematik #page8 #div3 li.topDotted{
+    border-top: 1px dotted #83a6a1;
+}
+
+.mathematik #page8 #div3 li.dotted{
+    border-top: 1px dotted #83a6a1;
+    border-bottom: 1px dotted #83a6a1;
+}
+
+.mathematik #page8 #div3 li p{
+    font-size: 0.56em;
+    line-height: 1.3em;
+}
+
+.mathematik #page8 #div3 p.last{
+    margin-top: 0.7em;
+}
+
+.mathematik #page8 #div3 p a{
+    color: #8a5eb6;
+    text-decoration: none;
+}
+
+.mathematik #page8 #div4{
+    position: absolute;
+    top: 37em;
+    left: 17em;
+    width: 12em;
+}
+
+.mathematik #page8 #div4 h3, .mathematik #page8 #div4 p{
+    font-size: 0.58em;
+    text-align: justify;
+}
+
+.mathematik #page8 #div4 h3{
+    margin:0 0 1em 1em;
+}
+
+/*########################### page 9 ########################*/
+
+.mathematik #page9 aside{
+    position: absolute;
+    top: 7em;
+    left: 7em;
+    width: 7em;
+}
+
+.mathematik #page9 aside p{
+    font-size: 0.58em;
+    line-height: 1.1em;
+}
+
+.mathematik #page9 header{
+    position: absolute;
+    top: 1.5em;
+    left: 18em;
+    width: 18em;
+    text-align: right;
+}
+
+.mathematik #page9 header h1{
+    color: #55619f;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    font-weight: bolder;
+    line-height: 1.2em;
+}
+
+.mathematik #page9 header h2{
+    font-weight: normal;
+    color: #a5a3a4;
+    font-size: 1.3em;
+}
+
+.mathematik #page9 #div6{
+    position: absolute;
+    left: 18em;
+    top: 7em;
+    width: 18em;
+}
+
+.mathematik #page9 #div6 p{
+    font-size: 0.58em;
+    color: #55619f;
+    text-align: justify;
+    line-height: 1.2em;
+}
+
+.mathematik #page9 #div7{
+    position: absolute;
+    top: 36em;
+    left: 2em;
+    width: 29em;
+}
+
+.mathematik #page9 #div7 li{
+    list-style: url(../images/epager/mathematik/7_2.jpg) outside;
+    padding: 0.5em 1.8em 0.5em 0.5em;
+    text-align: justify;
+    width: 28em;
+    color: #5a5758;
+    border-bottom: 1px dotted #83a6a1;
+    width: 11em;
+    height: 4em;
+}
+
+.mathematik #page9 #div7 li p{
+    font-size: 0.5em;
+    line-height: 1.1em;
+}
+
+.mathematik #page9 #div8{
+    position: absolute;
+    top: 36.5em;
+    left: 29.2em;
+    width: 4.3em;
+}
+
+.mathematik #page9 #div8 p{
+    font-size: 0.5em
+}
+
+.mathematik #page9 #div9{
+    position: absolute;
+    left: 0;
+    top: 47.3em;
+    width: 31em;
+}
+
+.mathematik #page9 #div9 p{
+    font-size: 0.57em;
+    color: #F46717;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.mathematik #page9 #div9 ul{
+    margin-top: 0.6em;
+}
+
+.mathematik #page9 #div9 ul li{
+    text-align: right;
+    list-style-type: none;
+    line-height: 0.8em;
+}
+
+.mathematik #page9 #div9 li a{
+    color: #FFF;
+    font-size: 0.5em;
+    text-decoration: none;
+}
+
+.mathematik #page9 #div9 li a:hover, .mathematik #page9 #div9 li a:focus{
+    text-decoration: underline;
+}
+
+/*########################### page 10 ##############################*/
+
+.mathematik #page10 #div1{
+    position: absolute;
+    top: 7.5em;
+    left: 3em;
+    
+}
+
+.mathematik #page10 #div1 li{
+    list-style: url(../images/epager/mathematik/7_2.jpg) outside;
+    padding: 0.6em;
+    text-align: justify;
+    width: 18em;
+    color: #6c696a;
+    vertical-align: middle;
+}
+
+.mathematik #page10 #div1 li.topDotted{
+    border-top: 1px dotted #83a6a1;
+}
+
+.mathematik #page10 #div1 li.dotted{
+    border-top: 1px dotted #83a6a1;
+    border-bottom: 1px dotted #83a6a1;
+}
+
+.mathematik #page10 #div1 p{
+    font-size: 0.6em;
+    line-height: 1.2em;
+}
+
+.mathematik #page10 #div1 p.question{
+    font-weight: bold;
+    margin-bottom: 0.8em;
+}
+
+.mathematik #page10 aside{
+    position: absolute;
+    top: 23.4em;
+    left: 23.8em;
+    width: 7em;
+}
+
+.mathematik #page10 aside p{
+    color: #FFF;
+    font-size: 0.6em;
+    line-height: 1.2em;
+}
+
+/*######################### page 11 ##########################*/
+
+.mathematik #page11 #div2{
+    position: absolute;
+    top: 13.5em;
+    left: 2em;
+}
+
+.mathematik #page11 #div2 li{
+    list-style: url(../images/epager/mathematik/7_2.jpg) outside;
+    padding: 0.5em;
+    text-align: justify;
+    width: 23.5em;
+    color: #6c696a;
+    vertical-align: middle;
+}
+
+.mathematik #page11 #div2 li.topDotted{
+    border-top: 1px dotted #83a6a1;
+}
+
+.mathematik #page11 #div2 li.dotted{
+    border-top: 1px dotted #83a6a1;
+    border-bottom: 1px dotted #83a6a1;
+}
+
+.mathematik #page11 #div2 p{
+    font-size: 0.6em;
+    line-height: 1.3em;
+}
+
+.mathematik #page11 #div2 p.question{
+    font-weight: bold;
+    margin-bottom: 0.8em;
+}
+
+.mathematik #page11 #aboutRabiya{
+    position: absolute;
+    top: 18.5em;
+    left: 28em;
+    width: 6em;
+}
+
+.mathematik #page11 #aboutRabiya p{
+    font-size: 0.55em;
+    color: #FFF;
+    line-height: 1.2em;
+}
+
+.mathematik #page11 #clickHere{
+    position: absolute;
+    top: 47.5em;
+    width: 32em;
+    left: 0.5em;
+}
+
+.mathematik #page11 #clickHere p{
+    font-size: 0.5em;
+    text-transform: uppercase;
+    color:#F46717;
+    text-align:  right;
+    margin-bottom: 1em;
+}
+
+.mathematik #page11 #clickHere a{
+    text-align: right;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.1em;
+    display: inline-block;
+    padding-right: 3em;
+    text-transform: none;
+}
+
+.mathematik #page11 #clickHere a:hover, .mathematik #page11 #clickHere a:focus{
+    text-decoration: underline;
+}
+
+/*############################ page 12 ########################*/
+
+.mathematik #page12 header{
+    position: absolute;
+    top: 5.2em;
+    left: 3.2em;
+    width: 32em;
+}
+
+.mathematik #page12 header h2{
+    font-weight: normal;
+    color: #a5a3a4;
+    font-size: 1.23em;
+}
+
+.mathematik #page12 #div1{
+    position: absolute;
+    top: 8.5em;
+    left: 3em;
+    width: 10em;
+}
+
+.mathematik #page12 #div1 p{
+    font-size: 0.55em;
+    color: #FFF;
+    line-height: 1.3em;
+}
+
+.mathematik #page12 #div2{
+    position: absolute;
+    top: 10.5em;
+    left: 17em;
+    width: 15em;
+}
+
+.mathematik #page12 #div2 li{
+    list-style: url(../images/epager/mathematik/7_2.jpg) outside;
+    padding: 0.3em;
+    text-align: justify;
+    width: 16em;
+    color: #518d86;
+    vertical-align: middle;
+    border-bottom: 1px dotted #83a6a1;
+}
+
+.mathematik #page12 #div2 li p{
+    font-size: 0.55em;
+    line-height: 1.3em;
+}
+
+.mathematik #page12 #div3{
+    position: absolute;
+    top: 36em;
+    left: 10em;
+    width: 10.3em;
+}
+
+.mathematik #page12 #div4{
+    position: absolute;
+    top: 36.8em;
+    left: 23em;
+    width: 10.3em;
+}
+.mathematik #page12 #div3 p, .mathematik #page12 #div3 h2,.mathematik #page12 #div4 p, .mathematik #page12 #div4 h2{
+    font-size: 0.56em;
+    line-height: 1.2em;
+}
+
+.mathematik #page12 #div3 h2,.mathematik #page12 #div4 h2{
+    margin-bottom: 0.5em;
+}
+
+/*################### page 13 ####################################*/
+.mathematik #page13 #div6, .mathematik #page13 #div7, .mathematik #page13 #div8{
+    position: absolute;
+    left: 23em;
+    width: 10em;
+}
+
+.mathematik #page13 #div6{
+    top: 11em;
+}
+
+.mathematik #page13 #div7{
+    top: 23em;
+}
+
+.mathematik #page13 #div8{
+    top: 35.5em;
+}
+
+.mathematik #page13 div p{
+    font-size: 0.54em;
+    line-height: 1.2em;
+    text-align: justify;
+}
+
+.mathematik #page13 div h2{
+    font-size: 0.55em;
+    margin-bottom: 0.8em;
+    line-height: 1.25em;
+}
+
+.mathematik #page13 aside{
+    position: absolute;
+    top: 48.5em;
+    width: 20em;
+    left: 11em;
+}
+
+.mathematik #page13 aside ul li{
+    text-align: right;
+    list-style-type: none;
+    line-height: 0.7em;
+}
+
+.mathematik #page13 aside ul li a{
+    font-size: 0.6em;
+    color: #FFF;
+    text-decoration: none;
+    
+}
+
+.mathematik #page13 aside ul li a:hover,.mathematik #page13 aside ul li a:focus {
+    text-decoration: underline;
+}
+
+/*################################ page 14 #################################*/
+
+.mathematik #page14 #div0 {
+    left: 2.5em;
+    position: absolute;
+    top: 8.5em;
+    width: 7em;
+}
+
+.mathematik #page14 #div0 p {
+    color: #FFFFFF;
+    font-size: 0.55em;
+    line-height: 1.2em;
+}
+
+.mathematik #page14 #div1{
+    position: absolute;
+    top: 8em;
+    left: 12.6em;
+    width: 23em;
+}
+
+.mathematik #page14 #div1 li{
+    list-style: url(../images/epager/mathematik/7_2.jpg) outside;
+    padding: 0.5em;
+    text-align: justify;
+    width: 22em;
+    color: #6c696a;
+    vertical-align: middle;
+    border-top: 1px dotted #83a6a1;
+}
+
+.mathematik #page14 #div1 li p{
+    font-size: 0.55em;
+    line-height: 1.3em;
+}
+
+.mathematik #page14 #div1 li p.question{
+    margin-bottom: 0.5em;
+}
+
+.mathematik #page14 #div1 li.last{
+    margin-left: 1em;
+}
+
+.mathematik #page14 #clickHere{
+    position: absolute;
+    top: 38.5em;
+    left: 5.4em;
+    width: 3.6em;
+}
+
+.mathematik #page14 #clickHere p{
+    font-size: 0.54em;
+    line-height: 1.2em;
+}
+
+.mathematik #page14 #clickHere p a{
+    color : #5A5758;
+    text-decoration: none;
+}
+
+.mathematik #page14 #clickHere p a:hover, .mathematik #page14 #clickHere p a:focus{
+    text-decoration: underline;
+}
+
+/*######################### page 15 ##################################*/
+.mathematik #page15 header{
+    position: absolute;
+    left: 3em;
+    top: 3em;
+    width: 32em;
+    text-align: right;
+}
+
+.mathematik #page15 header h1{
+    color: #55619f;
+    text-transform: uppercase;
+    font-size: 1.15em;
+    margin-bottom: 0.5em;
+    font-weight: bolder;
+    line-height: 1.2em;
+}
+
+.mathematik #page15 header h2{
+    font-weight: normal;
+    color: #a5a3a4;
+    font-size: 1.2em;
+}
+
+.mathematik #page15 #div6{
+    position: absolute;
+    top: 15.5em;
+    left: 2.5em;
+    width: 7em;
+}
+
+.mathematik #page15 #div6 p{
+    font-size: 0.55em;
+    line-height: 1.2em;
+    color: #FFF;
+}
+
+.mathematik #page15 #div7{
+    position: absolute;
+    left: 12em;
+    top: 12em;
+    width: 23em;
+}
+
+.mathematik #page15 #div7 li{
+    list-style: url(../images/epager/mathematik/7_2.jpg) outside;
+    padding: 0.5em;
+    text-align: justify;
+    width: 22em;
+    color: #6c696a;
+    vertical-align: middle;
+}
+
+.mathematik #page15 #div7 li.topDotted{
+    border-top: 1px dotted #83a6a1;
+}
+
+.mathematik #page15 #div7 li p{
+    font-size: 0.55em;
+    line-height: 1.3em;
+}
+
+.mathematik #page15 #div7 li p.question{
+    margin-bottom: 0.5em;
+}
+
+.mathematik #page15 aside{
+    position: absolute;
+    top: 47.5em;
+    left: 2.4em;
+    width: 34em;
+}
+
+.mathematik #page15 aside p{
+    font-size: 0.55em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+.mathematik #page15 aside p a{
+    color: #FFF;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.mathematik #page15 aside p a:hover, .mathematik #page15 aside p a:focus{
+    text-decoration: underline;
+}
+
+/*########################### page 16 ###############################*/
+
+.mathematik #page16 header{
+    position: absolute;
+    left: 3.2em;
+    top: 5em;
+    width: 30em;
+}
+
+.mathematik #page16 header h2{
+    font-weight: normal;
+    color: #a5a3a4;
+    font-size: 1.2em;
+}
+
+.mathematik #page16 div{
+    position: absolute;
+    width: 13em;
+}
+
+.mathematik #page16 div h3{
+    margin-bottom: 0.3em;
+}
+
+.mathematik #page16 div p, .mathematik #page16 div h3{
+    font-size: 0.56em;
+    line-height: 1.2em;
+}
+
+.mathematik #page16 #div1, .mathematik #page16 #div3{  
+    left: 18em;   
+}
+
+.mathematik #page16 #div1{
+    top: 8em;
+}
+
+.mathematik #page16 #div2{    
+    left: 4em;
+    top: 21.5em;   
+}
+
+.mathematik #page16 #div3{
+    top: 35.6em;
+}
+
+.mathematik #page16 #readingTip{
+    position: absolute;
+    top: 24.4em;
+    left: 20.6em;
+    width: 3.5em;
+}
+
+.mathematik #page16 #readingTip p{
+    font-size: 0.55em;
+    line-height: 1.1em;
+}
+
+/*############################# page 17 ##################################*/
+
+.mathematik #page17 header{
+    position: absolute;
+    top: 2.5em;
+    left: 2em;
+    width: 32em;
+    text-align: right;
+}
+
+.mathematik #page17 header h1{
+    color: #55619f;
+    text-transform: uppercase;
+    font-size: 1.25em;
+}
+
+.mathematik #page17 #div6{
+    position: absolute;
+    top: 24em;
+    left: 18em;
+    width: 13em;
+}
+
+.mathematik #page17 #div6 p{
+    font-size: 0.56em;
+    line-height: 1.25em;
+    color: #FFF;
+    margin-bottom: 1em;
+}
+
+.mathematik #page17 #div6 p a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.mathematik #page17 #div6 p a:hover, .mathematik #page17 #div6 p a:focus{
+    text-decoration: underline;
+}
+
+/*################################ page 18 ##########################*/
+
+.mathematik #page18 header{
+    position: absolute;
+    left: 3.2em;
+    top: 5em;
+    width: 20em;
+}
+
+.mathematik #page18 header h2{
+    font-weight: normal;
+    color: #a5a3a4;
+    font-size: 1.25em;
+}
+
+.mathematik #page18 #div1{
+    position: absolute;
+    top: 7.7em;
+    left: 3.2em;
+    width: 19em;
+}
+
+.mathematik #page18 #div1 p{
+    font-size: 0.56em;
+    line-height: 1.2em;
+    color: #FFF;
+    text-align: justify;
+}
+
+.mathematik #page18 #fermat{
+    position: absolute;
+    top: 19.3em;
+    left: 24em;
+    width: 10em;
+}
+
+.mathematik #page18 #fermat p{
+    font-size: 0.58em;
+    line-height: 1.23em;
+}   
+
+/*###################### page 19 ###############################*/
+
+.mathematik #page19 aside{
+    position: absolute;
+    left: 28em;
+    top: 16em;
+    width: 6.7em;
+}
+
+.mathematik #page19 aside p{
+    font-size: 0.6em;
+    line-height: 1.25em;
+    color: #FFF;
+}
+
+.mathematik #page19 #div6{
+    position: absolute;
+    left: 3em;
+    top: 16em;
+    width: 23em;
+}
+
+.mathematik #page19 #div6 li{
+    list-style: url(../images/epager/mathematik/7_2.jpg) outside;
+    padding: 0.5em;
+    text-align: justify;
+    width: 23em;
+    color: #6c696a;
+    vertical-align: middle;
+     border-top: 1px dotted #83a6a1;
+}
+
+.mathematik #page19 #div6 li p{
+    font-size: 0.6em;
+    line-height: 1.3em;
+}
+
+.mathematik #page19 #div6 li p.question{
+    margin-bottom: 0.5em;
+}
+
+/*######################### page 20 ###############################*/
+.mathematik #page20 header{
+    position: absolute;
+    top: 5em;
+    left: 3.2em;
+    width: 30em;
+}
+
+.mathematik #page20 header h2{
+    font-weight: normal;
+    color: #a5a3a4;
+    font-size: 1.25em;
+}
+
+.mathematik #page20 #div1{
+    position: absolute;
+    left: 2.6em;
+    top: 8.2em;
+    width: 8.3em;
+}
+
+.mathematik #page20 #div1 p{
+    font-size: 0.55em;
+    line-height: 1.12em;
+    color: #FFF;
+    margin-bottom: 1.5em;
+    text-align: justify;
+}
+
+.mathematik #page20 #div1 p.last{
+    margin-top: 17em;
+}
+
+.mathematik #page20 #div2{
+    position: absolute;
+    top: 29em;
+    left: 13.5em;
+    width:22.5em;
+}
+
+.mathematik #page20 #div2 li{
+    list-style: url(../images/epager/mathematik/7_2.jpg) outside;
+    padding: 0.5em;
+    text-align: justify;
+    width: 21.5em;
+    color: #6c696a;
+    vertical-align: middle;
+     border-top: 1px dotted #83a6a1;
+}
+
+.mathematik #page20 #div2 li p{
+    font-size: 0.6em;
+    line-height: 1.3em;
+}
+
+.mathematik #page20 #div2 li p#firstP{
+    padding-left: 3em;
+}
+
+.mathematik #page20 #div2 li p.question{
+    margin-bottom: 0.5em;
+}
+
+/*######################## page 21 ####################*/
+
+.mathematik #page21 #div6{
+    position: absolute;
+    top: 35em;
+    left: 3em;
+    width: 28em;
+}
+
+.mathematik #page21 #div6 li{
+    list-style: url(../images/epager/mathematik/7_2.jpg) outside;
+    padding: 0.5em;
+    text-align: justify;
+    width: 21.5em;
+    color: #6c696a;
+    vertical-align: middle;
+     border-top: 1px dotted #83a6a1;
+}
+
+.mathematik #page21 #div6 li p{
+    font-size: 0.6em;
+    line-height: 1.3em;
+}
+
+.mathematik #page21 #div6 li p.question{
+    margin-bottom: 0.5em;
+}
+
+.mathematik #page21 aside{
+    position: absolute;
+    top: 35em;
+    left: 28em;
+    width: 6.5em;
+}
+
+.mathematik #page21 aside p{
+    font-size: 0.6em;
+    line-height: 1.2em;
+    color: #FFF;
+}
+
+/*####################### page 22 ####################*/
+
+.mathematik #page22 header{
+    position: absolute;
+    top: 5em;
+    left: 3em;
+    width: 25em;
+}
+
+
+
+.mathematik #page22 #div1{
+    position: absolute;
+    top: 8.5em;
+    left: 3em;
+    width: 12.8em;
+}
+.mathematik #page22 #div1 p{
+    font-size: 0.58em;
+    line-height: 1.26em;
+    color: #FFF;
+    text-align: justify;
+}
+
+/*############################### page 23 #####################*/
+
+.mathematik #page23 aside{
+    position: absolute;
+    top: 15.8em;
+    left: 2.7em;
+    width: 6.6em;
+}
+
+.mathematik #page23 aside p{
+    font-size: 0.56em;
+    color: #FFF;
+    line-height: 1.2em;
+}
+
+.mathematik #page23 #div6{
+    position: absolute;
+    top: 2em;
+    left: 12em;
+    width: 24em;
+}
+
+.mathematik #page23 #div6 li{
+    list-style: url(../images/epager/mathematik/7_2.jpg) outside;
+    padding: 0.5em;
+    text-align: justify;
+    width: 22.5em;
+    color: #6c696a;
+    vertical-align: middle;
+    border-top: 1px dotted #83a6a1;
+}
+
+.mathematik #page23 #div6 li p{
+    font-size: 0.6em;
+    line-height: 1.3em;
+}
+
+.mathematik #page23 #div6 li.second{
+    margin-left: 3.5em;
+    width: 19em;
+}
+
+.mathematik #page23 #div6 li p.question{
+    margin-bottom: 0.5em;
+}
+
+/*##################### page 24 #####################*/
+
+.mathematik #page24 aside{
+    position: absolute;
+    top: 37.8em;
+    left: 3.6em;
+    width: 7em;
+}
+
+.mathematik #page24 aside p{
+    font-size: 0.58em;
+    line-height: 1.2em;
+    color: #FFF;
+}
+
+.mathematik #page24 #div1{
+    position: absolute;
+    top: 21.8em;
+    left: 16em;
+    width: 20em;
+}
+
+.mathematik #page24 #div1 p{
+    font-size: 0.6em;
+    line-height: 1.2em;
+    color: #FFF;
+    text-align: justify;
+}
+
+.mathematik #page24 #div2{
+    position: absolute;
+    top: 31em;
+    left: 14em;
+    width: 22em;
+}
+
+.mathematik #page24 #div2 li{
+    list-style: url(../images/epager/mathematik/7_2.jpg) outside;
+    padding: 0.5em;
+    text-align: justify;
+    width: 21em;
+    color: #6c696a;
+    vertical-align: middle;
+    border-top: 1px dotted #83a6a1;
+}
+
+.mathematik #page24 #div2 li p{
+    font-size: 0.61em;
+    line-height: 1.25em;
+}
+
+.mathematik #page25 #div7 li p.question, .mathematik #page24 #div2 li p.question{
+    margin-bottom: 0.7em
+}
+
+/*####################### page 25 ######################*/
+
+.mathematik #page25 #div6{
+    position: absolute;
+    top: 21.8em;
+    left: 1em;
+    width: 19.5em;
+}
+
+.mathematik #page25 #div6 p{
+    font-size: 0.6em;
+    line-height: 1.2em;
+    color: #FFF;
+    text-align: justify;
+}
+
+.mathematik #page25 #div7{
+    position: absolute;
+    top: 31em;
+    left: 2.5em;
+    width: 32em;
+}
+
+.mathematik #page25 #div7 li{
+    list-style: url(../images/epager/mathematik/7_2.jpg) outside;
+    padding: 0.5em;
+    text-align: justify;
+    width: 30em;
+    color: #6c696a;
+    vertical-align: middle;
+    border-top: 1px dotted #83a6a1;
+}
+
+.mathematik #page25 #div7 li p{
+    font-size: 0.61em;
+    line-height: 1.25em;
+}
+
+/*################### page 26 ##########################*/
+
+.mathematik #page26 header{
+    position: absolute;
+    top: 5em;
+    left: 3em;
+}
+
+.mathematik #page26 aside{
+    position: absolute;
+    top: 15.8em;
+    left: 27em;
+    width: 8em;
+}
+
+.mathematik #page26 aside p{
+    font-size: 0.56em;
+    line-height: 1.2em;
+    text-align: justify;
+}
+
+.mathematik #page26 #div1{
+    position: absolute;
+    top: 9em;
+    left: 12em;
+    width: 22em;
+}
+
+.mathematik #page26 #div1 p{
+    font-size: 0.52em;
+    line-height: 1.22em;
+    color: #FFF;
+    text-align: justify;
+}
+.mathematik #page26 #div1 p.second{
+    padding: 0 17em 0 7em;
+}
+
+.mathematik #page26 #div2{
+    position: absolute;
+    left: 12.8em;
+    top: 31.8em;
+    width: 11.6em;
+}
+
+.mathematik #page26 #div2 p, .mathematik #page26 #div2 h2{
+    font-size: 0.56em;
+    line-height: 1.2em;
+    text-align: justify;
+}
+
+.mathematik #page26 #div2 p a{
+    color: #5A5758;
+    text-decoration: none;
+}
+
+.mathematik #page26 #div2 p a:hover, .mathematik #page26 #div2 p a:focus{
+    text-decoration: underline;
+}
+
+/*###################### page 27 ######################*/
+
+.mathematik #page27 aside{
+    position: absolute;
+    top: 20.5em;
+    left: 2.6em;
+    width: 6.7em;
+}
+
+.mathematik #page27 aside p{
+    color: #FFF;
+    font-size: 0.56em;
+    line-height: 1.2em;
+}
+
+.mathematik #page27 #div6{
+    position: absolute;
+    top: 18em;
+    left: 12em;
+    width: 25em;
+}
+
+.mathematik #page27 #div6 li{
+    list-style: url(../images/epager/mathematik/7_2.jpg) outside;
+    padding: 0.5em;
+    text-align: justify;
+    width: 23em;
+    color: #6c696a;
+    vertical-align: middle;
+    border-top: 1px dotted #83a6a1;
+}
+
+.mathematik #page27 #div6 li p{
+    font-size: 0.61em;
+    line-height: 1.25em;
+}
+
+.mathematik #page27 #div6 li p.question{
+    margin-bottom: 0.7em
+}
+
+/*################## page 28 #####################*/
+
+.mathematik #page28 header{
+    position: absolute;
+    top: 5em;
+    left: 3.2em;
+    width: 20em;
+}
+
+.mathematik #page28 aside{
+    position: absolute;
+    left: 2.6em;
+    top: 34.5em;
+    width: 6.5em;
+}
+
+.mathematik #page28 aside p{
+    font-size: 0.65em;
+    line-height: 1.3m;
+    color: #FFF;
+}
+
+.mathematik #page28 #div1{
+    position: absolute;
+    left: 12em;
+    top: 28.5em;
+    width: 24em;
+}
+
+.mathematik #page28 #div1 li, .mathematik #page29 #div6 li{
+    list-style: url(../images/epager/mathematik/7_2.jpg) outside;
+    padding: 0.5em;
+    text-align: justify;
+    width: 23em;
+    color: #6c696a;
+    vertical-align: middle;
+    border-top: 1px dotted #83a6a1;
+}
+
+.mathematik #page28 #div1 li p, .mathematik #page29 #div6 p{
+    font-size: 0.6em;
+    line-height: 1.25em;
+}
+
+.mathematik #page28 #div1 li p.question, .mathematik #page29 #div6 li p.question{
+    margin-bottom: 0.7em
+}
+
+/*################### page 29 ##################*/
+
+.mathematik #page29 #div6{
+    position: absolute;
+    left: 2em;
+    top: 28.5em;
+    width: 24em;
+}
+
+.mathematik #page29 #div7{
+    position: absolute;
+    left: 5em;
+    top: 8.5em;
+    width: 12.5em;
+}
+
+.mathematik #page29 #div7 p{
+    font-size: 0.6em;
+    line-height: 1.3em;
+    color: #FFF;
+    text-align: justify;
+}
+
+.mathematik #page29 #div8{
+    position: absolute;
+    left: 23.2em;
+    top: 4em;
+    width: 8.7em;
+}
+
+.mathematik #page29 #div8 p{
+    font-size: 0.54em;
+    line-height: 1.1em;
+    text-align: justify;
+}
+
+.mathematik #page29 #div9{
+    position: absolute;
+    left: 28.5em;
+    top: 15.5em;
+    width: 5.9em;
+}
+
+.mathematik #page29 #div9 p{
+    line-height: 1.1em;
+    font-size: 0.54em;
+    text-align: justify;
+}
+
+.mathematik #page29 #clickHere{
+    position: absolute;
+    left: 1em;
+    top: 47.5em;
+    width: 30em;
+}
+
+.mathematik #page29 #clickHere p{
+    font-size: 0.48em;
+}
+
+.mathematik #page29 #clickHere p.orange{
+    margin-bottom: 1.5em;
+    text-transform: uppercase;
+}
+
+.mathematik #page29 #clickHere p a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.mathematik #page29 #clickHere p a:hover,.mathematik #page29 #clickHere p a:focus{
+    text-decoration: underline;
+}
+
+/*######################## page 30 ################*/
+
+.mathematik #page30 header{
+    position: absolute;
+    left:3.2em;
+    top: 5em;
+    width: 15em;
+}
+
+.mathematik #page30 #div1{
+    position: absolute;
+    left: 4em;
+    top: 27em;
+    width: 20em;
+}
+
+.mathematik #page30 #div1 p{
+    font-size: 0.6em;
+    line-height: 1.25em;
+    color: #FFF;
+}
+
+.mathematik #page30 #div2{
+    position: absolute;
+    left: 5em;
+    top: 34.5em;
+    width: 28em;
+}
+
+.mathematik #page30 #div2 p{
+    font-size: 0.56em;
+    line-height: 1.2em;
+    text-align: justify;
+}
+
+/*##################### page 31 #####################*/
+
+.mathematik #page31 aside{
+    position: absolute;
+    left: 27.8em;
+    top: 19em;
+    width: 7em;
+}
+
+.mathematik #page31 aside p{
+    font-size: 0.56em;
+    line-height: 1.2em;
+    color: #FFF;
+}
+
+.mathematik #page31 #div6{
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    width: 23em;
+}
+
+.mathematik #page31 #div6 li{
+    list-style: url(../images/epager/mathematik/7_2.jpg) outside;
+    padding: 0.5em;
+    text-align: justify;
+    width: 22em;
+    color: #6c696a;
+    vertical-align: middle;
+    border-top: 1px dotted #83a6a1;
+}
+
+.mathematik #page31 #div6 li p{
+    font-size: 0.6em;
+    line-height: 1.25em;
+}
+
+.mathematik #page31 #div6 li p.question{
+    margin-bottom: 0.7em
+}
+
+/*#################### page 32 ###################*/
+
+.mathematik #page32 header{
+    position: absolute;
+    left: 3.2em;
+    top: 5em;
+    width: 20em;
+}
+
+.mathematik #page32 #div1{
+    position: absolute;
+    left: 5.8em;
+    top: 30.5em;
+    width: 17.5em;
+}
+
+.mathematik #page32 #div1 p{
+    font-size: 0.56em;
+    line-height: 1.25em;
+    text-align: justify;
+    color: #FFF;
+    margin-bottom: 0.6em;
+}
+
+/*########################## page 33 ####################*/
+
+.mathematik #page33 aside{
+    position: absolute;
+    left: 2.6em;
+    top: 17.7em;
+    width: 6.5em;
+}
+
+.mathematik #page33 aside p{
+    font-size: 0.56em;
+    line-height: 1.2em;
+    color: #FFF;
+}
+
+.mathematik #page33 #div6{
+    position: absolute;
+    left: 12em;
+    top: 8em;
+    width: 25em;
+}
+
+.mathematik #page33 #div6 li{
+    list-style: url(../images/epager/mathematik/7_2.jpg) outside;
+    padding: 0.5em;
+    text-align: justify;
+    width: 22em;
+    color: #6c696a;
+    vertical-align: middle;
+    border-top: 1px dotted #83a6a1;
+}
+
+.mathematik #page33 #div6 li p{
+    font-size: 0.6em;
+    line-height: 1.25em;
+}
+
+.mathematik #page33 #div6 li p.question{
+    margin-bottom: 0.7em
+}
+
+.mathematik #page33 #div6 li.first{
+    border: none;
+    margin-left: 2em;
+    width: 20em;
+}
+
+.mathematik #page33 #clickHere{
+    position: absolute;
+    left: 1.5em;
+    top: 47.2em;
+    width: 30em;
+}
+
+.mathematik #page33 aside#clickHere p.orange{
+    color: #F46717;
+    text-transform: uppercase;
+    font-size: 0.6em;
+    margin-bottom: 1em;
+}
+
+.mathematik #page33 aside#clickHere p a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.mathematik #page33 aside#clickHere p a:hover, .mathematik #page33 #clickHere p a:focus{
+    text-decoration: underline;
+}
+
+/*####################### page 34 ##############################*/
+
+.mathematik #page34 header{
+    position: absolute;
+    left: 3.2em;
+    top: 5em;
+    width: 29em;
+}
+
+.mathematik #page34 #div1{
+    position: absolute;
+    left: 15em;
+    top: 9em;
+    width: 19em;
+}
+
+.mathematik #page34 #div1 p{
+    font-size: 0.56em;
+    line-height: 1.2em;
+    color: #FFF;
+}
+
+.mathematik #page34 #div1 p.second{
+    width:22em;
+}
+
+.mathematik #page34 aside{
+    position: absolute;
+    left: 2.8em;
+    top: 28em;
+    width: 6.8em;
+}
+
+.mathematik #page34 aside p{
+    font-size: 0.56em;
+    line-height: 1.2em;
+    color: #FFF;
+}
+
+.mathematik #page34 #div2{
+    position: absolute;
+    left: 12.5em;
+    top: 20.2em;
+    width: 23em;
+}
+
+.mathematik #page34 #div2 li{
+    list-style: url(../images/epager/mathematik/7_2.jpg) outside;
+    padding: 0.5em;
+    text-align: justify;
+    width: 23em;
+    color: #6c696a;
+    vertical-align: middle;
+    border-top: 1px dotted #83a6a1;
+}
+
+.mathematik #page34 #div2 li p{
+    font-size: 0.55em;
+    line-height: 1.25em;
+}
+
+.mathematik #page34 #div2 li p.question{
+    margin-bottom: 0.7em
+}
+
+.mathematik #page34 #div2 li.first{
+    border-top: none;
+}
+
+.mathematik #page34 #div2 li.first p.firstP{
+    width: 18em;
+}
+
+.mathematik #page34 #div2 li.first p.secondP{
+    width: 30em;
+}
+
+.mathematik #page34 #div2 li.second p.firstP{
+    margin-left: 4em;   
+}
+
+.mathematik #page34 #div2 li.third{
+    margin-left: 5.5em;
+     width: 17.5em;
+}
+
+/*#################### page 35 #####################*/
+
+.mathematik #page35 aside{
+    position: absolute;
+    left: 27.4em;
+    top: 18em;
+    width: 6.9em;
+}
+
+.mathematik #page35 aside p{
+    font-size: 0.56em;
+    line-height: 1.2em;
+    color: #FFF;
+}
+
+.mathematik #page35 #div6{
+    position: absolute;
+    left: 2em;
+    top: 11.4em;
+    width: 24em;
+}
+
+.mathematik #page35 #div6 li{
+    list-style: url(../images/epager/mathematik/7_2.jpg) outside;
+    padding: 0.5em;
+    text-align: justify;
+    width: 23em;
+    color: #6c696a;
+    vertical-align: middle;
+    border-top: 1px dotted #83a6a1;
+}
+
+.mathematik #page35 #div6 li p{
+    font-size: 0.58em;
+    line-height: 1.25em;
+}
+
+.mathematik #page35 #div6 li p.question{
+    margin-bottom: 0.7em
+}
+
+.mathematik #page35 #div6 li.first{
+    border-top: none;
+}
+
+/*######################## page 36 #####################*/
+
+.mathematik #page36 header{
+    position: absolute;
+    top: 5em;
+    left: 3.2em;
+    width: 20em;
+}
+
+.mathematik #page36 #div1{
+    position: absolute;
+    left: 2.5em;
+    top: 9.5em;
+    width: 11.5em;
+}
+
+.mathematik #page36 #div1 p{
+    font-size: 0.56em;
+    line-height: 1.2em;
+    color: #FFF;
+    text-align: justify;
+    margin-bottom: 0.8em;
+}
+
+.mathematik #page36 #div1 p a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.mathematik #page36 #div1 p a:hover,.mathematik #page36 #div1 p a:focus{
+    text-decoration: underline;
+}
+
+.mathematik #page36 #div2,.mathematik #page36 #div3, .mathematik #page36 #div4{
+    position: absolute;
+    left: 16.5em;
+}
+
+.mathematik #page36 #div2{
+    top: 10em;
+    width: 7.5em;
+}
+
+.mathematik #page36 #div3{
+    top: 21em;
+    width: 7em;
+}
+
+.mathematik #page36 #div4{
+    top: 34.5em;
+    width: 8.5em;
+}
+
+.mathematik #page36 #div2 p,.mathematik #page36 #div3 p, .mathematik #page36 #div4 p{
+    font-size: 0.56em;
+    line-height: 1.2em;
+    text-align: justify;
+}
+
+.mathematik #page36 #div2 p a{
+    color: #e659b4;
+    text-decoration: none;
+}
+
+.mathematik #page36 #div3 p a{
+    color: #9a9f05;
+    text-decoration: none;
+}
+
+.mathematik #page36 #div4 p a{
+    color: #3354a8;
+    text-decoration: none;
+}
+
+.mathematik #page36 #div5,.mathematik #page36 #div6, .mathematik #page36 #div7{
+    position: absolute;
+    left: 27.2em;
+    width: 8em;
+}
+
+.mathematik #page36 #div5{
+    left: 27.6em;
+}
+
+.mathematik #page36 #div5{
+    top: 14em;
+}
+
+.mathematik #page36 #div6{
+    top: 25.5em;
+}
+
+.mathematik #page36 #div7{
+    top: 35em;
+}
+
+.mathematik #page36 #div5 p,.mathematik #page36 #div6 p, .mathematik #page36 #div7 p{
+    font-size: 0.56em;
+    line-height: 1.2em;
+}
+
+.mathematik #page36 #div5 p a{
+    text-decoration: none;
+    color: #c22319;
+}
+
+.mathematik #page36 #div6 p a{
+    text-decoration: none;
+    color: #7b317e;
+}
+
+.mathematik #page36 #div7 p a{
+    text-decoration: none;
+    color: #e48726;
+}
+
+.mathematik #page36 #div2 p a:hover, .mathematik #page36 #div2 p a:focus,
+.mathematik #page36 #div3 p a:hover, .mathematik #page36 #div3 p a:focus,
+.mathematik #page36 #div4 p a:hover, .mathematik #page36 #div4 p a:focus,
+.mathematik #page36 #div5 p a:hover, .mathematik #page36 #div5 p a:focus,
+.mathematik #page36 #div6 p a:hover, .mathematik #page36 #div6 p a:focus,
+.mathematik #page36 #div7 p a:hover, .mathematik #page36 #div7 p a:focus{
+    text-decoration: underline;
+}
+
+.mathematik #page37 header{
+    position: absolute;
+    top: 2em;
+    left: 29em;
+/*    width: 10em;*/
+}
+
+.mathematik #page37 #div8{
+    position: absolute;
+    left: 24em;
+    width: 12em;
+    top: 10em;
+}
+
+.mathematik #page37 #div8 p{
+    color: #f360b8;
+    font-size: 0.6em;
+    line-height: 1.25em;
+    margin-bottom: 1.3em;
+    text-align: justify;
+}
+
+.mathematik #page37 #div8 p a{
+    color: #f360b8;
+    text-decoration: none;
+}
+
+.mathematik #page37 #div8 p a:hover,.mathematik #page37 #div8 p a:focus{
+    text-decoration: underline;
+}
+
+/*######################### page 38 ###################*/
+.mathematik #page38 header{
+    position: absolute;
+    top: 5em;
+    left: 3.2em;
+}
+
+.mathematik #page38 #div1,.mathematik #page38 #div2,.mathematik #page38 #div3{
+    position: absolute;
+    top: 12.2em;
+    color: #FFF;
+    width: 9.7em;
+}
+
+.mathematik #page38 #div1 a,.mathematik #page38 #div2 a,.mathematik #page38 #div3 a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.mathematik #page38 h3{
+    margin-bottom: 0.4em;
+    border-bottom: 1px dotted #FFF;
+    font-size: 0.56em;   
+}
+
+.mathematik #page38 h3 a{
+    display: inline-block;
+    padding-bottom: 0.4em;
+}
+
+.mathematik #page38 #div1 p,.mathematik #page38 #div2 p,.mathematik #page38 #div3 p{
+    margin-bottom: 1em;
+    font-size: 0.54em;
+    line-height: 1.2em;
+}
+
+.mathematik #page38 #div1{
+    left: 3.2em;
+}
+
+.mathematik #page38 #div2{
+    left: 13.6em;    
+}
+
+.mathematik #page38 #div3{
+    left: 24.1em;
+}
+
+.mathematik #page38 #div4{
+    position: absolute;
+    left: 5em;
+    top: 39.5em;
+    width: 11em;
+}
+
+.mathematik #page38 #div4 p{
+    font-size: 0.6em;
+    line-height: 1.25em;
+}
+
+.mathematik #page38 #div5{
+    position: absolute;
+    top: 46em;
+    left: 7em;
+    width: 29em;
+}
+
+.mathematik #page38 #div5 p{
+    font-size: 0.54em;
+    line-height: 1.2em;
+    -moz-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    -o-transform:rotate(-7deg);
+    -ms-transform:rotate(-7deg);
+    transform:rotate(180deg);
+}
+
+/*################### page 39 ##################*/
+
+.mathematik #page39 #div6, .mathematik #page39 #div7, .mathematik #page39 #div8{
+    position: absolute;
+    top: 12.3em;
+    width: 9em;
+}
+
+.mathematik #page39 #div6{
+    left: 3.3em;
+}
+
+.mathematik #page39 #div7{
+    left: 13.8em;
+}
+
+.mathematik #page39 #div8{
+    left: 24em;
+    width: 9.8em;
+}
+
+.mathematik #page39 h3{
+    margin-bottom: 0.4em;
+    border-bottom: 1px dotted #FFF;
+    font-size: 0.56em;   
+}
+
+.mathematik #page39 #div6 h3, .mathematik #page39 #div7 h3, .mathematik #page39 #div8 h3{
+    font-size: 0.56em;
+}
+
+.mathematik #page39 h3 a{
+    display: inline-block;
+    padding-bottom: 0.4em;
+    color: #FFF;    
+    text-decoration: none;
+}
+
+.mathematik #page39 p{
+    font-size: 0.55em;
+    line-height: 1.2em;
+    color: #FFF;
+    margin-bottom: 0.4em;
+}

@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+/*
+.default #col1 { float: left; width: 25%;  margin:0; }
+.default #col2 { float: right; width: 25%;  margin:0; }
+.default #col3 { width: auto; margin: 0 31.2% 0 0; background-color: #fff; }
+.default #col1_content { padding: 0 10px 0 20px }
+.default #col2_content { padding: 0 20px 0 10px }
+.default #col3_content { padding: 0 }
+.default #col2_bg { margin-left: 25%; }
+*/
+.default #col1 { float: left; width: 25%;  margin: 0; }
+.default #col2 { float: right; width: 25%;  margin: 0; }
+.default #col3 { float: left; width: 50%; margin: 0; }
+.default #col1_content { padding: 0 10px 0 20px }
+.default #col2_content { padding: 0 20px 0 10px }
+.default #col3_content { padding: 0 }
+
+.layout-breit #col3 { float: left; width: 75%; margin: 0; }
+
+/* content area */	
+#main {
+	margin: 6px 0 0 0;
+	margin: 11px 0 0 0;
+}
+#footer {
+	padding-top: 1px;
+}
+
+
+a {
+	color: #002D5A;
+	text-decoration: none;
+}
+a:hover,
+a:focus {
+	text-decoration: underline;
+}
+
+/*
+.default #col3 { padding: 0 15px; }	
+.default #col3 { 
+	margin: 0 33.35% 0 0;
+	padding: 0; 
+}
+*/
+.default #col3_content {
+	color: #000;
+	}
+´/*
+.default #col3_content h1 {
+}
+.default #col3_content h2 {
+	color: #002D5A;
+	font-size: 1.4em;
+	font-weight: normal;
+	margin: 0 0 20px 0;
+	padding: 0; 
+	}
+.default #col3_content h3 {
+	color: #333;
+	font-family: verdana, Sans-serif;
+	font-size: 1em;
+	margin:1.7em 0pt 1em;
+	padding:0pt 0pt 6px;	
+}
+*/
+.default #col3_content p,
+.default #col3_content ul li,
+.default #col3_content ol li {
+	line-height: 1.417em;
+    margin-bottom: 0.34em;
+	margin-top: 0.34em;
+	}
+#breadcrumb p,
+#breadcrumb ul li,
+#footer,
+p.image_subline,
+.default #col3_content p.back_link {
+	font-size: 0.9em;
+	line-height: 1.4em;
+	}
+.default #col3_content hr {
+        background-color: #999;
+        border: medium none;
+        color: #999;
+        height: 1px;
+        line-height: 1px;
+        margin: 0.5em 0pt;
+        padding: 0pt;
+        }
+.default #col3_content sub {
+        font-size: 0.8em;
+        }
+        
+        
+		/* Safari hack for correct width of textareas */
+body:first-of-type .default .contact textarea { 
+        width: 25.5em;
+}
+ 
+ 
+#nav {
+	padding-left: 51px;
+}
+#main,
+#footer {
+	padding-right: 25px;
+	padding-left: 51px;
+}
+.default #col1_content {
+	padding-left: 0;
+}
+.default #col2_content {
+	padding-right: 0;
+}

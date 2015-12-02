@@ -1,0 +1,2942 @@
+.energie article {
+    background-color: #FFF;
+    position: relative;
+}
+
+.energie article img.backgroundImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1020;
+}
+
+.energie strong, .energie em, .energie article .bold{
+    font-weight: bold;
+}
+
+.energie .sup{
+    vertical-align: super;
+}
+
+.energie .sub{
+    vertical-align: sub;
+}
+/*.energie article p, .energie article header, .energie article dl, .energie article h1,
+.energie article h2,.energie article h3, .energie article ul, .energie article aside{
+    position: relative;
+    z-index: 1080;
+}*/
+
+.energie article > div, .energie article header, .energie article aside, .energie article > nav, cite{
+    position: absolute;
+    z-index: 1080;
+}
+
+.energie a{
+    text-decoration: none;
+}
+
+.energie a:hover, .energie a:focus{
+    text-decoration: underline;
+}
+
+.energie address{
+    font-style: normal;
+}
+
+.energie article header{
+    top: 2.4em;
+}
+
+.energie article header h1{
+    color: #FFF;
+    text-shadow: 0 0 3px;
+    font-size: 1.3em;
+    font-weight: normal;   
+    text-transform: uppercase;
+}
+
+.energie article .textRight{
+    text-align: right;
+}
+
+.energie article .textCenter{
+    text-align: center;
+}
+
+.energie article .textJustify{
+    text-align: justify;
+}
+
+.energie article .yellow{    
+    color: #fff200;
+}
+
+/*############### page 2######################*/
+
+.energie #page2 #div1{
+    color: #e532a2;
+    -moz-transform:rotate(-4deg);
+    -webkit-transform:rotate(-4deg);
+    -o-transform:rotate(-4deg);
+    -ms-transform:rotate(-4deg);
+    transform:rotate(-4deg);
+}
+
+
+.energie #page2 #div1 p, .energie #page2 #div1 h2, .energie #page2 #div1 h3, .energie #page2 #div1 address{
+    font-size: 0.58em;
+    line-height: 1.4em;
+    font-weight: normal;
+}
+
+.energie #page2 #div1{
+    top: 7em;
+    left: 7em;
+    width: 15em;
+}
+
+.energie #page2 #div1 p{
+    margin-bottom: 0.3em;
+}
+
+.energie #page2 #div1 h3{
+    font-weight: bolder;
+    margin: 0.8em 0 0.3em 0;
+}
+
+.energie #page2 #div1 h2{
+    margin-bottom: 1em;
+}
+
+.energie #page2 #div1 address a{
+    color: #e532a2;
+    text-decoration: none;
+}
+
+.energie #page2 #div2{
+    top: 35.6em;
+    left: 4em;
+    color: #FFF;
+    width: 30em;
+}
+
+.energie #page2 #div2 p, .energie #page2 #div2 h3{
+    font-size: 0.5em;
+    line-height: 1.25em;
+    margin-bottom: 0.7em
+}
+
+.energie #page2 #div2 p.larger{
+    font-size: 0.6em;
+    line-height: 1.2em;
+    margin-bottom: 0.4em;
+}
+
+/*#################### page 3 #######################*/
+
+.csstransforms .energie #page3 img.bg_text{
+    display: none;
+}
+
+.no-csstransforms .energie #page3 img.bg_no_text{
+    display: none;
+}
+
+.no-csstransforms .energie #page3 nav{
+    position: absolute;
+    left: -1000px;
+    font-size: 0px;
+}
+ 
+.energie #page3 header{
+   top: 2.2em;
+   right: 3em;
+   text-align: right;
+}
+
+.energie #page3 nav{
+    top: 5.6em;
+    left: 8.5em;
+}
+
+.energie #page3 nav li{
+    position: absolute;
+    width: 26em;
+}
+
+.energie #page3 nav li a{
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #FFF;
+    font-size: 1em;
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    float: left;
+    line-height: 1.4em;
+}
+
+.energie #page3 nav li a:hover,.energie #page3 nav li a:focus{
+    text-decoration: underline;
+}
+
+.energie #page3 nav li p{
+    float: left;
+    font-size: 0.6em;
+    line-height: 1.3em;
+}
+
+.energie #page3 nav li p span.small{
+    font-size: 0.75em;
+    display: block;
+    line-height: 1.1em !important;
+}
+
+.energie #page3 nav li#list1{
+    -moz-transform:rotate(-3deg);
+    -webkit-transform:rotate(-3deg);
+    -o-transform:rotate(-3deg);
+    -ms-transform:rotate(-3deg);
+    transform:rotate(-3deg);
+}
+
+.energie #page3 nav li#list1 p{
+    color: #FFF;
+    margin-right: 3em;
+}
+
+.energie #page3 nav li#list2{
+    top: 4em;
+    left: 6em;
+    -moz-transform:rotate(6deg);
+    -webkit-transform:rotate(6deg);
+    -o-transform:rotate(6deg);
+    -ms-transform:rotate(6deg);
+    transform:rotate(6deg);
+}
+
+.energie #page3 nav li#list2 p{
+    color: #a0138e;
+    margin-left: 1em;
+}
+
+.energie #page3 nav li#list3{
+    top:6.6em;
+    left: 1em;
+    -moz-transform:rotate(-5deg);
+    -webkit-transform:rotate(-5deg);
+    -o-transform:rotate(-5deg);
+    -ms-transform:rotate(-5deg);
+    transform:rotate(-5deg);
+}
+
+.energie #page3 nav li#list3 p{
+    color: #FFF;
+    width: 32em;
+}
+
+.energie #page3 nav li#list3 a{
+    margin: 1.2em 0 0 1em;
+}
+
+.energie #page3 nav li#list4{
+    top: 11.5em;
+    left: 3em;
+    -moz-transform:rotate(7deg);
+    -webkit-transform:rotate(7deg);
+    -o-transform:rotate(7deg);
+    -ms-transform:rotate(7deg);
+    transform:rotate(7deg);
+}
+
+.energie #page3 nav li#list4 a{
+    margin-top: 0.3em;
+}
+
+.energie #page3 nav li#list4 p{
+    color: #ffecb2;
+    width: 26em;
+    margin-left: 1em;
+}
+
+.energie #page3 nav li#list5{
+    top: 14.5em;
+    left: -1.5em;
+    -moz-transform:rotate(5deg);
+    -webkit-transform:rotate(5deg);
+    -o-transform:rotate(5deg);
+    -ms-transform:rotate(5deg);
+    transform:rotate(5deg);
+}
+
+.energie #page3 nav li#list5 p{
+    color: #fff200;
+    width: 19em;
+}
+
+.energie #page3 nav li#list6{
+    top: 16.3em;
+    left: -3em;
+    -moz-transform:rotate(-8deg);
+    -webkit-transform:rotate(-8deg);
+    -o-transform:rotate(-8deg);
+    -ms-transform:rotate(-8deg);
+    transform:rotate(-8deg);
+}
+
+.energie #page3 nav li#list6 p{
+    width: 19em; 
+    color:#3c308c;
+    margin-left: 2em;
+    text-align: right;
+}
+
+.energie #page3 nav li#list7{
+    top: 20.8em;
+    left: 1em;
+    -moz-transform:rotate(2deg);
+    -webkit-transform:rotate(2deg);
+    -o-transform:rotate(2deg);
+    -ms-transform:rotate(2deg);
+    transform:rotate(2deg);
+}
+
+.energie #page3 nav li#list7 p{
+    color: #FFF;
+    width: 20em;
+    margin-left: 3em;
+}
+
+.energie #page3 nav li#list8{
+    top: 22.6em;
+    left: -0.5em;
+    -moz-transform:rotate(-8deg);
+    -webkit-transform:rotate(-8deg);
+    -o-transform:rotate(-8deg);
+    -ms-transform:rotate(-8deg);
+    transform:rotate(-8deg);
+}
+
+.energie #page3 nav li#list8 p{
+    color: #606eb3;
+    width: 21em;
+}
+
+.energie #page3 nav li#list8 a{
+    margin: 0.9em 0 0 1em;
+}
+
+.energie #page3 nav li#list9{
+    top: 26.5em;
+    left: 5em;
+    -moz-transform:rotate(5deg);
+    -webkit-transform:rotate(5deg);
+    -o-transform:rotate(5deg);
+    -ms-transform:rotate(5deg);
+    transform:rotate(5deg);
+}
+
+.energie #page3 nav li#list9 p{
+    color: #b0d236;
+    width: 20em;
+    text-align: right;
+}
+
+.energie #page3 nav li#list9 a{
+    margin-top: 0.7em;
+}
+
+.energie #page3 nav li#list10{
+    top: 30.6em;
+    left: 6em;
+    -moz-transform:rotate(5deg);
+    -webkit-transform:rotate(5deg);
+    -o-transform:rotate(5deg);
+    -ms-transform:rotate(5deg);
+    transform:rotate(5deg);
+}
+
+.energie #page3 nav li#list10 p{
+    color: #25408f;
+    width: 24em;
+    margin-right: 1em;
+}
+
+.energie #page3 nav li#list11{
+    top: 33.2em;
+    left: 0;
+    -moz-transform:rotate(-5deg);
+    -webkit-transform:rotate(-5deg);
+    -o-transform:rotate(-5deg);
+    -ms-transform:rotate(-5deg);
+    transform:rotate(-5deg);
+}
+
+.energie #page3 nav li#list11 p{
+    color: #b1cc35;
+    width: 26em;
+    margin-right: 0.7em;
+}
+
+.energie #page3 nav li#list12{
+    top: 36.8em;
+    left: 5em;
+    -moz-transform:rotate(5deg);
+    -webkit-transform:rotate(5deg);
+    -o-transform:rotate(5deg);
+    -ms-transform:rotate(5deg);
+    transform:rotate(5deg);
+}
+
+.energie #page3 nav li#list12 p{
+    color: #FFF;
+    width: 24em;
+}
+
+.energie #page3 nav li#list12 a{
+    margin: 0.1em 0.5em 0 0;
+}
+
+.energie #page3 nav li#list13{
+    top: 38.7em;
+    left: 4.5em;
+    -moz-transform:rotate(-7deg);
+    -webkit-transform:rotate(-7deg);
+    -o-transform:rotate(-7deg);
+    -ms-transform:rotate(-7deg);
+    transform:rotate(-7deg);
+}
+
+.energie #page3 nav li#list13 p{
+    color: #f28f48;
+    width: 18em;
+}
+
+.energie #page3 nav li#list13 a{
+     color: #f28f48;
+}
+
+
+/*######################### page 4 ####################*/
+
+.csstransforms .energie #page4 img.text{
+    display: none;
+}
+
+.csstransforms .energie #page4 div{
+    -moz-transform:rotate(-8deg);
+    -webkit-transform:rotate(-8deg);
+    -o-transform:rotate(-8deg);
+    -ms-transform:rotate(-8deg);
+    transform:rotate(-8deg);
+    color: #6c72b8;
+    top: 8em;
+    left: 6em;
+    width: 22em;
+}
+
+.no-csstransforms .energie #page4 div{
+    position: absolute;
+    left: -1000px;
+    font-size: 0px;
+}
+
+.energie #page4 div h1{
+    font-size: 1.2em;
+    margin-bottom: 0.8em;
+    font-weight: normal;
+}
+
+.energie #page4 div p{
+    font-size: 0.58em;
+    margin-bottom: 1em;
+    text-align: justify;
+    line-height: 1.25em;
+}
+
+.energie #page4 div p span{
+    color: #ec028c;
+    line-height: 1.4em;
+}
+
+.energie #page4 div p span.name{
+    font-size: 1.5em;
+}
+
+.energie #page4 div p span.ministre{  
+    font-size: 1.2em;
+}
+
+/*################ page 5 ########################*/
+
+.energie #page5 header{   
+    left: 9em;
+    width: 27em;
+}
+
+.energie #page5 #div6{
+    top: 19em;
+    left: 4em;
+    width: 11em;
+}
+
+.energie #page5 #div6 p{
+    color: #FFF;
+    font-size: 0.6em;
+    text-align: justify;
+    line-height: 1.25em;
+}
+
+.energie #page5 #div7{
+    top: 8em;
+    left: 20em;
+    width: 11em;
+}
+
+.energie #page5 #div7 p{
+    color: #FFF;
+    font-size: 0.6em;
+    text-align: justify;
+    line-height: 1.25em;
+}
+
+.energie #page5 aside{
+    top: 40.2em;
+    left: 9em;
+    width: 12em;
+}
+
+.energie #page5 aside p{
+    font-size: 0.56em;
+    color: #a3218b;
+    line-height: 1.4em;
+}
+
+
+.energie #page5 #div8{
+    top: 40.5em;
+    left: 20.7em;
+    width: 12.8em;
+}
+
+
+.energie #page5 #div8 p{
+    color: #d93e8c;
+    font-size: 0.58em;
+    text-align: justify;
+    line-height: 1.25em;
+}
+
+/*################# page 6 ################*/
+.energie #page6 header{   
+    left: 17em;
+    width: 19em;
+}
+
+.energie #page6 #div1{
+    left: 21em;
+    top: 5.5em;
+    width: 12em;
+}
+
+.energie #page6 #div1 p{
+    color: #FFF;
+    font-size: 0.58em;
+    line-height: 1.2em;
+    text-align: justify;
+}
+
+.energie #page6 #div2{
+    left: 19.5em;
+    top: 39.5em;
+    width: 15.5em;
+}
+
+.energie #page6 #div2 p{
+    color: #feeca2;
+    font-size: 0.6em;
+    line-height: 1.25em;
+    text-align: justify;
+}
+
+/*############### page 7 ##################*/
+
+.energie #page7 header{
+    left: 3em;
+    width: 32em;
+}
+
+.energie #page7 #div6{
+    top: 5.5em;
+    left: 17em;
+    width: 18.5em;
+}
+
+.energie #page7 #div6 p{
+    text-align: justify;
+    font-size: 0.6em;
+    line-height: 1.2em;
+    color: #fff8f8;
+}
+
+.energie #page7 #div6 p.question{
+    margin-bottom: 1em;
+}
+
+.energie #page7 #div6 p.second{
+    width: 12.6em;
+}
+
+.energie #page7 #div7{
+    top: 39.5em;
+    left: 2em;
+    width: 12.5em;
+}
+
+.energie #page7 #div7 p{
+    color: #feeca2;
+    font-size: 0.6em;
+    line-height: 1.25em;
+    text-align: justify;
+}
+
+/*################## page 8 ###################*/
+
+.energie #page8 header{
+    left:18em;
+}
+
+/*.energie #page8 #div1{
+    left: 18em;
+    top: 13em;
+    width: 14em;
+}
+
+.energie #page8 #div1 p{
+    font-size: 0.58em;
+    line-height: 1.2em;
+    color: #274829;
+    position: relative;
+    text-align: justify;
+}
+
+.energie #page8 #div1 p.first{    
+    width: 16.5em;
+    left: 7.5em;
+}
+
+.energie #page8 #div1 p.second{
+    left: -1em;
+    margin-bottom: 2em;
+    width: 20em;
+}*/
+
+/*################## page 9 ###############*/
+
+.csstransforms .energie #page9 img.text{
+    display: none;
+}
+
+.energie #page9 header{
+    left: 5em;
+/*    width:*/
+}
+
+.energie #page9 #div6{
+    left: 13em;
+    top: 5em;
+    width: 19em;
+}
+
+.energie #page9 #div6 p{
+    font-size: 0.55em;
+    line-height: 1.2em;
+    color: #FFF;
+    margin-bottom: 0.8em;
+    text-align: justify;
+    position: relative;
+}
+
+.energie #page9 #div6 p.question{
+    font-weight: bold;
+    text-align: left;
+}
+
+.energie #page9 #div6 p.p3{
+    left: 5em;
+    width: 29em;
+}
+
+.energie #page9 #div6 p.p5{
+    margin-bottom: 0;
+}
+
+.energie #page9 #div6 p.p6{
+    width: 19em;
+}
+
+.energie #page9 #div6 p.p8{
+    width: 13.5em;
+    margin-bottom: 1em;
+}
+
+.energie #page9 #div6 p.p9{
+    width: 12em;
+    left: 2em;
+}
+
+.csstransforms .energie #page9 #div7{
+    top: 46.6em;
+    left: 19em;
+    width: 12em;
+}
+
+.csstransforms .energie #page9 #div7 cite{
+    -moz-transform:rotate(-4deg);
+    -webkit-transform:rotate(-4deg);
+    -o-transform:rotate(-4deg);
+    -ms-transform:rotate(-4deg);
+    transform:rotate(-14deg);
+    font-size: 0.6em;
+    color: #fdd7a1;
+    line-height: 1.3em;
+}
+
+.no-csstransforms .energie #page9 #div7{    
+    font-size: 0;
+    left: -1000px;
+    position: absolute;
+}
+
+
+/*############## page 10 ####################*/
+
+.energie #page10 header{
+    left: 26em;
+}
+
+.energie #page10 aside{
+    left: 4em;
+    top: 5.6em;
+    width: 14em;
+    color: #d36a13;
+}
+
+.energie #page10 aside h2, .energie #page10 aside h3{
+    font-weight: normal;
+    margin-bottom: 0.3em;
+    text-align: center;
+}
+
+.energie #page10 aside h2{
+    text-transform: uppercase;  
+    font-size: 0.75em;  
+}
+
+.energie #page10 aside h3{
+    font-size: 0.7em;
+    margin-bottom: 0.5em;
+    text-align: center;
+   
+}
+
+.energie #page10 aside p{
+    font-size: 0.58em;
+    line-height: 1.2em;
+}
+
+.energie #page10 #div1, .energie #page10 #div2{
+    top: 5em;
+    width: 8.5em;
+}
+
+.energie #page10 #div1{
+    left: 16.8em;
+}
+
+.energie #page10 #div2{
+    left: 26em;
+}
+
+.energie #page10 #div1 p, .energie #page10 #div2 p{
+    font-size: 0.56em;
+    line-height: 1.18em;
+    color: #FFF;
+    text-align: justify;
+}
+
+.energie #page10 #div1 p.p1{
+    position: relative;
+    left: 6em;
+    width: 9em;
+}
+
+.energie #page10 #div3{
+    left: 17em;
+    top: 36.5em;
+    width: 12em;
+}
+
+.energie #page10 #div3 p{
+    color: #fbc44a;
+    font-size: 0.56em;
+    line-height: 1.25em;
+}
+
+.energie #page10 #div4{
+    left: 3em;
+    top: 38em;
+    width: 10em;
+}
+
+.energie #page10 #div4 p, .energie #page10 #div4 ul{
+    color: #f36617;
+    font-size: 0.56em;
+    line-height: 1.2em;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.energie #page10 #div4 li{
+    list-style-type: none;
+}
+
+.energie #page10 #div4 li a{
+    color: #fdeaa1;
+    text-decoration: none;
+}
+
+.energie #page10 #div4 li a:hover, .energie #page10 #div4 li a:focus{
+    text-decoration: underline;
+}
+
+/*################ page 11 ##################*/
+
+.csstransforms .energie #page11 img.text{
+    display: none;
+}
+
+.energie #page11 header{
+    left: 4em;    
+}
+
+.energie #page11 #div6{
+    left: 10em;
+    top: 7em;
+    width: 10em;
+    -moz-transform:rotate(18deg);
+    -webkit-transform:rotate(18deg);
+    -o-transform:rotate(18deg);
+    -ms-transform:rotate(18deg);
+    transform:rotate(18deg);
+}
+
+.energie #page11 #div6 cite{
+    color: #a21247;
+    font-size: 0.6em;
+    line-height: 1.25em;
+    font-style: normal;
+}
+
+.energie #page11 #div7{
+    top: 8.6em;
+    left: 4em;
+    width: 18.5em;
+}
+
+.energie #page11 #div7 p{
+    font-size: 0.56em;
+    line-height: 1.2em;
+    color: #381708;
+}
+
+.energie #page11 #div7 p.question{
+    margin: 0.9em 0;
+    font-weight: bold;
+}
+
+.energie #page11 #div8, .energie #page11 #div9{
+    top: 36.5em;
+    left: 14.5em;
+    width: 10em;
+}
+
+.energie #page11 #div9{
+    left: 25.5em;
+}
+
+.energie #page11 #div8 p, .energie #page11 #div9 p{
+    font-size: 0.56em;
+    line-height: 1.18em;
+    color: #d3cecb;
+    text-align: justify;
+    margin-bottom: 0.6em;
+}
+
+/*################# page 12 #####################*/
+
+.csstransforms .energie #page12 img.text{
+    display: none;
+}
+
+.energie #page12 header{
+    left: 23em;
+}
+
+.energie #page12 #div1{
+    left: 2.8em;
+    top: 5.2em;
+    width: 16em;
+    text-align: center;
+    color: #5e7371;
+}
+
+.energie #page12 #div1 h2{
+    text-transform: uppercase;
+    font-size: 0.65em;
+    margin-bottom: 0.2em;
+}
+
+.energie #page12 #div1 h3{
+    font-size: 0.6em;
+    margin-bottom: 1em;
+}
+
+.energie #page12 #div1 p{
+    font-size: 0.5em;  
+    line-height: 1.2em;
+}
+
+.energie #page12 #div2{
+    left: 20.7em;
+    top: 8em;
+    width: 10em;    
+}
+
+.energie #page12 #div2 p{
+    font-size: 0.5em;
+    line-height: 1.25em;
+    text-align: justify;
+    margin-bottom: 1em;
+    color: #538aaa;
+}
+
+
+.energie #page12 #div3{
+    left: 5em;
+    top: 39em;
+    width: 12.5em;    
+}
+
+.energie #page12 #div3 p{
+    font-size: 0.55em;
+    line-height: 1.2em;
+    text-align: justify;
+    color: #fad394;
+}
+
+
+.energie #page12 #div4{
+    left: 22em;
+    top: 35.6em;
+    width: 15em;    
+}
+
+.energie #page12 #div4 p, .energie #page12 #div4 ul{
+    font-size: 0.5em;
+    line-height: 1.15em;
+    text-align: center;
+    color: #FFF;
+    position: relative;
+}
+
+.energie #page12 #div4 ul{
+    list-style-type: none;
+}
+
+.energie #page12 #div4 ul.ul1{
+    -moz-transform:rotate(58deg);
+    -webkit-transform:rotate(58deg);
+    -o-transform:rotate(58deg);
+    -ms-transform:rotate(58deg);
+    transform:rotate(58deg);
+    top: 1em;
+    left: -9em;
+}
+
+.energie #page12 #div4 ul.ul2{
+    -moz-transform:rotate(-54deg);
+    -webkit-transform:rotate(-54deg);
+    -o-transform:rotate(-54deg);
+    -ms-transform:rotate(-54deg);
+    transform:rotate(-54deg);
+    top: 1em;
+    left: 5em;
+}
+
+.no-csstransforms .energie #page12 #div4 ul{
+    font-size: 0;
+    left: -1000px;
+    position: absolute;
+}
+
+.energie #page12 #div4 ul.ul1 a{
+    color: #FFF;
+    text-decoration: none;   
+}
+
+.energie #page12 #div4 ul.ul2 a{
+    color: #a91f44;
+    text-decoration: none;
+}
+
+.energie #page12 #div4 ul.ul1 a:hover, .energie #page12 #div4 ul.ul1 a:focus,
+.energie #page12 #div4 ul.ul2 a:hover, .energie #page12 #div4 ul.ul2 a:focus{
+    text-decoration: underline;
+}
+
+/*############################ page 13 #####################*/
+
+.csstransforms .energie #page13 img.text{
+    display: none;
+}
+
+.energie #page13 header{
+    left: 19em;
+}
+
+.energie #page13 #div6{
+    left: 20em;
+    top: 7.2em;
+    width: 16em;
+     -moz-transform:rotate(13deg);
+    -webkit-transform:rotate(13deg);
+    -o-transform:rotate(13deg);
+    -ms-transform:rotate(13deg);
+    transform:rotate(13deg);
+}
+
+.energie #page13 #div6 cite{
+    font-size: 0.6em;
+    line-height: 1.2em;
+    color: #3db19b;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.no-csstransforms .energie #page13 #div6{
+    font-size: 0;
+    left: -1000px;
+    position: absolute;
+}
+
+.energie #page13 #div7{
+    left: 13.5em;
+    top: 9.5em;
+    width: 20.5em;
+}
+
+.energie #page13 #div7 p{
+    color: #FFF;
+    font-size: 0.52em;
+    line-height: 1.3em;
+    position: relative;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+.energie #page13 #div7 p.p1{
+    left: 10em;
+}
+
+.energie #page13 p.question{
+    font-weight: bold;
+}
+
+.energie #page13 #div7 p.p2{
+    text-align: right;
+}
+
+.energie #page13 #div7 p.p2{
+    margin-bottom: 0;
+}
+
+.energie #page13 #div8, .energie #page13 #div9{    
+    top: 37em;
+    width: 10em;
+}
+
+.energie #page13 #div8{
+    left: 2em;
+}
+
+.energie #page13 #div9{
+    left: 12.8em;
+}
+
+.energie #page13 #div8 p, .energie #page13 #div9 p{
+    font-size: 0.5em;
+    color: #e2e025;
+    line-height: 1.2em;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+.energie #page13 #div10{
+    left: 25.5em;
+    top: 44.5em;
+     width: 12em;
+    -moz-transform:rotate(-42deg);
+    -webkit-transform:rotate(-42deg);
+    -o-transform:rotate(-42deg);
+    -ms-transform:rotate(-42deg);
+    transform:rotate(-42deg);
+}
+
+.energie #page13 #div10 cite{
+    color: #98caa7;
+    font-size: 0.6em;
+    font-style: normal;
+    line-height: 1.2em;
+}
+
+.no-csstransforms #page13 #div10{
+    position: absolute;
+    left: -1000px;
+    font-size: 0px;   
+}
+
+/*####################  page 14 ######################*/
+
+.csstransforms .energie #page14 img.text{
+    display: none;
+}
+
+.energie #page14 header{
+    left: 23em;
+}
+
+.energie #page14 #div1, .energie #page14 #div2{
+    top: 6em;
+    width: 9em;
+}
+
+.energie #page14 #div1{
+    left: 16em;
+}
+
+.energie #page14 #div2{
+    left: 25.5em;
+}
+
+.energie #page14 #div1 p, .energie #page14 #div2 p{
+    font-size: 0.5em;
+    color: #904975;
+    line-height: 1.4em;
+    text-align: justify;
+    position: relative;
+}
+
+.energie #page14 #div1 p.p1{
+    text-align: right;
+}
+
+.energie #page14 #div1 p.p2{
+    left: 1em;
+    width: 17em;
+}
+
+.energie #page14 #div2 p{
+    margin-bottom: 1.5em;
+}
+
+.energie #page14 #div3{
+    left: 20.5em;
+    top: 37em;
+    width: 13em;
+}
+
+.energie #page14 #div3 p{
+    font-size: 0.6em;
+    line-height: 1.25em;
+    color: #2b3e91;
+    text-align: justify;
+}
+
+.energie #page14 #div4{
+    left: 4em;
+    top: 39em;
+/*    width: 10em;*/
+}
+
+.energie #page14 #div4 p, .energie #page14 #div4 ul{
+    width: 16em;
+    font-size: 0.5em;
+    line-height: 1.2em;
+    color: #FFF;
+    position: relative;
+    -moz-transform:rotate(22deg);
+    -webkit-transform:rotate(22deg);
+    -o-transform:rotate(22deg);
+    -ms-transform:rotate(22deg);
+    transform:rotate(22deg);
+}
+
+.energie #page14 #div4 ul{   
+    -moz-transform:rotate(32deg);
+    -webkit-transform:rotate(32deg);
+    -o-transform:rotate(32deg);
+    -ms-transform:rotate(32deg);
+    transform:rotate(32deg);
+    top: 8em;
+    left: -5em;
+    width: 21em;
+}
+
+.energie #page14 #div4 ul li{
+    list-style-type: none;
+}
+
+.energie #page14 #div4 ul li a{
+     color: #fddf98;
+     text-decoration: none;
+}
+
+.energie #page14 #div4 ul li a:hover, .energie #page14 #div4 ul li a:focus{
+    text-decoration: underline;
+}
+
+.no-csstransforms .energie #page14 #div4{
+    position: absolute;
+    left: -1000px;
+    font-size: 0px; 
+}
+
+/*###################### page 15 ##################*/
+
+.csstransforms .energie #page15 img.text{
+    display: none;
+}
+
+.energie #page15 #div6{
+    left: 7.2em;
+    top: 7.3em;
+    width: 15em;
+    -moz-transform:rotate(19deg);
+    -webkit-transform:rotate(19deg);
+    -o-transform:rotate(19deg);
+    -ms-transform:rotate(19deg);
+    transform:rotate(19deg);
+}
+
+.energie #page15 #div6 cite{
+    font-style: normal;
+    font-size: 0.6em;
+    line-height: 1.2em;
+    color: #d9453c;
+}
+
+.no-csstransforms .energie #page15 #div6{
+    position: absolute;
+    left: -1000px;
+    font-size: 0px;
+}
+
+.energie #page15 aside{
+    left: 22.5em;
+    top: 14em;
+    width: 10em;
+}
+
+.energie #page15 aside p{
+    font-size: 0.55em;
+    line-height: 1.3em;
+    color: #787ac5;
+    text-align: center;
+}
+
+.energie #page15 #div7{
+    left: 2.6em;
+    top: 8.5em;
+    width: 17.5em;
+}
+
+.energie #page15 #div7 p{
+    font-size: 0.52em;
+    line-height: 1.2em;
+    color: #636bbb;
+    margin-bottom: 1.3em;
+    text-align: justify;
+}
+
+.energie #page15 p.question{
+    font-weight: bold;
+}
+
+/*############### page 16 ####################*/
+
+.csstransforms .energie #page16 img.text{
+    display: none;
+}
+
+.energie #page16 header{
+    left: 23em;
+}
+
+.energie #page16 aside#cite{
+    left: 18em;
+    top: 8.5em;
+    width: 15em;
+    -moz-transform:rotate(9deg);
+    -webkit-transform:rotate(9deg);
+    -o-transform:rotate(9deg);
+    -ms-transform:rotate(9deg);
+    transform:rotate(9deg);
+}
+
+.energie #page16 aside#cite cite{
+    font-size: 0.6em;
+    line-height: 1.2em;
+    color: #fff0b4;
+}
+
+.no-csstransforms .energie #page16 aside#cite{
+    position: absolute;
+    left: -1000px;
+    font-size: 0px;
+}
+
+.energie #page16 #personal{
+    left: 15.6em;
+    top: 11em;
+    width: 9em;
+}
+
+.energie #page16 #personal p{
+    font-size: 0.55em;
+    line-height: 1.25em;
+    color: #797ac5;
+    text-align: center;
+}
+
+.energie #page16 #div1{
+    left: 5.8em;
+    top: 18.5em;
+    width: 15.8em;
+}
+
+.energie #page16 #div1 p{
+    font-size: 0.58em;
+    line-height: 1.17em;
+    color: #feeca2;
+    margin-bottom: 1.28em;
+    text-align: justify;
+}
+
+/*################ page 17 #####################*/
+
+.energie #page17 header{
+    left: 15em;
+}
+
+.energie #page17 #div1{
+    left: 18em;
+    top:8em;
+    width: 17em;
+}
+
+.energie #page17 #div1 p{
+    color: #465088;
+    font-size: 0.5em;
+    line-height: 1.25em;
+    text-align: right;
+    margin: 1.2em;
+}
+
+.energie #page17 aside{
+    top: 42em;
+    left: 18em;
+    width: 9.5em;
+}
+
+.energie #page17 aside p{
+    color: #feece8;
+    font-size: 0.6em;
+    line-height: 1.4em;
+    text-align: center;
+}
+
+/*################## page 18 ####################*/
+.csstransforms .energie #page18 img.text{
+    display: none;
+}
+
+.energie #page18 header{
+    left: 23em;    
+}
+
+.energie #page18 header h1, .energie #page19 header h1{
+    color: #ec008c;
+}
+
+.energie #page18 aside{
+    left: 2.5em;
+    top: 5em;
+    width: 17em;
+    color: #ec008c;
+}
+
+.energie #page18 aside p, .energie #page18 aside h2, .energie #page18 aside h3{   
+    line-height: 1.3em;
+    text-align: center;
+    font-weight: normal;
+}
+
+.energie #page18 aside p{
+     font-size: 0.5em;
+}
+
+.energie #page18 aside h2{
+    font-size: 0.75em;
+    text-transform: uppercase;
+}
+
+.energie #page18 aside h3{
+    font-size: 0.65em;
+    margin-bottom: 1.1em;
+}
+
+.energie #page18 #div1, .energie #page18 #div2{
+    top: 7em;
+    width: 9em;
+}
+
+.energie #page18 #div1{
+    left: 15.8em;      
+}
+
+.energie #page18 #div2{
+    left: 25.5em;
+}
+
+.energie #page18 #div1 p, .energie #page18 #div2 p{
+    color: #FFF;
+    font-size: 0.5em;
+    line-height: 1.3em;
+    text-align: justify;
+}
+
+.energie #page18 #div1 p.p1{
+    text-align: right;
+}
+
+.energie #page18 #div3{
+    left: 19em;
+    top: 36em;
+    width: 15em;
+    -moz-transform:rotate(9deg);
+    -webkit-transform:rotate(9deg);
+    -o-transform:rotate(9deg);
+    -ms-transform:rotate(9deg);
+    transform:rotate(9deg);
+}
+
+.energie #page18 #div3 p, .energie #page18 #div3 ul{
+    position: relative;
+    font-size: 0.58em;
+    line-height: 1.3em;
+    color: #e93fa6;
+}
+
+.energie #page18 #div3 ul{
+    top: 2.5em;
+    left: 1em;
+}
+
+.energie #page18 #div3 ul li{
+    list-style-type: none;
+}
+
+.energie #page18 #div3 ul li a{
+    color: #f26b1e;
+    text-decoration: none;
+}
+
+.energie #page18 #div3 ul li a:hover, .energie #page18 #div3 ul li a:focus{
+    text-decoration: underline;
+}
+
+/*################## page 19 #################*/
+
+.csstransforms .energie #page19 img.text{
+    display: none;
+}
+
+.energie #page19 header{
+    left: 10.5em;    
+}
+
+.energie #page19 #div6{
+    left: 14em;
+    top: 6em;
+    width: 14.7em;
+}
+
+.energie #page19 #div6 p{
+    color: #FFF;
+    font-size: 0.63em;
+    line-height: 1.3em;
+    text-align: justify;
+}
+
+.energie #page19 #div6 .yellow{
+    color: #f8ec06;
+}
+
+.energie #page19 #div7{
+    left: 18.4em;
+    top: 28.5em;
+    width: 15.4em;
+}
+
+.energie #page19 #div7 p{
+    color: #416f4b;
+    font-size: 0.54em;
+    line-height: 1.25em;
+    text-align: justify;
+}
+
+.energie #page19 aside{
+    top: 39.5em;
+    left: 2em;
+    width: 16em;
+}
+
+.energie #page19 aside cite{
+    font-size: 0.6em;
+    -moz-transform:rotate(9deg);
+    -webkit-transform:rotate(9deg);
+    -o-transform:rotate(9deg);
+    -ms-transform:rotate(9deg);
+    transform:rotate(9deg);
+    color: #3b3f7e;
+    font-style: normal;
+}
+
+/*################ page 20 ############################*/
+
+.csstransforms .energie #page20 img.text{
+    display: none;
+}
+
+.energie #page20 header{
+    left: 23em;
+}
+
+.energie #page20 aside{
+    top: 5em;
+    left: 2.4em;
+    width: 17em;
+}
+
+.energie #page20 aside p, .energie #page20 aside h2, .energie #page20 aside h3{   
+    line-height: 1.3em;
+    text-align: center;
+    font-weight: normal;
+    color: #304496;
+}
+
+.energie #page20 aside p{
+     font-size: 0.5em;
+}
+
+.energie #page20 aside h2{
+    font-size: 0.75em;
+    text-transform: uppercase;
+}
+
+.energie #page20 aside h3{
+    font-size: 0.65em;
+    margin-bottom: 1.1em;
+}
+
+.energie #page20 #div1, .energie #page20 #div2{
+    top: 5.7em;
+    width: 9em;
+}
+
+.energie #page20 #div1{
+    left: 16em;
+}
+
+.energie #page20 #div2{
+    left: 25.6em;
+}
+
+.energie #page20 #div1 p, .energie #page20 #div2 p{
+    font-size: 0.55em;
+    line-height: 1.35em;
+    color: #5c64b8;
+    text-align: justify;
+}
+
+.energie #page20 #div1 p{
+    text-align: right;
+}
+
+.energie #page20 #div3{
+    left: 15em;
+    top: 38em;
+    width: 18em;
+}
+
+.energie #page20 #div3 p{
+    font-size: 0.56em;
+    line-height: 1.2em;
+    color: #fff200;
+    text-align: justify;
+}
+
+.energie #page20 #div3 p.p1{
+    width: 20em;
+}
+
+.energie #page20 #div4{
+    left: 2em;
+    top: 37em;
+    width: 15em;
+}
+
+.energie #page20 #div4 h2{
+    -moz-transform:rotate(-13deg);
+    -webkit-transform:rotate(-13deg);
+    -o-transform:rotate(-13deg);
+    -ms-transform:rotate(-13deg);
+    transform:rotate(-13deg);
+    color: #4b51a3;
+    font-size: 0.7em;
+}
+
+.energie #page20 #div4 p, .energie #page20 #div4 ul{
+    -moz-transform:rotate(15deg);
+    -webkit-transform:rotate(15deg);
+    -o-transform:rotate(15eg);
+    -ms-transform:rotate(15deg);
+    transform:rotate(15deg);
+    font-size: 0.6em;
+    line-height: 1.3em;
+    color: #56b9a6;
+    position: relative;
+    text-align: center;
+}
+
+.energie #page20 #div4 p{
+    top: 8em;
+    left: -2em;    
+}
+
+.energie #page20 #div4 ul{
+    top: 9em;
+    left: -3.5em;
+}
+
+.energie #page20 #div4 ul li{
+    list-style-type: none;
+}
+
+.energie #page20 #div4 ul a{
+    color: #f07631;
+    text-decoration: none;
+}
+
+.energie #page20 #div4 ul a:hover,.energie #page20 #div4 ul a:focus{
+    text-decoration: underline;
+}
+
+.no-csstransforms .energie #di4{
+    position: absolute;
+    left: -1000px;
+    font-size: 0px;
+}
+
+/*################## page 21 ###################*/
+
+.csstransforms .energie #page21 img.text{
+    display: none;
+}
+
+.energie #page21 header{
+    left: 4em;
+}
+
+.energie #page21 aside{
+    left: 9.6em;
+    top: 7.4em;
+    width: 13em;
+}
+
+.energie #page21 aside p{
+    font-size: 0.58em;
+    line-height: 1.3em;
+    text-align: center;
+    color: #f68136;
+}
+
+.energie #page21 #div6{
+    left: 21em;
+    top: 5.8em;
+    width: 15em;
+    -moz-transform:rotate(-6deg);
+    -webkit-transform:rotate(-6deg);
+    -o-transform:rotate(-6deg);
+    -ms-transform:rotate(-6deg);
+    transform:rotate(-6deg);
+}
+
+.energie #page21 #div6 cite{
+    font-style: normal;
+    color: #f35c37;
+    font-size: 0.6em;
+    line-height: 1.3em;
+}
+
+.no-csstransforms .energie #page21 #div6{
+    position: absolute;
+    left: -1000px;
+    font-size: 0px;
+
+}
+.energie #page21 #div7{
+    left: 22.5em;
+    top: 9.5em;
+    width: 13em;
+}
+
+.energie #page21 #div8{
+    left: 18em;
+    width: 17em;
+    top: 26em;
+}
+
+.energie #page21 #div7 p, .energie #page21 #div8 p{
+    text-align: justify;
+    font-size: 0.58em;
+    line-height: 1.23em;
+    color: #5e66b8;
+    margin-bottom: 0.8em;
+}
+
+/*################## page 22 ###################*/
+.energie #page22 header{
+    left: 25em;
+}
+
+.energie #page22 aside{
+    left: 13.2em;
+    top: 20em;
+    width: 12em;
+}
+
+.energie #page22 aside p{
+    font-size: 0.58em;
+    line-height: 1.3em;
+    color: #f68136;
+    text-align: center;
+}
+
+.energie #page22 #div1{
+    left: 23.5em;
+    top: 18.5em;
+    width: 11em;
+}
+
+.energie #page22 #div1 p{
+    font-size: 0.55em;
+    line-height: 1.25em;
+    color: #5c64b8;
+    text-align: center;
+}
+
+.energie #page22 #div2{
+    top: 37em;
+    left: 22.8em;
+    width: 12em;
+}
+
+.energie #page22 #div2 p{
+    font-size: 0.56em;
+    line-height: 1.3em;
+    text-align: center;
+    color: #5846a0;
+}
+
+.energie #page22 #div3{
+    left: 2em;
+    top: 36em;
+    width: 20em;
+}
+
+.energie #page22 #div3 p{
+    position: relative;
+    color: #feeca2;
+    font-size: 0.53em;
+    line-height: 1.22em;
+    text-align: justify;    
+}
+
+.energie #page22 #div3 p.p2{
+    left: 20em;
+    width: 18em;
+}
+
+.energie #page22 #div3 p.bold{
+    margin-bottom: 1em;   
+}
+
+.energie #page22 #div4{
+    left: 24em;
+    top: 7.5em;
+    width: 12em;
+}
+
+.energie #page22 #div4 p{
+    font-size: 0.56em;
+    line-height: 1.2em;
+    margin-bottom: 0.8em;
+    color: #5c64b8;
+    text-align: right;
+}
+
+/*##################### page 23 ###################*/
+
+.csstransforms .energie #page23 img.text{
+    display: none;
+}
+
+.energie #page23 header{
+    left: 3em;
+}
+
+.energie #page23 #div6{
+    left: 2.5em;
+    top: 6.6em;
+    width: 6em;
+}
+
+.energie #page23 #div6 p{
+    font-size: 0.58em;
+    line-height: 1.3em;
+    color: #7677bb;
+    text-align: center;
+}
+
+.energie #page23 #div7{
+    left:7.2em;
+    top: 9em;
+    width: 6em;
+}
+
+.energie #page23 #div7 p{
+    font-size: 0.58em;
+    line-height: 1.3em;
+    color: #a42497;
+    text-align: center;
+}
+
+.energie #page23 #div8{
+    left:12em;
+    top: 4.5em;
+    width: 13em;
+}
+
+.energie #page23 #div8 p{
+    font-size: 0.52em;
+    line-height: 1.35em;
+    color: #e845a7;
+    text-align: center;
+}
+
+.energie #page23 #div8 p.p1{
+    width: 14em;
+    text-align: right;
+}
+
+.energie #page23 #div9{
+    left:9em;
+    top: 15em;
+    width: 9em;
+}
+
+.energie #page23 #div9 p{
+    font-size: 0.52em;
+    line-height: 1.4em;
+    color: #e845a7;
+    text-align: center;
+}
+
+
+.energie #page23 #div10{
+    left:15.1em;
+    top: 15.8em;
+    width: 10em;
+}
+
+.energie #page23 #div10 p{
+    font-size: 0.54em;
+    line-height: 1.4em;
+    color: #5d65b8;
+    text-align: center;
+}
+
+.energie #page23 #div11{
+    left:3.4em;
+    top: 20.7em;
+    width: 15em;
+}
+
+.energie #page23 #div11 p{
+    font-size: 0.52em;
+    line-height: 1.35em;
+    color: #5c64b8;
+    text-align: center;
+    margin-bottom: 0.8em;
+}
+
+
+.energie #page23 #div12{
+    left:16em;
+    top: 26em;
+    width: 10em;
+}
+
+.energie #page23 #div12 p{
+    font-size: 0.52em;
+    line-height: 1.35em;
+    color: #5c64b8;
+    text-align: center;    
+}
+
+.energie #page23 #div13{
+    left: 2em;
+    top: 36em;
+    width: 16em;
+}
+
+.energie #page23 #div13 p, .energie #page23 #div14 p{
+    font-size: 0.52em;
+    line-height: 1.25em;
+    color: #feeca2;
+}
+
+.energie #page23 #div13 p.bold, .energie #page23 #div14 p.bold{
+    margin-bottom: 0.8em;
+}
+
+.energie #page23 #div14{
+    left: 19em;
+    top: 36em;
+    width: 16em;
+}
+
+.energie #page23 #div15{
+    left: 26em;
+    top: 7.3em;
+    width: 10em;
+    -moz-transform:rotate(8deg);
+    -webkit-transform:rotate(8deg);
+    -o-transform:rotate(8deg);
+    -ms-transform:rotate(8deg);
+    transform:rotate(8deg);
+}
+
+.energie #page23 #div15 cite{
+    font-size: 0.6em;
+    line-height: 1.3em;
+    color: #fff0b4;
+    font-style: normal;
+}
+
+.energie #page23 #div16{
+    left: 21em;
+    top: 46em;
+    width: 14em;
+    -moz-transform:rotate(-21deg);
+    -webkit-transform:rotate(-21deg);
+    -o-transform:rotate(-21deg);
+    -ms-transform:rotate(-21deg);
+    transform:rotate(-21deg);
+}
+
+.energie #page23 #div16 cite{
+    font-size: 0.6em;
+    line-height: 1.3em;
+    color: #1d2b67;
+    font-style: normal;
+}
+
+.no-csstransforms .energie #page23 #div16, .no-csstransforms .energie #page23 #div15{
+    position: absolute;
+    left: -1000px;
+    font-size: 0px;
+}
+
+/*######################### page 24 #################### */
+
+.energie #page24 header{
+    left: 22em;
+}
+
+.energie #page24 #div1{
+    left: 2em;
+    top: 4em;
+    width: 18em;
+}
+
+.energie #page24 #div1 p{
+    font-size: 0.52em;
+    line-height: 1.35em;
+    color: #1f2e67;
+}
+
+.energie #page24 #div2, .energie #page24 #div3{    
+    top: 7em;
+    width: 9em;
+}
+
+.energie #page24 #div2{
+    left: 15.7em;
+}
+
+.energie #page24 #div3{
+    left: 25.5em;
+}
+
+.energie #page24 #div2 p, .energie #page24 #div3 p{
+    font-size: 0.54em;
+    line-height: 1.34em;
+    color: #36428a;
+}
+
+.energie #page24 #div4{
+    top: 38em;
+    left: 20em;
+    width: 13em;
+}
+
+.energie #page24 #div4 p{
+    font-size: 0.6em;
+    line-height: 1.3em;
+    color: #7785cb;
+}
+
+.energie #page24 #div5{
+    left: 1.5em;
+    top: 36.5em;
+    width: 8em;    
+}
+
+.energie #page24 #div5 ul li{
+    font-size: 0.6em;
+    line-height: 1.3em;
+    list-style-type: none;
+}
+
+.energie #page24 #div5 ul li a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.energie #page24 #div5 ul li a:hover,.energie #page24 #div5 ul li a:focus{
+    text-decoration: underline;
+}
+
+/*################# page 25 ####################*/
+.csstransforms .energie #page25 img.text{
+    display: none;
+}
+
+.energie #page25 header{
+    left: 16em;
+}
+
+.energie #page25 aside{
+    left: 3.8em;
+    top: 15.5em;
+    width: 10em;
+}
+
+.energie #page25 aside p{
+    font-size: 0.58em;
+    line-height: 1.35em;
+    color: #5644a0;
+}
+
+.energie #page25 #div6{
+    top: 5.5em;
+    left: 17em;
+    width: 17em;
+}
+
+.energie #page25 #div6 p{
+    font-size: 0.52em;
+    line-height: 1.4em;
+    color: #FFF;
+}
+
+.energie #page25 #div6 p.bold{
+    margin: 1em 0;
+}
+
+.energie #page25 #div6 p.margin{
+    position: relative;
+    left: 3em;
+    width: 29em;
+}
+
+.energie #page25 #div7{
+    left: 3em;
+    top: 38em;
+    width: 13em;
+}
+
+.energie #page25 #div7 p{
+    font-size: 0.56em;
+    line-height: 1.3em;
+    color: #7785cb;
+}
+
+.energie #page25 #div8{
+    left: 26em;
+    top: 35em;
+    width: 9em;
+}
+
+.energie #page25 #div8 cite{
+    color: #d22027;
+    font-size: 0.6em;
+    line-height: 1.3em;
+    font-style: normal;
+    -moz-transform:rotate(8deg);
+    -webkit-transform:rotate(8deg);
+    -o-transform:rotate(8deg);
+    -ms-transform:rotate(8deg);
+    transform:rotate(19deg);
+}
+
+.no-csstransforms #page25 #div8{
+    position: absolute;
+    left: -1000px;
+    font-size: 0px;
+}
+
+/*###################### page 26 #######################*/
+
+.csstransforms .energie #page26 img.text{
+    display: none;
+}
+
+.energie #page26 header{
+    left: 21em;
+}
+
+.energie #page26 #div1{
+    left: 4em;
+    top: 17.1em;
+    width: 15em;
+    -moz-transform:rotate(16deg);
+    -webkit-transform:rotate(16deg);
+    -o-transform:rotate(16deg);
+    -ms-transform:rotate(16deg);
+    transform:rotate(16deg);
+}
+
+.energie #page26 #div1 cite{
+    font-size: 0.6em;
+    line-height: 1.3em;
+    color: #b1355d;
+    font-style: normal;
+}
+
+.no-csstransforms .energie #page26 #div1{
+    position: absolute;
+    left: -1000px;
+    font-size: 0px;
+}
+
+.energie #page26 aside{
+    top: 24em;
+    left: 21em;
+    width: 13em;
+}
+
+.energie #page26 aside p{
+    font-size: 0.56em;
+    line-height: 1.35em;
+    color: #08b0f0;
+}
+
+.energie #page26 #div2{
+    top: 18.8em;
+    left: 4em;
+    width: 17em;
+}
+
+.energie #page26 #div2 p{
+    font-size: 0.54em;
+    line-height: 1.3em;
+    color: #5c64b8;
+}
+
+.energie #page26 #div2 p.bold{
+    margin: 0.8em 0;
+}
+
+/*###################### page 27 ##################*/
+
+.csstransforms .energie #page27 img.text{
+    display: none;
+}
+
+.energie #page27 header{
+    left: 17em;
+}
+
+.energie #page27 #div6{
+    top: 7.4em;
+    left: 20em;
+    width: 14em;
+    -moz-transform:rotate(17deg);
+    -webkit-transform:rotate(17deg);
+    -o-transform:rotate(17deg);
+    -ms-transform:rotate(17deg);
+    transform:rotate(17deg);
+}
+
+.energie #page27 #div6 cite{
+    font-size: 0.6em;
+    line-height: 1.3em;
+    color: #d0ea7b;
+    font-style: normal;
+}
+
+.no-csstransforms .energie #page27 #div6{
+    position: absolute;
+    left: -1000px;
+    font-size: 0px;
+}
+
+.energie #page27 aside{
+    left: 23em;
+    top: 19.5em;    
+    width: 12em;
+}
+
+.energie #page27 aside p{
+    font-size: 0.56em;
+    line-height: 1.35em;
+    color: #f68136;
+}
+
+.energie #page27 #div7{
+    left: 5.2em;
+    top: 8em;
+    width: 21em;
+}
+
+.energie #page27 #div7 p{
+    font-size: 0.52em;
+    line-height: 1.35em;
+    color: #FFF;
+}
+
+.energie #page27 #div7 p.bold{
+    margin: 0.9em 0;
+}
+
+/*########################## page 29 #######################*/
+
+.energie #page28 header{
+    left: 18em;
+}
+
+.energie #page28 #div1{
+    left: 2em;
+    top: 5.2em;
+    width: 18em;
+}
+
+.energie #page28 #div1 p{
+    font-size: 0.52em;
+    line-height: 1.3em;
+    color: #303c71;
+}
+
+.energie #page28 #div2, .energie #page28 #div3{
+    top: 7em;
+    width: 9em;    
+}
+
+.energie #page28 #div2{
+    left: 15.6em;
+}
+
+.energie #page28 #div3{
+    left: 25em;
+}
+
+.energie #page28 #div2 p,  .energie #page28 #div3 p{
+    color: #FFF;
+    font-size: 0.54em;
+    line-height: 1.35em;
+}
+
+.energie #page28 #div4{
+    left: 19em;
+    width: 15em;
+    top: 41em;
+}
+
+.energie #page28 #div4 p{
+    color: #6452a1;
+    font-size: 0.6em;
+    line-height: 1.35em;
+}
+
+.energie #page28 #div5{
+    left: 4em;
+    top: 45em;
+    width: 12em;
+}
+
+.csstransforms .energie #page28 #div5{
+    -moz-transform:rotate(5deg);
+    -webkit-transform:rotate(5deg);
+    -o-transform:rotate(5deg);
+    -ms-transform:rotate(5deg);
+    transform:rotate(5deg);
+}
+
+.energie #page28 #div5 ul{
+    font-size: 0.6em;
+    line-height: 1.3em;    
+}
+
+.energie #page28 #div5 ul li{
+    list-style-type: none;
+}
+
+.energie #page28 a{
+    color: #ac3371;
+    text-decoration: none;
+}
+
+.energie #page28 a:hover, .energie #page28 a:focus{
+    text-decoration: underline;
+}
+
+/*############### page 29 ######################*/
+.csstransforms .energie #page29 img.text{
+    display: none;
+}
+
+.energie #page29 header{
+    left: 6em;
+}
+
+.csstransforms .energie #page29 #div6{
+    left: 12em;
+    top: 6.7em;
+    width: 18em;
+    -moz-transform:rotate(-6deg);
+    -webkit-transform:rotate(-6deg);
+    -o-transform:rotate(-6deg);
+    -ms-transform:rotate(-6deg);
+    transform:rotate(-6deg);
+}
+
+.no-csstransforms .energie #page29 #div6{
+    position: absolute;
+    left: -1000px;
+    font-size: 0px;
+}
+
+.energie #page29 #div6 cite{
+    font-size: 0.6em;
+    line-height: 1.3em;
+    color: #f35c37;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.energie #page29 aside{
+    left: 6.3em;
+    top: 14em;
+    width: 11em;
+}
+
+.energie #page29 aside p{
+    font-size: 0.56em;
+    line-height: 1.4em;
+    color: #f6843b;
+}
+
+.energie #page29 #div7{
+    top: 10em;
+    left: 18.2em;
+    width: 16em;
+}
+
+.energie #page29 #div7 p{
+    font-size: 0.56em;
+    line-height: 1.3em;
+    color: #a0138e;
+    margin-bottom: 0.8em;
+}
+
+.energie #page29 #div8{
+    left: 2.4em;
+    top: 36.5em;
+    width: 12em;
+}
+
+.energie #page29 #div8 p{
+    font-size: 0.6em;
+    line-height: 1.4em;
+    color: #b13382;
+}
+
+.energie #page29 #div9{
+    left: 18em;
+    top: 42em;
+    width: 16em;
+}
+
+.energie #page29 #div9 p{
+    font-size: 0.6em;
+    line-height: 1.35em;
+    color: #6452a1;
+}
+
+/*#################### page 30 ##################*/
+
+.csstransforms .energie #page30 img.text{
+    display: none;
+}
+
+.energie #page30 header{
+    left: 12em;
+}
+
+.energie #page30 #div1{
+    left: 3em;
+    top: 4.2em;
+    width: 16em;
+}
+
+.energie #page30 #div1 p{
+    font-size: 0.52em;
+    line-height: 1.3em;
+    color: #1e2d69;
+}
+
+.energie #page30 #div2, .energie #page30 #div3{   
+    top: 5.5em;
+    width: 9em;
+}
+
+.energie #page30 #div2{
+     left: 16em;
+}
+
+.energie #page30 #div3{
+    left: 25.5em;
+}
+
+.energie #page30 #div2 p, .energie #page30 #div3 p{
+    font-size: 0.55em;
+    line-height: 1.37em;
+    color: #91bd24;
+}
+
+.energie #page30 #div4{
+    left: 17em;
+    top: 37em;
+}
+
+.energie #page30 #div4 p{
+    font-size: 0.6em;
+    line-height: 1.3em;
+}
+
+.energie #page30 aside{
+    left: 1em;
+    top: 40em;
+    width: 12em;
+    -moz-transform:rotate(40deg);
+    -webkit-transform:rotate(40deg);
+    -o-transform:rotate(40deg);
+    -ms-transform:rotate(40deg);
+    transform:rotate(40deg);
+}
+
+.energie #page30 aside p, .energie #page30 aside ul{
+    font-size: 0.5em;
+    line-height: 1.4em;
+    color: #da4021;
+    position: relative;
+}
+
+.energie #page30 aside ul{
+    left:6em;
+    top: 2em;
+}
+
+.energie #page30 aside ul li{
+    list-style-type: none;
+}
+
+.energie #page30 aside a{
+    color: #282322;
+    text-decoration: none;
+}
+
+.energie #page30 aside a:hover, .energie #page30 aside a:focus{
+    text-decoration: underline;
+}
+
+.no-csstransforms .energie #page30 aside{
+    position: absolute;
+    left: -1000px;
+    font-size: 0px;
+}
+
+/*#################### page 31 ##################*/
+
+.csstransforms .energie #page31 img.text{
+    display: none;
+}
+
+.energie #page31 header{
+    left: 14em;
+}
+
+.energie #page31 aside{
+    left: 24.5em;
+    top: 7.5em;
+    width: 13em;
+    -moz-transform:rotate(19deg);
+    -webkit-transform:rotate(19deg);
+    -o-transform:rotate(19deg);
+    -ms-transform:rotate(19deg);
+    transform:rotate(19deg);
+}
+
+.energie #page31 aside cite{
+    font-size: 0.6em;
+    line-height: 1.3em;
+    font-weight: bold;
+    font-style: normal;
+    color: #fcd16d;
+}
+
+.no-csstransforms .energie #page31 aside{
+    position: absolute;
+    left: -1000px;
+    font-size: 0px;
+}
+
+.energie #page31 #div6{
+    left: 17em;
+    top: 8.3em;
+    width: 12em;
+}
+
+.energie #page31 #div6 p{
+    font-size: 0.58em;
+    line-height: 1.3em;
+    color: #d9443b;
+}
+
+.energie #page31 #div7{
+    left: 5em;
+    top: 6em;
+    width: 17.5em;
+}
+
+.energie #page31 #div7 p{
+    font-size: 0.52em;
+    line-height: 1.3em;
+    color: #efe0a4;
+    margin-bottom: 1em;
+}
+
+.energie #page31 #div7 p.p1{
+    position: relative;
+    left: 10em;
+    width: 24em;
+}
+
+/*####################### page 32 #################*/
+
+.energie #page32 header{
+    left: 25em;
+}
+
+.energie #page32 #div1{
+    left: 20.2em;
+    top: 7.4em;
+    width: 13.4em;
+}
+
+.energie #page32 #div1 p{
+    font-size: 0.52em;
+    line-height: 1.33em;
+    color: #a0138e;
+}
+
+.energie #page32 #div2{
+    left: 23em;
+    top: 19em;
+    width: 12em;
+}
+
+.energie #page32 #div2 p{
+    font-size: 0.58em;
+    line-height: 1.3em;
+    color: #f68136;
+}
+
+.energie #page32 #div3{
+    left: 6.7em;
+    top: 26.8em;
+    width: 8em;
+}
+
+.energie #page32 #div3 p{
+    font-size: 0.56em;
+    line-height: 1.3em;
+    color: #63bfa9;
+}
+
+.energie #page32 #div4{
+    left: 11em;
+    top: 22.4em;
+    width: 13em;
+}
+
+.energie #page32 #div4 p{
+    font-size: 0.56em;
+    line-height: 1.3em;
+    color: #fde2a2;
+}
+
+.energie #page32 #div4 p.p1{
+    width: 21em;
+}
+
+.energie #page32 #div4 p.p2{
+    position: relative;
+    left: 6em;
+    width: 19em;
+}
+
+.energie #page32 #div5{
+    left: 5.5em;
+    top: 37.5em;
+    width: 15em;
+}
+
+.energie #page32 #div5 p{
+    font-size: 0.56em;
+    line-height: 1.25em;
+    color: #efc993;
+}
+
+.energie #page32 #div6{
+    left: 21em;
+    top: 37em;
+    width: 8em;
+}
+
+.energie #page32 #div6 p{
+    font-size: 0.58em;
+    line-height: 1.3em;
+    color: #00adef;
+}
+
+/*######################### page 33 ###################*/
+
+.energie #page33 header{
+    left: 6em;
+}
+
+.energie #page33 #div7{
+    left: 9em;
+    top: 6.8em;
+    width: 15em;
+}
+
+.energie #page33 #div7 p{
+    font-size: 0.58em;
+    line-height: 1.3em;
+    color: #f6e4b3;
+}
+
+.energie #page33 #div8{
+    left: 25em;
+    top: 5.5em;
+    width: 8.6em;
+}
+
+.energie #page33 #div8 p{
+    font-size: 0.58em;
+    line-height: 1.3em;
+    color: #7967ae;
+}
+
+.energie #page33 #div9{
+    left: 12.2em;
+    top: 21em;
+    width: 10em;
+}
+
+.energie #page33 #div9 p{
+    font-size: 0.58em;
+    line-height: 1.3em;
+    color: #dcb40f;
+}
+
+.energie #page33 #div10{
+    left: 16em;
+    top: 17em;
+    width: 18em;
+}
+
+.energie #page33 #div10 p{
+    font-size: 0.54em;
+    line-height: 1.3em;
+    color: #433b8e;
+}
+
+.energie #page33 #div11{
+    left: 12em;
+    top: 36em;
+    width: 10em;
+}
+
+.energie #page33 #div11 p{
+    font-size: 0.56em;
+    line-height: 1.4em;
+    color: #ec008c;
+}
+
+.energie #page33 #div12{
+    left: 15.8em;
+    top: 32.5em;
+    width: 17em;
+}
+
+.energie #page33 #div12 p{
+    font-size: 0.56em;
+    line-height: 1.3em;
+    color: #e45498;
+}
+
+/*################### page 34 ###################*/
+
+.energie #page34 header{
+    left: 17em;
+}
+
+.energie #page34 #div1{
+    left: 3.4em;
+    top: 4.8em;
+    width: 15em;
+}
+
+.energie #page34 #div1 p{
+    font-size: 0.58em;
+    line-height: 1.3em;
+    color: #a8aaac;
+}
+
+.energie #page34 #div2{
+    left: 2em;
+    top: 33em;
+    width: 33em;
+}
+
+.energie #page34 #div2 p{
+    font-size: 0.52em;
+    line-height: 1.3em;
+    color: #ec008c;
+    margin-bottom: 0.2em;
+}
+
+.energie #page34 #div3, .energie #page34 #div4, .energie #page34 #div5, 
+.energie #page35 #div13, .energie #page35 #div14, .energie #page35 #div15{
+    top: 36em;
+    width: 10.5em;    
+}
+
+.energie #page34 #div3, .energie #page35 #div13{
+    left: 2em;
+}
+
+.energie #page34 #div4, .energie #page35 #div14{
+    left: 13.3em;
+}
+
+.energie #page34 #div5, .energie #page35 #div15{
+    left: 25em;
+}
+
+.energie #page34 #div3 ul, .energie #page34 #div3 h3,
+.energie #page34 #div4 ul, .energie #page34 #div4 h3,
+.energie #page34 #div5 ul, .energie #page34 #div5 h3,
+.energie #page35 #div13 ul, .energie #page35 #div13 h3,
+.energie #page35 #div14 ul, .energie #page35 #div14 h3,
+.energie #page35 #div15 ul, .energie #page35 #div15 h3{
+    font-size: 0.52em;
+    line-height: 1.3em;
+    color: #FFF;    
+}
+
+.energie #page34 #div3 h3, .energie #page34 #div4 h3, .energie #page34 #div5 h3,
+.energie #page35 #div13 h3, .energie #page35 #div14 h3, .energie #page35 #div15 h3{
+    padding-bottom: 0.7em;
+    border-bottom: 1px dotted #FFF;
+    margin-bottom: 0.8em;
+}
+
+.energie #page34 #div3 li, .energie #page34 #div4 li, .energie #page34 #div5 li,
+.energie #page35 #div13 li, .energie #page35 #div14 li, .energie #page35 #div15 li{
+    list-style-type: none;
+    margin-bottom: 0.7em;
+}
+
+.energie #page34 #div3 li a, .energie #page34 #div4 li a, .energie #page34 #div5 li a,
+.energie #page35 #div13 li a, .energie #page35 #div14 li a, .energie #page35 #div15 li a{
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.energie #page34 #div3 li a:hover,.energie #page34 #div3 li a:focus,
+.energie #page34 #div4 li a:hover,.energie #page34 #div4 li a:focus,
+.energie #page34 #div5 li a:hover,.energie #page34 #div5 li a:focus{
+    text-decoration: underline;
+}
+
+/*################# page 35 ##################*/
+
+.energie #page35 header{
+    left: 18em;
+}
+
+.energie #page35 a{    
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.energie #page35 a:hover, .energie #page35 a:focus{
+   text-decoration: underline;
+}
+
+.energie #page35 #div6{
+    left: 2.2em;
+    top: 4.3em;
+    width: 14em;
+}
+
+.energie #page35 #div6 p{
+    font-size: 0.5em;
+    line-height: 1.3em;
+    color: #ec008c;
+}
+
+.energie #page35 #div6 a{
+    color: #ec008c;   
+}
+
+.energie #page35 #div7{
+    left: 18.2em;
+    top: 8em;
+    width: 12em;
+}
+
+.energie #page35 #div7 p{
+    font-size: 0.48em;
+    line-height: 1.3em;
+    color: #696eb2;
+}
+
+.energie #page35 #div7 a{
+    color: #696eb2;   
+}
+
+.energie #page35 #div8{
+    left: 9em;
+    top: 14.9em;
+    width: 12em;
+}
+
+.energie #page35 #div8 p{
+    font-size: 0.5em;
+    line-height: 1.3em;
+    color: #89a633;
+}
+
+.energie #page35 #div8 a{
+    color: #89a633;   
+}
+
+.energie #page35 #div9{
+    left: 23em;
+    top: 15em;
+    width: 12em;
+}
+
+.energie #page35 #div9 p{
+    font-size: 0.5em;
+    line-height: 1.3em;
+    color: #5d64b8;
+}
+
+.energie #page35 #div9 a{
+    color: #5d64b8;   
+}
+
+.energie #page35 #div10{
+    left: 1.4em;
+    top: 24em;
+    width: 12em;
+}
+
+.energie #page35 #div10 p{
+    font-size: 0.5em;
+    line-height: 1.3em;
+    color: #67c1ab;
+}
+
+.energie #page35 #div10 a{
+    color: #67c1ab;   
+}
+
+.energie #page35 #div11{
+    left: 15.3em;
+    top: 23em;
+    width: 12em;
+}
+
+.energie #page35 #div11 p{
+    font-size: 0.5em;
+    line-height: 1.3em;
+    color: #67c1ab;
+}
+
+.energie #page35 #div11 a{
+    color: #67c1ab;   
+}
+

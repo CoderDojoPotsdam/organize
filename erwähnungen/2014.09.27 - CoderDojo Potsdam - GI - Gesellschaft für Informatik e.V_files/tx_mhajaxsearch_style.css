@@ -1,0 +1,22 @@
+#tx_mhajaxsearch_result {
+
+}
+
+#tx_mhajaxsearch_spinner {
+	display: none;
+}
+
+ul.tx_mhajaxsearch_ul {
+	padding: 0px 0px 0px 25px;
+	margin: 0px 0px 0px 0px;
+	list-style-type: none;
+}
+
+ul.tx_mhajaxsearch_ul li {
+	
+}
+
+.tx_mhajaxsearch_grey {
+	color: #cccccc;
+	background-color: #ffffff;
+}

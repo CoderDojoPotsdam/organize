@@ -1,0 +1,2993 @@
+.technik.scEPagerOverlay article {
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+hyphens: auto;
+-moz-hyphens: auto;
+-webkit-hyphens: auto;
+-ms-hyphens: auto;
+}
+.technik.scEPagerOverlay a {
+text-decoration: none;
+color: inherit;
+}
+.technik.scEPagerOverlay .brochurePage {
+    width: 37em;
+    height: 53em;
+    float: left;
+    overflow: hidden;
+}
+.technik.scEPagerOverlay .screenReader {
+display: none;
+}
+.technik.scEPagerOverlay article {
+background-color: white;
+position: relative;
+color: black;
+/* color: #5a5758; */
+}
+.technik.scEPagerOverlay article img.backgroundImage {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%; /*37em; */ 
+}
+.technik.scEPagerOverlay article .orange {
+color: #F46717;
+}
+.technik.scEPagerOverlay article .green {
+color: #DFBE00;
+}
+.technik.scEPagerOverlay article .grey {
+color: #707070;
+}
+.technik.scEPagerOverlay article .sup {
+vertical-align: super;
+font-size: 0.8em;
+}
+.technik.scEPagerOverlay article .lightBlue {
+color: #4587ad;
+}
+.technik.scEPagerOverlay article .red {
+color: #ec038d;
+}
+.technik.scEPagerOverlay em, .technik.scEPagerOverlay article .bold {
+font-weight: bold;
+}
+.technik.scEPagerOverlay header h2 {
+font-weight: normal;
+color: #a5a3a4;
+font-size: 1.3em;
+}
+.technik.scEPagerOverlay article p, .technik.scEPagerOverlay article header, .technik.scEPagerOverlay article dl, .technik.scEPagerOverlay article h1,
+.technik.scEPagerOverlay article h2,.technik.scEPagerOverlay article h3, .technik.scEPagerOverlay article ul, .technik.scEPagerOverlay article aside {
+position: relative;
+z-index: 1040;
+}
+.technik.scEPagerOverlay .blocksatz {
+text-align: justify;
+}
+.technik.scEPagerOverlay sub {
+font-size: 0.7em;
+line-height: 0.5em;
+}
+.technik.scEPagerOverlay .pagewidth {
+
+}
+.technik.scEPagerOverlay .right {
+text-align: right;
+}
+.technik.scEPagerOverlay .grey {
+color: #CCCCCC;
+}
+.technik.scEPagerOverlay .bold {
+font-weight: 130;
+}
+.technik.scEPagerOverlay .star {
+background: transparent url('../images/epager/technik/star.png') top left no-repeat;
+background-size: 1em;
+padding-left: 1.7em;
+font-size: 0.55em;
+line-height: 1em;
+margin: 0.2em 0 0.5em 0;
+list-style: none;
+padding-bottom: 0.5em;
+border-bottom: 0.2em dashed orange;
+}
+.technik.scEPagerOverlay hr.dashed_orange {
+width: 100%;
+height: 0;
+color: white;
+border: white;
+background: transparent;
+border-bottom: 0.1em dashed #E36974;
+margin: 0.3em 0 0.3em 0;
+}
+.technik.scEPagerOverlay h2.dashed_orange {
+border-top: 0.1em dashed #E36974;
+padding: 0.5em 0;
+color: #E36974;
+}
+.technik.scEPagerOverlay h2 {
+font-size: 0.55em;
+}
+.technik.scEPagerOverlay p {
+font-size: 0.55em;
+}
+.technik.scEPagerOverlay #leading_p {
+margin-bottom: 1em !important;
+}
+.technik.scEPagerOverlay .raquo {
+background: transparent url('../images/epager/technik/raquo.png') top left no-repeat;
+background-size: 0.65em;
+padding-left: 1.7em;
+padding-top: 1em;
+color: #F78044;
+margin-bottom: 0.8em;
+border-top: 0.3em dotted black;
+line-height: 1em;
+letter-spacing: -0.02em;
+}
+/*
+.technik.scEPagerOverlay .left {
+text-align: left;
+}
+.technik.scEPagerOverlay .right {
+text-align: right;
+width: 2em;
+}
+*/
+.technik.scEPagerOverlay ul {
+
+}
+.technik.scEPagerOverlay ul.leaders {
+max-width: 35em;
+padding: 0;
+overflow-x: hidden;
+list-style: none;
+margin: 0;
+}
+.technik.scEPagerOverlay ul.leaders li:before {
+float: left;
+width: 0;
+white-space: nowrap;
+content:
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . ";
+}
+.technik.scEPagerOverlay ul.leaders span:first-child {
+padding-right: 0.33em;
+background: white;
+}
+.technik.scEPagerOverlay ul.leaders span + span {
+float: right;
+padding-left: 0.33em;
+background: white;
+}
+/*### page 2 ###*/
+.technik.scEPagerOverlay #page2 #div_container {
+position: absolute;
+top: 0;
+left: 0;
+width: 35em;
+padding: 0 0 0 2.8em;
+}
+.technik.scEPagerOverlay #page2 #div1 {
+margin-top: 5.5em;
+margin-left: 0em;
+width: 25em;
+}
+.technik.scEPagerOverlay #page2 #div1 p {
+font-size: 0.8em;
+margin: 0 0 0.45em 0;
+padding: 0;
+line-height: 0.9em;
+}
+.technik.scEPagerOverlay #page2 #div1 .abstand {
+margin-top: 1.3em;
+}
+.technik.scEPagerOverlay #page2 #div1 span {
+font-size: 0.8em;
+letter-spacing: -0.05em;
+margin: 0;
+}
+.technik.scEPagerOverlay #page2 #div2 {
+font-size: 0.6em; /* 0.37em */
+margin-top: 4em;
+width: 54em;
+}
+.technik.scEPagerOverlay #page2 #div2 h3 {
+margin-bottom: 0.6em;
+font-weight: bold;
+}
+.technik.scEPagerOverlay #page2 #div2 p {
+margin-bottom: 1em;
+line-height: 1.3em;
+}
+.technik.scEPagerOverlay #page2 #div2 span {
+
+}
+.technik.scEPagerOverlay #page2 #div3 {
+position: absolute;
+top: 4em;
+left: 34em;
+font-size: 0.6em;
+width: 20em;
+padding: 1em;
+}
+.technik.scEPagerOverlay #page2 hr {
+color: #F46717;
+border-style: dotted;
+}
+/*### page 3 ###*/
+.technik.scEPagerOverlay #page3 {
+}
+.technik.scEPagerOverlay #page3 #div_container {
+padding-left: 1.5em;
+margin-top: 0em;
+}
+.technik.scEPagerOverlay #page3 #contentbox {
+position: absolute;
+z-index: 1150;
+top: 5.15em;
+left: 2.1em;
+width: 5em;
+}
+.technik.scEPagerOverlay #page3 #contentbox h2 {
+font-size: 1em;
+padding: 0;
+width: 4.6em;
+}
+.technik.scEPagerOverlay #page3 #div1 {
+width: 19.5em;
+margin: 0;
+padding: 8.5em 1em 4em 1em;
+}
+/*
+.technik.scEPagerOverlay #page3 span.left {
+width: 35em;
+} */
+.technik.scEPagerOverlay #page3 h3 {
+color: #F48B93;
+font-size: 0.7em;
+margin-top: 1.5em;
+margin-bottom: 0.7em;
+}
+.technik.scEPagerOverlay #page3 li {
+height: 2em;
+font-size: 0.7em;
+margin-bottom: 0.15em;
+}
+.technik.scEPagerOverlay #page3 h2 {
+background: #F48B93;
+font-size: 0.7em;
+width: 6em;
+color: white;
+text-align: center;
+margin: 0;
+padding: 0.5em 0em;
+}
+/*### page 4 ###*/
+.technik.scEPagerOverlay #page4{
+color: #767778;
+}
+.technik.scEPagerOverlay #page4 #box1 {
+position: absolute;
+z-index: 1150;
+top: 21.8em;
+left: 3.5em;
+padding-right: 1em;
+color: white;
+}
+.technik.scEPagerOverlay #page4 .greenbox {
+/* background: green; */
+color: white;
+width: 8em;
+overflow: hidden;
+}
+.technik.scEPagerOverlay #page4 .greenbox h2 {
+font-size: 0.6em;
+font-weight: bold;
+margin: 0;
+color: white;
+}
+.technik.scEPagerOverlay #page4 .greenbox p {
+font-size: 0.6em;
+line-height: 1.1em;
+margin: 0;
+color: white;
+}
+.technik.scEPagerOverlay #page4 #letterWanka {
+position: absolute;
+z-index: 1050;
+width: 23em;
+top: 7.9em;
+left: 14em;
+padding-right: 1em;
+}
+.technik.scEPagerOverlay #page4 #letterWanka p {
+margin-bottom: 1em;
+}
+.technik.scEPagerOverlay #page4 #signature {
+height: 3em;
+margin: 0;
+}
+.technik.scEPagerOverlay #page4 #div1 {
+float: left;
+width: 9em;
+margin-right: 2em;
+}
+.technik.scEPagerOverlay #page4 #div1 p, .technik.scEPagerOverlay #page4 #div2 p {
+line-height: 1.2em;
+}
+.technik.scEPagerOverlay #page4 #div2 {
+float: left;
+width: 9em;
+}
+/*### page 5 ###*/
+.technik.scEPagerOverlay #page5{
+color: #767778;
+}
+.technik.scEPagerOverlay #page5 #box1 {
+position: absolute;
+z-index: 1150;
+top: 16.5em;
+left: 3em;
+padding-right: 1em;
+}
+.technik.scEPagerOverlay #page5 #box1 h2 {
+letter-spacing: -0.04em;
+}
+.technik.scEPagerOverlay #page5 #box2 {
+position: absolute;
+z-index: 1150;
+top: 16.5em;
+left: 14em;
+padding-right: 1em;
+}
+.technik.scEPagerOverlay #page5 .greenbox {
+/* background: green; */
+color: white;
+width: 10em;
+overflow: hidden;
+line-height: 0.7em;
+}
+.technik.scEPagerOverlay #page5 .greenbox h2 {
+font-size: 0.5em;
+font-weight: bold;
+margin: 0;
+color: white;
+}
+.technik.scEPagerOverlay #page5 .greenbox p {
+font-size: 0.5em;
+margin: 0;
+color: white;
+}
+.technik.scEPagerOverlay #page5 #letter {
+position: absolute;
+z-index: 1050;
+width: 23em;
+top: 22.5em;
+left: 3em;
+padding-right: 1em;
+}
+.technik.scEPagerOverlay #page5 #letter p {
+margin-bottom: 1em;
+line-height: 1.3em;
+}
+.technik.scEPagerOverlay #page5 #signature {
+height: 4em;
+margin: 0;
+}
+.technik.scEPagerOverlay #page5 #div1 {
+float: left;
+width: 10em;
+margin-right: 1em;
+background: white;
+}
+.technik.scEPagerOverlay #page5 #div2 {
+float: left;
+width: 10em;
+background: white;
+}
+/*### page 6 ###*/
+.technik.scEPagerOverlay #page6 #div_col_container {
+position: absolute;
+top: 7.2em;
+left: 1.6em;
+overflow: auto;
+width: 100%;
+padding: 10px;
+margin: 0;
+line-height: 1.1em;
+}
+.technik.scEPagerOverlay #page6 #div1 {
+float: left;
+width: 16em;
+margin-right: 1em;
+line-height: 0.63em;
+font-size: 0.95em;
+}
+.technik.scEPagerOverlay #page6 #div1 p {
+color: white;
+}
+.technik.scEPagerOverlay #page6 #div2 {
+float: left;
+width: 16em;
+color: white;
+line-height: 0.63em;
+font-size: 0.95em;
+}
+.technik.scEPagerOverlay #page6 #div2 p {
+color: white;
+}
+.technik.scEPagerOverlay #page6 #div3 {
+position: absolute;
+top: 39em;
+left: 23em;
+width: 14em;
+height: 10em;
+font-size: 0.9em;
+line-height: 0.7em;
+}
+.technik.scEPagerOverlay #page6 #div3 h2 {
+font-size: 0.65em;
+letter-spacing: -0.05em;
+margin-bottom: 0.5em;
+}
+.technik.scEPagerOverlay #page6 #div3 p {
+margin: 0;
+}
+.technik.scEPagerOverlay #page6 #div4 {
+position: absolute;
+top: 53.8em;
+left: 8em;
+width: 32em;
+height: 6em;
+font-size: 0.9em;
+line-height: 0.7em;
+color: white;
+}
+.technik.scEPagerOverlay #page6 #div4 a {
+font-weight: bold;
+}
+.technik.scEPagerOverlay #page6 #div4 p {
+color: white;
+}
+/*### page 7 ###*/
+.technik.scEPagerOverlay #page7 #div1 {
+position: absolute;
+top: 8em;
+left: 14em;
+width: 20em;
+}
+.technik.scEPagerOverlay #page7 #div1 p {
+line-height: 1.1em;
+margin: 0;
+color: white;
+}
+.technik.scEPagerOverlay #page7 #div2 {
+position: absolute;
+top: 12.8em;
+left: 13.2em;
+width: 21.5em;
+border-top: 0.1em dashed orange;
+}
+.technik.scEPagerOverlay #page7 #div2 p {
+line-height: 1.1em;
+}
+.technik.scEPagerOverlay #page7 #div2 h2 {
+line-height: 1.1em;
+margin: 0.7em 0 0.5em 0;
+}
+.technik.scEPagerOverlay #page7 #div3 {
+position: absolute;
+z-index: 1100;
+top: 35em;
+left: 5em;
+width: 12.5em;
+-moz-transform: rotate(-8deg);
+-webkit-transform: rotate(-8deg);
+-o-transform: rotate(-8deg);
+-ms-transform: rotate(-8deg);
+transform: rotate(-8deg);
+}
+.technik.scEPagerOverlay #page7 #div3 p {
+line-height: 1.1em;
+margin: 0;
+}
+.technik.scEPagerOverlay #page7 #div3 h2 {
+line-height: 1.1em;
+margin: 0;
+}
+.technik.scEPagerOverlay #page7 #div4 {
+position: absolute;
+z-index: 1100;
+top: 32.3em;
+left: 22.5em;
+width: 10em;
+-moz-transform: rotate(6deg);
+-webkit-transform: rotate(6deg);
+-o-transform: rotate(6deg);
+-ms-transform: rotate(6deg);
+transform: rotate(6deg);
+}
+.technik.scEPagerOverlay #page7 #div4 p {
+line-height: 1.1em;
+margin: 0;
+}
+.technik.scEPagerOverlay #page7 #div4 h2 {
+line-height: 1.1em;
+margin: 0;
+}
+.technik.scEPagerOverlay #page7 #div5 {
+position: absolute;
+top: 48.7em;
+left: 2em;
+width: 30em;
+}
+.technik.scEPagerOverlay #page7 #div5 p {
+font-size: 0.6em;
+line-height: 1.1em;
+margin: 0;
+color: white;
+}
+.technik.scEPagerOverlay #page7 #div6 {
+position: absolute;
+top: 38em;
+left: 4em;
+height: 2em;
+width: 14em;
+}
+.technik.scEPagerOverlay #page7 #div6 a {
+display: block;
+width: 100%;
+height: 100%;
+/* background: yellow; */
+}
+/*### page 8 ###*/
+.technik.scEPagerOverlay #page8 #div_col_container {
+position: absolute;
+top: 7em;
+left: 1.6em;
+overflow: auto;
+width: 100%;
+padding: 10px;
+margin: 0;
+line-height: 1.1em;
+}
+.technik.scEPagerOverlay #page8 #div1 {
+float: left;
+width: 15em;
+margin-left: 1em;
+margin-right: 1em;
+color: white;
+}
+.technik.scEPagerOverlay #page8 #div1 p {
+line-height: 1.1em;
+margin: 0;
+color: white;
+}
+.technik.scEPagerOverlay #page8 #div2 {
+float: left;
+width: 15em;
+color: white;
+}
+.technik.scEPagerOverlay #page8 #div2 p {
+line-height: 1.1em;
+margin: 0;
+color: white;
+}
+.technik.scEPagerOverlay #page8 #div3 {
+position: absolute;
+z-index: 1100;
+top: 33.5em;
+left: 2.3em;
+width: 15em;
+}
+.technik.scEPagerOverlay #page8 #div3 p {
+line-height: 1.1em;
+}
+.technik.scEPagerOverlay #page8 #div4 {
+position: absolute;
+z-index: 1100;
+top: 40.9em;
+left: 21.6em;
+width: 16em;
+-moz-transform: rotate(6deg);
+-webkit-transform: rotate(6deg);
+-o-transform: rotate(6deg);
+-ms-transform: rotate(6deg);
+transform: rotate(6deg);
+}
+.technik.scEPagerOverlay #page8 #div4 h2 {
+font-size: 0.6em;
+line-height: 1.1em;
+margin: 0 0 0.5em 0;
+}
+.technik.scEPagerOverlay .check {
+list-style: none;
+}
+.technik.scEPagerOverlay .check li {
+background: transparent url('../images/epager/technik/page08hook.png') top left no-repeat; /* change image */
+background-size: 1em;
+padding-left: 1.7em;
+font-size: 0.6em;
+line-height: 1em;
+margin: 0 0 0.5em 0;
+font-weight: bold;
+}
+.technik.scEPagerOverlay #page8 #div5 {
+position: absolute;
+top: 48.5em;
+right: 0.5em;
+width: 28em;
+}
+.technik.scEPagerOverlay #page8 #div5 p {
+line-height: 1.1em;
+margin: 0;
+color: white;
+}
+/*### page 9 ###*/
+.technik.scEPagerOverlay #page9 #div1 {
+position: absolute;
+top: 2.2em;
+left: 2.4em;
+width: 31.1em;
+padding-left: 0.5em;
+}
+.technik.scEPagerOverlay #page9 #div1 p {
+line-height: 1.1em;
+margin: 0;
+}
+.technik.scEPagerOverlay #page9 #div1 h2 {
+line-height: 1.1em;
+margin: 0 0 0.5em 0;
+border-top: 0.1em dashed orange;
+padding-top: 0.8em;
+width: 33em;
+}
+.technik.scEPagerOverlay #page9 #div2 {
+position: absolute;
+top: 7.5em;
+left: 2.4em;
+width: 31.1em;
+border-top: 0.1em dashed orange;
+padding-top: 0.5em;
+padding-left: 0.5em;
+}
+.technik.scEPagerOverlay #page9 #div2 p {
+line-height: 1.1em;
+margin: 0;
+}
+.technik.scEPagerOverlay #page9 #div3 {
+position: absolute;
+top: 12.5em;
+left: 2.4em;
+width: 5em;
+}
+.technik.scEPagerOverlay #page9 #div3 img {
+width: 4em;
+height: 4em;
+}
+.technik.scEPagerOverlay #page9 #div4 {
+position: absolute;
+top: 12.7em;
+left: 7em;
+width: 26.5em;
+border-top: 0.1em dashed orange;
+padding-top: 0.5em;
+padding-left: 0.5em;
+}
+.technik.scEPagerOverlay #page9 #div4 p {
+line-height: 1.1em;
+margin: 0;
+}
+.technik.scEPagerOverlay #page9 #div5 {
+position: absolute;
+top: 23em;
+left: 3.1em;
+width: 14em;
+}
+.technik.scEPagerOverlay #page9 #div5 p {
+line-height: 1.1em;
+margin-bottom: 1em;
+}
+.technik.scEPagerOverlay #page9 #div5 h2 {
+color: white;
+letter-spacing: -0.02em;
+padding: 0.6em 0;
+}
+.technik.scEPagerOverlay #page9 .mint {
+color: #00AA99;
+padding-top: 0.2em;
+display: block;
+}
+.technik.scEPagerOverlay #page9 #div6 {
+position: absolute;
+top: 23.5em;
+left: 18.9em;
+width: 13.5em;
+}
+.technik.scEPagerOverlay #page9 #div6 p {
+line-height: 1.1em;
+padding-bottom: 1em;
+margin: 0;
+}
+.technik.scEPagerOverlay #page9 p.raute {
+background: transparent url('../images/epager/technik/page09raute.png') top left no-repeat; /* change image */
+background-size: 3em;
+padding-left: 3em;
+padding-bottom: 2em;
+}
+.technik.scEPagerOverlay #page9 #div7 {
+position: absolute;
+top: 33.3em;
+left: 3em;
+width: 31em;
+}
+.technik.scEPagerOverlay #page9 #div7 p {
+line-height: 1.1em;
+margin-top: 0.5em;
+}
+.technik.scEPagerOverlay #page9 #div7 p.first {
+margin-bottom: 1em;
+}
+.technik.scEPagerOverlay #page9 #div7 p.star {
+border-bottom: 0.1em dashed orange;
+padding-bottom: 0.5em;
+}
+.technik.scEPagerOverlay #page9 #div7 h2 {
+line-height: 1.1em;
+margin: 0;
+}
+.technik.scEPagerOverlay #page9 #div8 {
+position: absolute;
+top: 49em;
+left: 3em;
+width: 29em;
+}
+.technik.scEPagerOverlay #page9 #div8 p {
+line-height: 1.1em;
+margin: 0;
+color: white;
+}
+/*### page 10 ###*/
+.technik.scEPagerOverlay #page10 #div1 {
+position: absolute;
+top: 27.8em;
+left: 2.7em;
+width: 9.2em;
+-moz-transform: rotate(9.5deg);
+-webkit-transform: rotate(9.5deg);
+-o-transform: rotate(9.5deg);
+-ms-transform: rotate(9.5deg);
+transform: rotate(9.5deg);
+}
+.technik.scEPagerOverlay #page10 #div1 p {
+line-height: 1.1em;
+margin: 0;
+letter-spacing: -0.02em;
+}
+.technik.scEPagerOverlay #page10 #div1 h2 {
+line-height: 1.1em;
+margin: 0 0 0.5em 0;
+}
+.technik.scEPagerOverlay #page10 #div_col_container {
+position: absolute;
+top: 37.6em;
+left: 1.6em;
+overflow: auto;
+width: 100%;
+padding: 10px;
+margin: 0;
+line-height: 1.1em;
+}
+.technik.scEPagerOverlay #page10 #div2 {
+float: left;
+width: 15em;
+margin-left: 1em;
+color: white;
+}
+.technik.scEPagerOverlay #page10 #div2 p, .technik.scEPagerOverlay #page10 #div3 p {
+font-size: 0.5em;
+line-height: 1.25em;
+margin: 0;
+letter-spacing: -0.01em;
+color: white;
+}
+.technik.scEPagerOverlay #page10 #div3 {
+float: left;
+width: 15em;
+margin-left: 1em;
+color: white;
+}
+.technik.scEPagerOverlay #page10 #div4 {
+position: absolute;
+top: 48.5em;
+right: 0.5em;
+width: 28em;
+}
+.technik.scEPagerOverlay #page10 #div4 p {
+line-height: 1.1em;
+margin: 0;
+color: white;
+}
+/*### page 11 ###*/
+.technik.scEPagerOverlay #page11 #div1 {
+position: absolute;
+top: 2.2em;
+left: 3.1em;
+width: 15em;
+}
+.technik.scEPagerOverlay #page11 #div1 p {
+line-height: 1.1em;
+margin: 0;
+letter-spacing: -0.02em;
+}
+.technik.scEPagerOverlay #page11 #div1 h2 {
+line-height: 1.1em;
+margin: 0 0 0.5em 0;
+}
+.technik.scEPagerOverlay #page11 #div_col_container {
+position: absolute;
+top: 26.2em;
+left: 1.2em;
+overflow: auto;
+width: 100%;
+padding: 10px;
+margin: 0;
+line-height: 0.8em;
+}
+.technik.scEPagerOverlay #page11 #div2 {
+
+}
+.technik.scEPagerOverlay #page11 #div3, .technik.scEPagerOverlay #page11 #div4 {
+float: left;
+width: 15.7em;
+margin-left: 1em;
+}
+.technik.scEPagerOverlay #page11 #div_col_container p {
+line-height: 1.2em;
+margin-bottom: 1em;
+}
+.technik.scEPagerOverlay #page11 #div5 {
+position: absolute;
+top: 41em;
+right: 3em;
+width: 10em;
+-moz-transform: rotate(-7deg);
+-webkit-transform: rotate(-7deg);
+-o-transform: rotate(-7deg);
+-ms-transform: rotate(-7deg);
+transform: rotate(-7deg);
+}
+.technik.scEPagerOverlay #page11 #div5 h2 {
+margin-bottom: 0.3em;
+}
+.technik.scEPagerOverlay #page11 #div5 p {
+line-height: 1em;
+}
+.technik.scEPagerOverlay #page11 #div6 {
+position: absolute;
+top: 48.5em;
+left: 2.8em;
+width: 28em;
+color: white; 
+}
+.technik.scEPagerOverlay #page11 #div6 p {
+line-height: 1.1em;
+color: white;
+}
+/*### page 12 ###*/
+.technik.scEPagerOverlay #page12 #div_col_container {
+position: absolute;
+top: 7.2em;
+left: 1.2em;
+overflow: auto;
+width: 100%;
+padding: 10px;
+margin: 0;
+line-height: 0.8em;
+}
+.technik.scEPagerOverlay #page12 #div_col_container p {
+line-height: 1.1em;
+margin-bottom: 1em;
+color: white;
+}
+.technik.scEPagerOverlay #page12 #div1 {
+float: left;
+width: 15.5em;
+margin-left: 1em;
+}
+.technik.scEPagerOverlay #page12 #div2 {
+float: left;
+width: 15.5em;
+margin-left: 1em;
+}
+.technik.scEPagerOverlay #page12 #div3 {
+position: absolute;
+top: 14.2em;
+left: 2.3em;
+width: 10em;
+-moz-transform: rotate(7deg);
+-webkit-transform: rotate(7deg);
+-o-transform: rotate(7deg);
+-ms-transform: rotate(7deg);
+transform: rotate(7deg);
+display: none;
+}
+.technik.scEPagerOverlay #page12 #div3 p {
+line-height: 1.1em;
+margin: 0;
+letter-spacing: -0.02em;
+/* -webkit-font-smoothing: antialiased; */
+}
+.technik.scEPagerOverlay #page12 #div3 h2 {
+line-height: 1.1em;
+margin: 0 0 0.5em 0;
+-webkit-font-smoothing: antialiased;
+}
+.technik.scEPagerOverlay #page12 #div4 {
+position: absolute;
+top: 13.1em;
+left: 19.8em;
+width: 15em;
+}
+.technik.scEPagerOverlay #page12 #div4 p {
+line-height: 1.1em;
+}
+.technik.scEPagerOverlay #page12 #div5 {
+position: absolute;
+top: 40.5em;
+left: 6.6em;
+width: 13em;
+-moz-transform: rotate(-6deg);
+-webkit-transform: rotate(-6deg);
+-o-transform: rotate(-6deg);
+-ms-transform: rotate(-6deg);
+transform: rotate(-6deg);
+/* display: none; */
+}
+.technik.scEPagerOverlay #page12 #div6 {
+position: absolute;
+top: 46.5em;
+left: 6em;
+height: 2em;
+width: 14em;
+}
+.technik.scEPagerOverlay #page12 #div6 a {
+display: block;
+width: 100%;
+height: 100%;
+/* background: yellow; */
+}
+/*### page 13 ###*/
+.technik.scEPagerOverlay #page13 #div1 {
+position: absolute;
+top: 6.8em;
+left: 2.8em;
+width: 21em;
+}
+.technik.scEPagerOverlay #page13 #div1 p {
+margin-left: 1.6em;
+margin-bottom: 1.2em;
+}
+.technik.scEPagerOverlay #page13 #div2 {
+position: absolute;
+top: 22em;
+left: 28.1em;
+width: 7em;
+color: white;
+}
+.technik.scEPagerOverlay #page13 #div2 p, .technik.scEPagerOverlay #page13 #div2 span {
+line-height: 1.2em;
+color: white;
+}
+.technik.scEPagerOverlay #page13 #div3 {
+position: absolute;
+top: 49em;
+left: 2em;
+width: 30em;
+}
+.technik.scEPagerOverlay #page13 #div3 p {
+color: white;
+}
+.technik.scEPagerOverlay #page13a {
+padding-left: 4em;
+}
+.technik.scEPagerOverlay #page13b {
+margin-left: 6em;
+}
+.technik.scEPagerOverlay #page13c{
+padding-left: 6em;
+}
+/*### page 14 ###*/
+.technik.scEPagerOverlay #page14 #div_col_container {
+position: absolute;
+top: 7.1em;
+left: 2.2em;
+overflow: auto;
+width: 100%;
+padding: 10px;
+margin: 0;
+line-height: 0.8em;
+}
+.technik.scEPagerOverlay #page14 #div_col_container p {
+line-height: 1.1em;
+margin-bottom: 1em;
+color: white;
+}
+.technik.scEPagerOverlay #page14 #div1 {
+float: left;
+width: 15.3em;
+}
+.technik.scEPagerOverlay #page14 #div2 {
+float: left;
+width: 15.3em;
+margin-left: 1em;
+}
+.technik.scEPagerOverlay #page14 #div3 {
+position: absolute;
+top: 22.7em;
+left: 2.8em;
+width: 6em;
+color: white;
+}
+.technik.scEPagerOverlay #page14 #div3 p, .technik.scEPagerOverlay #page14 #div3 span {
+line-height: 1.1em;
+color: white;
+}
+.technik.scEPagerOverlay #page14 #div4 {
+position: absolute;
+top: 16.8em;
+left: 13.2em;
+width: 21em;
+}
+.technik.scEPagerOverlay #page14 #div4 p {
+margin-bottom: 1.2em;
+margin-left: 1.6em;
+line-height: 1.1em;
+}
+.technik.scEPagerOverlay #page14 #div5 {
+display: none;
+}
+.technik.scEPagerOverlay #page14 #div6 {
+position: absolute;
+top: 49em;
+right: 1em;
+width: 28.5em;
+}
+.technik.scEPagerOverlay #page14 #div6 p {
+color: white;
+}
+/*### page 15 ###*/
+.technik.scEPagerOverlay #page15 #div1 {
+position: absolute;
+top: 22.4em;
+left: 4.4em;
+width: 25.8em;
+}
+.technik.scEPagerOverlay #page15 #div1 p {
+margin-bottom: 1.2em;
+margin-left: 1.7em;
+line-height: 1.1em;
+}
+/*### page 16 ###*/
+.technik.scEPagerOverlay #page16 #div_col_container {
+position: absolute;
+top: 7.1em;
+left: 2em;
+overflow: auto;
+width: 35em;
+padding: 10px;
+margin: 0;
+line-height: 0.6em;
+color: white;
+}
+.technik.scEPagerOverlay #page16 #div1 {
+float: left;
+width: 12.8em;
+}
+.technik.scEPagerOverlay #page16 #div1 p {
+color: white;
+}
+.technik.scEPagerOverlay #page16 #div2 {
+float: left;
+width: 12.8em;
+margin-left: 1em;
+}
+.technik.scEPagerOverlay #page16 #div2 p {
+color: white;
+}
+.technik.scEPagerOverlay #page16 #div3 {
+position: absolute;
+top: 20.3em;
+left: 10.7em;
+width: 23em;
+}
+.technik.scEPagerOverlay #page16 #div3 p {
+line-height: 1em;
+}
+.technik.scEPagerOverlay #page16 #div4 {
+
+}
+.technik.scEPagerOverlay #page16 #div5 {
+position: absolute;
+top: 49em;
+right: 2em;
+width: 27em;
+color: white;
+}
+.technik.scEPagerOverlay #page16 #div5 p {
+color: white;
+}
+.technik.scEPagerOverlay #page16 p.raute {
+background: transparent url('../images/epager/technik/page16raute.png') top left no-repeat;
+background-size: 2em;
+margin-top: 1em;
+padding-top: 0.2em;
+padding-left: 2em;
+padding-bottom: 1em;
+border-bottom: 0.2em solid #76A8C3;
+/* margin-left: 1em; */
+}
+.technik.scEPagerOverlay #page16 p#last {
+margin-top: 0.6em;
+}
+/*### page 17 ###*/
+.technik.scEPagerOverlay #page17 #div1 {
+position: absolute;
+top: 22.3em;
+left: 3.1em;
+width: 23.3em;
+}
+.technik.scEPagerOverlay #page17 #div1 p {
+margin-bottom: 1em;
+}
+.technik.scEPagerOverlay #page17 #div2 {
+position: absolute;
+top: 48.6em;
+left: 2.8em;
+width: 28em;
+color: white;
+}
+
+.technik.scEPagerOverlay #page17 #div2 p {
+color: white;
+}
+/*### page 18 ###*/
+.technik.scEPagerOverlay #page18 #div1 {
+position: absolute;
+top: 13.4em;
+left: 2.7em;
+width: 6.6em;
+color: white;
+}
+.technik.scEPagerOverlay #page18 #div1 p, .technik.scEPagerOverlay #page18 #div1 span {
+color: white;
+}
+.technik.scEPagerOverlay #page18 #div2 {
+position: absolute;
+top: 8em;
+left: 20.1em;
+width: 13.3em;
+color: white;
+}
+.technik.scEPagerOverlay #page18 #div2 p {
+color: white;
+}
+.technik.scEPagerOverlay #page18 #div3 {
+position: absolute;
+top: 26.3em;
+left: 14.3em;
+width: 20.1em;
+}
+.technik.scEPagerOverlay #page18 #div3 p {
+margin-bottom: 1em;
+margin-left: 1.7em;
+margin-top: 0.5em;
+line-height: 1.1em;
+}
+/*### page 19 ###*/
+.technik.scEPagerOverlay #page19 #div1 {
+position: absolute;
+top: 12.1em;
+left: 2.8em;
+width: 20em;
+}
+.technik.scEPagerOverlay #page19 #div1 p {
+margin-bottom: 1em;
+margin-left: 1.7em;
+margin-top: 0.5em;
+line-height: 1.1em;
+}
+.technik.scEPagerOverlay #page19 #div2 {
+position: absolute;
+top: 48.6em;
+left: 1.2em;
+width: 30em;
+color: white;
+}
+.technik.scEPagerOverlay #page19 #div2 p {
+color: white;
+}
+/*### page 20 ###*/
+.technik.scEPagerOverlay #page20 #div1 {
+position: absolute;
+top: 22.8em;
+left: 2.7em;
+width: 13em;
+color: white;
+}
+.technik.scEPagerOverlay #page20 #div1 p {
+color: white;
+}
+.technik.scEPagerOverlay #page20 #div2 {
+position: absolute;
+top: 24em;
+left: 26em;
+width: 10em;
+}
+.technik.scEPagerOverlay #page20 #div3 {
+position: absolute;
+top: 38.1em;
+left: 3.1em;
+width: 20em;
+color: white;
+}
+.technik.scEPagerOverlay #page20 #div3 p {
+color: white;
+}
+.technik.scEPagerOverlay #page20 #div4 {
+position: absolute;
+top: 48.5em;
+left: 7.7em;
+width: 28em;
+color: white;
+}
+.technik.scEPagerOverlay #page20 #div4 p {
+color: white;
+}
+/*### page 21 ###*/
+.technik.scEPagerOverlay #page21 #div1 {
+position: absolute;
+top: 9em;
+left: 2em;
+width: 16em;
+/*color: white; */
+}
+.technik.scEPagerOverlay #page21 #div1 p {
+margin-bottom: 1em;
+margin-left: 1.7em;
+margin-top: 0.5em;
+line-height: 1.1em;
+}
+.technik.scEPagerOverlay #page21 #div2 {
+position: absolute;
+top: 37.8em;
+left: 2em;
+width: 17em;
+}
+.technik.scEPagerOverlay #page21 #div2 p {
+margin-bottom: 1em;
+margin-left: 1.7em;
+margin-top: 0.5em;
+line-height: 1.1em;
+}
+.technik.scEPagerOverlay #page21 #div3 {
+position: absolute;
+top: 12.6em;
+left: 28em;
+width: 6.5em;
+color: white;
+}
+.technik.scEPagerOverlay #page21 #div3 p, .technik.scEPagerOverlay #page21 #div3 span {
+line-height: 1.2em;
+color: white;
+}
+.technik.scEPagerOverlay #page21 #div4 {
+position: absolute;
+top: 48.5em;
+left: 7.7em;
+width: 28em;
+}
+.technik.scEPagerOverlay #page21 #div5 {
+position: absolute;
+top: 49em;
+left: 3em;
+width: 28em;
+color: white;
+}
+.technik.scEPagerOverlay #page21 #div5 p {
+color: white;
+}
+/*### page 22 ###*/
+.technik.scEPagerOverlay #page22 #div1 {
+position: absolute;
+top: 12em;
+left: 2.5em;
+width: 16em;
+color: white;
+}
+.technik.scEPagerOverlay #page22 #div1 h2 {
+margin-bottom: 1em;
+color: white;
+}
+.technik.scEPagerOverlay #page22 #div1 p {
+margin-bottom: 1em;
+color: white;
+}
+.technik.scEPagerOverlay #page22 #div2 {
+position: absolute;
+top: 34.8em;
+left: 3em;
+width: 15em;
+}
+.technik.scEPagerOverlay #page22 #div2 p {
+margin-bottom: 1.2em;
+line-height: 1.2em;
+}
+.technik.scEPagerOverlay #page22 #div3 {
+position: absolute;
+top: 48.5em;
+left: 8em;
+width: 28em;
+color: white;
+}
+.technik.scEPagerOverlay #page22 #div3 p {
+color: white;
+}
+/*### page 23 ###*/
+.technik.scEPagerOverlay #page23 #div1 {
+position: absolute;
+top: 6.4em;
+left: 19.1em;
+width: 15em;
+color: black;
+}
+.technik.scEPagerOverlay #page23 p.raute {
+background: transparent url('../images/epager/technik/page23raute.png') top left no-repeat;
+background-size: 2em;
+margin-top: 0.5em;
+padding-top: 0.2em;
+padding-left: 2em;
+border-bottom: 0.3em solid #76A8C3;
+color: white;
+}
+.technik.scEPagerOverlay #page23 #div1 p, .technik.scEPagerOverlay #page23 #div1 span {
+color: white;
+padding-bottom: 1em;
+}
+.technik.scEPagerOverlay #page23 #div2 {
+position: absolute;
+top: 48.5em;
+left: 1.5em;
+width: 30em;
+color: white;
+}
+.technik.scEPagerOverlay #page23 #div2 p {
+color: white;
+}
+/*### page 24 ###*/
+.technik.scEPagerOverlay #page24 #col_container {
+position: absolute;
+top: 6.9em;
+left: 1.8em;
+overflow: auto;
+width: 35em;
+padding: 1em;
+margin: 0;
+line-height: 0.6em;
+color: white;
+}
+.technik.scEPagerOverlay #page24 #div1 {
+float: left;
+width: 15em;
+}
+.technik.scEPagerOverlay #page24 #div1 p {
+color: white;
+}
+.technik.scEPagerOverlay #page24 #div2 {
+float: left;
+width: 16em;
+margin-left: 0.7em;
+}
+.technik.scEPagerOverlay #page24 #div2 p {
+color: white;
+}
+.technik.scEPagerOverlay #page24 #div3 {
+position: absolute;
+top: 26.3em;
+left: 2.7em;
+width: 16em;
+}
+.technik.scEPagerOverlay #page24 .check li {
+font-weight: normal;
+}
+.technik.scEPagerOverlay #page24 #div4 {
+position: absolute;
+top: 15.7em;
+left: 24.7em;
+width: 9em;
+}
+.technik.scEPagerOverlay #page24 #div5 {
+position: absolute;
+top: 49em;
+left: 7.8em;
+width: 30em;
+color: white;
+}
+.technik.scEPagerOverlay #page24 #div5 p {
+color: white;
+}
+.technik.scEPagerOverlay #page24 p.raute {
+background: transparent url('../images/epager/technik/page16raute.png') top left no-repeat;
+background-size: 2em;
+margin-top: 1em;
+padding-top: 0.2em;
+padding-left: 2em;
+padding-bottom: 1em;
+border-bottom: 0.2em solid #76A8C3;
+/* margin-left: 1em; */
+}
+/*### page 25 ###*/
+.technik.scEPagerOverlay #page25 #div1 {
+position: absolute;
+top: 19.2em;
+left: 8.4em;
+width: 15.5em;
+}
+.technik.scEPagerOverlay #page25 #div2 {
+position: absolute;
+top: 20em;
+left: 26.4em;
+width: 6em;
+color: white;
+}
+.technik.scEPagerOverlay #page25 #div2 p, .technik.scEPagerOverlay #page25 #div2 span {
+color: white;
+}
+/*### page 26 ###*/
+.technik.scEPagerOverlay #page26 #div1 {
+position: absolute;
+top: 7.7em;
+left: 2.8em;
+width: 15.5em;
+color: white;
+}
+.technik.scEPagerOverlay #page26 #div1 h2 {
+margin: 0.7em 0 0.5em 0;
+color: white;
+}
+.technik.scEPagerOverlay #page26 #div1 p {
+margin-bottom: 0.3em;
+color: white;
+}
+.technik.scEPagerOverlay #page26 #div2 {
+position: absolute;
+top: 35.2em;
+left: 3em;
+width: 15.5em;
+}
+.technik.scEPagerOverlay #page26 #div2 h2, .technik.scEPagerOverlay #page26 #div2 p {
+margin-bottom: 0.8em;
+}
+.technik.scEPagerOverlay #page26 #div3 {
+position: absolute;
+top: 48.6em;
+left: 7.5em;
+width: 28.5em;
+color: white;
+}
+.technik.scEPagerOverlay #page26 #div3 p {
+color: white;
+}
+.technik.scEPagerOverlay #page26 .check li {
+border-bottom: 0.2em dotted orange;
+padding-top: 0.2em;
+padding-bottom: 0.5em;
+}
+/*### page 27 ###*/
+.technik.scEPagerOverlay #page27 #div1 {
+position: absolute;
+top: 10em;
+left: 7.5em;
+width: 18em;
+}
+.technik.scEPagerOverlay #page27 #div1 p {
+padding-left: 1.7em;
+padding-bottom: 1em;
+}
+.technik.scEPagerOverlay #page27 #div2 {
+position: absolute;
+top: 16em;
+left: 27.3em;
+width: 6.5em;
+color: white;
+}
+.technik.scEPagerOverlay #page27 #div2 p, .technik.scEPagerOverlay #page27 #div2 span {
+line-height: 1.25em;
+color: white;
+}
+.technik.scEPagerOverlay #page27 #div3 {
+position: absolute;
+top: 43em;
+left: 18.1em;
+width: 10.5em;
+-moz-transform: rotate(-3deg);
+-webkit-transform: rotate(-3deg);
+-o-transform: rotate(-3deg);
+-ms-transform: rotate(-3deg);
+transform: rotate(-3deg);
+}
+.technik.scEPagerOverlay #page27 #div3 h3 {
+font-size: 0.65em;
+}
+/*### page 28 ###*/
+.technik.scEPagerOverlay #page28 #div1 {
+position: absolute;
+top: 7.9em;
+left: 2.8em;
+width: 10em;
+color: white;
+}
+.technik.scEPagerOverlay #page28 #div1 p {
+color: white;
+}
+.technik.scEPagerOverlay #page28 #div1 h3 {
+font-size: 0.75em;
+margin: 0.5em 0 0.3em;
+color: white;
+}
+.technik.scEPagerOverlay #page28 #div2 {
+position: absolute;
+top: 12.2em;
+left: 18.9em;
+width: 15em;
+color: white;
+}
+.technik.scEPagerOverlay #page28 #div2 p {
+line-height: 1.1em;
+color: white;
+}
+.technik.scEPagerOverlay #page28 #div2 p.regular {
+padding-bottom: 0.5em;
+padding-left: 0.5em;
+}
+.technik.scEPagerOverlay #page28 #div2 p.last {
+margin-top: 0.7em;
+}
+.technik.scEPagerOverlay #page28 p.raute {
+background: transparent url('../images/epager/technik/page23raute.png') top left no-repeat;
+background-size: 2em;
+margin-top: 0.5em;
+padding-top: 0.2em;
+padding-left: 2em;
+padding-bottom: 0.8em;
+border-bottom: 0.2em solid #76A8C3;
+color: white;
+/* margin-left: 1em; */
+}
+
+.technik.scEPagerOverlay #page28 #div3 {
+position: absolute;
+top: 42.7em;
+left: 18.1em;
+width: 12em;
+-moz-transform: rotate(7deg);
+-webkit-transform: rotate(7deg);
+-o-transform: rotate(7deg);
+-ms-transform: rotate(7deg);
+transform: rotate(7deg);
+}
+.technik.scEPagerOverlay #page28 #div3 h3 {
+font-size: 0.65em;
+}
+/*### page 29 ###*/
+.technik.scEPagerOverlay #page29 #div1 {
+position: absolute;
+top: 2.1em;
+left: 2.8em;
+width: 26em;
+}
+.technik.scEPagerOverlay #page29 #div1 .raquo {
+width: 27em;
+}
+.technik.scEPagerOverlay #page29 #div1 .blocksatz {
+width: 26em;
+margin-left: 2em;
+padding-bottom: 1.1em;
+}
+.technik.scEPagerOverlay #page29 .page29a {
+width: 36em !important;
+}
+.technik.scEPagerOverlay #page29 .page29b {
+width: 35.1em !important;
+}
+.technik.scEPagerOverlay #page29 .page29c {
+width: 28.8em !important;
+margin-left: 7.5em !important;
+}
+.technik.scEPagerOverlay #page29 .page29d {
+width: 30.5em !important;
+margin-left: 7.5em !important;
+}
+.technik.scEPagerOverlay #page29 .page29e {
+width: 28.8em !important;
+margin-left: 7.5em !important;
+}
+.technik.scEPagerOverlay #page29 .page29f {
+width: 30.5em !important;
+margin-left: 7.5em !important;
+}
+.technik.scEPagerOverlay #page29 #div2 {
+position: absolute;
+top: 24em;
+left: 28em;
+width: 6.2em;
+color: white;
+line-height: 0.6em;
+}
+.technik.scEPagerOverlay #page29 #div2 p, .technik.scEPagerOverlay #page29 #div2 span {
+color: white;
+}
+/*### page 30 ###*/
+.technik.scEPagerOverlay #page30 #colcontainer {
+position: absolute;
+top: 7.3em;
+left: 2.6em;
+overflow: auto;
+width: 100%;
+padding: 10px;
+margin: 0;
+line-height: 1.1em;
+}
+.technik.scEPagerOverlay #page30 #div1 {
+float: left;
+width: 15.5em;
+margin-right: 1em;
+color: white;
+line-height: 0.63em;
+font-size: 0.95em;
+}
+.technik.scEPagerOverlay #page30 #div1 p {
+color: white;
+}
+.technik.scEPagerOverlay #page30 #div2 {
+float: left;
+width: 16em;
+color: white;
+line-height: 0.63em;
+font-size: 0.95em;
+}
+.technik.scEPagerOverlay #page30 #div2 p {
+color: white;
+}
+.technik.scEPagerOverlay #page30 #div3 {
+position: absolute;
+top: 28em;
+left: 2.9em;
+width: 6.2em;
+color: white;
+}
+.technik.scEPagerOverlay #page30 #div3 p, .technik.scEPagerOverlay #page30 #div3 span {
+color: white;
+}
+.technik.scEPagerOverlay #page30 #div4 {
+position: absolute;
+top: 15em;
+left: 12.5em;
+width: 21.7em;
+}
+.technik.scEPagerOverlay #page30 #div4 p {
+margin-left: 2em;
+margin-bottom: 1em;
+}
+.technik.scEPagerOverlay #page30 #div5 {
+position: absolute;
+top: 41em;
+left: 23em;
+width: 12em;
+display: none;
+}
+.technik.scEPagerOverlay #page30 #div6 {
+position: absolute;
+top: 48.6em;
+left: 6em;
+width: 15em;
+color: white;
+}
+.technik.scEPagerOverlay #page30 #div6 p {
+color: white;
+}
+/*### page 31 ###*/
+.technik.scEPagerOverlay #page31 #div1 {
+position: absolute;
+top: 12em;
+left: 11.5em;
+width: 14em;
+color: white;
+line-height: 0.6em;
+}
+.technik.scEPagerOverlay #page31 #div1 p {
+margin-bottom: 1em;
+color: white;
+}
+.technik.scEPagerOverlay #page31 #div1 span {
+color: white;
+}
+.technik.scEPagerOverlay #page31 #div2 {
+position: absolute;
+top: 19em;
+left: 28em;
+width: 6.2em;
+color: white;
+}
+.technik.scEPagerOverlay #page31 #div2 p, .technik.scEPagerOverlay #page31 #div2 span {
+color: white;
+}
+.technik.scEPagerOverlay #page31 #div3 {
+position: absolute;
+top: 41.5em;
+left: 20em;
+width: 16em;
+-moz-transform: rotate(-5.5deg);
+-webkit-transform: rotate(-5.5deg);
+-o-transform: rotate(-5.5deg);
+-ms-transform: rotate(-5.5deg);
+transform: rotate(-5.5deg);
+display: none;
+}
+.technik.scEPagerOverlay #page31 #div4 {
+position: absolute;
+top: 47.5em;
+left: 23em;
+width: 8em;
+height: 2em;
+}
+.technik.scEPagerOverlay #page31 #div4 a {
+display: block;
+width: 100%;
+height: 100%;
+}
+/*### page 32 ###*/
+.technik.scEPagerOverlay #page32 #div1 {
+position: absolute;
+top: 7.9em;
+left: 2.4em;
+width: 19em;
+color: white;
+line-height: 0.6em;
+}
+.technik.scEPagerOverlay #page32 #div1 p {
+color: white;
+}
+.technik.scEPagerOverlay #page32 #div2 {
+position: absolute;
+top: 48.7em;
+left: 7.7em;
+width: 28em;
+color: white;
+}
+.technik.scEPagerOverlay #page32 #div2 p {
+color: white;
+}
+/*### page 33 ###*/
+.technik.scEPagerOverlay #page33 #div1 {
+position: absolute;
+top: 8em;
+left: 28em;
+width: 6.5em;
+color: white;
+line-height: 0.6em;
+}
+.technik.scEPagerOverlay #page33 #div1 p, .technik.scEPagerOverlay #page33 #div1 span {
+color: white;
+}
+.technik.scEPagerOverlay #page33 #div2 {
+position: absolute;
+top: 24.1em;
+left: 2.7em;
+width: 30em;
+}
+.technik.scEPagerOverlay #page33 #div2 p {
+margin-left: 1.7em;
+margin-top: 0.5em;
+margin-bottom: 1em;
+}
+.technik.scEPagerOverlay #page33 .page31_1 {
+width: 33.9em;
+}
+.technik.scEPagerOverlay #page33 .page31_2 {
+width: 47em;
+}
+.technik.scEPagerOverlay #page33 #div3 {
+position: absolute;
+top: 48.7em;
+left: 2.8em;
+width: 28em;
+color: white;
+}
+.technik.scEPagerOverlay #page33 #div3 p {
+color: white;
+}
+/*### page 34 ###*/
+.technik.scEPagerOverlay #page34 #colcontainer {
+position: absolute;
+top: 7.3em;
+left: 2.2em;
+overflow: auto;
+width: 32em;
+padding: 10px;
+margin: 0;
+line-height: 1.1em;
+}
+.technik.scEPagerOverlay #page34 #div1 {
+float: left;
+width: 15.5em;
+margin-right: 1em;
+color: white;
+line-height: 0.63em;
+font-size: 0.95em;
+}
+.technik.scEPagerOverlay #page34 #div1 p {
+color: white;
+}
+.technik.scEPagerOverlay #page34 #div2 {
+float: left;
+width: 16em;
+color: white;
+line-height: 0.63em;
+font-size: 0.95em;
+}
+.technik.scEPagerOverlay #page34 #div2 p {
+color: white;
+}
+.technik.scEPagerOverlay #page34 #div3 {
+position: absolute;
+top: 31em;
+left: 14.2em;
+width: 6.2em;
+color: white;
+}
+.technik.scEPagerOverlay #page34 #div3 p, .technik.scEPagerOverlay #page34 #div3 span {
+color: white;
+}
+.technik.scEPagerOverlay #page34 #div4 {
+position: absolute;
+top: 15em;
+left: 23.7em;
+width: 11.3em;
+}
+.technik.scEPagerOverlay #page34 #div4 p {
+margin-left: 1.7em;
+margin-top: 0.5em;
+margin-bottom: 1em;
+}
+.technik.scEPagerOverlay #page34 #div4 p {
+margin-left: 2em;
+}
+.technik.scEPagerOverlay #page34 #div5 {
+position: absolute;
+top: 48.9em;
+left: 7.7em;
+width: 28em;
+color: white;
+}
+.technik.scEPagerOverlay #page34 #div5 p {
+color: white;
+}
+/*### page 35 ###*/
+.technik.scEPagerOverlay #page35 #div1 {
+position: absolute;
+top: 13.6em;
+left: 2.1em;
+width: 11em;
+}
+.technik.scEPagerOverlay #page35 #div1 p {
+margin-left: 1.7em;
+margin-top: 0.5em;
+margin-bottom: 1em;
+}
+.technik.scEPagerOverlay #page35 #div2 {
+position: absolute;
+top: 48.7em;
+left: 1.4em;
+width: 30em;
+color: white;
+}
+.technik.scEPagerOverlay #page35 #div2 p {
+color: white;
+}
+/*### page 36 ###*/
+.technik.scEPagerOverlay #page36 #colcontainer {
+position: absolute;
+top: 7.3em;
+left: 2.2em;
+overflow: auto;
+width: 32em;
+padding: 10px;
+margin: 0;
+line-height: 1.1em;
+}
+.technik.scEPagerOverlay #page36 #div1 {
+float: left;
+width: 15.5em;
+margin-right: 1em;
+color: white;
+line-height: 0.63em;
+font-size: 0.95em;
+}
+.technik.scEPagerOverlay #page36 #div1 p {
+color: white;
+}
+.technik.scEPagerOverlay #page36 #div2 {
+float: left;
+width: 16em;
+color: white;
+line-height: 0.63em;
+font-size: 0.95em;
+}
+.technik.scEPagerOverlay #page36 #div2 p {
+color: white;
+}
+.technik.scEPagerOverlay #page36 #div3 {
+position: absolute;
+top: 14em;
+left: 2.5em;
+width: 16em;
+}
+.technik.scEPagerOverlay #page36 #div3 p {
+margin-bottom: 1em;
+margin-left: 1em;
+}
+.technik.scEPagerOverlay #page36 .orange {
+border-top: 0.1em dashed #f46717;
+padding-left: 1em;
+padding-top: 0.5em;
+color: #f46717;
+margin: 0 0 0.5em;
+}
+.technik.scEPagerOverlay #page36_2 {
+width: 12em;
+}
+.technik.scEPagerOverlay #page36 #div4 {
+position: absolute;
+top: 49em;
+left: 7.5em;
+width: 28em;
+color: white;
+}
+.technik.scEPagerOverlay #page36 #div4 p {
+color: white;
+}
+/*### page 37 ###*/
+.technik.scEPagerOverlay #page37 #div1 {
+position: absolute;
+top: 15em;
+left: 3em;
+width: 21em;
+}
+.technik.scEPagerOverlay #page37 #div1 p {
+margin-bottom: 1em;
+margin-left: 2em;
+}
+.technik.scEPagerOverlay #page37 #div2 {
+position: absolute;
+top: 9.8em;
+left: 28em;
+width: 6em;
+color: white;
+line-height: 0.65em;
+}
+.technik.scEPagerOverlay #page37 #div2 p, .technik.scEPagerOverlay #page37 #div2 span {
+color: white;
+}
+.technik.scEPagerOverlay #page37 #div3 {
+position: absolute;
+top: 49em;
+left: 2em;
+width: 28em;
+color: white;
+}
+.technik.scEPagerOverlay #page37 #div3 p {
+color: white;
+}
+/*### page 38 ###*/
+.technik.scEPagerOverlay #page38 #div1 {
+position: absolute;
+top: 8em;
+left: 2em;
+width: 14em;
+color: white;
+}
+.technik.scEPagerOverlay #page38 #div1 p {
+color: white;
+}
+.technik.scEPagerOverlay #page38 #div2 {
+position: absolute;
+top: 48.7em;
+left: 7.5em;
+width: 29em;
+color: white;
+}
+.technik.scEPagerOverlay #page38 #div2 p {
+color: white;
+}
+/*### page 39 ###*/
+.technik.scEPagerOverlay #page39 #div1 {
+position: absolute;
+top: 2em;
+left: 2.8em;
+width: 22em;
+}
+.technik.scEPagerOverlay #page39 #div2 {
+position: absolute;
+top: 13em;
+left: 28em;
+width: 6.5em;
+color: white;
+}
+.technik.scEPagerOverlay #page39 #div2 p, .technik.scEPagerOverlay #page39 #div2 span {
+color: white;
+}
+.technik.scEPagerOverlay #page39 #div1 .blocksatz {
+margin-left: 2em;
+padding-bottom: 1.1em;
+}
+.technik.scEPagerOverlay #page39 .schmal {
+width: 23em;
+}
+/*### page 40 ###*/
+.technik.scEPagerOverlay #page40 #div1 {
+position: absolute;
+top: 7.8em;
+left: 2em;
+width: 15em;
+color: white;
+}
+.technik.scEPagerOverlay #page40 #div1 p {
+color: white;
+}
+.technik.scEPagerOverlay #page40 #div2 {
+position: absolute;
+top: 27em;
+left: 17em;
+width: 18em;
+height: 3em;
+}
+.technik.scEPagerOverlay #page40 #div2 a {
+width: 18em;
+height: 3em;
+display: block;
+}
+.technik.scEPagerOverlay #page40 #div3 {
+position: absolute;
+top: 48.8em;
+left: 7.7em;
+width: 28em;
+color: white;
+}
+.technik.scEPagerOverlay #page40 #div3 p {
+color: white;
+}
+/*### page 41 ###*/
+.technik.scEPagerOverlay #page41 #div1 {
+position: absolute;
+top: 7.2em;
+left: 7em;
+width: 17em;
+}
+.technik.scEPagerOverlay #page41 #div1 .blocksatz {
+margin-left: 2em;
+padding-bottom: 1.1em;
+}
+.technik.scEPagerOverlay #page41 #div1 h2.schmal {
+margin-left:9em;
+}
+.technik.scEPagerOverlay #page41 #div1 p.schmal {
+margin-left:11em;
+}
+.technik.scEPagerOverlay #page41 #div2 {
+position: absolute;
+top: 25em;
+left: 28em;
+width: 6.5em;
+color: white;
+line-height: 0.7em;
+}
+.technik.scEPagerOverlay #page41 #div2 p, .technik.scEPagerOverlay #page41 #div2 span {
+color: white;
+}
+.technik.scEPagerOverlay #page41 #div3 {
+position: absolute;
+top: 48.9em;
+left: 2em;
+width: 29em;
+color: white;
+}
+.technik.scEPagerOverlay #page41 #div3 p {
+color: white;
+}
+/*### page 42 ###*/
+.technik.scEPagerOverlay #page42 #div1 {
+position: absolute;
+top: 6.6em;
+left: 15.5em;
+width: 18.5em;
+}
+.technik.scEPagerOverlay #page42 #div1 .blocksatz {
+margin-left: 2em;
+padding-bottom: 1.1em;
+}
+.technik.scEPagerOverlay #page42 #div1 h2.schmal {
+margin-left:5em;
+}
+.technik.scEPagerOverlay #page42 #div1 p.schmal {
+margin-left:7em;
+}
+.technik.scEPagerOverlay #page42 #div2 {
+position: absolute;
+top: 19em;
+left: 3em;
+width: 6.5em;
+color: white;
+line-height: 0.62em;
+}
+.technik.scEPagerOverlay #page42 #div2 p, .technik.scEPagerOverlay #page42 #div2 span {
+color: white;
+}
+/*### page 43 is empty ###*/
+
+/*### page 44 ###*/
+.technik.scEPagerOverlay #page44 #colcontainer {
+position: absolute;
+top: 7.6em;
+left: 2.2em;
+overflow: auto;
+width: 32em;
+padding: 10px;
+margin: 0;
+line-height: 1.1em;
+}
+.technik.scEPagerOverlay #page44 #div1 {
+float: left;
+width: 15.5em;
+margin-right: 1em;
+color: white;
+line-height: 0.63em;
+font-size: 0.95em;
+}
+.technik.scEPagerOverlay #page44 #div1 p {
+color: white;
+}
+.technik.scEPagerOverlay #page44 #div2 {
+float: left;
+width: 16em;
+color: white;
+line-height: 0.63em;
+font-size: 0.95em;
+}
+.technik.scEPagerOverlay #page44 #div2 p {
+color: white;
+}
+.technik.scEPagerOverlay #page44 #div3 {
+position: absolute;
+top: 16em;
+left: 4.6em;
+width: 17em;
+}
+.technik.scEPagerOverlay #page44 #div3 p {
+margin-bottom: 1em;
+}
+.technik.scEPagerOverlay #page44 #div4 {
+position: absolute;
+top: 48.8em;
+left: 7.5em;
+width: 29em;
+color: white
+}
+.technik.scEPagerOverlay #page44 #div4 p {
+color: white;
+}
+/*### page 45 ###*/
+.technik.scEPagerOverlay #page45 #div1 {
+position: absolute;
+top: 4.4em;
+left: 4.6em;
+width: 18em;
+}
+.technik.scEPagerOverlay #page45 #div1 .blocksatz {
+margin-left: 2em;
+padding-bottom: 1.1em;
+}
+.technik.scEPagerOverlay #page45 #div2 {
+position: absolute;
+top: 20.2em;
+left: 28em;
+width: 6.5em;
+color: white;
+line-height: 0.65em;
+}
+.technik.scEPagerOverlay #page45 #div2 p, .technik.scEPagerOverlay #page45 #div2 span {
+color: white;
+}
+.technik.scEPagerOverlay #page45 #div3 {
+position: absolute;
+top: 48.7em;
+left: 2em;
+width: 30em;
+color: white;
+}
+.technik.scEPagerOverlay #page45 #div3 p {
+color: white;
+}
+/*### page 46 ###*/
+.technik.scEPagerOverlay #page46 #div1 {
+position: absolute;
+top: 8em;
+left: 2em;
+width: 15.5em;
+color: white;
+}
+.technik.scEPagerOverlay #page46 #div1 p {
+color: white;
+}
+.technik.scEPagerOverlay #page46 #div2 {
+position: absolute;
+top: 9em;
+left: 19.8em;
+width: 14.5em;
+color: white;
+}
+.technik.scEPagerOverlay #page46 #div2 p {
+color: white;
+}
+.technik.scEPagerOverlay #page46 #div3 {
+position: absolute;
+top: 23em;
+left: 19.8em;
+width: 14.8em;
+height: 4em;
+}
+.technik.scEPagerOverlay #page46_link1 {
+display: block;
+height: 2em;
+width: 100%;
+/* background: green; */
+}
+.technik.scEPagerOverlay #page46_link2 {
+display: block;
+float: right;
+height: 1em;
+width: 75%;
+/* background: red; */
+}
+.technik.scEPagerOverlay #page46 #div4 {
+position: absolute;
+top: 28.3em;
+left: 19.8em;
+width: 14.5em;
+color: white;
+}
+.technik.scEPagerOverlay #page46 #div4 p {
+margin-bottom: 1em;
+color: white;
+}
+.technik.scEPagerOverlay #page46 #div5 {
+position: absolute;
+top: 48.8em;
+left: 7.5em;
+width: 29em;
+color: white;
+}
+.technik.scEPagerOverlay #page46 #div5 p {
+color: white;
+}
+/*### page 47 ###*/
+.technik.scEPagerOverlay #page47 #div1 {
+position: absolute;
+top: 4em;
+left: 2em;
+width: 21.7em;
+}
+.technik.scEPagerOverlay #page47 #div1 .raquo {
+
+}
+.technik.scEPagerOverlay #page47 #div1 .blocksatz {
+padding-bottom: 1.1em;
+margin-left: 2em;
+}
+.technik.scEPagerOverlay #page47_1 {
+width: 15em;
+margin-left: 23em;
+padding-left: 2em;
+}
+.technik.scEPagerOverlay #page47_2 {
+width: 12em;
+}
+.technik.scEPagerOverlay #page47 #div2 {
+position: absolute;
+top: 43em;
+left: 12.5em;
+width: 9em;
+height: 2em;
+}
+.technik.scEPagerOverlay #page47 #div2 a {
+display: block;
+width: 100%;
+height: 100%;
+}
+.technik.scEPagerOverlay #page47 #div3 {
+position: absolute;
+top: 5em;
+left: 28.2em;
+width: 6.5em;
+color: white;
+line-height: 0.65em;
+}
+.technik.scEPagerOverlay #page47 #div3 p, .technik.scEPagerOverlay #page47 #div3 span {
+color: white;
+}
+.technik.scEPagerOverlay #page47 #div4 {
+position: absolute;
+top: 48.8em;
+left: 2em;
+width: 28em;
+color: white;
+}
+.technik.scEPagerOverlay #page47 #div4 p {
+color: white;
+}
+/*### page 48 ###*/
+.technik.scEPagerOverlay #page48 #div1 {
+position: absolute;
+top: 7.8em;
+left: 2.4em;
+width: 21em;
+color: white;
+}
+.technik.scEPagerOverlay #page48 #div1 p {
+color: white;
+}
+.technik.scEPagerOverlay #page48 #div2 {
+position: absolute;
+top: 16.4em;
+left: 9.6em;
+width: 14.5em;
+color: white;
+}
+.technik.scEPagerOverlay #page48 #div2 p {
+margin-bottom: 1em;
+color: white;
+}
+.technik.scEPagerOverlay #page48 #div3 {
+position: absolute;
+top: 48.8em;
+left: 7.5em;
+width: 29em;
+color: white;
+}
+.technik.scEPagerOverlay #page48 #div3 p {
+color: white;
+}
+/*### page 49 ###*/
+.technik.scEPagerOverlay #page49 #div1 {
+position: absolute;
+top: 3em;
+left: 3em;
+width: 20em;
+}
+.technik.scEPagerOverlay #page49 #div2 {
+position: absolute;
+top: 24.6em;
+left: 13.5em;
+width: 22em;
+}
+.technik.scEPagerOverlay #page49 #div2 .orange {
+border-top: 0.1em dashed orange;
+padding-top: 0.5em;
+margin-bottom: 1em;
+}
+.technik.scEPagerOverlay #page49 #div2 p {
+margin-bottom: 1em;
+}
+.technik.scEPagerOverlay #page49 p.raute {
+background: transparent url('../images/epager/technik/page16raute.png') top left no-repeat;
+background-size: 2em;
+margin-top: 1em;
+padding-top: 0.2em;
+padding-left: 2em;
+padding-bottom: 1em;
+border-bottom: 0.2em solid #76A8C3;
+/* margin-left: 1em; */
+}
+.technik.scEPagerOverlay #page49 #div3 {
+position: absolute;
+top: 49em;
+left: 2.5em;
+width: 29em;
+color: white;
+}
+.technik.scEPagerOverlay #page49 #div3 p {
+color: white;
+}
+/*### page 50 ###*/
+.technik.scEPagerOverlay #page50 #div1 {
+position: absolute;
+top: 8.6em;
+left: 2.4em;
+width: 22em;
+color: white;
+}
+.technik.scEPagerOverlay #page50 #div1 p {
+margin-bottom: 1em;
+color: white;
+}
+.technik.scEPagerOverlay #page50 #div2 {
+position: absolute;
+top: 48.8em;
+left: 7.5em;
+width: 25em;
+color: white;
+}
+.technik.scEPagerOverlay #page50 #div2 p {
+color: white;
+}
+/*### page 51 ###*/
+.technik.scEPagerOverlay #page51 #div1 {
+position: absolute;
+top: 6.6em;
+left: 2em;
+width: 21.8em;
+}
+.technik.scEPagerOverlay #page51 #div1 .blocksatz {
+padding-bottom: 1.1em;
+margin-left: 2em;
+}
+.technik.scEPagerOverlay #page51_1 {
+margin-left: 10em;
+}
+.technik.scEPagerOverlay #page51_2 {
+margin-left: 12em !important;
+}
+.technik.scEPagerOverlay #page51 #div2 {
+position: absolute;
+top: 2.2em;
+left: 28em;
+width: 6.5em;
+color: white;
+line-height: 0.65em;
+}
+.technik.scEPagerOverlay #page51 #div2 p, .technik.scEPagerOverlay #page51 #div2 span {
+color: white;
+}
+/*### page 52 ###*/
+.technik.scEPagerOverlay #page52 #col_container {
+position: absolute;
+top: 6.9em;
+left: 1.4em;
+overflow: auto;
+width: 35em;
+padding: 1em;
+margin: 0;
+/* line-height: 0.6em; */
+}
+.technik.scEPagerOverlay #page52 #div1 {
+float: left;
+width: 15em;
+color: white;
+}
+.technik.scEPagerOverlay #page52 #div1 p {
+margin-bottom: 1em;
+color: white;
+}
+.technik.scEPagerOverlay #page52 #div2 {
+float: left;
+width: 16em;
+margin-left: 0.7em;
+color: white;
+}
+.technik.scEPagerOverlay #page52 #div2 p {
+color: white;
+}
+.technik.scEPagerOverlay #page52 #div3 {
+position: absolute;
+top: 26.3em;
+left: 2.7em;
+width: 16em;
+}
+/*### page 53 ###*/
+.technik.scEPagerOverlay #page53 #div1 {
+position: absolute;
+top: 3.5em;
+left: 20em;
+width: 14em;
+}
+.technik.scEPagerOverlay #page53 #div1 h2 {
+margin-bottom: 0.5em;
+}
+.technik.scEPagerOverlay #page53 p {
+margin-bottom: 1em;
+}
+.technik.scEPagerOverlay #page53 .star {
+padding-bottom: 0.7em;
+border-bottom: 0.1em dotted orange;
+}
+.technik.scEPagerOverlay #page53 #div2 {
+position: absolute;
+top: 23.8em;
+left: 19.8em;
+width: 14em;
+}
+.technik.scEPagerOverlay #page53 #div3 {
+position: absolute;
+top: 48.2em;
+left: 1em;
+width: 30em;
+color: white;
+}
+.technik.scEPagerOverlay #page53 #div3 p {
+color: white;
+}
+/*### page 54 ###*/
+.technik.scEPagerOverlay #page54 #div1 {
+position: absolute;
+top: 8.8em;
+left: 2.8em;
+width: 11.4em;
+color: white;
+}
+.technik.scEPagerOverlay #page54 #div1 p {
+color: white;
+}
+.technik.scEPagerOverlay #page54 #div2 {
+position: absolute;
+top: 6em;
+left: 15em;
+width: 10em;
+}
+.technik.scEPagerOverlay #page54 #div3 {
+position: absolute;
+top: 17.5em;
+left: 2.8em;
+width: 18em;
+}
+.technik.scEPagerOverlay #page54 #div3 p {
+margin-bottom: 1em;
+}
+.technik.scEPagerOverlay #page54 #div4 {
+position: absolute;
+top: 48.4em;
+left: 7.5em;
+width: 27em;
+color: white;
+}
+.technik.scEPagerOverlay #page54 #div4 p {
+color: white;
+}
+/*### page 55 ###*/
+.technik.scEPagerOverlay #page55 #div1 {
+position: absolute;
+top: 7.5em;
+left: 7em;
+width: 18.5em;
+}
+.technik.scEPagerOverlay #page55 .blocksatz {
+padding-bottom: 1.1em;
+margin-left: 2em;
+}
+.technik.scEPagerOverlay #page55_1 {
+border-top: none !important;
+}
+.technik.scEPagerOverlay #page55 #div1 .schmal {
+width: 16em;
+}
+.technik.scEPagerOverlay #page55 #div2 {
+position: absolute;
+top: 18em;
+left: 28em;
+width: 6.5em;
+color: white;
+line-height: 0.65em;
+}
+.technik.scEPagerOverlay #page55 #div2 p, .technik.scEPagerOverlay #page55 #div2 span {
+color: white;
+}
+/*### page 56 ###*/
+.technik.scEPagerOverlay #page56 #div1 {
+position: absolute;
+top: 8.4em;
+left: 2.8em;
+width: 11.4em;
+color: white;
+}
+.technik.scEPagerOverlay #page56 #div1 p {
+margin-bottom: 0.7em;
+color: white;
+}
+.technik.scEPagerOverlay #page56 #div2 {
+position: absolute;
+top: 35em;
+left: 2.8em;
+width: 11.4em;
+}
+.technik.scEPagerOverlay #page56 #div3 {
+position: absolute;
+top: 48.6em;
+left: 7.5em;
+width: 29em;
+color: white;
+}
+.technik.scEPagerOverlay #page56 #div3 p {
+color: white;
+}
+/*### page 57 ###*/
+.technik.scEPagerOverlay #page57 #div1 {
+position: absolute;
+top: 6.3em;
+left: 6em;
+width: 18em;
+}
+.technik.scEPagerOverlay #page57_1 {
+width: 27em;
+}
+.technik.scEPagerOverlay #page57_2 {
+width: 27em;
+}
+.technik.scEPagerOverlay #page57_3 {
+width: 28.5em;
+}
+.technik.scEPagerOverlay #page57_4 {
+width: 29em;
+}
+.technik.scEPagerOverlay #page57_5 {
+width: 30em;
+}
+.technik.scEPagerOverlay #page57_6 {
+width: 30em;
+}
+.technik.scEPagerOverlay #page57 .blocksatz {
+padding-bottom: 1.1em;
+margin-left: 2em;
+}
+.technik.scEPagerOverlay #page57 #div2 {
+position: absolute;
+top: 18em;
+left: 28em;
+width: 6.5em;
+color: white;
+line-height: 0.65em;
+}
+.technik.scEPagerOverlay #page57 #div2 p, .technik.scEPagerOverlay #page57 #div2 span {
+color: white;
+}
+/*### page 58 ###*/
+.technik.scEPagerOverlay #page58 #div1 {
+position: absolute;
+top: 8.4em;
+left: 2.8em;
+width: 10em;
+color: white;
+}
+.technik.scEPagerOverlay #page58 #div1 p {
+margin-bottom: 0.7em;
+color: white;
+}
+.technik.scEPagerOverlay #page58 #div2 {
+position: absolute;
+top: 32.5em;
+left: 1em;
+height: 14em;
+width: 14em;
+}
+.technik.scEPagerOverlay #page58 #div2 a {
+display: block;
+width: 100%;
+height: 100%;
+/* background: yellow; */
+}
+.technik.scEPagerOverlay #page58 #div3 {
+position: absolute;
+top: 13.5em;
+left: 17.5em;
+width: 6em;
+height: 2em;
+}
+.technik.scEPagerOverlay #page58 #div3 a {
+display: block;
+width: 100%;
+height: 100%;
+/* background: red; */
+}
+.technik.scEPagerOverlay #page58 #div4 {
+position: absolute;
+top: 22.5em;
+left: 14em;
+width: 6em;
+height: 2em;
+}
+.technik.scEPagerOverlay #page58 #div4 a {
+display: block;
+width: 100%;
+height: 100%;
+/* background: green; */
+}
+.technik.scEPagerOverlay #page58 #div5 {
+position: absolute;
+top: 29.5em;
+left: 22.5em;
+width: 6em;
+height: 2em;
+}
+.technik.scEPagerOverlay #page58 #div5 a {
+display: block;
+width: 100%;
+height: 100%;
+/* background: orange; */
+}
+/*### page 59 ###*/
+.technik.scEPagerOverlay #page59 #div1 {
+position: absolute;
+top: 21.5em;
+left: 6em;
+height: 2em;
+width: 6em;
+}
+.technik.scEPagerOverlay #page59 #div1 a {
+display: block;
+width: 100%;
+height: 100%;
+/* background: yellow; */
+}
+.technik.scEPagerOverlay #page59 #div2 {
+position: absolute;
+top: 31em;
+left: 2em;
+width: 8em;
+height: 2em;
+}
+.technik.scEPagerOverlay #page59 #div2 a {
+display: block;
+width: 100%;
+height: 100%;
+/* background: red; */
+}
+.technik.scEPagerOverlay #page59 #div3 {
+position: absolute;
+top: 6.5em;
+left: 18.8em;
+width: 16em;
+}
+.technik.scEPagerOverlay #page59 #div3 p {
+margin-bottom: 0.7em;
+}
+/*### page 60 ###*/
+.technik.scEPagerOverlay #page60 #div1 {
+position: absolute;
+top: 11.3em;
+left: 3.1em;
+width: 9.5em;
+color: white;
+}
+.technik.scEPagerOverlay #page60 #div1 h2 {
+margin-bottom: 1.3em;
+color: white;
+}
+.technik.scEPagerOverlay #page60 #div1 h3 {
+border-bottom: 0.2em dotted white;
+padding-bottom: 0.3em;
+color: white;
+}
+.technik.scEPagerOverlay #page60 #div1 p {
+margin-top: 0.5em;
+margin-bottom: 1em;
+color: white;
+}
+.technik.scEPagerOverlay #page60 #div2 {
+position: absolute;
+top: 11.2em;
+left: 14em;
+width: 9.5em;
+}
+.technik.scEPagerOverlay #page60 #div2 h3 {
+border-top: 0.2em dashed orange;
+padding-top: 0.3em;
+color: orange;
+}
+.technik.scEPagerOverlay #page60 #div2 p {
+margin-top: 0.5em;
+margin-bottom: 1em;
+}
+.technik.scEPagerOverlay #page60 #div3 {
+position: absolute;
+top: 34.8em;
+left: 14em;
+width: 9.5em;
+}
+.technik.scEPagerOverlay #page60 #div3 h2 {
+margin-bottom: 1.3em;
+color: white;
+}
+.technik.scEPagerOverlay #page60 #div3 h3 {
+border-bottom: 0.2em dotted white;
+padding-bottom: 0.3em;
+color: white;
+}
+.technik.scEPagerOverlay #page60 #div3 p {
+margin-top: 0.5em;
+color: white;
+}
+.technik.scEPagerOverlay #page60 #div4 {
+position: absolute;
+top: 7.8em;
+left: 24.5em;
+width: 9.5em;
+color: white;
+}
+.technik.scEPagerOverlay #page60 #div4 h3 {
+border-bottom: 0.2em dotted white;
+padding-bottom: 0.3em;
+color: white;
+}
+.technik.scEPagerOverlay #page60 #div4 p {
+margin-top: 0.5em;
+margin-bottom: 1em;
+color: white;
+}
+.technik.scEPagerOverlay #page60 #div5 {
+position: absolute;
+top: 26.8em;
+left: 24.5em;
+width: 9.5em;
+color: white;
+}
+.technik.scEPagerOverlay #page60 #div5 h2 {
+margin-bottom: 1.5em;
+color: white;
+}
+.technik.scEPagerOverlay #page60 #div5 h3 {
+border-bottom: 0.2em dotted white;
+padding-bottom: 0.3em;
+color: white;
+}
+.technik.scEPagerOverlay #page60 #div5 p {
+margin-top: 0.5em;
+margin-bottom: 1em;
+color: white;
+}
+.technik.scEPagerOverlay #page60 h2 {
+font-size: 0.6em;
+}
+.technik.scEPagerOverlay #page60 h3 {
+font-size: 0.6em;
+}
+.technik.scEPagerOverlay #page60 p {
+font-size: 0.52em;
+}
+/*### page 61 ###*/
+.technik.scEPagerOverlay #page61 #div1 {
+position: absolute;
+top: 5.2em;
+left: 3.1em;
+width: 9.5em;
+color: white;
+}
+.technik.scEPagerOverlay #page61 #div1 h3 {
+color: white;
+}
+.technik.scEPagerOverlay #page61 #div1 p {
+border-top: 0.2em dotted white;
+padding-top: 0.3em;
+margin-top: 0.5em;
+margin-bottom: 1em;
+color: white;
+}
+.technik.scEPagerOverlay #page61 #div2 {
+position: absolute;
+top: 21.5em;
+left: 3.1em;
+width: 9.5em;
+}
+.technik.scEPagerOverlay #page61 #div2 h2 {
+margin-bottom: 1.3em;
+color: white;
+/* font-size: 0.52em; */
+/* letter-spacing: -0.1em; */
+/* word-spacing: -0.3em; */
+}
+.technik.scEPagerOverlay #page61 #div2 h3 {
+border-bottom: 0.2em dotted white;
+padding-bottom: 0.3em;
+color: white;
+}
+.technik.scEPagerOverlay #page61 #div2 p {
+margin-top: 0.5em;
+margin-bottom: 1em;
+color: white;
+}
+.technik.scEPagerOverlay #page61 #div3 {
+position: absolute;
+top: 5.2em;
+left: 13.6em;
+width: 9.5em;
+}
+.technik.scEPagerOverlay #page61 #div3 h3 {
+border-bottom: 0.2em dotted white;
+padding-bottom: 0.3em;
+color: white;
+}
+.technik.scEPagerOverlay #page61 #div3 p {
+margin-top: 0.5em;
+margin-bottom: 1em;
+color: white;
+}
+.technik.scEPagerOverlay #page61 #div4 {
+position: absolute;
+top: 14em;
+left: 13.6em;
+width: 9.5em;
+color: white;
+}
+.technik.scEPagerOverlay #page61 #div4 h2 {
+margin-bottom: 1.3em;
+color: white;
+}
+.technik.scEPagerOverlay #page61 #div4 h3 {
+border-bottom: 0.2em dotted white;
+padding-bottom: 0.3em;
+color: white;
+}
+.technik.scEPagerOverlay #page61 #div4 p {
+margin-top: 0.5em;
+margin-bottom: 1em;
+color: white;
+}
+.technik.scEPagerOverlay #page61 #div5 {
+position: absolute;
+top: 5.2em;
+left: 24.5em;
+width: 9.5em;
+color: white;
+}
+.technik.scEPagerOverlay #page61 #div5 h3 {
+border-bottom: 0.2em dotted white;
+padding-bottom: 0.3em;
+color: white;
+}
+.technik.scEPagerOverlay #page61 #div5 p {
+margin-top: 0.5em;
+margin-bottom: 1em;
+color: white;
+}
+.technik.scEPagerOverlay #page61 #div6 {
+position: absolute;
+top: 9.1em;
+left: 24.5em;
+width: 9.5em;
+color: white;
+}
+.technik.scEPagerOverlay #page61 #div6 h2 {
+margin-bottom: 1.5em;
+color: white;
+color: white;
+}
+.technik.scEPagerOverlay #page61 #div6 p {
+margin-top: 0.5em;
+margin-bottom: 1em;
+border-top: 0.2em dotted white;
+padding-top: 0.3em;
+color: white;
+}
+.technik.scEPagerOverlay #page61 h2 {
+font-size: 0.6em;
+}
+.technik.scEPagerOverlay #page61 h3 {
+font-size: 0.6em;
+}
+.technik.scEPagerOverlay #page61 p {
+font-size: 0.52em;
+}

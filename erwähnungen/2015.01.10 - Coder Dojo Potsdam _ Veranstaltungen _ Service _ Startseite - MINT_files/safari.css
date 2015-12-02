@@ -1,0 +1,14 @@
+/* =========================================================
+safari.css
+
+$Date: 2013-08-08 09:53:33 +0200 (Do, 08 Aug 2013) $
+Note: opera, safarie muss noch debuggt werden.
+
+========================================================= */
+
+
+@media handheld, screen {
+
+form div.morelink input{ padding-top: 3px; }
+
+}

@@ -1,0 +1,106 @@
+/* AJAX Search */
+form#tx_mhajaxsearch_form {
+	position: relative;
+/*	border: 1px solid red;*/
+}
+
+form#tx_mhajaxsearch_form input.autocompleter-loading
+{
+	background-image:		 url(/fileadmin/templates_new/images/spinner.gif);
+	background-repeat:	 no-repeat;
+	background-position: right 50%;
+}
+
+#search-form div.input-border {
+	margin: 3px 0 0 95px;
+}
+
+DIV#tx_mhajaxsearch_result {
+	/*display: none;*/
+	z-index: 100;
+	text-align: left;
+	margin-left: 0px;
+	margin-top: 5px;
+	width: 300px;
+	right: -10px;
+	top: 20px;
+	background: #fff;
+	position: absolute;
+}
+
+form#lexikon DIV#tx_mhajaxsearch_result {
+	top: 90px;
+}
+
+SPAN.tx_mhajaxsearch_result {
+	background: url(/fileadmin/templates_new/images/gfx_line_vert.gif) 135px 0 repeat-y #fff;
+	position: absolute;
+	z-index: 100;
+	display: block;
+	padding: 7px;
+	border: 1px #ccc solid;
+}
+
+IMG#tx_mhajaxsearch_spinner {
+	z-index:2;
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+INPUT#tx_mhajaxsearch_send {
+}
+
+SPAN.tx_mhajaxsearch_pi_parent {
+	margin: 0px;
+	padding: 0px;
+	text-align: right;
+	display: block;
+	float: left;
+	width: 120px;
+	padding-right: 7px;
+	line-height: 1.4em;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+SPAN.tx_mhajaxsearch_pi_title {
+	margin: 0px;
+	padding: 0px;
+	padding-left: 7px;
+	line-height: 1.4em;
+	float: right;
+	width: 150px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+SPAN.tx_mhajaxsearch_pi_title SPAN.close {
+	display: inline;
+	padding: 0px;
+	margin: 0px;
+	float: right;
+	padding-right: 3px;
+}
+
+DIV.tx_mhajaxsearch_pi_result_row {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+div.widget_inner DIV#tx_mhajaxsearch_result a:before,
+div.widget_inner DIV.tx_mhajaxsearch_pi_result_row a:before {
+	content:"" !important;
+	margin:0;
+}
+
+A:hover DIV.tx_mhajaxsearch_pi_result_row {
+	background: #002d5a;
+}
+
+A:hover DIV.tx_mhajaxsearch_pi_result_row span {
+	color: #fff !important;
+}

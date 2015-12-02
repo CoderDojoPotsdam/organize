@@ -1,0 +1,288 @@
+/* + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + */
+/*SVN Add-ins
+
+$Rev:: 15195         $: Revision of last commit
+$Author:: abod       $: Author of last commit
+$Date:: 2013-10-24 1#$: Date of last commit
+
+Authors: SPI
+Copyright (c) A&B One Digital GmbH
+*/
+/* + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + */
+/*
+    visual.css  (styles for all media types  + print styles)
+    fuer UOS12001  (Uni Osnabrueck)
+    24.07.2012  SPI
+*/
+/* + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + */
+
+
+*{ font-family: Arial,Helvetica,sans-serif; }
+
+html, body, div, span, object, h1, h2, h3, h4, h5, h6, p, blockquote, a, abbr, em,
+acronym, img, strong, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, 
+caption, tbody, tfoot, thead, tr, th, td, input, select, option, textarea, button{
+	background: transparent; 
+	border: none 0; outline: 0; vertical-align: baseline;
+	color: #000; font-style: normal; font-size: 100.1%; font-family: Arial,Helvetica,sans-serif; line-height: 100%; 
+	margin: 0; padding: 0; }
+
+a:link, a:link span, a:link strong, a:link acronym{ color: #000; }
+a:visited, a:visited span, a:visited strong, a:visited acronym{ color: #000; }
+
+#content a:focus{ outline: 0; }
+
+ol, ul{ list-style: none outside none; }
+blockquote, q{ quotes: none; }
+acronym{ cursor: help; border-bottom: dotted 1px #000; }
+
+form label span, .morelink input{ cursor: pointer; }
+abbr.mandatory, acronym.mandatory{ font-family: Verdana,Arial,Helvetica,sans-serif; font-size: .75em; font-weight: bold; }
+
+table{ border-collapse: collapse; border-spacing: 0; empty-cells: show; caption-side: top; }
+caption, th, td{ text-align: left; vertical-align: top; }
+
+img{ display: block; float: none; font-size: .75em; }
+#main img{ border: solid 1px #6F6F6F; }
+#main a:link img, 
+#main a:visited img{ border: none 0; }
+
+.start #main img, 
+#main #startslider img, 
+#main .teaser img{ border: none 0; }
+
+object, embed{ max-width: 100%; }
+
+#footer .logo img#logo-mint{ float: left; margin-top: 12pt; margin-bottom: 20px;  }
+
+/* + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + */
+/* print styles                                                                    */
+/* + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + */
+@media print{
+
+#page{ margin-top: 7pt; }
+
+.logo img{ float: left; }
+.logo.float_right img{ float: right; margin-top: 12pt; }
+#footer .logo.float_right img{ margin-top: 0; }
+
+
+
+#path{ border-bottom: solid 2pt #000; margin-bottom: 13pt; padding-bottom: 3pt; }
+
+.box, .clearer, .container{ clear: both; }
+
+
+#content .row.inner, 
+.area #content .row{ border-top: solid 2pt #000; margin-top: 10pt; padding-top: 7pt; }
+.area #content .profile{ border: none 0; margin-top: 0; padding-top: 0; }
+
+.footer .social ul,
+.footer .social ul li{ display: block !important; float: none; }
+.footer .social ul{ list-style-position: outside; margin: 0 8pt 0 15pt; padding: 7pt 0 0 4pt; list-style-type: disc !important; }
+.footer .social ul li{ clear: left; padding-left: 26px; padding-bottom: 14px;  }
+
+
+/* + + + + + display none + + + + + */
+hr.structure, .structure, .out, .none, .trenner, 
+#navdirect, #topmenu-position, #socialmedia, #searchbox, .shortcuts, #navservice, 
+.start .breadcrumb, .start .leftColumn, .start .bottomColumn .teaser, #startslider .image, 
+.class-folder_press .columns-folder_press .leftColumn, 
+.noprint, .backlink, .morelink, .banner, 
+table caption, .media, fieldset.nolegend legend, 
+.attribute-file, .attribute-comments .attribute-form, .formErrors, 
+.interview .intro .left, 
+.browse .next, .browse .prev, .browse a, table div.sort, 
+.pagenavigator .previous, .pagenavigator .next, .pagenavigator .other, 
+.eventtable .calendar, .content-view-embed, .galerie .entry-navigation
+{ display: none; }
+
+
+/* + + + + + display block + + + + + */
+#slidersmall .teaser, 
+#footer .copy, form label, form input, form textarea, form select, form .error, 
+.galerie .thumbs.noprint
+{ display: block; }
+
+
+/* + + + + + display inline + + + + + */
+.browse strong span.out, .pagenavigator strong.current span.out
+{ display: inline; }
+
+
+/* + + + + + border + + + + + */
+#header-position, 
+#startslider .topteaser, 
+.browse p strong.current, .pagenavigator strong.current
+{ border: solid 1pt #000; margin-top: 11pt; padding: 3pt 7pt; }
+
+#footer
+{ border: none 0; border-top: solid 2pt #000; margin-top: 11pt; padding-top: 7pt; }
+
+#slidersmall, .teaser, .interview .intro, 
+.content-view-children .content-view-line
+{ border: none 0; border-top: solid 1pt #000; margin-top: 11pt; padding-top: 7pt; }
+
+#slidersmall .teaser
+{ border: none 0; margin: 0; }
+
+
+/* + + + + + text  + + + + + */
+acronym{ font-variant: normal; border: 0 none; }
+
+hr{ height: 1pt; background: #000; border: 0 none; border-top: solid 1pt #000; color: #000; }
+
+div, p, ul, ol, li, td, th{ font-family: Arial,Helvetica,sans-serif; font-size: 10pt; font-weight: 500; line-height: 12pt; }
+
+h1, h2, h3, h4, h5, h6, p{ color: #000; text-decoration: none; font: bold 10pt/125% Arial,Verdana; padding: 11pt 0 4pt 0; }
+
+h2{ font-size: 17pt; font-weight: normal; padding: 10pt 0 5pt 0; }
+h3, 
+	fieldset legend, .form p.title strong{ font-size: 13pt; font-weight: bold; padding: 10pt 0 4pt 0; }
+h4{ font-size: 11pt; font-weight: bold; padding: 7pt 0 4pt 0; }
+h5{ font-size: 10pt; font-weight: bold; padding: 7pt 0 5pt 0; }
+
+p{ font-weight: normal; padding: 5pt 0 7pt 0; }
+.attribute-byline p.date{ font-weight: bold; }
+
+a, a span, a strong, a acronym{ color: #000; text-decoration: none; padding: 0; }
+
+.browse{ margin-top: 11pt; }
+.browse p strong.current, .pagenavigator{ display: inline-block; margin: 15pt 0 7pt; }
+.flickr-grid .pagenavigator{ clear: both; width: 100%; }
+
+blockquote{ border: solid 1pt #000; margin: 8pt 0; padding: 4pt 8pt; }
+
+
+/* + + + interview + + + */
+.interview .galerie .clearer{ clear: none; }
+.interview .galerie div .clearer{ clear: both; }
+
+.galerie #interview-detail .intro, 
+.galerie #interview-detail .intro{ border-top: solid 1pt #000; border-bottom: solid 1pt #000; margin: 11pt 0; padding: 7pt 0; }
+
+.interview .thumbs.noprint{ display: inline-block; float: left; border: none 0; border-top: solid 1pt #000; margin: 11pt 0; }
+.interview .browse, .interview .pic{ display: none !important; }
+.interview .pic.active{ display: inline-block !important; }
+
+.interview .intro{ float: left; width: 65%; padding: 0 0 3pt 10pt; }
+.interview .content{ clear: both; }
+
+
+/* + + + + + bilder  + + + + */
+.content-view-full div.left{ clear: both; float: left; overflow: hidden; margin: 4pt 7pt 2pt 0; }
+.content-view-full div.right{ clear: both; float: right; overflow: hidden; margin: 4pt 0 2pt 7pt; }
+
+.flickr-grid .photo{ float: left; width: 57pt; margin: 0 5pt 5px 0; }
+div.list, 
+div.small, 
+.interview-container div.large{ width: 75pt; margin-bottom: 5pt; }
+div.medium, 
+.pic .image{ width: 150pt; margin-bottom: 5pt; }
+div.large{ width: 225pt; margin-bottom: 5pt; }
+div.reference{ width: 452pt; margin-bottom: 5pt; }
+div.list img, 
+div.small img, 
+div.medium img, 
+div.large img, 
+div.reference img, 
+.flickr-grid .photo img{ width: 100%; height: auto; }
+
+div.left p, div.left p a, div.left span, div.left acronym, 
+div.right p, div.right p a, div.right span, div.right acronym, 
+div.center p, div.center p a, div.center span, div.center acronym{ font-style: italic; }
+
+.galerie .pic{ clear: left; border-top: solid 1pt #000; }
+.galerie .pic img{ float: left; margin: 7pt 7pt 13pt 0; }
+
+
+/* + + + + + listen + + + + + */
+ul, ol{ clear: left; list-style-position: outside; margin: 0 8pt 0 15pt; padding: 7pt 0 0 4pt; }
+.ie ol{ margin-left: 19pt; }
+li, li ul, li ol{ padding: 0; }
+ul li,
+li ul li{ list-style-type: disc; }
+ol li,
+li ol li{ list-style-type: decimal; }
+li p{ margin: 0; padding: 0; }
+
+
+/* + + + + + merkzettel + + + + + */
+.printstyle{ width: 90%; border: solid 2pt #999; margin: 15pt 0 0; padding: 0 0 2pt; }
+.printstyle h4{ background: #DDD; border-bottom: solid 1pt #999; padding: 7pt 10pt; }
+.printstyle p{ padding-left: 10pt; padding-right: 10pt; }
+
+
+/* + + + + + teaser + + + + + */
+.teaser h3{ padding-top: 4pt; }
+
+
+/* + + + + + tabellen + + + + + */
+#main table{ clear: both; float: none; display: block; width: 100%; border-collapse: collapse; margin: 9pt 0; }
+#main table th,
+#main table td{ background-color: #FFF; border: 1pt solid #000; text-align: left; padding: 1pt 5pt; }
+#main table th{ font-weight: bold; padding: 2pt; }
+
+
+/* + + + + + projekte + + + + + */
+.attribute-list ul{ margin: 0; padding: 0; }
+.attribute-list li{ clear: left; min-height: 30pt; list-style-type: none; }
+.attribute-list li p{ padding: 7pt 0 0; }
+.attribute-list img{ float: left; border: none 0 !important; margin-right: 7pt; }
+.attribute-list table td{ min-width: 45pt; }
+.attribute-list table span.branch{ border: none 0; }
+.attribute-list table span.branch img{ width: 20pt; heigth: auto; margin: 0 1pt 1pt 0; }
+
+
+/* + + + + + formulare + + + + + */
+form{ border-bottom: solid 1pt #000; margin: 0 0 10pt 20pt; padding: 4pt 0; }
+form fieldset{ border-top: solid 1pt #000; padding: 10pt 0 5pt; }
+fieldset.nobg_nolegend, 
+fieldset.captcha{ border: none 0; }
+
+form fieldset legend{ padding-bottom: 0; }
+
+
+/* label & co */
+form label{ clear: left; display: block; font-weight: bold; margin: 0 0 9pt; }
+
+form label span{ float: left; padding-bottom: 1pt; }
+form label span span{ float: none; padding: 0; }
+
+form label span.toplabel{ display: block; float: none; }
+form label span.frontlabel{ display: inline-block; float: left; width: auto; padding-top: 3pt; padding-right: 5pt; }
+
+form input, 
+form select, 
+form textarea{ width: 300pt; border: solid 1pt #000; margin-top: 2pt; padding: 2pt 3pt; }
+form textarea{ height: 6.5em; }
+form select{ width: auto; }
+
+
+/* checkbox */
+form div.checkbox{ margin-bottom: 10px; }
+form div.checkbox label{ margin-bottom: 2px; }
+form div.checkbox label input{ display: block; float: left; min-width: 1em; width: auto; background-color: transparent; border: none 0; margin-top: -1px; }
+form div.checkbox label span{ display: block; float: none; font-weight: normal; padding-left: 20px; }
+form div.checkbox label span span{ display: inline; padding-left: 0; }
+
+
+/* radioitem */
+form div.radioitem{ margin-bottom: 10px; }
+form div.radioitem label{ margin-bottom: 3px; }
+form div.radioitem label input{ display: block; float: left; min-width: 1em; width: auto; background-color: transparent; border: none 0; margin-top: -1px; }
+form div.radioitem label span{ display: block; float: none; font-weight: normal; padding-left: 20px; }
+form div.radioitem label span span{ display: inline; padding-left: 0; }
+
+
+/* + + + + + suche + + + + + */
+.tx-indexedsearch-whatis{ border-top: 1pt solid #777; margin-top: 12pt; padding: 5pt 0 2pt; }
+.tx-indexedsearch ul{ list-style-type: none; margin: 0; padding-left: 0; }
+.tx-indexedsearch ul li{ border-top: 1pt solid #777; margin-top: 10pt; }
+.tx-indexedsearch ul li h4{ margin-top: 4pt; }
+.tx-indexedsearch ul li li{ border-top: 0 none; margin-top: 0; padding-top: 2pt; }
+.tx-indexedsearch ul li ul{ list-style-type: disc; padding-left: 15pt; }
+.tx-indexedsearch ul li ol{ list-style-type: decimal; padding-left: 15pt; }
+.tx-indexedsearch ul li li ol{ padding-left: 0; }
+
+}

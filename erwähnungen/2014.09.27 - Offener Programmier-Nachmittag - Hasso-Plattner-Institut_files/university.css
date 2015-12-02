@@ -1,0 +1,119 @@
+.tx-ciuniversity-course h2 {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.tx-ciuniversity-table {
+	width: 100%; 
+}
+
+.tx-ciuniversity-table-row-even {
+}
+
+.tx-ciuniversity-table-row-odd {
+	 background-color: #efefef; 
+}
+
+.tx-ciuniversity-table-cell-title {
+	width: 300px;
+	padding: 5px;
+	vertical-align: top;	
+}
+
+.tx-ciuniversity-table-cell-lecturer {
+	width: 150px;
+	padding: 5px;
+	vertical-align: top;	
+}
+
+.tx-ciuniversity-course-general-info {
+	padding: 0px;	
+}
+
+.tx-ciuniversity-course-general-info li {
+	clear: left;
+	list-style: none;
+}
+
+.tx-ciuniversity-course-general-info li span {
+	display: block;
+	float: left;
+	width: 170px;
+	padding-right: 10px;
+}
+
+div.tx-ciuniversity-modules-program-left, div.tx-ciuniversity-modules-program-right {
+	width: 265px;
+	float: left;
+	margin-right: 5px;
+}
+
+div.tx-ciuniversity-modules-program-left h2, div.tx-ciuniversity-modules-program-right h2 {
+	font-weight: bold;
+	font-size: 12px;	
+}
+
+div.tx-ciuniversity-modules-program-left h3, div.tx-ciuniversity-modules-program-right h3 {
+	font-weight: bold;
+	font-size: 11px;	
+}
+
+div.tx-ciuniversity-modules-program-left ul, div.tx-ciuniversity-modules-program-right ul {
+	padding-left: 14px;
+	margin: 5px 0px;
+}
+
+.db-results-pager { background-color: #efefef; margin: 8px 0px; height: 20px; padding: 2px; width: 99%; }
+.db-results-pager .left { float:left; width: 300px; display:inline;}
+.db-results-pager .right { float:right;}
+.db-results-pager ul { margin: 0px; padding: 0px; }
+.db-results-pager li { list-style: none; float:left; padding: 0 2px; }
+.db-results-pager li .pipe { padding-right: 2px; margin:0;float:left;}
+.db-results-pager li a { text-decoration: underline; }
+
+div#tx-ciuniversity-navigation ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;	
+}
+
+div#tx-ciuniversity-navigation ul li {
+	float: left;
+	padding: 5px;
+	margin-right: 5px;
+	list-style: none;
+	width: 100px;	
+	background-color: #F0F0F0;
+	text-align: center;
+}
+
+.x-panel-body h2 {
+    font-size: 12px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.x-panel-body p {
+    font-size: 11px;
+    margin: 5px 10px;
+}
+
+.x-panel-body ul, .x-panel-body ol {
+	margin: auto !important;
+	padding: 5px 25px;
+	font-size: 11px;
+}
+
+.x-panel-body {
+	overflow: auto;	
+}
+
+.tx-ciuniversity-anchor {
+	color: #fff;
+	background-color: #6A707B;
+	padding: 5px;
+}
+
+.x-tip-anchor {
+    background-image: url("../Images/tip-anchor-sprite.gif");
+}

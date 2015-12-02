@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html lang="de" class="no-js ie6"> <![endif]-->
+<!--[if IE 7]> <html lang="de" class="no-js ie7"> <![endif]-->
+<!--[if IE 8]> <html lang="de" class="no-js ie8"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="de"><!--<![endif]--><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<meta charset="utf-8">
+<!-- 
+	produced by mediatack GmbH
+	Internet, E-Commerce, Online-Marketing, Hosting
+	http://www.mediatack.de
+	
+	managed by CCDM GmBH
+	Competence Center for Digital Media
+	http://www.ccdm.de
+
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2015 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.org/
+-->
+
+<!-- base href="https://www.technologiestiftung-berlin.de/" -->
+
+
+<meta name="generator" content="TYPO3 CMS">
+<meta name="robots" content="index, follow">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1.5">
+
+
+<link rel="stylesheet" type="text/css" href="2015.10.01%20-%20Ausgezeichnetes%20Hacken%20mit%20der%20Hackingbox%20-%20Technologiestiftung%20Berlin_files/stylesheet_5751022ad7.css" media="all">
+<link rel="stylesheet" type="text/css" href="2015.10.01%20-%20Ausgezeichnetes%20Hacken%20mit%20der%20Hackingbox%20-%20Technologiestiftung%20Berlin_files/bs.css" media="screen, projection">
+<link rel="stylesheet" type="text/css" href="2015.10.01%20-%20Ausgezeichnetes%20Hacken%20mit%20der%20Hackingbox%20-%20Technologiestiftung%20Berlin_files/screen.css" media="screen, projection">
+<link rel="stylesheet" type="text/css" href="2015.10.01%20-%20Ausgezeichnetes%20Hacken%20mit%20der%20Hackingbox%20-%20Technologiestiftung%20Berlin_files/additional.css" media="screen, projection">
+<link rel="stylesheet" type="text/css" href="2015.10.01%20-%20Ausgezeichnetes%20Hacken%20mit%20der%20Hackingbox%20-%20Technologiestiftung%20Berlin_files/sidr.css" media="screen, projection">
+<link rel="stylesheet" type="text/css" href="2015.10.01%20-%20Ausgezeichnetes%20Hacken%20mit%20der%20Hackingbox%20-%20Technologiestiftung%20Berlin_files/tsbicons.css" media="screen, projection">
+<link rel="stylesheet" type="text/css" href="2015.10.01%20-%20Ausgezeichnetes%20Hacken%20mit%20der%20Hackingbox%20-%20Technologiestiftung%20Berlin_files/print.css" media="print">
+<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="typo3conf/sites/tsb/css/ie.css" media="screen, projection"><![endif]-->
+
+
+
+<script src="2015.10.01%20-%20Ausgezeichnetes%20Hacken%20mit%20der%20Hackingbox%20-%20Technologiestiftung%20Berlin_files/piwik.js" defer="defer" async="" type="text/javascript"></script><script src="2015.10.01%20-%20Ausgezeichnetes%20Hacken%20mit%20der%20Hackingbox%20-%20Technologiestiftung%20Berlin_files/jquery-2.js" type="text/javascript"></script>
+
+<script src="2015.10.01%20-%20Ausgezeichnetes%20Hacken%20mit%20der%20Hackingbox%20-%20Technologiestiftung%20Berlin_files/javascript_dd82474708.js" type="text/javascript"></script>
+
+
+
+		<!--[if lt IE 9]>
+		<script type="text/javascript" src="typo3conf/sites/tsb/js/html5shiv.js"></script>
+		<script type="text/javascript" src="typo3conf/sites/tsb/js/respond.js"></script>
+		<![endif]-->
+<link rel="shortcut icon" type="image/x-icon" href="https://www.technologiestiftung-berlin.de/favicon.ico"><title>Beitrag - Technologiestiftung Berlin</title><meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="alternate" type="application/rss+xml" title="Tech-Log Berlin" href="https://www.technologiestiftung-berlin.de/de/startseite/rss/-d3ba2412fe/blogrss.xml"> 
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+// js for all render methods
+function searchboxFocus(searchbox) {
+	if(searchbox.value == "Suchbegriff") {
+		searchbox.value = "";
+	}
+}
+
+function searchboxBlur(searchbox) {
+	if(searchbox.value == "") {
+		searchbox.value = "Suchbegriff";
+	}
+}
+
+function resetCheckboxes(filter) {
+	allLi = document.getElementsByName("optionCheckBox" + filter);
+	allCb = new Array();
+	for(i = 0; i < allLi.length; i++) {
+		allCb[i] = allLi[i].getElementsByTagName("input");
+	}
+	for(i = 0; i < allCb.length; i++) {
+		allCb[i][0].checked = false;
+	}
+}
+
+function enableCheckboxes(filter) {
+	var lis = document.getElementsByTagName("LI");
+	//alert(lis.count());
+	var allCb = new Array();
+	var allCbChecked = true;
+	var count = 0;
+	var optionClass = new Array();
+	for(var i = 0; i < lis.length; i++) {
+		if (optionClasses = lis[i].getAttribute("class", 1)) {
+			optionClassesArray = optionClasses.split(" ");
+			//alert(optionClasses);
+			if(optionClassesArray[1] == "optionCheckBox" + filter) {
+				allCb[count] = lis[i].getElementsByTagName("input")[0];
+				count++;
+			}
+		}
+	}
+	for(i = 0; i < allCb.length; i++) {
+		if(!allCb[i].checked) {
+			allCbChecked = false;
+		}
+	}
+	if(allCbChecked) {
+		for(i = 0; i < allCb.length; i++) {
+			allCb[i].checked = false;
+		}
+	} else {
+		for(i = 0; i < allCb.length; i++) {
+			allCb[i].checked = true;
+		}
+	}
+}
+//]]>
+</script>
+
+</head>
+<body style="font-size: 95.1754%;" class="content p31 area-issues"><a href="https://www.technologiestiftung-berlin.de/de/aktuelles/neuigkeiten/beitrag/ausgezeichnetes-hacken-mit-der-hacking-box/">Quelle</a>
+
+<div class="device-xs visible-xs"></div>
+<div class="device-sm visible-sm"></div>
+<div class="device-md visible-md"></div>
+<div class="device-lg visible-lg"></div>
+
+
+		<div id="headerWrap">
+			<div class="container" id="header">
+				<div class="row">
+					<div class="col-xs-5 col-md-4 logo-small hidden-xs hidden-sm visible"><a href="https://www.technologiestiftung-berlin.de/de/startseite/" title="Zur Startseite der Technologiestiftung Berlin"><img src="2015.10.01%20-%20Ausgezeichnetes%20Hacken%20mit%20der%20Hackingbox%20-%20Technologiestiftung%20Berlin_files/tsb-logo-small.png" alt="Technologiestiftung Berlin Logo"></a></div>
+					<div class="col-xs-5 head-nav hidden-xs hidden-sm"><ul class="navMain clearfix"><li class="first"><a href="https://www.technologiestiftung-berlin.de/de/startseite/">Startseite</a></li><li class="active"><a href="https://www.technologiestiftung-berlin.de/de/aktuelles/">Aktuelles</a><ul><li><a href="https://www.technologiestiftung-berlin.de/de/aktuelles/"><span class="glyphicon glyphicon-chevron-right"></span>Übersicht</a></li><li class="active"><a href="https://www.technologiestiftung-berlin.de/de/aktuelles/neuigkeiten/"><span class="glyphicon glyphicon-chevron-right"></span>Neuigkeiten</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/aktuelles/veranstaltungen/"><span class="glyphicon glyphicon-chevron-right"></span>Veranstaltungen</a></li><li class="last"><a href="https://www.technologiestiftung-berlin.de/de/blog/"><span class="glyphicon glyphicon-chevron-right"></span>Tech-Log Berlin</a></li></ul></li><li><a href="https://www.technologiestiftung-berlin.de/de/top-themen/">Top-Themen</a><ul><li><a href="https://www.technologiestiftung-berlin.de/de/top-themen/"><span class="glyphicon glyphicon-chevron-right"></span>Übersicht</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/top-themen/data/"><span class="glyphicon glyphicon-chevron-right"></span>Data</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/top-themen/work/"><span class="glyphicon glyphicon-chevron-right"></span>Work</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/top-themen/life/"><span class="glyphicon glyphicon-chevron-right"></span>Life</a></li><li class="last"><a href="https://www.technologiestiftung-berlin.de/de/top-themen/innovationsstandort-berlin/"><span class="glyphicon glyphicon-chevron-right"></span>Innovations­standort Berlin</a></li></ul></li><li><a href="https://www.technologiestiftung-berlin.de/de/bibliothek/">Bibliothek</a><ul><li><a href="https://www.technologiestiftung-berlin.de/de/bibliothek/"><span class="glyphicon glyphicon-chevron-right"></span>Übersicht</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/bibliothek/publikationen/"><span class="glyphicon glyphicon-chevron-right"></span>Publikationen</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/bibliothek/multimedia/"><span class="glyphicon glyphicon-chevron-right"></span>Multimedia</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/bibliothek/glossar/"><span class="glyphicon glyphicon-chevron-right"></span>Glossar</a></li><li class="last"><a href="https://www.technologiestiftung-berlin.de/de/aktuelles/veranstaltungen/archiv/"><span class="glyphicon glyphicon-chevron-right"></span>Vergangene Veranstaltungen</a></li></ul></li><li class="last"><a href="https://www.technologiestiftung-berlin.de/de/stiftung/">Stiftung</a><ul><li><a href="https://www.technologiestiftung-berlin.de/de/stiftung/"><span class="glyphicon glyphicon-chevron-right"></span>Übersicht</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/stiftung/kontakt-anfahrt/"><span class="glyphicon glyphicon-chevron-right"></span>Kontakt &amp; Anfahrt</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/stiftung/ansprechpartner/"><span class="glyphicon glyphicon-chevron-right"></span>Ansprechpartner</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/stiftung/gremien-satzung/"><span class="glyphicon glyphicon-chevron-right"></span>Gremien &amp; Satzung</a></li><li class="last"><a href="https://www.technologiestiftung-berlin.de/de/stiftung/foerderverein/"><span class="glyphicon glyphicon-chevron-right"></span>Förderverein</a></li></ul></li></ul></div>
+					<div class="col-xs-1 head-search hidden-xs hidden-sm"><div class="tx-kesearch-pi1">
+		
+<div id="search-panel">
+	<form method="get" id="xajax_form_kesearch_pi1" name="xajax_form_kesearch_pi1" action="https://www.technologiestiftung-berlin.de/index.php" class="static">
+		<fieldset class="kesearch_searchbox">
+			<input name="id" value="62" type="hidden">
+			<input name="L" value="0" type="hidden">
+
+			<div class="kesearchbox">
+				<input style="display: none; width: 0px;" id="ke_search_sword" name="tx_kesearch_pi1[sword]" value="Suchbegriff" onfocus="searchboxFocus(this);" onblur="searchboxBlur(this);" type="text">
+				<button id="open-search" class="btn"><span class="tsbbutton size36 colorRed"><span class="tsbicon i-search"></span></span></button> <span style="cursor: pointer" id="search-label">Suche</span>
+				<!--span class="submitbutt"><input type="submit" value="Finden" /></span-->
+				<div id="reset-wrap">
+					<a style="margin-top: -100px; position: absolute;" href="" class="resetbutt" id="close-search"><!--<a href="https://www.technologiestiftung-berlin.de/de/suchergebnisse/" class="resetButton"><span>Eingaben löschen</span></a>-->
+						<span class="tsbbutton size36 colorBlack"><span class="tsbicon i-close"></span></span>
+					</a>
+				</div>
+				<!--input type="image" id="kesearch_submit" src="https://www.technologiestiftung-berlin.de/typo3conf/ext/ke_search/res/img/kesearch_submit.png" alt="Finden" class="submit" onclick="document.getElementById('pagenumber').value=1; document.getElementById('xajax_form_kesearch_pi1').submit();" /-->
+			</div>
+
+			<input id="pagenumber" name="tx_kesearch_pi1[page]" value="1" type="hidden">
+			<input id="resetFilters" name="tx_kesearch_pi1[resetFilters]" value="0" type="hidden">
+			<input id="sortByField" name="tx_kesearch_pi1[sortByField]" value="" type="hidden">
+			<input id="sortByDir" name="tx_kesearch_pi1[sortByDir]" value="" type="hidden">
+
+			<div id="kesearch_filters"></div>
+
+			
+
+		</fieldset>
+
+	</form>
+</div>
+
+	</div>
+	</div>
+					<div class="col-xs-2 head-social hidden-xs hidden-sm"><div class="social pull-right"><span class="sm_fb"><a href="https://www.facebook.com/pages/Technologiestiftung-Berlin/365487140221125" title="Der Technologiestiftung Berlin auf Facebook folgen" target="_blank" data-toggle="tooltip" data-placement="bottom" data-container="body"><span class="tsbbutton size36 colorBlack"><span class="tsbicon i-fb"></span></span></a></span><span class="sm_gp"><a href="https://plus.google.com/108841806481797631994" title="Der Technologiestiftung Berlin auf Google+ folgen" target="_blank" data-toggle="tooltip" data-placement="bottom" data-container="body"><span class="tsbbutton size36 colorBlack"><span class="tsbicon i-googleplus"></span></span></a></span><span class="sm_tw"><a href="https://twitter.com/TSBBerlin" title="Der Technologiestiftung Berlin auf Twitter folgen" target="_blank" data-toggle="tooltip" data-placement="bottom" data-container="body"><span class="tsbbutton size36 colorBlack"><span class="tsbicon i-twitter"></span></span></a></span><span class="sm_yt"><a href="https://www.youtube.com/user/TSBBerlin" title="Der Technologiestiftung Berlin auf YouTube folgen" target="_blank" data-toggle="tooltip" data-placement="bottom" data-container="body"><span class="tsbbutton size36 colorBlack"><span class="tsbicon i-youtube"></span></span></a></span><span class="langbutton"><span class="tsbbutton size36 colorRed act"><a href="https://www.technologiestiftung-berlin.de/de/aktuelles/neuigkeiten/beitrag/ausgezeichnetes-hacken-mit-der-hacking-box/" title="Diese Seite in Deutsch anzeigen" data-toggle="tooltip" data-placement="bottom" data-container="body">DE</a></span><span class="tsbbutton size36 colorRed no"><a href="https://www.technologiestiftung-berlin.de/en/aktuelles/neuigkeiten/article/ausgezeichnetes-hacken-mit-der-hacking-box/" title="Show this page in english" data-toggle="tooltip" data-placement="bottom" data-container="body">EN</a></span></span></div></div>
+					<div class="head-white-bar hidden-xs hidden-sm"></div>
+					<div class="col-xs-4 visible-xs visible-sm" id="tablogo"><a href="https://www.technologiestiftung-berlin.de/de/startseite/" title="Zur Startseite der Technologiestiftung Berlin"><img src="2015.10.01%20-%20Ausgezeichnetes%20Hacken%20mit%20der%20Hackingbox%20-%20Technologiestiftung%20Berlin_files/tsb-logo-mobile.gif" alt="Technologiestiftung Berlin Logo"></a></div>
+					<div class="col-xs-8 visible-xs visible-sm" id="tabnav"><a href="#navbar" class="pull-right" id="navbar"><span class="tsbbutton size50 colorRed"><span class="tsbicon i-menu"></span></span></a>		<div class="search-toggle-icon-wrapper pull-right">
+			<a href="javascript:void(0)" id="close-search-mobile"><span class="tsbbutton size50 colorBlack"><span class="tsbicon i-close"></span></span></a>
+			<a href="javascript:void(0)" id="open-search-mobile"><span class="tsbbutton size50 colorRed"><span class="tsbicon i-search"></span></span></a>
+		</div>
+		<div class="social-mobile-toggle-icon-wrapper pull-right">
+			<a href="#" class="pull-right open-social-media"><span class="tsbbutton size50 colorRed"><span class="tsbicon i-share"></span></span></a>
+			<a href="#" class="pull-right close-social-media"><span class="tsbbutton size50 colorRed"><span class="tsbicon i-close"></span></span></a>
+		</div>
+<div class="social-mobile pull-right"><span class="sm_fb"><a href="https://www.facebook.com/pages/Technologiestiftung-Berlin/365487140221125" title="Der Technologiestiftung Berlin auf Facebook folgen" target="_blank" data-toggle="tooltip" data-placement="bottom" data-container="body"><span class="tsbbutton size36 colorBlack"><span class="tsbicon i-fb"></span></span></a></span><span class="sm_gp"><a href="https://plus.google.com/108841806481797631994" title="Der Technologiestiftung Berlin auf Google+ folgen" target="_blank" data-toggle="tooltip" data-placement="bottom" data-container="body"><span class="tsbbutton size36 colorBlack"><span class="tsbicon i-googleplus"></span></span></a></span><span class="sm_tw"><a href="https://twitter.com/TSBBerlin" title="Der Technologiestiftung Berlin auf Twitter folgen" target="_blank" data-toggle="tooltip" data-placement="bottom" data-container="body"><span class="tsbbutton size36 colorBlack"><span class="tsbicon i-twitter"></span></span></a></span><span class="sm_yt"><a href="https://www.youtube.com/user/TSBBerlin" title="Der Technologiestiftung Berlin auf YouTube folgen" target="_blank" data-toggle="tooltip" data-placement="bottom" data-container="body"><span class="tsbbutton size36 colorBlack"><span class="tsbicon i-youtube"></span></span></a></span><span class="langbutton"><span class="tsbbutton size36 colorRed act"><a href="https://www.technologiestiftung-berlin.de/de/aktuelles/neuigkeiten/beitrag/ausgezeichnetes-hacken-mit-der-hacking-box/" title="Diese Seite in Deutsch anzeigen" data-toggle="tooltip" data-placement="bottom" data-container="body">DE</a></span><span class="tsbbutton size36 colorRed no"><a href="https://www.technologiestiftung-berlin.de/en/aktuelles/neuigkeiten/article/ausgezeichnetes-hacken-mit-der-hacking-box/" title="Show this page in english" data-toggle="tooltip" data-placement="bottom" data-container="body">EN</a></span></span></div></div>
+				</div>
+			</div>
+		</div>
+		<div class="container mobile-search-wrapper">
+			<div class="col-xs-12 visible-xs visible-sm"><div class="tx-kesearch-pi1">
+		
+<div style="margin-top: -65px;" id="search-panel-mobile">
+	<form method="get" id="xajax_form_kesearch_pi1-mobile" name="xajax_form_kesearch_pi1" action="https://www.technologiestiftung-berlin.de/index.php" class="static">
+		<fieldset class="kesearch_searchbox">
+			<input name="id" value="62" type="hidden">
+			<input name="L" value="0" type="hidden">
+
+			<div class="kesearchbox-mobile">
+				<button id="start-search-mobile" class="btn"><span class="tsbbutton size50 colorRed"><span class="tsbicon i-search"></span></span></button>
+				<div class="input-mobile-search"><input id="ke_search_sword-mobile" name="tx_kesearch_pi1[sword]" value="Suchbegriff" onfocus="searchboxFocus(this);" onblur="searchboxBlur(this);" type="text"></div>
+			</div>
+
+			<input id="pagenumber" name="tx_kesearch_pi1[page]" value="1" type="hidden">
+			<input id="resetFilters" name="tx_kesearch_pi1[resetFilters]" value="0" type="hidden">
+			<input id="sortByField" name="tx_kesearch_pi1[sortByField]" value="" type="hidden">
+			<input id="sortByDir" name="tx_kesearch_pi1[sortByDir]" value="" type="hidden">
+
+			<div id="kesearch_filters-mobile"></div>
+
+			
+
+		</fieldset>
+
+	</form>
+</div>
+
+	</div>
+	</div>
+		</div>
+		<div class="container" id="ke_search_results_wrap">
+			<div class="row">
+				<div class="col-xs-12 col-md-offset-4 col-md-8 header-left"><div id="ke_search_results"></div></div>
+			</div>
+		</div>
+		<div class="container" id="teaser">
+			<div class="row">
+				
+						<div class="col-md-4 header-logo hidden-xs hidden-sm"><div class="logoItems"><a href="https://www.technologiestiftung-berlin.de/de/startseite/" title="Zur Startseite der Technologiestiftung Berlin"><img src="2015.10.01%20-%20Ausgezeichnetes%20Hacken%20mit%20der%20Hackingbox%20-%20Technologiestiftung%20Berlin_files/tsb-logo-content.gif" alt="Technologiestiftung Berlin Logo"></a></div></div>
+						<div class="col-xs-12 col-sm-8 col-md-5 header-left"><div id="c177" class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Neuigkeiten</h1></div><div class="csc-textpic-text"></div></div></div>
+						<div class="col-md-3 hidden-xs hidden-sm header-right"></div>
+					
+			</div>
+		</div>
+		<div class="container" id="content">
+			
+			
+			
+				
+	<div class="navBreadcrumb hidden-xs row"><div class="col-sm-12 col-md-offset-4 col-md-8"><ol><li class="first"><a href="https://www.technologiestiftung-berlin.de/de/startseite/">Startseite</a></li><li><img src="2015.10.01%20-%20Ausgezeichnetes%20Hacken%20mit%20der%20Hackingbox%20-%20Technologiestiftung%20Berlin_files/breadcrumb-arrow.gif"><a href="https://www.technologiestiftung-berlin.de/de/aktuelles/">Aktuelles</a></li><li><img src="2015.10.01%20-%20Ausgezeichnetes%20Hacken%20mit%20der%20Hackingbox%20-%20Technologiestiftung%20Berlin_files/breadcrumb-arrow.gif"><a href="https://www.technologiestiftung-berlin.de/de/aktuelles/neuigkeiten/">Neuigkeiten</a></li><li class="active"><img src="2015.10.01%20-%20Ausgezeichnetes%20Hacken%20mit%20der%20Hackingbox%20-%20Technologiestiftung%20Berlin_files/breadcrumb-arrow.gif">Ausgezeichnetes Hacken mit der Hacking Box</li></ol></div></div>
+	<div class="row">
+		<div class="col-sm-12 maincol fullwidth">
+			<div id="c72" class="csc-default">
+<div class="tx-tsb-ccontent">
+	
+	<div class="newsDetail">
+		
+
+
+
+<div class="row backLink">
+	<div class="col-xs-12 col-md-offset-4 col-md-8">
+		<p>
+			<a href="https://www.technologiestiftung-berlin.de/de/aktuelles/neuigkeiten/">
+				<span class="tsbbutton size20 colorRed"><span class="tsbicon i-pfeil_l"></span></span>Zur Übersicht
+			</a>
+		</p>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-sm-8 col-md-9">
+		<!-- Headline, Text -->
+		<div class="row twocols noJS">
+			<div class="content-right">
+				<!-- Date -->
+				<div class="categories newsDate">
+					16.09.2015
+				</div>
+				<!-- Title -->
+				<h2 class="newsTitle">Ausgezeichnetes Hacken mit der Hacking Box</h2>
+				<!-- Teaser -->
+				<div class="newsTeasertext"><p class="text-large">Einladung zur Preisverleihung "Deutschland - Land der Ideen" am 1. Oktober 2015</p></div>
+				<!-- Share -->
+				<div class="newsShare shareTop">
+	<hr class="stripe">
+	Beitrag teilen<br class="visible-xs">
+	
+		<span class="sm_fb">
+		<a href="https://www.facebook.com/sharer/sharer.php?u=https://www.technologiestiftung-berlin.de/de/aktuelles/neuigkeiten/beitrag/ausgezeichnetes-hacken-mit-der-hacking-box/" title="Diesen Beitrag teilen" data-toggle="tooltip" data-placement="bottom" data-container="body" target="_blank"><span class="tsbbutton size25 colorBlack"><span class="tsbicon i-fb"></span></span></a> 
+	</span>
+	<span class="sm_gp">
+		<a href="https://plus.google.com/share?url=https://www.technologiestiftung-berlin.de/de/aktuelles/neuigkeiten/beitrag/ausgezeichnetes-hacken-mit-der-hacking-box/" title="Diesen Beitrag teilen" data-toggle="tooltip" data-placement="bottom" data-container="body" target="_blank"><span class="tsbbutton size25 colorBlack"><span class="tsbicon i-googleplus"></span></span></a> 
+	</span>
+	<span class="sm_tw">
+		<a href="https://twitter.com/home?status=https://www.technologiestiftung-berlin.de/de/aktuelles/neuigkeiten/beitrag/ausgezeichnetes-hacken-mit-der-hacking-box/" title="Diesen Beitrag teilen" data-toggle="tooltip" data-placement="bottom" data-container="body" target="_blank"><span class="tsbbutton size25 colorBlack"><span class="tsbicon i-twitter"></span></span></a> 
+	</span>
+	
+</div>
+			</div>
+			<div class="content-left noMargin">
+				
+			</div>
+		</div>
+
+		<div class="row twocols noJS">
+			<div class="content-right">
+				<!-- Text -->
+				<div class="newsText">
+					<p class="bodytext">Mit ihrer Hacking Box gehört die 
+Technologiestiftung Berlin zu den Preisträgerinnen und Preisträgern des 
+bundesweiten Wettbewerbs „Ausgezeichnete Orte im Land der Ideen“ 2015. 
+Damit wird ein Angebot an alle Berlinerinnen und Berliner ausgezeichnet,
+ das Hacken und Coden fördert. Die Stiftung verleiht die Box seit 2013 
+an Projekte, die Kindern, Jugendlichen und manchmal auch Erwachsenen das
+ Programmieren mit Hardware näherbringen. Die Boxen wurden bereits auf 
+vielen Hackdays, Hackathons oder bei Forschertagen eingesetzt.<br> <br> 
+Wir laden Sie herzlich dazu ein, an der Preisverleihung teilzunehmen und
+ den Einsatz der Hacking Box live zu erleben. Einige der unterstützten 
+Projekte stellen ihre Hacks vor und demonstrieren, wie die Box 
+eingesetzt werden kann. <br> <br> Wir freuen uns auf Sie!
+</p>
+<p class="bodytext"><strong>Beginn 17:30 Uhr</strong>
+</p>
+<p class="bodytext"><strong>Begrüßung<br></strong>Nicolas Zimmer – Vorstandsvorsitzender Technologiestiftung Berlin
+</p>
+<p class="bodytext"><strong>Einführung<br></strong>Corinna Pregla – Repräsentantin "Deutschland - Land der Ideen"
+</p>
+<p class="bodytext"><strong>Laudatio<br></strong>Astrid Freier – Vice President Regional Management BerlinDeutsche Bank
+</p>
+<p class="bodytext"> <strong>Preisentgegennahme<br></strong>Dr. Dieter Müller – Leitung Future of Work Technologiestiftung Berlin<br>Sebastian Seitz – Projektmanager Technologiestiftung Berlin
+</p>
+<p class="bodytext"><strong>Empfang</strong></p>
+				</div>
+				<!-- iFrame -->
+				
+			</div>
+
+			<div class="content-left noMargin">
+				<!-- Image -->
+				
+					<div class="newsImageWrap clearfix">
+						<figure class="newsImage pull-right">
+							
+									<a class="zoomlink" title="" href="https://www.technologiestiftung-berlin.de/fileadmin/_processed_/csm_IMG_9152_18de5b4276.jpg">
+										<span class="tsbbutton size42 colorTrans img-enlarge"><span class="tsbicon i-plus"></span></span>
+										<img class="mainImage" src="2015.10.01%20-%20Ausgezeichnetes%20Hacken%20mit%20der%20Hackingbox%20-%20Technologiestiftung%20Berlin_files/csm_IMG_9152_2d13523cb1.jpg" alt="" height="321" width="482">
+									</a>
+								
+							
+						</figure>
+					</div>
+				
+				<!-- Links -->
+				
+					<div class="newsLinklist">
+						<hr class="stripe">
+						<h4>Weitere Informationen</h4>
+						<ul class="links"><li><span class="tsbbutton size20 colorRed"><span class="tsbicon i-pfeil"></span></span><a href="http://www.eventbrite.de/e/ausgezeichnetes-hacken-preisverleihung-deutschland-land-der-ideen-registrierung-18344525971"> Anmeldung zur Preisverleihung</a></li><li><span class="tsbbutton size20 colorRed"><span class="tsbicon i-pfeil"></span></span><a href="https://www.land-der-ideen.de/ausgezeichnete-orte/preistraeger/hacking-box-hardware-f-r-digitale-experten-von-morgen"> Land der Ideen</a></li><li><span class="tsbbutton size20 colorRed"><span class="tsbicon i-pfeil"></span></span><a href="https://www.technologiestiftung-berlin.de/de/top-themen/work/hacking-box/"> Hacking Box</a></li></ul>
+					</div>
+				
+			</div>
+		</div>
+
+		
+
+		
+
+		<div class="row twocols noJS reverse">
+			<div class="content-left">
+				
+			</div>
+			<div class="content-right">
+				<!-- Text part 2 -->
+				
+					<div class="newsText2">
+						<p class="bodytext"><strong>Demos</strong>
+</p>
+<p class="bodytext"><a href="https://zen.coderdojo.com/dojo/861" title="Opens external link in new window" target="_blank" class="external-link-new-window">CoderDojo Potsdam</a><br>CoderDojo ist ein Club für Kinder und Jugendliche im Alter von 5 bis 17 Jahren, die programmieren lernen und Spass haben wollen.
+</p>
+<p class="bodytext"><a href="http://award.codeweek.de/" title="Opens external link in new window" target="_blank" class="external-link-new-window">Code Week Award</a><br>Der
+ Code Week Award zeichnete in diesem Jahr zum ersten Mal nachhaltige 
+Projekte aus, die jungen Menschen den Umgang mit digitalen Technologien 
+und den Spaß am Programmieren näherbringen.
+</p>
+<p class="bodytext"><a href="http://www.dein-labor.tu-berlin.de/" title="Opens external link in new window" target="_blank" class="external-link-new-window">dEIn-Labor</a><br>dEIn
+ Labor ist das Schülerlabor an der Fakultät IV der TU Berlin. Es bietet 
+Jugendlichen die Möglichkeit, aktuelle&nbsp;technische Themen auf 
+experimentelle Art und Weise kennen zu lernen.
+</p>
+<p class="bodytext"><a href="https://fablab.berlin/de/" title="Opens external link in new window" target="_blank" class="external-link-new-window">FabLab Berlin</a><br>Das
+ Fab Lab Berlin ist eine offene Entwicklungswerkstatt. Es bieten jedem 
+Interessierten Zugang zu High-Tech Werkzeugen wie 3D Druckern, 
+Lasercuttern oder CNC Fräsen die man zum Erfinden und Entwerfen von 
+eigenen Produkten braucht.
+</p>
+<p class="bodytext"><a href="http://jugendhackt.de/" title="Opens external link in new window" target="_blank" class="external-link-new-window">Jugend hackt</a><br>"Jugend hackt" ist ein Hackathon für computerbegeisterte Jugendliche von 12 bis 18 Jahren.
+</p>
+<p class="bodytext"><a href="http://medialepfade.de/" title="Opens external link in new window" target="_blank" class="external-link-new-window">Mediale Pfade</a><br>Als
+ Agentur für Medienbildung entwickelt mediale pfade.de innovative 
+Konzepte, um neue mediale Pfade des Lernens und der Beteiligung zu 
+begehen.<br> <br> <a href="http://www.mi.fu-berlin.de/w/MILAB/WebHome" title="Opens external link in new window" target="_blank" class="external-link-new-window">MI.Lab<br></a>Das
+ MI.Lab ist das Mathematik- und Informatikschülerlabor der FU Berlin. Es
+ hat zum Ziel, das naturwissenschaftlich-technische Interesse und 
+Verständnis von Kindern und Jugendlichen zu steigern und Hilfen bei der 
+Berufsorientierung zu geben.
+</p>
+<p class="bodytext">Wir freuen uns über Ihre Anmeldung bis zum 28. September 2015. Die Plätze sind begrenzt.
+</p>
+<p class="bodytext"><a href="http://www.eventbrite.de/e/ausgezeichnetes-hacken-preisverleihung-deutschland-land-der-ideen-registrierung-18344525971" title="Opens external link in new window" target="_blank" class="external-link-new-window">Zur Anmeldung</a></p>
+					</div>
+				
+				
+					<!-- Share -->
+					<div class="newsShare">
+	<hr class="stripe">
+	Beitrag teilen<br class="visible-xs">
+	
+		<span class="sm_fb">
+		<a href="https://www.facebook.com/sharer/sharer.php?u=https://www.technologiestiftung-berlin.de/de/aktuelles/neuigkeiten/beitrag/ausgezeichnetes-hacken-mit-der-hacking-box/" title="Diesen Beitrag teilen" data-toggle="tooltip" data-placement="bottom" data-container="body" target="_blank"><span class="tsbbutton size25 colorBlack"><span class="tsbicon i-fb"></span></span></a> 
+	</span>
+	<span class="sm_gp">
+		<a href="https://plus.google.com/share?url=https://www.technologiestiftung-berlin.de/de/aktuelles/neuigkeiten/beitrag/ausgezeichnetes-hacken-mit-der-hacking-box/" title="Diesen Beitrag teilen" data-toggle="tooltip" data-placement="bottom" data-container="body" target="_blank"><span class="tsbbutton size25 colorBlack"><span class="tsbicon i-googleplus"></span></span></a> 
+	</span>
+	<span class="sm_tw">
+		<a href="https://twitter.com/home?status=https://www.technologiestiftung-berlin.de/de/aktuelles/neuigkeiten/beitrag/ausgezeichnetes-hacken-mit-der-hacking-box/" title="Diesen Beitrag teilen" data-toggle="tooltip" data-placement="bottom" data-container="body" target="_blank"><span class="tsbbutton size25 colorBlack"><span class="tsbicon i-twitter"></span></span></a> 
+	</span>
+	
+</div>
+				
+			</div>
+		</div>
+		
+	</div>
+	<!-- Rightcol -->
+	<div class="col-xs-12 col-sm-4 col-md-3 rightcol">
+		<div style="z-index: 800; position: fixed; top: 64.7415px; margin-left: 0px; width: 333px; left: 1186.05px;" class="affixContainer scroll-to-fixed-fixed">
+			<hr class="stripe">
+			<!-- Contact -->
+			
+				<h3>Ansprechpartner</h3>
+				
+					<div class="contactBox singleContact">
+					<div class="contact-image">
+	
+			
+				
+					<img title="Nadine Riede" alt="Nadine Riede" src="2015.10.01%20-%20Ausgezeichnetes%20Hacken%20mit%20der%20Hackingbox%20-%20Technologiestiftung%20Berlin_files/csm_Riede2_d8389ba0b2.jpg" height="120" width="100">
+				
+			
+		
+	<span class="arrow-left"></span>
+</div>
+<div class="contact-info">
+	<div class="name">
+		<span class="glyphicon glyphicon-chevron-down pull-right"></span>
+		Nadine Riede</div>
+	
+		<div class="function">
+			
+				<span>Geschäftsstelle Vorstand</span>
+			
+			<span>Wissenschaftliche Mitarbeiterin</span>
+		</div>
+	
+	<div class="options">
+		<span class="mail"><img src="2015.10.01%20-%20Ausgezeichnetes%20Hacken%20mit%20der%20Hackingbox%20-%20Technologiestiftung%20Berlin_files/icon_contact_mail_white.png"><a href="javascript:linkTo_UnCryptMailto('nbjmup+sjfefAufdiopmphjftujguvoh.cfsmjo/ef');">E-Mail schreiben</a></span>
+		<span class="phone"><img src="2015.10.01%20-%20Ausgezeichnetes%20Hacken%20mit%20der%20Hackingbox%20-%20Technologiestiftung%20Berlin_files/icon_contact_phone_white.png">+49 30 46302 301</span>
+		
+	</div>
+</div>
+					</div>
+				
+			
+		</div><div style="display: block; width: 333px; height: 250px; float: none;"></div>
+	</div>
+</div>
+
+
+
+
+
+
+	</div>
+
+</div></div>
+		</div>
+	</div>
+
+			
+			
+			
+			
+			
+		</div>
+		<div class="container" id="sitemap">
+			<div class="row">
+				<div class="col-sm-10 col-md-9 hidden-xs sidr-sitemap">
+					<div class="sidrMenu"><span class="tsbbutton"><span class="tsbicon i-close"></span></span><span class="headline">Menü</span></div>
+					<ul class="navSitemap"><li><a href="https://www.technologiestiftung-berlin.de/de/startseite/">Startseite</a></li><li class="active"><a href="https://www.technologiestiftung-berlin.de/de/aktuelles/">Aktuelles</a><ul><li><a href="https://www.technologiestiftung-berlin.de/de/aktuelles/">Übersicht</a></li><li class="active"><a href="https://www.technologiestiftung-berlin.de/de/aktuelles/neuigkeiten/">Neuigkeiten</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/aktuelles/veranstaltungen/">Veranstaltungen</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/blog/">Tech-Log Berlin</a></li></ul></li><li><a href="https://www.technologiestiftung-berlin.de/de/top-themen/">Top-Themen</a><ul><li><a href="https://www.technologiestiftung-berlin.de/de/top-themen/">Übersicht</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/top-themen/data/">Data</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/top-themen/work/">Work</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/top-themen/life/">Life</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/top-themen/innovationsstandort-berlin/">Innovations­standort Berlin</a></li></ul></li><li><a href="https://www.technologiestiftung-berlin.de/de/bibliothek/">Bibliothek</a><ul><li><a href="https://www.technologiestiftung-berlin.de/de/bibliothek/">Übersicht</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/bibliothek/publikationen/">Publikationen</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/bibliothek/multimedia/">Multimedia</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/bibliothek/glossar/">Glossar</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/aktuelles/veranstaltungen/archiv/">Vergangene Veranstaltungen</a></li></ul></li><li><a href="https://www.technologiestiftung-berlin.de/de/stiftung/">Stiftung</a><ul><li><a href="https://www.technologiestiftung-berlin.de/de/stiftung/">Übersicht</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/stiftung/kontakt-anfahrt/">Kontakt &amp; Anfahrt</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/stiftung/ansprechpartner/">Ansprechpartner</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/stiftung/gremien-satzung/">Gremien &amp; Satzung</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/stiftung/foerderverein/">Förderverein</a></li></ul></li></ul></div>
+				<div class="col-xs-12 col-sm-2 col-md-3 sidr-service"><ul class="navService"><li><a href="https://www.technologiestiftung-berlin.de/de/impressum/">Impressum</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/datenschutz/">Datenschutz</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/newsletter/" class="newsletterform" rel="nofollow">Newsletter</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/presse/">Presse</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/blog/">Blog</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/berliner-wissenswerte/" target="_blank">Berliner WissensWerte</a></li></ul></div>
+			</div>
+		</div>
+		<div class="container" id="footer">
+			<div class="row"><div class="col-xs-12 sponsoring">			<p class="additional-logo"><img src="2015.10.01%20-%20Ausgezeichnetes%20Hacken%20mit%20der%20Hackingbox%20-%20Technologiestiftung%20Berlin_files/tsb-ausgezeichneterort15.png" alt="Ausgezecihneter Ort 2015"></p>
+			<p><img src="2015.10.01%20-%20Ausgezeichnetes%20Hacken%20mit%20der%20Hackingbox%20-%20Technologiestiftung%20Berlin_files/tsb-foerderer.png" alt="Technologiestiftung Berlin Förderer"></p>
+			<p>Gefördert aus Mitteln des Landes Berlin und der Investitionsbank Berlin, kofinanziert von der Europäischen Union - <br>Europäischer Fonds für Regionale Entwicklung. <br class="visible-xs">Investition in Ihre Zukunft.</p></div></div>
+		</div>
+		<a href="#" class="scrollToTop visible"><span class="glyphicon glyphicon-chevron-up"></span></a>
+		<div class="sidr right" id="sidr-navbar"><div class="sidr-inner">
+					<div class="sidr-class-sidrMenu"><span class="sidr-class-tsbbutton"><span class="sidr-class-tsbicon sidr-class-i-close"></span></span><span class="sidr-class-headline">Menü</span></div>
+					<ul class="sidr-class-navSitemap"><li><a href="https://www.technologiestiftung-berlin.de/de/startseite/">Startseite</a></li><li class="sidr-class-active"><a href="https://www.technologiestiftung-berlin.de/de/aktuelles/">Aktuelles</a><ul class="sidebarSubNav" style="display: none;"><li><a href="https://www.technologiestiftung-berlin.de/de/aktuelles/">Übersicht</a></li><li class="sidr-class-active"><a href="https://www.technologiestiftung-berlin.de/de/aktuelles/neuigkeiten/">Neuigkeiten</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/aktuelles/veranstaltungen/">Veranstaltungen</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/blog/">Tech-Log Berlin</a></li></ul></li><li><a href="https://www.technologiestiftung-berlin.de/de/top-themen/">Top-Themen</a><ul class="sidebarSubNav" style="display: none;"><li><a href="https://www.technologiestiftung-berlin.de/de/top-themen/">Übersicht</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/top-themen/data/">Data</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/top-themen/work/">Work</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/top-themen/life/">Life</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/top-themen/innovationsstandort-berlin/">Innovations­standort Berlin</a></li></ul></li><li><a href="https://www.technologiestiftung-berlin.de/de/bibliothek/">Bibliothek</a><ul class="sidebarSubNav" style="display: none;"><li><a href="https://www.technologiestiftung-berlin.de/de/bibliothek/">Übersicht</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/bibliothek/publikationen/">Publikationen</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/bibliothek/multimedia/">Multimedia</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/bibliothek/glossar/">Glossar</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/aktuelles/veranstaltungen/archiv/">Vergangene Veranstaltungen</a></li></ul></li><li><a href="https://www.technologiestiftung-berlin.de/de/stiftung/">Stiftung</a><ul class="sidebarSubNav" style="display: none;"><li><a href="https://www.technologiestiftung-berlin.de/de/stiftung/">Übersicht</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/stiftung/kontakt-anfahrt/">Kontakt &amp; Anfahrt</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/stiftung/ansprechpartner/">Ansprechpartner</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/stiftung/gremien-satzung/">Gremien &amp; Satzung</a></li><li><a href="https://www.technologiestiftung-berlin.de/de/stiftung/foerderverein/">Förderverein</a></li></ul></li></ul></div></div>
+
+<script src="2015.10.01%20-%20Ausgezeichnetes%20Hacken%20mit%20der%20Hackingbox%20-%20Technologiestiftung%20Berlin_files/jquery.js" type="text/javascript"></script>
+<script src="2015.10.01%20-%20Ausgezeichnetes%20Hacken%20mit%20der%20Hackingbox%20-%20Technologiestiftung%20Berlin_files/parsley.js" type="text/javascript"></script>
+<script src="2015.10.01%20-%20Ausgezeichnetes%20Hacken%20mit%20der%20Hackingbox%20-%20Technologiestiftung%20Berlin_files/Tabs.js" type="text/javascript"></script>
+<script src="2015.10.01%20-%20Ausgezeichnetes%20Hacken%20mit%20der%20Hackingbox%20-%20Technologiestiftung%20Berlin_files/Form.js" type="text/javascript"></script>
+<script src="2015.10.01%20-%20Ausgezeichnetes%20Hacken%20mit%20der%20Hackingbox%20-%20Technologiestiftung%20Berlin_files/plugins.js" type="text/javascript"></script>
+<script src="2015.10.01%20-%20Ausgezeichnetes%20Hacken%20mit%20der%20Hackingbox%20-%20Technologiestiftung%20Berlin_files/bootstrap.js" type="text/javascript"></script>
+<script src="2015.10.01%20-%20Ausgezeichnetes%20Hacken%20mit%20der%20Hackingbox%20-%20Technologiestiftung%20Berlin_files/Hyphenator.js" type="text/javascript"></script>
+<script src="2015.10.01%20-%20Ausgezeichnetes%20Hacken%20mit%20der%20Hackingbox%20-%20Technologiestiftung%20Berlin_files/de.js" type="text/javascript"></script>
+<script src="2015.10.01%20-%20Ausgezeichnetes%20Hacken%20mit%20der%20Hackingbox%20-%20Technologiestiftung%20Berlin_files/main.js" type="text/javascript"></script>
+
+
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['setCookieDomain', '*.technologiestiftung-berlin.de']);
+  _paq.push(['setDoNotTrack', true]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//www.technologiestiftung-berlin.de/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//www.technologiestiftung-berlin.de/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+
+
+</body></html>

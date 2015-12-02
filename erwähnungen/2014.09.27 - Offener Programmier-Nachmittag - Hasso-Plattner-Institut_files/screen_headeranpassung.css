@@ -1,0 +1,33 @@
+.submenu div.clearfix {
+	-moz-box-shadow: 0px 0px 9px rgba(0,0,0,0.7);
+	-webkit-box-shadow: 0px 0px 9px rgba(0,0,0,0.7);
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.7);
+	background-color: #fff;	
+    padding-bottom: 32px;
+}
+.submenu{
+	background:none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.submenu p {
+	padding-left: 15px;
+}
+@media (max-width: 1023px){
+	body .submenu {
+		padding-left: 0;
+		/*
+		padding-right: 36px;
+		box-sizing: border-box;
+		*/
+	}
+}
+@media (max-width: 839px){
+	body .submenu {
+		top:320px;
+	}
+}
+.submenu div > div.submenuli{
+	width: 25%;
+}

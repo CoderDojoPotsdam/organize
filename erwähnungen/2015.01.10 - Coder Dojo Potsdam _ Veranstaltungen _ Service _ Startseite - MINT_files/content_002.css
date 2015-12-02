@@ -1,0 +1,83 @@
+/* =========================================================
+content.css MINT
+$Id: content.css 15559 2013-11-26 14:20:59Z abod $
+$Rev: 15559 $
+$Date: 2013-11-26 15:20:59 +0100 (Di, 26 Nov 2013) $
+$Author: abod $
+
+========================================================= */
+
+
+/* + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + */
+/*                                                                                 */
+/*  logo orange      #EA661C ( border: footer )                                    */
+/*  orange           #C15119 ( navi )                                              */
+/*  dunkel orange    #9F4314 ( navi )                                              */
+/*  dunkler orange   #7E310C ( navi )                                              */
+/*                                                                                 */
+/*  dunkel orange    #C15119 ( fliesstext intro )                                  */
+/*  grau             #6F6F6F ( bildunterschrift, border verlinkte bilder )         */
+/*                                                                                 */
+/* + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + */
+
+@media handheld, screen {
+
+.centerColumn .gsc-control-cse table tr th, 
+.centerColumn .gsc-control-cse table tr td {
+    border: 0px none;
+    text-align: left;
+    vertical-align: top;
+    padding: 5px 7px 3px;
+}
+
+.centerColumn .gs-result .gs-title, 
+.centerColumn .gs-result .gs-title *,
+.centerColumn .gs-result a.gs-visibleUrl, 
+.centerColumn .gs-result .gs-visibleUrl,
+.centerColumn .gs-result .gs-title, 
+.centerColumn .gs-result .gs-title * {
+    color: #C15119;
+}
+
+#searchboxCSE{ 
+	float: none; 
+	border-top: 1px solid #EA661C; 
+	margin: 20px 0 20px; 
+}
+
+#main .content-view-full #searchboxCSE h4 a:link, 
+#main .content-view-full #searchboxCSE h4 a:visited{ background-position: right 6px; }
+
+#main .content-view-full #searchboxCSE div.gs-per-result-labels span { display: none; }
+	
+
+#metanav { float: left; display: inline-block; clear: both; padding-top: 10px; text-align: right;}
+#metanav ul {
+    float: right;
+}
+
+#metanav li {
+    float: left;
+    border-left: 0px solid #333;
+    font-size: 0.75em;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+#metanav li + li {
+    border-left: 1px solid #333;
+}
+
+#metanav a, 
+#metanav a.link,
+#metanav a.visited { margin-top: 0 ; text-decoration: none; box-shadow: none;}
+
+#metanav a:hover,
+#metanav a:active,
+#metanav a:focus   { text-decoration: underline; box-shadow: none;}
+
+}/* @media screen */
+
+
+@media handheld, only screen and (max-width: 792px){
+
+}

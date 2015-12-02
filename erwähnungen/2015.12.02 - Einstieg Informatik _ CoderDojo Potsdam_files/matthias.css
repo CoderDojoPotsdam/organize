@@ -1,0 +1,25 @@
+.community-link {
+    position: absolute;
+    right: 0px;
+    top: 0;
+    width:200px;
+	height: 35px;
+	line-height: 35px;
+    background: #a0c500 url(/images/community-icon.svg) 15px center no-repeat;
+    color: white;
+    border-radius: 0 0 0 7px;
+}
+
+.community-link a {
+    color: white;
+    font-size: 15px;
+    display: inline-block;
+    font-weight: 600;
+    padding-left: 50px;    
+}
+
+.community-link a span {
+/*     font-weight: normal; */
+    display: inline-block;
+    margin-left: 8px;
+}

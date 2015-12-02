@@ -1,0 +1,1968 @@
+/* helper styles */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+.hidden{ display: none;}
+.floatLeft{ float: left;}
+.floatRight{ float: right;}
+
+.informatik article {
+    background-color: #FFF;
+    position: relative;
+	color: #666;
+}
+
+.informatik article img.backgroundImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1020;
+}
+
+.informatik strong, .informatik em, .informatik article .bold{
+    font-weight: bold;
+}
+
+.informatik .sup{
+    vertical-align: super;
+}
+
+.informatik .nowrap{
+    white-space: nowrap;
+}
+
+.informatik .sub{
+    vertical-align: sub;
+}
+
+.informatik p.justify{
+    text-align: justify;
+}
+
+.informatik .orange,.informatik .orange a{
+    color: #f47920;
+}
+
+.informatik .white, .informatik .white a, .informatik .white p {
+    color: #FFF;
+}
+
+.informatik article .pink {
+    color: #B4005E;
+}
+
+.informatik .right{
+    text-align: right;
+}
+
+.informatik p.center{
+    text-align: center;
+}
+
+.informatik article div, .informatik article header, .informatik article aside, .informatik article > nav, .informatik article cite {
+    position: absolute;
+    z-index: 1080;
+}
+
+.informatik a{
+    text-decoration: none;
+	color: inherit;
+}
+
+.informatik a:hover, .informatik a:focus{
+    text-decoration: underline;
+	color: inherit;
+}
+
+.informatik address{
+    font-style: normal;
+}
+
+.informatik a{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.informatik a:hover, .informatik a:select{
+    text-decoration: underline;
+}
+
+.informatik .doubleBox{
+    top: 7.9em;
+	left: 3.3em;
+	width: 32.2em;
+    color: #FFF;
+}
+.informatik .rightPage .doubleBox{
+	left: 3.3em;
+}
+.informatik .leftPage .doubleBox{
+	left: 2.8em;
+}
+.informatik cite {
+	font-style: normal;
+}
+.informatik .doubleBox > p, .informatik .doubleBox  div {
+    float: left;
+    width: 47%;
+    padding-right: 3%;
+	text-align: left;
+    color: #FFF;
+}
+.informatik .doubleBox div {
+	position:static;
+}
+.informatik .doubleBox p {
+	text-align: left;
+	color: #FFF;
+	line-height: 1.4;
+}
+.informatik .doubleBox h3 {
+	font-size: .65em;
+	margin-bottom: 0.5em;
+}
+.informatik .bigBox {
+	width: 11.9em;
+    top: 7.9em;
+	left: 3.3em;
+}
+.informatik .leftPage .bigBox {
+	left: 2.8em;
+}
+.informatik .rightPage .bigBox {
+	left: 3.3em;
+}
+.informatik .bigBox p {
+	color: #FFF;
+	text-align: left;
+	line-height: 1.37;
+}	
+.informatik article header{
+    top: 4.8em;
+    left: 2em;
+    width: 33em;
+}
+
+.informatik article header h2{
+    color: #8a8c8e;
+    font-size: 0.8em;
+    font-weight: normal;
+}
+.informatik .leftPage article header h2 {
+	text-align: left;
+}
+.informatik .rightPage article header h2 {
+	text-align: right;
+}
+.informatik .smiley h3{
+    font-size: 1em;
+	width: 16em;
+    color: #BB4F45;
+    margin-bottom: 0.5em;
+	font-family: 'Waiting for the Sunrise', cursive!important;
+}
+.informatik div .uppercase {
+	text-transform: uppercase;
+}
+.informatik .zahlenbitte, .informatik .kurzinfo {
+	width: 10em;
+}
+.informatik .zahlenbitte p, .informatik .kurzinfo p {
+	text-align: left;
+	color: #5B7576;
+	font-size: 0.5em;
+	font-weight: bold;
+	line-height: 1.32;
+}
+.informatik .zahlenbitte span, .informatik .kurzinfo span {
+	text-transform: uppercase;
+	color: #B4005E;
+	display: block;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+.informatik .zahlenbitte a, .informatik .zahlenbitte a:hover, .informatik .kurzinfo a, .informatik .kurzinfo a:hover {
+	color: inherit;
+	font-weight: bold;
+}
+.informatik article > div p, .informatik article > aside > p, .informatik article > cite p, .informatik article div > ul li, .informatik article div > ol li, .informatik article > div address{
+    font-size: 0.46em;
+    margin-bottom: 1.46em;
+    line-height: 1.40;
+    color: #767374;
+	color: #636466;
+	text-align: justify;
+}
+
+.informatik article div.enum h3{
+    padding-left: 2em;
+    background: transparent url(/images/epager/informatik/doppelpfeil.png) no-repeat left .3em;
+    color: #f4791f;
+	font-size: 0.46em;
+    margin: 1em 0 1em -2em;
+    line-height: 1.4em;
+	font-weight: normal;
+/*	border-top: 1px dotted #666;*/
+}
+
+.informatik article .tipp, .informatik article .tipp {
+	width: 10em;
+	-moz-transform:rotate(3.5deg);
+    -webkit-transform:rotate(3.5deg);
+    -o-transform:rotate(3.5deg);
+    -ms-transform:rotate(3.5deg);
+    transform:rotate(3.5deg);    
+}
+.informatik article .tipp p {
+	color: #B8292F;
+	text-align: center;
+	font-weight: bold;
+	line-height: 1.3;
+}
+.informatik article .tipp span {
+	display: none;
+}
+
+.informatik article .rightbox, .informatik article .leftbox {
+	width: 6.3em;
+	top: 20em;
+}
+.informatik article .rightbox p, .informatik article .leftbox p {
+	color: #fff;
+	text-align: left;
+	line-height: 1.6;
+}
+.informatik article .leftbox {
+	left: 3.2em;
+}
+.informatik article .rightbox {
+	left: 28em;
+}
+.informatik article .sticker {
+	width: 6.5em;
+	-moz-transform:rotate(11deg);
+    -webkit-transform:rotate(11deg);
+    -o-transform:rotate(11deg);
+    -ms-transform:rotate(11deg);
+    transform:rotate(11deg);
+}
+.informatik article .sticker p {
+    color: #FFF;
+	font-weight: bold;
+	text-align: left;
+	line-height: 1.23;
+}
+.informatik article .tinybox {
+	width: 20em;
+}
+.informatik article .tinybox p {
+	color: #FFF;
+	font-size: 0.4em;
+	text-align: left;
+}
+.informatik article .footer {
+	top: 48.7em;
+	width: 27em;
+}
+.informatik .leftPage article .footer {
+	left: 7.4em;
+}
+.informatik .rightPage article .footer {
+	left: 3.6em;
+}
+.informatik article .footer p {
+	color: #FFF;
+	text-align: left;
+}
+.informatik article .footer a {
+	font-weight: normal;
+}
+/*################ page 2 #####################*/
+.informatik #page2 dl {
+	color: #A5A7AA;
+}
+.informatik #page2 #div1 {
+	top: 5.0em;
+	left: 2.8em;
+	width: 12em;
+}
+
+.informatik #page2 #div1 dl{
+    font-size: 0.5em;
+    line-height: 1.33em;
+}
+.informatik #page2 #div1 dt {
+    color: #b4005d;
+    margin-top: 1.2em;
+}
+.informatik #page2 #div2{
+    top: 34.5em;
+    left: 2.8em;
+    width: 30em;
+}
+.informatik #page2 #div2 p{
+    font-size: 0.35em;
+	margin-bottom: 1.6em;
+}
+.informatik #page2 #div2 dl{
+    font-size: 0.35em;
+    line-height: 1.25em;
+}
+.informatik #page2 #div2 dl dt{
+	float: left;
+	color: #b4005d;
+	margin-right: 0.2em;
+}
+.informatik #page2 #div2 dl dd{
+   	margin-bottom: 0.2em;
+}
+
+.informatik #page2 #div3{
+    top: 32em;
+    left: 1.5em;
+    width: 30em;
+}
+
+.informatik #page2 #div3{
+    top: 48.4em;
+    left: 4em;
+    width: 20em;
+}
+
+.informatik #page2 #div3 p{
+    font-size: 0.47em;
+    line-height: 1.20em;
+    margin-bottom: 0.3em;
+    color: #FFF;
+}
+.informatik #page2 #dank {
+	top: 22.3em;
+	left: 13.5em;
+	width: 12em;   
+    -moz-transform:rotate(-9deg);
+    -webkit-transform:rotate(-9deg);
+    -o-transform:rotate(-9deg);
+    -ms-transform:rotate(-9deg);
+    transform:rotate(-9deg); 
+}
+.informatik #page2 #dank p {
+	text-align: center;
+	font-weight: bold;
+	font-size: 0.5em;
+}
+.informatik #page2 #bezug {
+	top: 7.2em;
+	left: 21.4em;
+	width: 7.6em;   
+    -moz-transform:rotate(5deg);
+    -webkit-transform:rotate(5deg);
+    -o-transform:rotate(5deg);
+    -ms-transform:rotate(5deg);
+    transform:rotate(5deg); 
+}
+.informatik #page2 #bezug p, .informatik #page2 #bezug h3  {
+	font-size: 0.5em;
+}
+.informatik #page2 #bezug h3  {
+	font-size: 0.5em;
+	padding: 0.3em 0.1em;
+	background-color: #F8A01A;
+	color: #fff;
+	margin-bottom: 0.7em;
+}
+.informatik #page2 #bezug address {
+	text-align: left;
+	font-weight: bold;
+}
+
+/*#################### page 3 (content) ##################*/
+
+.informatik #page3 nav{
+	top: 15.7em;
+	left: 2.7em;
+    -moz-transform:rotate(-3deg);
+    -webkit-transform:rotate(-3deg);
+    -o-transform:rotate(-3deg);
+    -ms-transform:rotate(-3deg);
+    transform:rotate(-3deg); 
+	width: 33em;   
+}
+.informatik #page3 nav div {
+	width: 48%;
+	margin-right: 2.0%;
+	position: static;
+	float: left;
+}
+.informatik #page3 nav em{
+	text-transform: uppercase;
+	font-style: normal;
+}
+.informatik #page3 nav span {
+	float: right;
+	clear: both;
+	margin-right: 0.9em;
+}
+.informatik #page3 nav li{
+	font-size: 0.6em;
+	border-top: 2px dotted #AAA;
+	padding-top: 0.2em;
+	margin-bottom: 0.2em;
+	padding-bottom: 0;
+}
+.informatik #page3 nav li a {
+	margin-bottom: 0.2em;
+	display: block;
+	font-weight: normal;
+}
+.informatik #page3 nav li li{
+	font-size: 100%;
+}
+.informatik #page3 nav li p {
+	font-size: 0.9em;
+	line-height: 1.4
+}
+.informatik #page3 nav li li em{
+	margin-left: 1.8em;
+	padding-left: 1.2em;
+}
+.informatik #page3 #vorwort em, .informatik #page3 #grusswort em, .informatik #page3 #informatik em {
+	color: #18AD9E;
+}
+.informatik #page3 #informationen em {
+	color: #F48B93;
+}
+.informatik #page3 #praxis em {
+	color: #00AEEF;
+}
+.informatik #page3 #praxis ul em {
+	background: transparent url(/images/epager/informatik/arrow-praxis.png) no-repeat left center;
+}
+.informatik #page3 #studieren em {
+	color: #A1A10B;
+}
+.informatik #page3 #studieren ul em {
+	background: transparent url(/images/epager/informatik/arrow-studieren.png) no-repeat left center;
+}
+.informatik #page3 #berufe em {
+	color: #C05D7A;
+}
+.informatik #page3 #berufe ul em {
+	background: transparent url(/images/epager/informatik/arrow-berufe.png) no-repeat left center;
+}
+.informatik #page3 #machmint em {
+	color: #F47920;
+}
+
+/*################# page 4 #####################*/
+.informatik #page4 p {
+    color: #fff;
+	text-align: left;
+}
+
+.informatik #page4 #subtitle {
+    left: 9.3em;
+    top: 20.8em;
+    width: 25em;
+}
+.informatik #page4 #leftcol {
+    left: 9.8em;
+    top: 23em;
+    width: 10.5em;
+}
+.informatik #page4 #rightcol {
+    left: 21em;
+    top: 24.2em;
+    width: 10.5em;
+}
+
+/*###################### page 5 ##################*/
+
+.informatik #page5 p {
+	text-align: left;
+	color: #8A8C8F;
+}
+.informatik #page5 #subtitle2 {
+    left: 18.4em;
+    top: 30em;
+    width: 15em;
+}
+.informatik #page5 #subtitle2 p {
+    color: #BB4F45;
+}
+.informatik #page5 #div1 {
+    left: 3.6em;
+    top: 13em;
+    width: 13em;
+}
+
+/*##################### page 6 ######################*/
+.informatik #page6 #div2, .informatik #page6 #div3, .informatik #page6 #div4 {
+	width: 14em;
+	left: 20em;
+}
+
+.informatik #page6 #div2{
+    top: 23.6em;
+}
+.informatik #page6 #div3{
+    top: 31.5em;
+}
+.informatik #page6 #div4{
+    top: 40em;
+}
+.informatik #page6 #div5 {
+    top: 41.2em;
+    left: 4em;
+    width: 12em;
+    -moz-transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+    -ms-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+}
+.informatik #page6 #laptop {
+    top: 17em;
+    left: 1em;
+    width: 15em;
+    -moz-transform: rotate(-8.5deg);
+    -webkit-transform: rotate(-8.5deg);
+    -o-transform: rotate(-8.5deg);
+    -ms-transform: rotate(-8.5deg);
+    transform: rotate(-8.5deg);
+}
+.informatik #page6 #laptop p {
+	text-transform: uppercase;
+	font-size: 0.8em;
+	text-align: center;
+	font-weight: bold;
+}
+.informatik #page6 #laptop p span {
+	color: #A1A10B;
+	display: block;
+}
+/*############## page 7 ##############*/
+
+.informatik #page7 #divr1, .informatik #page7 #divr2 {
+	left: 20.7em;
+	width: 14em;
+}
+.informatik #page7 #divr1 {
+    top: 2em;
+}
+.informatik #page7 #divr2 {
+    top: 12em;
+}
+.informatik #page7 #divr3 {
+	top: 27.5em;
+	left: 18.8em;
+	width: 13.8em;
+    -moz-transform: rotate(12deg);
+    -webkit-transform: rotate(12deg);
+    -o-transform: rotate(12deg);
+    -ms-transform: rotate(12deg);
+    transform: rotate(12deg);
+}
+.informatik #page7 #divr3 h4 {
+	color: #5B7576;
+	font-size: 0.46em;
+	text-align: left;
+}
+.informatik #page7 #divr3 p {
+	color: #5B7576;
+	line-height: 1.38;
+}
+.informatik #page7 #divr3 #p1 {
+	text-align: justify;
+}
+.informatik #page7 #divr3 #p2 {
+	text-align: right;
+}
+.informatik #page7 #divr3 #h1 {
+	margin-left: 1em;
+}
+/* ############################ page 8 ####################################################*/
+.informatik #page8 #div1, .informatik #page8 #div2, .informatik #page8 #div3 {
+	left: 20.7em;
+	width: 14em;
+}
+
+.informatik #page8 #div1{
+    top: 7.2em;
+}
+.informatik #page8 #div2{
+    top: 18.7em;
+	margin-left: 1em;
+	width: 13em;
+}
+.informatik #page8 #div2 h3 {
+	margin-left: 1.5em;
+}
+.informatik #page8 #div3{
+    top: 25.2em;
+	margin-left: 1.4em;
+	width: 12.6em;
+}
+.informatik #page8 #div3 h3 {
+	margin-left: 1.2em;
+}
+
+.informatik #page8 #div4 {
+	top: 17.3em;
+	left: 2.7em;
+	width: 15.3em;
+    -moz-transform: rotate(-5.7deg);
+    -webkit-transform: rotate(-5.7deg);
+    -o-transform: rotate(-5.7deg);
+    -ms-transform: rotate(-5.7deg);
+    transform: rotate(-5.7deg);
+}
+.informatik #page8 #div4 p {
+	color: #EC008C;
+	font-weight: bold;
+	font-size: 0.46em;
+	text-align: left;
+}
+.informatik #page8 #div4 ol {
+	margin: 0.7em 0;
+}
+.informatik #page8 #div4 ol li {
+	font-size: 0.5em;
+	color: #444;
+	padding: 0.3em 0;
+	margin: 0;
+	border-bottom: dotted #F58C86;
+	list-style-position:inside;
+	text-align: left;
+}
+.informatik #page8 #div5 {
+    top: 48.6em;
+    left: 7.8em;
+    width: 20em;
+}
+
+.informatik #page8 #div5 p {
+    line-height: 1.60em;
+    color: #FFF;
+}
+.informatik #page8 #div5 p a {
+	font-style: italic;
+    color: inherit;
+}
+
+/*############################### page 9 ##############################*/
+.informatik #page9 #div1a, .informatik #page9 #div1b, .informatik #page9 #div1c {
+    left: 14.3em;
+    width: 9.6em;
+}
+
+.informatik #page9 #div1a {
+    top: 9.3em;
+}
+.informatik #page9 #div1b {
+    top: 24.2em;
+}
+.informatik #page9 #div1c {
+    top: 34.4em;
+}
+.informatik #page9 #divr2 {
+	top: 17.3em;
+	left: 25.5em;
+}
+.informatik #page9 #divr3 {
+	top: 22em;
+}
+.informatik #page9 #divr4 {
+	top: 42.1em;
+	left: 4.9em;
+	width: 12em;
+	-moz-transform:rotate(-7deg);
+    -webkit-transform:rotate(-7deg);
+    -o-transform:rotate(-7deg);
+    -ms-transform:rotate(-7deg);
+    transform:rotate(-7deg);    
+}
+/*############################# page 10 ############################*/
+
+.informatik #page10 #div1 {
+   left: 18.7em;
+    top: 29em;
+    width: 15.5em;
+}
+
+.informatik #page10 #div2 {
+    top: 23.5em;
+    left: 2.3em;
+	-moz-transform:rotate(-7deg);
+    -webkit-transform:rotate(-7deg);
+    -o-transform:rotate(-7deg);
+    -ms-transform:rotate(-7deg);
+    transform:rotate(-7deg);  }
+
+.informatik #page10 #div3 {
+    top: 29.1em;
+}
+
+.informatik #page10 #div4 {
+    top: 42.7em;
+	left: 5.8em;
+	width: 12.2em;
+	-moz-transform:rotate(3deg);
+    -webkit-transform:rotate(3deg);
+    -o-transform:rotate(3deg);
+    -ms-transform:rotate(3deg);
+    transform:rotate(3deg);  
+}
+
+/*############################ page 11 ##################*/
+.informatik #page11 #div1r {
+    left: 5em;
+    top: 5em;
+	-moz-transform:rotate(-3deg);
+    -webkit-transform:rotate(-3deg);
+    -o-transform:rotate(-3deg);
+    -ms-transform:rotate(-3deg);
+    transform:rotate(-3deg);
+	width: 13em;
+}
+
+.informatik #page11 #div2a, .informatik #page11 #div2b, .informatik #page11 #div2c, .informatik #page11 #div2d, .informatik #page11 #div2e {
+	width: 20em;
+	left: 3em;
+}
+.informatik #page11 #div2a {
+	top: 11.9em;
+}
+.informatik #page11 #div2b {
+	top: 22.4em;
+}
+.informatik #page11 #div2c {
+	top: 33em;
+}
+.informatik #page11 #div2d {
+	top: 36.2em;
+}
+.informatik #page11 #div2e {
+	top: 41.5em;
+}
+.informatik #page11 #div3r {
+	top: 24.8em;
+	left: 24.4em;
+}
+.informatik #page11 #div4r {
+	top: 46.7em;
+	left: 21.8em;
+	-moz-transform:rotate(6deg);
+    -webkit-transform:rotate(6deg);
+    -o-transform:rotate(6deg);
+    -ms-transform:rotate(6deg);
+    transform:rotate(6deg);
+}
+.informatik #page11 #div5r {
+	top: 28.7em;
+}
+/*############################## page 12 ###################################*/
+.informatik #page12 #div1 {
+	left: 3em;
+}
+
+.informatik #page12 #div2, .informatik #page12 #div3, .informatik #page12 #div4, .informatik #page12 #div5 {
+	width: 14em;
+	left: 20.6em;
+}
+.informatik #page12 #div2 h3, .informatik #page12 #div3 h3, .informatik #page12 #div4 h3, .informatik #page12 #div5 h3 {
+	margin-left: 1.0em;
+}
+.informatik #page12 #div2 {
+	top: 12.6em;
+}
+.informatik #page12 #div3 {
+    top: 22.8em;
+	padding-left: 1em;
+	width: 13em;
+}
+.informatik #page12 #div4 {
+    top: 40.2em;
+	left: 3em;
+	width: 15.1em;
+}
+.informatik #page12 #div5 {
+    top: 40.2em;
+	left: 20em;
+	width: 15.1em;
+
+}
+.informatik #page12 #div6 {
+    top: 31.2em;
+	left: 22.3em;
+}
+.informatik #page12 #div7 {
+    top: 15.5em;
+	left: 2.5em;
+	width: 15.1em;
+	-moz-transform:rotate(-6deg);
+    -webkit-transform:rotate(-6deg);
+    -o-transform:rotate(-6deg);
+    -ms-transform:rotate(-6deg);
+    transform:rotate(-6deg);
+}
+.informatik #page12 #div7 dd {
+	font-size: 0.5em;
+	font-weight: bold;
+	padding-left: 1.5em;
+	background: transparent url(/images/epager/informatik/doppelpfeil-grau.png) no-repeat left 0.2em;;
+	padding-bottom: 1.2em;
+	margin-bottom: 1.2em;
+	margin-top: 0.5em;
+	border-bottom: 2px dotted #666;
+	line-height: 1.1;
+}
+.informatik #page12 #div7 p, .informatik #page12 #div7 h4, .informatik #page12 #div7 dt {
+	color: #f4791f;
+	font-size: 0.5em;
+	text-align: left;
+	line-height: 1.2;
+	font-weight: bold;
+}
+.informatik #page12 #div7 dt {
+
+}
+.informatik #page12 #div8 {
+	top: 48.7em;
+	left: 7.4em;
+
+}
+.informatik #page12 #div8 p {
+	color: #FFF;
+}
+/*######################## page 13 #####################*/
+
+.informatik #page13 #div1r {
+    top: 17em;
+	left: 28.3em;
+}
+.informatik #page13 #div2r {
+    top: 30.2em;
+	left: 2.8em;
+	width: 21em;
+}
+.informatik #page13 #div3r {
+	top: 42em;
+	left: 24.7em;
+	-moz-transform:rotate(5deg);
+    -webkit-transform:rotate(5deg);
+    -o-transform:rotate(5deg);
+    -ms-transform:rotate(5deg);
+    transform:rotate(5deg);
+}
+.informatik #page13 #div4r {
+	top: 6.4em;
+	left: 3.0em;
+	width: 8em;
+	-moz-transform:rotate(-6deg);
+    -webkit-transform:rotate(-6deg);
+    -o-transform:rotate(-6deg);
+    -ms-transform:rotate(-6deg);
+    transform:rotate(-6deg);
+}
+.informatik #page13 #div4r strong {
+	display: block;
+}
+.informatik #page13 #div5r {
+	top: 18.7em;
+	left: 3.6em;
+	width: 5.1em;
+	-moz-transform:rotate(16deg);
+    -webkit-transform:rotate(16deg);
+    -o-transform:rotate(16deg);
+    -ms-transform:rotate(16deg);
+    transform:rotate(16deg);
+}
+.informatik #page13 #div5r p {
+	color: #FFF;
+	line-height: 1.2;
+	text-align: left;
+}
+
+/*########################### page 14 ############################ */
+
+.informatik #page14 #div1 {
+	top: 29.2em;
+	left: 2.7em;
+}
+.informatik #page14 #div2a, .informatik #page14 #div2b, .informatik #page14 #div2c, .informatik #page14 #div2d {
+	left: 14.2em;
+	width: 20em;
+}
+.informatik #page14 #div2a {
+	top: 20em;
+}
+.informatik #page14 #div2b {
+	top: 28.1em;
+}
+.informatik #page14 #div2c {
+	top: 36.2em;
+}
+.informatik #page14 #div2d {
+	top: 42.3em;
+}
+.informatik #page14 #div3 {
+	top: 41.8em;
+	left: 2em;
+	width: 10.8em;
+	-moz-transform:rotate(-4deg);
+    -webkit-transform:rotate(-4deg);
+    -o-transform:rotate(-4deg);
+    -ms-transform:rotate(-4deg);
+    transform:rotate(-4deg);
+}
+
+/*########################### page 15 ############################ */
+
+.informatik #page15 #divr1{
+    left: 3.8em;
+    top: 8.6em;
+    width: 20.6em;
+}
+.informatik #page15 #div1a {
+    left: 10.3em;
+}
+.informatik #page15 #div1a h3 {
+    margin-left: 0;
+}
+.informatik #page15 #div1b {
+	top: 9.5em;
+    left: 11em;
+}
+.informatik #page15 #div1b h3 {
+    margin-left: 0;
+}
+.informatik #page15 #div1c {
+	top: 19em;
+}
+.informatik #page15 #div1c h3{
+	margin-left: 22em;
+}
+.informatik #page15 #div1c img {
+	width: 22em;
+	height: 12em;
+	float: left;
+}
+.informatik #page15 #div1c h3, .informatik #page15 #div1c p  {
+	float: left;
+}
+.informatik #page15 #div1d {
+	top: 30.5em;
+   	width: 12em;
+}
+.informatik #page15 #portrait {
+	top: 8em;
+}
+.informatik #page15 #cite {
+	top: 35em;
+	left: 25.5em;
+	-moz-transform:rotate(6deg);
+    -webkit-transform:rotate(6deg);
+    -o-transform:rotate(6deg);
+    -ms-transform:rotate(6deg);
+    transform:rotate(6deg);
+}
+.informatik #page15 #sticker {
+	top: 24.2em;
+	left: 3.1em;
+	width: 9em;
+	-moz-transform:rotate(7deg);
+    -webkit-transform:rotate(7deg);
+    -o-transform:rotate(7deg);
+    -ms-transform:rotate(7deg);
+    transform:rotate(7deg);
+}
+/*################################# page 16 #####################################*/
+
+.informatik #page16 .doubleBox {
+	left: 2.9em;
+}
+.informatik #page16 #div1 {
+    left: 14.3em;
+    width: 20em;
+}
+
+.informatik #page16 #div1a {
+	top: 15em;
+}
+.informatik #page16 #div1b {
+	top: 20.3em;
+}
+.informatik #page16 #div1c {
+	top: 25em;
+}
+.informatik #page16 #div1d {
+	top: 33.1em;
+	left: 3.9em;
+}
+.informatik #page16 #portrait {
+	top: 32.2em;
+	left: 2.9em;
+	width: 6.1em;
+}
+.informatik #page16 #portrait p {
+	line-height: 1.5;
+}
+.informatik #page16 .tipp {
+	top: 24.6em;
+	left: 1.4em;
+	width: 11.2em;
+	-moz-transform:rotate(-5.3deg);
+    -webkit-transform:rotate(-5.3deg);
+    -o-transform:rotate(-5.3deg);
+    -ms-transform:rotate(-5.3deg);
+    transform:rotate(-5.3deg);
+}
+/*####################### page 17 #############################*/
+
+.informatik #page17 #divr1 {
+    left: 14.3em;
+    width: 20em;
+}
+
+.informatik #page17 #divr1a {
+	top: 29.4em;
+}
+.informatik #page17 #divr1b {
+	top: 33.4em;
+}
+
+.informatik #page17 #sticker {
+	top: 43.9em;
+	left: 23em;
+	width: 8em;
+	-moz-transform:rotate(-9deg);
+    -webkit-transform:rotate(-9deg);
+    -o-transform:rotate(-9deg);
+    -ms-transform:rotate(-9deg);
+    transform:rotate(-9deg);
+}
+
+.informatik #page17 #phone {
+	top: 2.5em;
+	left: 25em;
+	width: 8.1em;
+	-moz-transform:rotate(9deg);
+    -webkit-transform:rotate(9deg);
+    -o-transform:rotate(9deg);
+    -ms-transform:rotate(9deg);
+    transform:rotate(9deg);
+}
+.informatik #page17 #phone p{
+	font-size: 0.4em;
+}
+/*########################### page 18 ######################### */
+
+.informatik #page18 #div1 {
+    left: 24.7em;
+    width: 9.5em;
+}
+
+.informatik #page18 #div1a {
+	top: 7.5em;
+}
+.informatik #page18 #div1b {
+	top: 25.2em;
+}
+
+.informatik #page18 .leftbox {
+	top: 8em;
+	left: 2.8em;
+	width: 9.7em;
+}
+.informatik #page18 .leftbox p {
+	margin-bottom: 0;
+	text-align: justify;
+	line-height: 1.5;
+}
+.informatik #page18 .kurzinfo {
+	top: 42.4em;
+	left: 19.1em;
+	width: 16em;
+	-moz-transform:rotate(-6deg);
+    -webkit-transform:rotate(-6deg);
+    -o-transform:rotate(-6deg);
+    -ms-transform:rotate(-6deg);
+    transform:rotate(-6deg);
+}
+.informatik #page18 .kurzinfo p {
+	margin-bottom: 0;
+}
+.informatik #page18 #link {
+	color: #B4005E;
+}
+/*############################# page 19 ##########################*/
+
+.informatik #page19 #divr1 {
+    left: 3.8em;
+    width: 19.9em;
+}
+
+.informatik #page19 #divr1a {
+	top: 23.5em;
+}
+.informatik #page19 #divr1b {
+	top: 33em;
+}
+.informatik #page19 #divr1c {
+	top: 39em;
+}
+
+.informatik #page19 .rightbox {
+	top: 19em;
+}
+
+.informatik #page19 .tipp {
+	top: 41.1em;
+	left: 23.6em;
+	width: 10.7em;
+	-moz-transform:rotate(5deg);
+    -webkit-transform:rotate(5deg);
+    -o-transform:rotate(5deg);
+    -ms-transform:rotate(5deg);
+    transform:rotate(5deg);
+}
+
+/*############################# page 20 #############################*/
+
+.informatik #page20 .doubleBox {
+	left: 2.8em;
+	line-height: 1.36;
+}
+
+.informatik #page20 #div1 {
+    left: 19.9em;
+    width: 14.3em;
+}
+
+.informatik #page20 #div1a {
+	top: 16.6em;
+}
+.informatik #page20 #div1b {
+	top: 30.2em;
+}
+
+.informatik #page20 .kurzinfo {
+	top: 43.9em;
+	left: 19.7em;
+	width: 13em;
+	-moz-transform:rotate(8deg);
+    -webkit-transform:rotate(8deg);
+    -o-transform:rotate(8deg);
+    -ms-transform:rotate(8deg);
+    transform:rotate(8deg);
+}
+.informatik #page20 .kurzinfo p {
+	color: #6F3C12;
+}
+/*############################### page 21 ###############################*/
+
+.informatik #page21 .rightbox {
+	top: 12.5em;
+	left: 28.2em;
+}
+
+.informatik #page21 #divr1 {
+    left: 3.9em;
+    width: 19.8em;
+}
+
+.informatik #page21 #divr1a {
+	top: 27.7em;
+}
+.informatik #page21 #divr1b {
+	top: 33em;
+	padding-right: 1em;
+}
+.informatik #page21 #divr1c {
+	top: 41.1em;
+	padding-right: 1em;
+}
+.informatik #page21 .tipp {
+	top: 40.2em;
+	left: 24.4em;
+	width: 10.4em;
+	-moz-transform:rotate(4deg);
+    -webkit-transform:rotate(4deg);
+    -o-transform:rotate(4deg);
+    -ms-transform:rotate(4deg);
+    transform:rotate(4deg);
+}
+
+/*############################# page 22 ######################## */
+.informatik #page22 .rightbox {
+	top: 8.2em;
+	left: 23.3em;
+	width: 10.8em;
+}
+.informatik #page22 .rightbox p {
+	line-height: 1.46;
+}
+.informatik #page22 #div1 {
+    left: 3.6em;
+    width: 15.5em;
+}
+.informatik #page22 .enum h3 {
+	padding-left: 1.7em;
+	margin-left: -1.7em;
+}
+.informatik #page22 #div1a {
+	top: 23.3em;
+}
+.informatik #page22 #div1b {
+	top: 32.7em;
+}
+.informatik #page22 #div1c {
+	top: 42.9em;
+}
+.informatik #page22 .sticker {
+	top: 23.4em;
+	left: 23.8em;
+	width: 9.9em;
+	-moz-transform:rotate(-8deg);
+    -webkit-transform:rotate(-8deg);
+    -o-transform:rotate(-8deg);
+    -ms-transform:rotate(-8deg);
+    transform:rotate(-8deg);
+}
+.informatik #page22 .kurzinfo {
+	top: 35.5em;
+	left: 22.9em;
+	width: 7em;
+	-moz-transform:rotate(9deg);
+    -webkit-transform:rotate(9deg);
+    -o-transform:rotate(9deg);
+    -ms-transform:rotate(9deg);
+    transform:rotate(9deg);
+}
+.informatik #page22 .kurzinfo p {
+	color: #FFF;
+	font-size: 0.7em;
+	text-align: center;
+	line-height: 1.2;
+}
+/*############################## page 23 #######################*/
+
+.informatik #page23 #divr1 {
+    left: 3em;
+    width: 11.7em;
+}
+.informatik #page23 #divr1a {
+	top: 2.5em;
+}
+.informatik #page23 #divr1b {
+	top: 10.6em;
+}
+.informatik #page23 #divr1c {
+	top: 24.2em;
+}
+.informatik #page23 #divr1d {
+	top: 32.3em;
+}
+.informatik #page23 #divr1e {
+	top: 39em;
+}
+.informatik #page23 .rightbox {
+	top: 14.8em;
+	left: 28.6em;
+}
+.informatik #page23 .tipp {
+	top: 42.3em;
+	left: 25.4em;
+	width: 9em;
+	-moz-transform:rotate(5deg);
+    -webkit-transform:rotate(5deg);
+    -o-transform:rotate(5deg);
+    -ms-transform:rotate(5deg);
+    transform:rotate(5deg);
+}
+
+/*############################ page 24 ################################*/
+
+/*############################ page 25 ##########################*/
+
+.informatik #page25 #div1 {
+	left: 7.6em;
+	width: 16em;
+}
+.informatik #page25 #div1a {
+	top: 2.3em;
+}
+.informatik #page25 #div1b {
+	top: 23em;
+}
+.informatik #page25 .kurzinfo {
+	top: 17em;
+	left: 7em;
+	width: 17.5em;
+	-moz-transform:rotate(-3.5deg);
+    -webkit-transform:rotate(-3.5deg);
+    -o-transform:rotate(-3.5deg);
+    -ms-transform:rotate(-3.5deg);
+    transform:rotate(-3.5deg);
+}
+.informatik #page25 .rightbox {
+	top: 2.3em;
+}
+.informatik #page25 .tipp {
+	top: 29.7em;
+	left: 25.5em;
+	width: 9.7em;
+	-moz-transform:rotate(4.5deg);
+    -webkit-transform:rotate(4.5deg);
+    -o-transform:rotate(4.5deg);
+    -ms-transform:rotate(4.5deg);
+    transform:rotate(4.5deg);
+}
+.informatik #page25 .tinybox {
+	top: 42.4em;
+	left: 14.9em;
+	width: 8em;
+}
+	
+/*#################### page 26 #################################*/
+
+.informatik #page26 .kurzinfo {
+	top: 44.7em;
+	left: 22.1em;
+	width: 8.5em;
+	-moz-transform:rotate(4.5deg);
+    -webkit-transform:rotate(4.5deg);
+    -o-transform:rotate(4.5deg);
+    -ms-transform:rotate(4.5deg);
+    transform:rotate(4.5deg);
+}
+
+/*########################### page 27 ##########################*/
+
+.informatik #page27 #dr1 {
+    left: 7.5em;
+    top: 29.4em;
+    width: 16.2em;
+}
+.informatik #page27 .rightbox {
+    top: 25.5em;
+	left: 27.5em;
+}
+.informatik #page27 .tipp {
+	top: 21.7em;
+	left: 24em;
+	width: 10.2em;
+	-moz-transform:rotate(3deg);
+    -webkit-transform:rotate(3deg);
+    -o-transform:rotate(3deg);
+    -ms-transform:rotate(3deg);
+    transform:rotate(3deg);
+}
+.informatik #page27 .tinybox {
+	top: 3.5em;
+	left: 6.8em;
+	width: 7.5em;
+	-moz-transform:rotate(-17deg);
+    -webkit-transform:rotate(-17deg);
+    -o-transform:rotate(-17deg);
+    -ms-transform:rotate(-17deg);
+    transform:rotate(-17deg);
+}
+/*########################### page 28 #########################*/
+
+.informatik #page28 #dl1 {
+	top: 16.5em;
+	width: 15.5em;
+	left: 18.9em;
+}
+
+/*################################### page 29 ###########################*/
+.informatik #page29 #dr1 {
+	top: 39.5em;
+	width: 15.2em;
+	left: 2.8em;
+}
+.informatik #page29 .rightbox {
+	top: 15.4em;
+}
+.informatik #page29 .rightbox p {
+	line-height: 1.5;
+}
+.informatik #page29 .tipp {
+	top: 10em;
+	left: 24.4em;
+	width: 11em;
+	-moz-transform:rotate(5deg);
+    -webkit-transform:rotate(5deg);
+    -o-transform:rotate(5deg);
+    -ms-transform:rotate(5deg);
+    transform:rotate(5deg);
+}
+.informatik #page29 .sticker {
+	top: 33.3em;
+	left: 25.7em;
+	width: 8.9em;
+	-moz-transform:rotate(5deg);
+    -webkit-transform:rotate(5deg);
+    -o-transform:rotate(5deg);
+    -ms-transform:rotate(5deg);
+    transform:rotate(5deg);
+}
+.informatik #page29 .sticker p {
+	line-height: 1.5;
+}
+.informatik #page29 #gewusst {
+	top: 2.4em;
+	left: 7.1em;
+	width: 13em;
+	-moz-transform:rotate(-6deg);
+    -webkit-transform:rotate(-6deg);
+    -o-transform:rotate(-6deg);
+    -ms-transform:rotate(-6deg);
+    transform:rotate(-6deg);
+}
+.informatik #page29 #urls {
+	top: 44em;
+	left: 22em;
+	width: 10em;
+	-moz-transform:rotate(13deg);
+    -webkit-transform:rotate(13deg);
+    -o-transform:rotate(13deg);
+    -ms-transform:rotate(13deg);
+    transform:rotate(13deg);
+}
+.informatik #page29 #urls p {
+	text-align: center;
+	line-height: 1.6;
+	color: #333;
+}
+
+/*######################## page 30 ########################*/
+.informatik #page30 .doubleBox p{
+	line-height: 1.37;
+}
+.informatik #page30 #dl1{
+	left: 14.3em;
+	width: 20em;
+}
+.informatik #page30 #dl1a {
+	top: 24.7em;
+}
+.informatik #page30 #dl1b {
+	top: 32.1em;
+}
+.informatik #page30 #dl1c {
+	top: 36.8em;
+	margin-left: 2em;
+}
+.informatik #page30 #dl1c h3 {
+	margin-left: -4em;
+}
+.informatik #page30 #dl1d {
+	top: 42.2em;
+	margin-left: 1.3em;
+}
+.informatik #page30 #dl1d h3 {
+	margin-left: 0;
+}
+.informatik #page30 .leftbox {
+	top: 28.4em;
+	left: 3.0em;
+}
+.informatik #page30 .tipp {
+	top: 23.9em;
+	left: 2.6em;
+	width: 9em;
+	-moz-transform:rotate(5deg);
+    -webkit-transform:rotate(5deg);
+    -o-transform:rotate(5deg);
+    -ms-transform:rotate(5deg);
+    transform:rotate(5deg);
+}
+.informatik #page30 .tinybox {
+	top: 40.5em;
+	left: 9em;
+	width: 4.8em;
+	-moz-transform:rotate(13.4deg);
+    -webkit-transform:rotate(13.4deg);
+    -o-transform:rotate(13.4deg);
+    -ms-transform:rotate(13.4deg);
+    transform:rotate(13.4deg);
+}
+.informatik #page30 .tinybox p {
+	line-height: 1.3;
+}
+/*###################### page 31 ##########################*/
+.informatik #page31 #dr1{
+	left: 3.8em;
+	width: 13.6em;
+}
+.informatik #page31 #dr1a {
+	top: 1.8em;
+}
+.informatik #page31 #dr1b {
+	top: 9.2em;
+}
+.informatik #page31 #dr1c {
+	top: 18.7em;
+
+}.informatik #page31 #dr1d {
+	top: 27.5em;
+}
+.informatik #page31 #dr1e {
+	top: 34.2em;
+	margin-right: 1.7em;
+}
+.informatik #page31 #dr1f {
+	top: 39.6em;
+	margin-right: 1.7em;
+}
+.informatik #page31 .kurzinfo {
+	top: 1.5em;
+	left: 19.6em;
+	width: 9.8em;
+	-moz-transform:rotate(7deg);
+    -webkit-transform:rotate(7deg);
+    -o-transform:rotate(7deg);
+    -ms-transform:rotate(7deg);
+    transform:rotate(7deg);
+}
+/*############################# page 32 ##########################*/
+.informatik #page32 .doubleBox p {
+	line-height: 1.37;
+}
+.informatik #page32 .leftbox {
+    top: 20em;
+	left: 2.8em;
+}
+.informatik #page32 .tipp {
+	top: 41.1em;
+	left: 2em;
+	width: 8.6em;
+	-moz-transform:rotate(-6deg);
+    -webkit-transform:rotate(-6deg);
+    -o-transform:rotate(-6deg);
+    -ms-transform:rotate(-6deg);
+    transform:rotate(-6deg);
+}
+
+/*################################## page 33 ###########################*/
+.informatik #page33 #dr1 {
+    left: 3.7em;
+    width: 17.2em;
+}
+
+.informatik #page33 #dr1a {
+	top: 1.8em;
+}
+.informatik #page33 #dr1b {
+	top: 7.9em;
+}
+.informatik #page33 #dr1c {
+	top: 13.2em;
+}
+.informatik #page33 #dr1d {
+	top: 19.3em;
+}
+.informatik #page33 #dr1e {
+	top: 27.4em;
+}
+.informatik #page33 #dr1f {
+	top: 35.5em;
+}
+.informatik #page33 #dr1g {
+	top: 42.2em;
+}
+.informatik #page33 .kurzinfo {
+	top: 36.4em;
+	left: 24.3em;
+	width: 10em;
+	-moz-transform:rotate(6deg);
+    -webkit-transform:rotate(6deg);
+    -o-transform:rotate(6deg);
+    -ms-transform:rotate(6deg);
+    transform:rotate(6deg);
+}
+.informatik #page33 .footer {
+	left: 3em;
+	top: 48.8em;
+}
+
+/*############################# page 34 ##############################*/
+.informatik #page34 #dl1{
+    left: 3.7em;
+    width: 14.5em;
+}
+.informatik #page34 #dl1a{
+    top: 15.8em;
+}
+.informatik #page34 #dl1b{
+    top: 24em;
+}
+
+.informatik #page34 .kurzinfo{
+	top: 33.5em;
+	left: 3.1em;
+	width: 9.3em;
+	-moz-transform:rotate(-8deg);
+    -webkit-transform:rotate(-8deg);
+    -o-transform:rotate(-8deg);
+    -ms-transform:rotate(-8deg);
+    transform:rotate(-8deg);
+}
+.informatik #page34 .kurzinfo p {
+	line-height: 1.3;
+}
+/*############################# page 35 #####################*/
+.informatik #page35 #dr1 {
+    left: 3.8em;
+    width: 20em;
+}
+.informatik #page35 #dr1a {
+	top: 20.9em;
+}
+.informatik #page35 #dr1b {
+	top: 28.3em;
+}
+.informatik #page35 #dr1c {
+	top: 34.4em;
+}
+.informatik #page35 #dr1d {
+	top: 41.8em;
+}
+.informatik #page35 .rightbox {
+	top: 4.7em;
+}
+.informatik #page35 .tipp {
+	top: 28.8em;
+	left: 25.6em;
+	width: 9.3em;
+	-moz-transform:rotate(6deg);
+    -webkit-transform:rotate(6deg);
+    -o-transform:rotate(6deg);
+    -ms-transform:rotate(6deg);
+    transform:rotate(6deg);
+}
+
+/*############################ page 36 ###################*/
+
+.informatik #page36 #dl1 {
+	left: 14.3em;
+	width: 19.9em;
+}
+.informatik #page36 #dl1 p {
+	margin-bottom: 2.3em;
+}
+.informatik #page36 #dl1a  {
+	top: 15.8em;
+}
+.informatik #page36 #dl1a #pl1  {
+	margin-right: 13.3em;
+}
+.informatik #page36 #dl1a #pl2  {
+	margin-right: 11.5em;
+}
+.informatik #page36 #dl1b  {
+	top: 32.8em;
+}
+.informatik #page36 #profil1 {
+	top: 24.3em;
+	left: 2.8em;
+	width: 6em;
+}
+.informatik #page36 #tipp1 {
+	top: 23.1em;
+	left: 3.7em;
+	width: 9.3em;
+	-moz-transform:rotate(-6.3deg);
+    -webkit-transform:rotate(-6.3deg);
+    -o-transform:rotate(-6.3deg);
+    -ms-transform:rotate(-6.3deg);
+    transform:rotate(-6.3deg);
+}
+.informatik #page36 #profil2 {
+	top: 29.4em;
+	left: 2.8em;
+	width: 6em;
+}
+.informatik #page36 #tipp2 {
+	top: 44.3em;
+	left: 1.6em;
+	width: 10em;
+	-moz-transform:rotate(6deg);
+    -webkit-transform:rotate(6deg);
+    -o-transform:rotate(6deg);
+    -ms-transform:rotate(6deg);
+    transform:rotate(6deg);
+}
+.informatik #page36 .tinybox {
+	top: 14.6em;
+	left: 29.8em;
+	width: 4.5em;
+	-moz-transform:rotate(-12deg);
+    -webkit-transform:rotate(-12deg);
+    -o-transform:rotate(-12deg);
+    -ms-transform:rotate(-12deg);
+    transform:rotate(-12deg);
+}
+/*####################### page 37 ###################*/
+.informatik #page37 #dr1 {
+    left: 3.8em;
+    width: 19.9em;
+}
+.informatik #page37 #dr1 p {
+	margin-bottom: 2.3em;
+}
+.informatik #page37 #dr1a {
+	top: 8.1em;
+}
+.informatik #page37 #dr1b {
+    top: 23.3em;
+}
+.informatik #page37 #profil3 {
+	top: 15.2em;
+}
+.informatik #page37 #tipp3 {
+	top: 11em;
+	left: 25.3em;
+	width: 9.3em;
+	-moz-transform:rotate(3deg);
+    -webkit-transform:rotate(3deg);
+    -o-transform:rotate(3deg);
+    -ms-transform:rotate(3deg);
+    transform:rotate(3deg);
+}
+.informatik #page37 #profil4 {
+	top: 18.5em;
+	width: 6em;
+}
+.informatik #page37 #tipp4 {
+	top: 33.4em;
+	left: 24.6em;
+	width: 10em;
+	-moz-transform:rotate(3deg);
+    -webkit-transform:rotate(3deg);
+    -o-transform:rotate(3deg);
+    -ms-transform:rotate(3deg);
+    transform:rotate(3deg);
+}
+
+/*################# page 38 ##################*/
+
+.informatik #page38 #dl1{
+    left: 24.5em;
+    top: 26.2em;
+    width: 9.8em;
+}
+
+/*######################## page 39 #####################*/
+
+.informatik #page39 #dr1, .informatik #page39 #dr2 {
+    top: 26.2em;
+    width: 9.8em;
+}
+.informatik #page39 #dr1 {
+    left: 2.7em;
+}
+.informatik #page39 #dr2 {
+    left: 13.3em;
+}
+.informatik #page39 .rightbox {
+	top: 2.3em;
+}
+.informatik #page39 .tipp {
+	top: 31.6em;
+	left: 25.4em;
+	width: 9.5em;
+	-moz-transform:rotate(-7deg);
+    -webkit-transform:rotate(-7deg);
+    -o-transform:rotate(-7deg);
+    -ms-transform:rotate(-7deg);
+    transform:rotate(-7deg);
+}
+.informatik #page39 .kurzinfo {
+	top: 13.4em;
+	left: 17.4em;
+	width: 9.2em;
+	-moz-transform:rotate(3deg);
+    -webkit-transform:rotate(3deg);
+    -o-transform:rotate(3deg);
+    -ms-transform:rotate(3deg);
+    transform:rotate(3deg);
+}
+/*########################## page 40 #####################*/
+.informatik #page40 p {
+	text-align: left;
+}
+.informatik #page40 #cybermentor{
+	top: 8em;
+	left: 26.6em;
+	width: 8.2em;
+	-moz-transform:rotate(3deg);
+    -webkit-transform:rotate(3deg);
+    -o-transform:rotate(3deg);
+    -ms-transform:rotate(3deg);
+    transform:rotate(3deg);
+}
+.informatik #page40 #cybermentor h3, .informatik #page40 #cybermentor a {
+	color: #245BA3;
+}
+.informatik #page40 #mintalente{
+	top: 17.8em;
+	left: 15.7em;
+	width: 7.3em;
+	-moz-transform:rotate(-7deg);
+    -webkit-transform:rotate(-7deg);
+    -o-transform:rotate(-7deg);
+    -ms-transform:rotate(-7deg);
+    transform:rotate(-7deg);
+}
+.informatik #page40 #mintalente h3, .informatik #page40 #mintalente a {
+	color: #A1A10B;
+}
+.informatik #page40 #mst{
+	top: 18.5em;
+	left: 29em;
+	width: 6.5em;
+	-moz-transform:rotate(6deg);
+    -webkit-transform:rotate(6deg);
+    -o-transform:rotate(6deg);
+    -ms-transform:rotate(6deg);
+    transform:rotate(6deg);
+}
+.informatik #page40 #mst h3, .informatik #page40 #mst a {
+	color: #C12C1B;
+}
+.informatik #page40 #mst h3{
+	width: 5em;
+}
+.informatik #page40 #technik{
+	top: 31.6em;
+	left: 15.9em;
+	width: 11.5em;
+}
+.informatik #page40 #technik h3, .informatik #page40 #technik a {
+	color: #23408F;
+}
+.informatik #page40 #akademie{
+	top: 40.4em;
+	left: 15.9em;
+	width: 11.5em;
+}
+.informatik #page40 #akademie h3, .informatik #page40 #akademie a {
+	color: #18AD9E;
+}
+.informatik #page40 .leftbox {
+	top: 8em;
+	left: 2.7em;
+	width: 8em;
+}
+.informatik #page40 .leftbox p {
+	line-height: 1.33;
+}
+.informatik #page40 #logo {
+	position: absolute;
+	z-index: 1080;
+	top:40.6em;
+	left: 11.5em;
+	width: 3.5em;
+	height: 5.5em;
+}
+/*########################## page 41 #####################*/
+.informatik #page41 #dr1{
+	top: 16.7em;
+	left: 23.8em;
+	width: 10.5em;
+}
+.informatik #page41 #dr1 p {
+	line-height: 1.49;
+	margin-bottom: 1.6em;
+}
+.informatik #page41 #dr1 a {
+	color: #B3005D;
+}
+/*########################## page 42 ###################*/
+.informatik #page42 .linkcol {
+	top: 5.9em;
+	width: 9.4em;
+}
+.informatik .linkcol h2 {
+	font-size: 0.46em;
+	margin-bottom: 2.8em;
+	color: #fff;
+	font-weight: normal;
+}
+.informatik .linkcol p {
+	color: #fff;
+	border-top: 2px dotted #fff;
+	text-align: left;
+	line-height: 1.3;
+	margin-top: 0.5em;
+	margin-bottom: 1.4em;
+	padding-top: 0.5em;
+}
+.informatik .linkcol a {
+	font-size: 0.46em;
+	color: #fff;
+	display: block;
+	font-weight: normal;
+}
+.informatik #page42 #dl1 {
+	left: 3.1em;
+}
+.informatik #page42 #dl2 {
+	left: 13.8em;
+}
+.informatik #page42 #dl3 {
+	left: 24.5em;
+}
+.informatik #page42 aside {
+	top: 27.5em;
+	left: 2.0em;
+	width: 8.1em;
+	-moz-transform:rotate(3deg);
+    -webkit-transform:rotate(3deg);
+    -o-transform:rotate(3deg);
+    -ms-transform:rotate(3deg);
+    transform:rotate(-6deg);
+
+}
+.informatik #page42 aside h3 {
+	font-size: 0.5em;
+	line-height: 1.5;
+	color: #F47920;
+	margin-bottom: 1.3em;
+}
+.informatik #page42 aside a {
+	font-size: 0.5em;
+	color: #B3005D;
+	line-height: 0.5;
+}
+.informatik #page42 aside li {
+	padding-bottom: 0.3em;
+	border-bottom: 2px dotted #B3005D;
+	margin-bottom: 0.7em;
+	list-style: none;
+	line-height: 0.5
+
+}
+
+/*######################## page 43 #########################*/
+
+.informatik #page43 .linkcol {
+	top: 1.7em;
+	width: 9.4em;
+}
+.informatik #page43 #dr1 {
+	left: 3.1em;
+}
+.informatik #page43 #dr2 {
+	left: 13.8em;
+}
+.informatik #page43 #dr3 {
+	left: 24.5em;
+}
+
+/*########################## page 44 #############################*/

@@ -1,0 +1,1 @@
+var szmexp = new Date();var szmnex = szmexp.getTime() + 86400000;szmexp.setTime(szmexp.getTime() + 86400000);document.cookie = "POPUPCHECK=" +szmnex + "; expires="+szmexp.toGMTString()+"; path=/"

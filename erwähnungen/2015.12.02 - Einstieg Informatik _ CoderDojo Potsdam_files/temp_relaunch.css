@@ -1,0 +1,748 @@
+/*Themenfilter*/
+.filter_results {
+	padding:10px 0px;
+}
+.filter_result {
+}
+.filter_no_result {
+	font-style:italic;
+	padding:8px 0px 7px 0px;
+}
+.filter_result a {
+	display:block;
+	line-height:1.3em;
+	padding:0px;
+	margin:0px 0px 3px 15px;
+	text-indent:-10px;
+}
+.filter_off {
+	/*height:27px;*/
+}
+.filterFrame {
+/*
+	width:248px;
+	margin-left:-33px;
+*/
+	padding-bottom:0px;
+	border-bottom:4px solid #fff;
+}
+.filterHeader {
+	padding:5px;
+	color:#fff;
+	background: #017a5e url(images/pfeil-u-w.png) no-repeat 225px center;
+	cursor:pointer;
+}
+.filterContent {
+	padding:5px 5px 5px 5px;
+}
+.filterSwitches {
+	background-color:#017a5e;
+}
+.filterOpen {
+	width:70px;
+	float:right;
+	padding:4px;
+	background-color: #4ba18d;
+	color:#fff;
+	text-align:center;
+	margin-right:2px;
+	cursor:pointer;
+}
+.filterOpen:hover {
+	background-color: #ed1c24;
+}
+.filterSwitch {
+	padding:4px;
+	text-align:center;
+	width:50px;
+	float:right;
+	color:#fff;
+	/*background-color: #ed1c24;*/
+	background-color: #a0a0a0;
+	cursor:pointer;
+	background:#a0a0a0 url(images/on-off.png) no-repeat center center;
+}
+.filterSwitch:hover, .filterSwitch.active:hover {
+	background-color: #ed1c24;
+}
+.filterSwitch.active {
+	background-color: #9fc500;
+}
+/* Content Klinke */
+.contentKlinke {
+	border-top:1px solid #fff;
+	border-bottom:1px solid #fff;
+	background-color:#9fc500;
+}
+.contentKlinke .klinkeLinks {
+
+}
+.contentKlinkeText {
+	/*background-color: #017a5e;*/
+	padding:5px 5px 5px 10px;
+	text-transform:uppercase;
+	color:#fff;
+}
+.contentKlinke a.klinke {
+	display:block;
+	color:#fff;
+	margin:1px 5px 0px 0px;
+	line-height:1.5em;
+	background:transparent url(images/pfeil-re-w.png) no-repeat right center;
+}
+.contentKlinke a.klinke:hover {
+	color:#ed1c24;
+}
+.contentKlinke.orange .klinkeLinks,
+.contentKlinke.orange .contentKlinkeText {
+	/*background-color: #ee9601;*/
+}
+.contentKlinke.grau .klinkeLinks,
+.contentKlinke.grau .contentKlinkeText {
+	/*background-color: #808080;*/
+}
+.klinketext {
+	margin-top:0px;
+}
+
+
+.arrow {
+	display:block;
+	width:10px;
+	background:transparent url(images/pfeil-re-w.png) no-repeat left center;
+}
+.arrow.green {
+	background:transparent url(images/pfeil-re-g.png) no-repeat left center;
+}
+.linie {
+	border-top:4px solid #fff;
+}
+/* Filter Dialog */
+.filterBack {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	z-index:1000;
+	background-color:#000;
+	display:none;
+}
+.filterSheet {
+	position:absolute;
+	left:130px;
+	top:90px;
+	width:700px;
+	background-color:#fff;
+	border:4px solid #ee9601;
+	/*border:4px solid #017a5e;*/
+	border-top-width:0px;
+	z-index:1001;
+	display:none;
+}
+.filterTitle {
+	padding:5px;
+	background-color: #ee9601;
+	/*background-color: #017a5e;*/
+	color:#fff;
+	font-weight:bold;
+}
+.filterTitle .closeButton {
+	width:20px;
+	text-align:right;
+	float:right;
+	cursor:pointer;
+}
+.filterTable {
+	border-collapse:collapse;
+	margin:10px 0px 10px 0px;
+	table-layout:fixed;
+}
+.filterTable td {
+	vertical-align:top;
+	padding:0px 0px 0px 15px;
+	margin:0px;
+}
+.filterTable .col1 {
+	width:210px;
+	color:#333;
+	font-weight:bold;
+	padding-bottom:5px;
+}
+.filterTable .col2 {
+	width:210px;
+	color:#333;
+	font-weight:bold;
+	padding-bottom:5px;
+}
+.filterTable .col3 {
+	width:210px;
+	padding-bottom:5px;
+	color: #333;
+	font-weight:bold;
+	border-left:1px solid #b5b5b5;
+}
+.filterCats {
+	width:210px;
+	padding-bottom:5px;
+}
+.filterTags {
+	width:210px;
+	padding-bottom:5px;
+}
+.filterSel {
+	width:210px;
+	border-left:1px solid #b5b5b5;
+}
+.filterSheet a {
+	display:block;
+	color:#000;
+}
+.filterSheet a.has {
+	background-color:#c7de66;
+	color:#000;
+}
+.filterSheet a:hover, .filterSheet a.cur {
+	background-color: #9fc500;
+	color:#fff;
+}
+
+.filterSheet .item {
+	cursor:pointer;
+	padding:2px 0px 2px 4px;
+	width:190px;
+	border:1px solid #b5b5b5;
+	margin-bottom:5px;
+	display:block;
+}
+
+.filterTags .item {
+	display:none;
+}
+.filterTags a:hover {
+	background-color: #b5b5b5;
+}
+.filterTags a.cur:hover {
+	background-color: #ed1c24;
+}
+.filterSel a:hover {
+	background-color: #ed1c24;
+}
+.filterTags .item.sel {
+	display:block;
+}
+.filterInfo {
+	display:none;
+	font-weight:bold;
+	color: #a00000;
+}
+td.filterButtons {
+	padding-top:5px;
+}
+.filterButtons .item {
+	text-align:center;
+	float:right;
+	margin-left:15px;
+	width:140px;
+}
+.filterButtons .item.submit {
+	width:190px;
+}
+
+/*tabs*/
+.panes {
+	margin:0px 0px 10px 0px;
+	position:relative;
+}
+.pane {
+	position:absolute;
+	top:40px;
+	left:0px;
+	display:none;
+	padding:10px 0px 0px 0px;
+}
+.pane.active {
+	position:relative;
+	top:0px;
+	left:0px;
+	display:block;
+}
+.tabs {
+	width:100%;
+	overflow:hidden;
+	background-color:#666;
+	padding:0px 0px 0px 0px;
+}
+
+.tab {
+	text-align:left;
+	cursor:pointer;
+	display:block;
+	padding:4px 4px 4px 35px;
+/*
+	background: #666 url(images/pfeil-re-w.png) no-repeat 6px 9px;
+*/
+	background: #666 url(images/pfeil-re-w.png) no-repeat 11px 9px;
+	width:195px;
+	margin:0px;
+	float:left;
+	color:#fff;
+}
+.tab.active {
+	color: #fff;
+/*
+	background: #888 url(images/pfeil-u-w.png) no-repeat 5px center;
+*/
+	background: #888 url(images/pfeil-u-w.png) no-repeat 10px center;
+}
+.tab.p1 {
+	margin-left:15px;
+}
+.tabs.t2 {
+/*
+	background-color:#ee9601;
+*/
+}
+.name_filter {
+	padding:15px 0px 0px 15px;	
+}
+.name_filter .filter {
+	cursor:pointer;
+	padding:0px 25px 0px 0px;
+	color:#808080;
+}
+.name_filter .filter.active {
+	color:#ed1c24;
+}
+
+.filters {
+	margin: 5px 0px 0px 15px;
+}
+.hs_filters {
+	margin: 5px 0px 15px 15px;
+}
+.filters .filter, .hs_filters .filter {
+	cursor:pointer;
+	padding:0px 10px 4px 0px;
+	color:#808080;
+	white-space:nowrap;
+}
+.filters .filter.active, .hs_filters .filter.active {
+	color:#ed1c24;
+}
+
+
+.separator {
+	margin:10px 0px 5px 0px;
+	height:4px;
+	background-color:#fff;
+	position:relative;
+}
+.entry {
+	padding:4px 0px 5px 15px;
+	margin-bottom:0px;
+	border-top:1px solid #ccc;
+}
+.entry:hover {
+	background-color:#fff;
+}
+.link {
+	display:inline-block;
+	color:#000;
+	vertical-align:top;
+	line-height:1.3;
+	padding:2px 0 2px 0;
+}
+.link.lft {
+	width:215px;
+	padding-right:15px;
+}
+.link.rgt {
+	width:230px;
+}
+
+/* content filter */
+.content_filter {
+
+}
+.content_filter .flt {
+	padding:5px 15px;
+	background: url(images/pfeil-re-w.png) no-repeat 473px center #8da22c;
+	color:white;
+	text-transform:uppercase;
+	font-weight: bold;
+	border-top:4px solid #fff;
+	border-bottom:4px solid #fff;
+	margin:5px 0px;
+}
+.content_filter.start .flt {
+	border-top:0px;
+	margin-top:0px;
+}
+.flt.active {
+	background: #9fc500 url(images/pfeil-u-w.png) no-repeat 473px center;
+}
+
+.content_filter .words {
+	padding:5px 15px;
+/*
+	border-bottom:4px solid #fff;
+*/
+}
+.content_filter .map {
+	padding:5px 15px;
+	border-bottom:4px solid #fff;
+}
+.filter_set {
+	padding-top:5px;
+	margin-top:5px;
+	border-top:1px solid #ccc;
+}
+.filter_set.first {
+	border-top:none;
+	padding-top:0px;
+	margin-top:0px;
+}
+/*
+#g_cf {
+	padding-bottom:5px;
+	margin-bottom:5px;
+	border-bottom:1px solid #ccc;
+}
+*/
+.word,.reset {
+	color:#666;
+}
+.word.active, .reset.active {
+	color:#ed1c24;
+}
+.reset span {
+	font-weight:bold;
+}
+a.word, a.reset {
+	padding:0px 10px 4px 0px;
+}
+
+/*maps*/
+.mapFrame {
+	position:relative;
+	width:100%;
+/*
+	width:248px;
+*/
+	height:265px;
+}
+.mapHolder {
+	border-left:0px;
+	border-right:0px;
+	border-top:0px;
+	border-bottom:4px solid #fff;
+/*	width:248px;*/
+	width:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+	overflow:hidden;
+}
+
+.mapHolder.zoomed {
+	width:600px;
+	left:-394px;
+	border-left:4px solid #fff;
+}
+.mapHeader {
+	padding:5px;
+	background-color:#888;
+	color:#fff;
+}
+.mapTitle {
+	width:80px;
+	float:left;
+}
+.mapZoom {
+	float:right;
+	text-align:right;
+	cursor:pointer;
+	width:80px;
+}
+.mapButtons {
+	background-color:#808080;
+	color:#fff;
+	cursor:pointer;
+}
+.mapLock {
+	padding:4px 4px 4px 8px;
+}
+.mapLock:hover {
+	background-color: #4ba18d;
+}
+.mapSwitch {
+	width:50px;
+	text-align:center;
+	float:right;
+	padding:4px;
+	/*background-color: #ed1c24;*/
+	background:#a0a0a0 url(images/on-off.png) no-repeat center center
+}
+.mapSwitch:hover,.mapSwitch.active:hover {
+	background-color: #ed1c24;
+}
+.mapSwitch.active {
+	background-color:#9fc500;
+}
+#map {
+	display: block; 
+	width: 248px; 
+	height: 200px;
+	border:none;
+	overflow: hidden;
+	margin:0px;
+}
+.mapHolder.zoomed #map {
+	width:600px;
+	height:400px;
+}
+.content_map .mapFrame {
+	width:auto;
+	height:auto;
+}
+.content_map .mapHolder {
+	position:static;
+	width:auto;
+	height:auto;
+	border:none;
+	margin:0px;
+	border-bottom:4px solid #fff;
+}
+.content_map #map {
+	width:494px;
+	height:320px;
+}
+#cmap {
+	margin:0px;
+}
+
+/*hsadmin hochschulen und studiengang*/
+
+h4 {
+	font-size:16px;
+	margin: 14px 0px;
+}
+h5 {
+	font-size:11px;
+	padding:0px;
+	margin: 14px 0px 0px 0px;
+}
+.klgrau.start {
+}
+.klgrau.start a {
+	color: #fff;
+}
+.klgrau.start a:hover {
+	text-decoration:underline;
+}
+.hidden {
+	display:none;
+}
+.studieren {
+	padding:10px 0px;
+}
+
+.studieren h4 {
+    font-size: 18px;
+    margin: 24px 0px 14px 0;
+}
+
+.studiengang {
+	padding:0px 15px;
+}
+.studieren.uebersicht {
+	background-color: white;
+	padding:5px 5px;
+	margin-bottom:8px;
+}
+.adr {
+	padding-left:8px;
+}
+.twoCols {
+	border-collapse:collapse;
+	/*width:440px;*/
+	width:494px;
+	table-layout:fixed;
+
+}
+.twoCols td {
+	padding:4px 2px;
+	vertical-align:top;
+}
+.twoCols .col1 {
+	width:50%;
+	padding-right:10px;
+}
+.twoCols .col2 {
+	width:50%;
+}
+.twoCols.p3366 {
+	/*width:440px;*/
+}
+.twoCols.p3366 .col1 {
+	width:33%;
+}
+.twoCols.p3366 .col2 {
+	width:66%;
+}
+.img_left {
+	display:block;
+	float:left;
+}
+.img_right {
+	display:block;
+	float:right;
+}
+.clr {
+	clear:both;
+}
+.linklist {
+	width:100%;
+	margin-top:10px;
+	margin-bottom:10px;
+	border-collapse:collapse;
+	table-layout:fixed;
+}
+.linklist td {
+	border-top:1px solid white;
+	border-bottom:1px solid white;
+	padding:4px 2px 4px 2px;
+	vertical-align:top;
+}
+.linklist tr {
+}
+.linklist tr:hover td {
+	background-color: white;
+}
+.linklist .c1 {
+	width:210px;
+}
+.linklist .c2 {
+	width:210px;
+}
+.linklist .c3 {
+	width:20px;
+}
+.linklist a, .linklist a:visited {
+	color: #000;
+}
+.linklist a:hover {
+}
+.linklist .c3 a {
+	font-weight:bold;
+	color: #008000;
+}
+.center {
+	text-align:center;
+}
+.aright {
+	text-align:right;
+}
+td.label {
+	text-align:left;
+	padding-right:5px;
+	font-weight:bold;
+	color:#333;
+	border-top:1px solid #d5d5d5;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+td.text {
+	border-top:1px solid #d5d5d5;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+td.labeltext {
+    border-top:1px solid #d5d5d5;
+	padding:1em 0px 1em 0px;
+}
+td.labeltext h4 {
+	color:#333;
+	margin:4px 0px 4px 0px;
+	padding:0px;
+}
+tr.first td.label, tr.first td.text {
+	border:none;
+}
+tr.first td {
+	border:none;
+}
+td.bottom {
+	vertical-align:bottom;
+}
+td.middle {
+	vertical-align:middle;
+}
+td.top {
+	vertical-align:top;
+}
+.toplink {
+	margin:10px 0px 20px 0px;
+	padding:10px 0px;
+	border-top:2px solid #fafafa;
+	text-align:right;
+}
+
+/* Termine */
+.termin {
+	padding:10px 10px 0px 10px;
+}
+.termin .datum {
+	font-style:italic;
+	margin:0px;
+}
+.termin h2 {
+	font-size:12px;
+}
+.termin h3 {
+	margin:5px 0px;
+}
+/* Breadcrumb */
+.breadcrumb {
+	padding:5px 0px;
+}
+.breadcrumb a {
+	padding-left:10px;
+}
+
+/* Merkfunktionen Hochschule/Studiengang */
+.kltxtgrau .note {
+	display:block;
+	float:right;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.notes_list {
+	list-style-type:none;
+	padding:0px 0px 5px 0px;
+	margin:0px;	
+	border-bottom: 1px solid #e2e2e2;
+}
+
+
+ul.notes_list li {
+	margin:0px;
+	text-indent:0px;
+	line-height:1em;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 4px 0 6px 10px;
+	
+	
+}
+.notes_list li.button {
+	margin:10px 0px 5px 10px;
+	border: none;
+}
+.notes_list a {
+	color:#555;
+}
+.notes_list a:hover {
+	color:#ed1c24;
+}

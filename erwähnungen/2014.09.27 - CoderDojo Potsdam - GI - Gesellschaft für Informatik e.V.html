@@ -1,0 +1,416 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de-DE" lang="de"><head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- 
+	TYPO3 WCMS supported by mehrwert - http://www.mehrwert.de/
+
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2015 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.org/
+-->
+
+<!-- base href="http://www.gi.de/" -->
+<link rel="shortcut icon" href="http://www.gi.de/fileadmin/favicon.ico" type="image/x-ico; charset=binary">
+<link rel="icon" href="http://www.gi.de/fileadmin/favicon.ico" type="image/x-ico; charset=binary">
+
+<meta name="generator" content="TYPO3 4.5 CMS">
+
+<link rel="stylesheet" type="text/css" href="2014.09.27%20-%20CoderDojo%20Potsdam%C2%A0-%C2%A0GI%20-%20Gesellschaft%20f%C3%BCr%20Informatik%20e.V_files/stylesheet_c7035b63d3.css" media="all">
+
+
+<script src="2014.09.27%20-%20CoderDojo%20Potsdam%C2%A0-%C2%A0GI%20-%20Gesellschaft%20f%C3%BCr%20Informatik%20e.V_files/jquery-1.js" type="text/javascript"></script>
+<script src="2014.09.27%20-%20CoderDojo%20Potsdam%C2%A0-%C2%A0GI%20-%20Gesellschaft%20f%C3%BCr%20Informatik%20e.V_files/jquery_003.js" type="text/javascript"></script>
+<script src="2014.09.27%20-%20CoderDojo%20Potsdam%C2%A0-%C2%A0GI%20-%20Gesellschaft%20f%C3%BCr%20Informatik%20e.V_files/javascript_a1cb3a5978.js" type="text/javascript"></script>
+
+
+<title>CoderDojo Potsdam&nbsp;-&nbsp;GI - Gesellschaft für Informatik e.V.</title>	<meta name="MSSmartTagsPreventParsing" content="true">
+	<meta http-equiv="imagetoolbar" content="no">
+	<link rel="shortcut icon" href="http://www.gi.de/favicon.ico">
+	<link rel="icon" href="http://www.gi.de/favicon.ico" type="image/x-icon">
+	<link rel="alternate" hreflang="de" type="application/rss+xml" title="Aktuelle Meldungen als RSS 2.0 Feed" href="http://gi-devel.domainplatzhalter.de/aktuelles/rss.xml">
+	<link rel="alternate" hreflang="de" type="application/rss+xml" title="Aktuelle Meldungen als RSS 0.91 Feed" href="http://gi-devel.domainplatzhalter.de/aktuelles/rss091.xml">
+	<link rel="alternate" hreflang="de" type="application/rss+xml" title="Aktuelle Meldungen als RDF Feed" href="http://gi-devel.domainplatzhalter.de/aktuelles/rdf.xml">
+	<link rel="alternate" hreflang="de" type="application/rss+xml" title="Aktuelle Meldungen als Atom 0.3 Feed" href="http://gi-devel.domainplatzhalter.de/aktuelles/atom.xml">
+	
+	<link rel="alternate" hreflang="de" type="application/rss+xml" title="Aktuelle Veranstaltungen als RSS 2.0 Feed" href="http://gi-devel.domainplatzhalter.de/aktuelles/terminkalender/cal_rss.xml">
+		
+	<link rel="alternate" hreflang="de" type="application/rss+xml" title="Informatiklexikon als RSS 2.0 Feed" href="http://gi-devel.domainplatzhalter.de/service/informatiklexikon/rss.xml">	<link type="text/css" rel="stylesheet" media="screen" href="2014.09.27%20-%20CoderDojo%20Potsdam%C2%A0-%C2%A0GI%20-%20Gesellschaft%20f%C3%BCr%20Informatik%20e.V_files/base.css">
+	<link type="text/css" rel="stylesheet" media="screen" href="2014.09.27%20-%20CoderDojo%20Potsdam%C2%A0-%C2%A0GI%20-%20Gesellschaft%20f%C3%BCr%20Informatik%20e.V_files/main.css">
+	<link type="text/css" rel="stylesheet" media="screen" href="2014.09.27%20-%20CoderDojo%20Potsdam%C2%A0-%C2%A0GI%20-%20Gesellschaft%20f%C3%BCr%20Informatik%20e.V_files/default.css">
+        <link type="text/css" rel="stylesheet" media="screen" href="2014.09.27%20-%20CoderDojo%20Potsdam%C2%A0-%C2%A0GI%20-%20Gesellschaft%20f%C3%BCr%20Informatik%20e.V_files/jquery.css">
+	<link type="text/css" rel="stylesheet" media="screen" href="2014.09.27%20-%20CoderDojo%20Potsdam%C2%A0-%C2%A0GI%20-%20Gesellschaft%20f%C3%BCr%20Informatik%20e.V_files/header.css">
+        <link type="text/css" rel="stylesheet" media="screen" href="2014.09.27%20-%20CoderDojo%20Potsdam%C2%A0-%C2%A0GI%20-%20Gesellschaft%20f%C3%BCr%20Informatik%20e.V_files/search.css">
+	<!--[if lte IE 7]>
+	<link type="text/css" rel="stylesheet" media="screen" href="/fileadmin/templates_new/css/patch_default.css" />
+	<![endif]-->
+	<!--[if gte IE 7]>
+	<link type="text/css" rel="stylesheet" media="screen" href="/fileadmin/templates_new/css/patch_ie8.css" />
+	<![endif]-->
+	<link type="text/css" rel="stylesheet" media="print" href="2014.09.27%20-%20CoderDojo%20Potsdam%C2%A0-%C2%A0GI%20-%20Gesellschaft%20f%C3%BCr%20Informatik%20e.V_files/print.css">        <script src="2014.09.27%20-%20CoderDojo%20Potsdam%C2%A0-%C2%A0GI%20-%20Gesellschaft%20f%C3%BCr%20Informatik%20e.V_files/main.js" type="text/javascript"></script>
+        <script src="2014.09.27%20-%20CoderDojo%20Potsdam%C2%A0-%C2%A0GI%20-%20Gesellschaft%20f%C3%BCr%20Informatik%20e.V_files/jquery_004.js" type="text/javascript"></script>
+        <script src="2014.09.27%20-%20CoderDojo%20Potsdam%C2%A0-%C2%A0GI%20-%20Gesellschaft%20f%C3%BCr%20Informatik%20e.V_files/jquery.js" type="text/javascript"></script>
+        <script src="2014.09.27%20-%20CoderDojo%20Potsdam%C2%A0-%C2%A0GI%20-%20Gesellschaft%20f%C3%BCr%20Informatik%20e.V_files/jquery_002.js" type="text/javascript"></script>
+
+       <!-- Piwik -->
+       <script type="text/javascript">
+         var pkBaseURL = (("https:" == document.location.protocol) ? "https://www.gi.de/piwik/" : "http://www.gi.de/piwik/");
+         document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+       </script><script src="2014.09.27%20-%20CoderDojo%20Potsdam%C2%A0-%C2%A0GI%20-%20Gesellschaft%20f%C3%BCr%20Informatik%20e.V_files/piwik.js" type="text/javascript"></script><script type="text/javascript">
+         try {
+           var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+           piwikTracker.trackPageView();
+           piwikTracker.enableLinkTracking();
+         } catch( err ) {}
+       </script><noscript><p><img src="http://www.gi.de/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+       <!-- End Piwik Tracking Code -->
+<meta name="robots" content="index,nofollow">
+<script type="text/javascript" src="2014.09.27%20-%20CoderDojo%20Potsdam%C2%A0-%C2%A0GI%20-%20Gesellschaft%20f%C3%BCr%20Informatik%20e.V_files/autocomplete.js"></script>
+<link rel="stylesheet" type="text/css" href="2014.09.27%20-%20CoderDojo%20Potsdam%C2%A0-%C2%A0GI%20-%20Gesellschaft%20f%C3%BCr%20Informatik%20e.V_files/Autocompleter.css">
+<script type="text/javascript">
+/* <![CDATA[ */
+jQuery(document).ready(function() {
+	var el = jQuery("oitsearch");
+	if (el) {
+		var form = el;
+		for (var i=0;i<20;i++) {
+			form = form.parent();
+			if (form.nodeName=="FORM") break;
+		}
+		var sectionpid = 0;
+		var section = jQuery("tx-indexedsearch-selectbox-sectionsxx");
+		if (section) {
+			sectionpid = section.value;
+		}
+		var languageid = 0;
+		var language = jQuery("tx-indexedsearch-selectbox-langxx");
+		if (language) {
+			languageid = language.value;
+		}
+		var mediaid = -1;
+		var media = jQuery("tx-indexedsearch-selectbox-media");
+		if (media) {
+			mediaid = media.value;
+		}
+		 jQuery("#oitsearch").autocomplete({
+			serviceUrl:"index.php?eID=pmkisac&id=1669&sp="+sectionpid+"&la="+languageid+"&me="+mediaid+"&sw=0&ml=2&mc=10&wc=1",
+			maxHeight:400,
+			autoSubmit: 1,
+			spinner: 1,
+			wordCount: 1,
+		    width:250,
+			delimiter: null,
+		    // callback function:
+		    onSelect: function(value, data){
+		        //alert("You selected: " + value + ", " + data);
+		    }
+		});
+	}
+});
+
+/* ]]> */
+</script>
+
+
+
+					<link href="2014.09.27%20-%20CoderDojo%20Potsdam%C2%A0-%C2%A0GI%20-%20Gesellschaft%20f%C3%BCr%20Informatik%20e.V_files/tx_mhajaxsearch_style.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript">
+/*<![CDATA[*/
+var xajaxRequestUri="http://www.gi.de/nc/aktuelles/terminkalender/termindetails/cal/event/20140927/tx_cal_phpicalendar/3176.html";
+var xajaxDebug=false;
+var xajaxStatusMessages=false;
+var xajaxWaitCursor=true;
+var xajaxDefinedGet=0;
+var xajaxDefinedPost=1;
+var xajaxLoaded=false;
+function tx_mhajaxsearch_pi1Search(){return xajax.call("Search", arguments, 1);}
+function tx_mhajaxsearch_pi1Link(){return xajax.call("Link", arguments, 1);}
+/*]]>*/
+	</script>
+	<script type="text/javascript" src="2014.09.27%20-%20CoderDojo%20Potsdam%C2%A0-%C2%A0GI%20-%20Gesellschaft%20f%C3%BCr%20Informatik%20e.V_files/xajax.js"></script>
+	<script type="text/javascript">
+window.setTimeout(function () { if (!xajaxLoaded) { alert('Error: the xajax Javascript file could not be included. Perhaps the URL is incorrect?\nURL: typo3conf/ext/xajax/xajax_js/xajax.js'); } }, 6000);
+	</script>
+
+</head>
+<body class="layout-startpage">
+<a href="http://www.gi.de/nc/aktuelles/terminkalender/termindetails/cal/event/20140927/tx_cal_phpicalendar/3176.html">Quelle</a>
+
+<div class="page_margins">
+	<div class="page clearfix">
+		<div id="header">
+			<div id="topnav" class="clearfix">
+				<!-- start: skip link navigation -->
+				<a class="skip" title="skip link" href="http://www.gi.de/index.php?id=1669&amp;no_cache=1&amp;no_cache=1&amp;tx_cal_controller%5Bview%5D=event&amp;tx_cal_controller%5Bgetdate%5D=20140927&amp;tx_cal_controller%5Btype%5D=tx_cal_phpicalendar&amp;tx_cal_controller%5Buid%5D=3176&amp;tx_cal_controller%5Bcategory%5D=&amp;tx_cal_controller%5Blastview%5D=#navigation">Skip to the navigation</a><span class="hideme">.</span>
+				<a class="skip" title="skip link" href="http://www.gi.de/index.php?id=1669&amp;no_cache=1&amp;no_cache=1&amp;tx_cal_controller%5Bview%5D=event&amp;tx_cal_controller%5Bgetdate%5D=20140927&amp;tx_cal_controller%5Btype%5D=tx_cal_phpicalendar&amp;tx_cal_controller%5Buid%5D=3176&amp;tx_cal_controller%5Bcategory%5D=&amp;tx_cal_controller%5Blastview%5D=#col3_content">Skip to the content</a><span class="hideme">.</span>
+				<!-- end: skip link navigation -->
+			</div>
+			<div id="logo">
+				<a title="Startseite" href="http://www.gi.de/">Startseite</a>
+			</div>
+			<h1 class="title">Termindetails</h1>
+		</div>
+		<div id="nav" class="clearfix">
+			<div id="meta_nav" class="clearfix">
+				<div id="search" class="clearfix">
+					
+						<div id="indexedsearchbox"><form action="index.php?id=suche&amp;no_cache=1" method="post" id="indexedsearch"><input autocomplete="off" id="oitsearch" name="tx_indexedsearch[sword]" value="Suchbegriff" class="searchbox-sword sword text" type="text"><input name="tx_indexedsearch[sections]" value="0" type="hidden"><input name="tx_indexedsearch[submit_button]" value="Search" type="hidden"><input name="search" src="2014.09.27%20-%20CoderDojo%20Potsdam%C2%A0-%C2%A0GI%20-%20Gesellschaft%20f%C3%BCr%20Informatik%20e.V_files/blue_arrow_on_yellow.gif" value="Suchen" class="searchbox-button button" type="image"></form></div>
+					
+				</div>
+			  <div id="login" class="clearfix">
+				  
+				      	<p>Zum Mitgliederbereich</p>
+  	<form action="https://www.gi.de/login/" method="post">
+		<fieldset>
+			<legend>Anmelden</legend>
+			<div class="input_fields">
+				<label for="user">Mitgliedsnummer:</label>
+				<input name="user" id="user" class="text" size="10" maxlength="15" value="Mitgliedsnr." onfocus="initLoginUser();" type="text">
+			</div>
+			<div class="input_fields">
+				<label for="pass">Passwort:</label>
+				<input name="pass" id="pass" class="password" size="10" maxlength="25" value="Passwort" onfocus="initLoginPW();" type="password">
+			</div>
+			<div class="submit">
+				<input src="2014.09.27%20-%20CoderDojo%20Potsdam%C2%A0-%C2%A0GI%20-%20Gesellschaft%20f%C3%BCr%20Informatik%20e.V_files/blue_arrow_on_yellow.gif" class="button" name="submit" title="Anmelden" type="image">
+			</div>
+			<div class="felogin-hidden">
+				<input name="logintype" value="login" type="hidden">
+				<input name="pid" value="3,1669" type="hidden">
+				<input name="return_url" value="index.php?id=1669" type="hidden">
+				<input name="referer" value="index.php?id=1669" type="hidden">
+			</div>
+		</fieldset>
+	</form>
+			    
+		    </div>
+	    </div>
+	    <div id="navigation">
+		    
+		      <ul id="nav-main" class="hlist"><li class="first-item"><a href="http://www.gi.de/index.php?id=1630" title="Startseite"><span>Startseite</span></a></li><li class="active nav-item"><a href="http://www.gi.de/index.php?id=aktuelles" title="Aktuelles"><span>Aktuelles</span></a></li><li class="nav-item"><a href="http://www.gi.de/index.php?id=44" title="Themen"><span>Themen</span></a></li><li class="nav-item"><a href="http://www.gi.de/index.php?id=43" title="Gliederungen"><span>Gliederungen</span></a></li><li class="nav-item"><a href="http://www.gi.de/index.php?id=42" title="Service"><span>Service</span></a></li><li class="nav-item"><a href="http://www.gi.de/index.php?id=41" title="Presse"><span>Presse</span></a></li><li class="nav-item"><a href="http://www.gi.de/index.php?id=40" title="Wir über uns"><span>Wir über uns</span></a></li><li class="last-item"><a href="https://www.gi.de/index.php?id=288" title="Mitgliedschaft"><span>Mitgliedschaft</span></a></li></ul>
+		      <ul id="nav-lang" class="hlist"><li class="nav-item english-flag"><a href="https://en.gi.de/" class="English" title="English"><span>English</span></a></li></ul>
+        
+      </div>
+      <div id="breadcrumb" class="clearfix">
+        <a name="top"></a>
+        
+  <p>Sie befinden sich hier:</p>
+  
+    <ul class="hlist"><li class="first"><a href="https://www.gi.de/index.php?id=1" target="_top" title="GI Website" onfocus="blurLink(this);">Startseite</a></li><li><a href="http://www.gi.de/index.php?id=aktuelles" target="_top" title="Aktuelles" onfocus="blurLink(this);">Aktuelles</a></li><li class="last"><a href="http://www.gi.de/index.php?id=1664&amp;no_cache=1" target="_top" title="Terminkalender" onfocus="blurLink(this);">Terminkalender</a></li></ul>
+  
+
+      </div>
+    </div>
+    <div id="main" class="default">
+      
+  <div id="col1">
+    <div id="col1_content" class="clearfix">
+      
+        <div id="submenu"><ul><li class="first"><a href="http://www.gi.de/index.php?id=4304" title="INFORMATIK 2016" target="_blank">INFORMATIK 2016</a></li><li><a href="http://www.gi.de/index.php?id=3745" title="Meldungen">Meldungen</a></li><li><a href="http://www.gi.de/index.php?id=4302" title="Smart Data Begleitforschung">Smart Data Begleitforschung</a></li><li class="active with_sub"><a href="http://www.gi.de/index.php?id=1664&amp;no_cache=1" title="Terminkalender">Terminkalender</a><ul><li class="first"><a href="http://www.gi.de/index.php?id=week&amp;no_cache=1" title="Wochenansicht" onfocus="blurLink(this);">Wochenansicht</a></li><li class="last"><a href="http://www.gi.de/index.php?id=day&amp;no_cache=1" title="Tagesansicht" onfocus="blurLink(this);">Tagesansicht</a></li></ul></li><li><a href="http://www.gi.de/index.php?id=3904" title="Bewegungsmelder">Bewegungsmelder</a></li><li class="last"><a href="http://www.gi.de/index.php?id=4270" title="Zur Diskussion">Zur Diskussion</a></li></ul></div>
+      
+      &nbsp;
+    </div>
+  </div>
+  <div id="col2">
+    <div id="col2_content" class="clearfix yellow_widgets">
+      
+        <a name="c14431" id="c14431"></a><div id="c14431" class="csc-default"><a name="c14432" id="c14432"></a><div id="c14432" class="csc-default"><h2 class="feature">Mitgliedschaft</h2><div class="csc-textpic csc-textpic-center csc-textpic-above"><div class="csc-textpic-imagewrap csc-textpic-single-image" style="width:219px;"><a href="https://www.gi.de/mitgliedschaft.html" target="_blank"><img src="2014.09.27%20-%20CoderDojo%20Potsdam%C2%A0-%C2%A0GI%20-%20Gesellschaft%20f%C3%BCr%20Informatik%20e.V_files/6c65c9c089.jpg" alt="" border="0" height="67" width="219"></a></div></div><div class="csc-textpic-clear"><!-- --></div>
+					</div></div><a name="c13472" id="c13472"></a><div id="c13472" class="csc-default"><a name="c13826" id="c13826"></a><div id="c13826" class="csc-default"><div class="tx-mhajaxsearch-pi1">
+			<div class="widget">
+	<h2>Informatik-Lexikon</h2>
+	<div class="widget_inner clearfix widget_inner" style="overflow: visible;">
+		<p>Fachbegriffe zu Informatik und deren Anwendung</p>
+		<form method="post" action="nc/service/informatiklexikon/suchergebnisse/" class="ajax_search" name="tx_mhajaxsearch_form" id="tx_mhajaxsearch_form" onsubmit="javascript: document.getElementById('tx_indexedsearch2').value = document.getElementById('tx_mhajaxsearch_q').value;">
+	  <input value="" name="tx_ttnews[swords]" id="tx_indexedsearch2" type="hidden">
+			<div>
+				<input autocomplete="off" size="30" maxlength="100" name="tx_ttnews[swords]" value="Fachbegriff" id="tx_mhajaxsearch_q" class="text" title="Fachbegriff" accesskey="f" onfocus="init2();" onkeyup="search2();" type="text">
+
+				<input class="button" alt="suchen" src="2014.09.27%20-%20CoderDojo%20Potsdam%C2%A0-%C2%A0GI%20-%20Gesellschaft%20f%C3%BCr%20Informatik%20e.V_files/blue_arrow_on_grey.gif" value="Suchen" title="Suchen" name="tx_indexedsearch2[submit_button]" id="suche-suchen" type="image">
+			</div>
+			<div id="tx_mhajaxsearch_result"></div>
+		</form>
+	</div>
+</div>
+
+	</div>
+	</div></div><a name="c13476" id="c13476"></a><div id="c13476" class="csc-default"><a name="c13475" id="c13475"></a><div id="c13475" class="csc-default"><div class="tx-oitlinklist-pi1">
+		
+<div class="widget">
+	<h2>Unsere Struktur</h2>
+	<div class="widget_inner"> 
+    
+<ul class="oit_link_list">
+	
+<li class="clearfix oitlink5">
+	<span class="text_link"><a href="http://www.gi.de/index.php?id=51">Fachbereiche</a></span>
+	
+</li>
+
+<li class="clearfix oitlink6">
+	<span class="text_link"><a href="http://www.gi.de/index.php?id=681" target="_self">Regionalgruppen</a></span>
+	
+</li>
+
+<li class="clearfix oitlink7">
+	<span class="text_link"><a href="http://www.gi.de/index.php?id=50">Präsidiumsarbeitskreise</a></span>
+	
+</li>
+
+<li class="clearfix oitlink8">
+	<span class="text_link"><a href="http://www.gi.de/index.php?id=49">Beiräte</a></span>
+	
+</li>
+
+<li class="clearfix oitlink34">
+	<span class="text_link"><a href="http://wsi.gi.de/hochschulgruppen.html" target="_blank">Hochschulgruppen</a></span>
+	
+</li>
+
+</ul>
+
+	</div>
+</div>
+
+	</div>
+	</div></div><a name="c13478" id="c13478"></a><div id="c13478" class="csc-default"><a name="c13462" id="c13462"></a><div id="c13462" class="csc-default"><div class="tx-oittestimonials-pi1">
+		
+<div class="widget">
+	<h2>Wir sind Informatik</h2>
+	<div class="widget_inner">
+	  <span class="img clearfix"><a href="http://www.gi.de/index.php?id=3522"><img src="2014.09.27%20-%20CoderDojo%20Potsdam%C2%A0-%C2%A0GI%20-%20Gesellschaft%20f%C3%BCr%20Informatik%20e.V_files/elke-radeke_01.jpg" alt="" border="0" height="156" width="120"></a></span>
+	  <p class="image_subline"><a href="http://www.gi.de/index.php?id=3522">Elke Radeke</a></p>
+    <p>"Ich bin nach meinem Informatik-Studium in die GI eingetreten, und das ist mehr als 20 Jahre her. "</p>
+	</div>
+</div>
+
+	</div>
+	</div></div><a name="c13473" id="c13473"></a><div id="c13473" class="csc-default"><a name="c13446" id="c13446"></a><div id="c13446" class="csc-default"><div class="tx-tagpack-pi1-cloudcontainer">
+					<div class="tx-tagpack-pi1-tagcloud widget"><h2 style="display: none;">Tag-Cloud</h2><div class="tx-tagpack-pi1-linkbox widget_inner"><ul>
+							 
+							 
+							 
+							 
+							 
+							 
+							 
+							 
+							 
+							 
+							 
+							 
+							 
+							 
+							 
+							 
+							 
+							 
+							 
+							 
+							 
+							 
+							 
+							 
+							 
+							 
+							 
+							 <li><a href="http://www.gi.de/index.php?id=3756&amp;tx_tagpack_pi1%5Buid%5D=23&amp;tx_ttnews%5Bcategory%5D=&amp;cHash=aa80ead5336351c1f503246407eb825b" title="2 Einträge mit dem Tag Beiräte" style="color:#5e5e5e; font-size:8px; line-height:14px;">Beiräte</a></li><li><a href="http://www.gi.de/index.php?id=3756&amp;tx_tagpack_pi1%5Buid%5D=71&amp;tx_ttnews%5Bcategory%5D=&amp;cHash=883afa9766f685da01ae71df75acd71f" title="1 Eintrag mit dem Tag Aus- und Weiterbildung" style="color:#5e5e5e; font-size:8px; line-height:14px;">Aus- und Weiterbildung</a></li><li><a href="http://www.gi.de/index.php?id=3756&amp;tx_tagpack_pi1%5Buid%5D=57&amp;tx_ttnews%5Bcategory%5D=&amp;cHash=20ed2c9e0b2c6b7badd1dbb5bcfca2fe" title="3 Einträge mit dem Tag Bild der Informatik" style="color:#5e5e5e; font-size:8px; line-height:14px;">Bild der Informatik</a></li><li><a href="http://www.gi.de/index.php?id=3756&amp;tx_tagpack_pi1%5Buid%5D=19&amp;tx_ttnews%5Bcategory%5D=&amp;cHash=88ff8d55cb98f25cc19191d8402b6947" title="2 Einträge mit dem Tag Datenschutz" style="color:#5e5e5e; font-size:8px; line-height:14px;">Datenschutz</a></li><li><a href="http://www.gi.de/index.php?id=3756&amp;tx_tagpack_pi1%5Buid%5D=20&amp;tx_ttnews%5Bcategory%5D=&amp;cHash=620592c1961be770705c58c30eaf9849" title="33 Einträge mit dem Tag Downloads" style="color:#5e5e5e; font-size:14px; line-height:14px;">Downloads</a></li><li><a href="http://www.gi.de/index.php?id=3756&amp;tx_tagpack_pi1%5Buid%5D=68&amp;tx_ttnews%5Bcategory%5D=&amp;cHash=263b95d452e79afbd297d06e1c746e14" title="1 Eintrag mit dem Tag Konrad-Zuse-Medaille" style="color:#5e5e5e; font-size:8px; line-height:14px;">Konrad-Zuse-Medaille</a></li><li><a href="http://www.gi.de/index.php?id=3756&amp;tx_tagpack_pi1%5Buid%5D=21&amp;tx_ttnews%5Bcategory%5D=&amp;cHash=fe6108db7fd8d2ee4cb4d8abe764423f" title="2 Einträge mit dem Tag Fachbereich" style="color:#5e5e5e; font-size:8px; line-height:14px;">Fachbereich</a></li><li><a href="http://www.gi.de/index.php?id=3756&amp;tx_tagpack_pi1%5Buid%5D=67&amp;tx_ttnews%5Bcategory%5D=&amp;cHash=971d8ab47805ffbafe2e3992f52245b7" title="2 Einträge mit dem Tag Konrad-Zuse Gesellschaft" style="color:#5e5e5e; font-size:8px; line-height:14px;">Konrad-Zuse Gesellschaft</a></li><li><a href="http://www.gi.de/index.php?id=3756&amp;tx_tagpack_pi1%5Buid%5D=34&amp;tx_ttnews%5Bcategory%5D=&amp;cHash=020aa51ee57b3a2b45927af95c7510ed" title="1 Eintrag mit dem Tag Frauen" style="color:#5e5e5e; font-size:8px; line-height:14px;">Frauen</a></li><li><a href="http://www.gi.de/index.php?id=3756&amp;tx_tagpack_pi1%5Buid%5D=74&amp;tx_ttnews%5Bcategory%5D=&amp;cHash=658e3809db71aa6e35a92f2791326065" title="1 Eintrag mit dem Tag Geistiges Eigentum" style="color:#5e5e5e; font-size:8px; line-height:14px;">Geistiges Eigentum</a></li><li><a href="http://www.gi.de/index.php?id=3756&amp;tx_tagpack_pi1%5Buid%5D=88&amp;tx_ttnews%5Bcategory%5D=&amp;cHash=2832a892bf6993dd929e27ed3d7474f7" title="12 Einträge mit dem Tag Grand Challenges" style="color:#5e5e5e; font-size:10px; line-height:14px;">Grand Challenges</a></li><li><a href="http://www.gi.de/index.php?id=3756&amp;tx_tagpack_pi1%5Buid%5D=25&amp;tx_ttnews%5Bcategory%5D=&amp;cHash=3903e85548b1a26265460e112a773ca9" title="4 Einträge mit dem Tag Informatik-Lexikon" style="color:#5e5e5e; font-size:8px; line-height:14px;">Informatik-Lexikon</a></li><li><a href="http://www.gi.de/index.php?id=3756&amp;tx_tagpack_pi1%5Buid%5D=87&amp;tx_ttnews%5Bcategory%5D=&amp;cHash=101a67342260fc7da98c0dfa19ab2180" title="3 Einträge mit dem Tag Informatikpersönlichkeiten" style="color:#5e5e5e; font-size:8px; line-height:14px;">Informatikpersönlichkeiten</a></li><li><a href="http://www.gi.de/index.php?id=3756&amp;tx_tagpack_pi1%5Buid%5D=72&amp;tx_ttnews%5Bcategory%5D=&amp;cHash=2c2ff09a96bbba69154f73629501fe89" title="3 Einträge mit dem Tag IT-Sicherheit" style="color:#5e5e5e; font-size:8px; line-height:14px;">IT-Sicherheit</a></li><li><a href="http://www.gi.de/index.php?id=3756&amp;tx_tagpack_pi1%5Buid%5D=27&amp;tx_ttnews%5Bcategory%5D=&amp;cHash=4495c3b6daa6cb5d720e22f1bb2dab15" title="5 Einträge mit dem Tag Lexikon" style="color:#5e5e5e; font-size:8px; line-height:14px;">Lexikon</a></li><li><a href="http://www.gi.de/index.php?id=3756&amp;tx_tagpack_pi1%5Buid%5D=70&amp;tx_ttnews%5Bcategory%5D=&amp;cHash=e0343ac7be6b0d6775f1b26227b2a5bb" title="1 Eintrag mit dem Tag Meldungen" style="color:#5e5e5e; font-size:8px; line-height:14px;">Meldungen</a></li><li><a href="http://www.gi.de/index.php?id=3756&amp;tx_tagpack_pi1%5Buid%5D=32&amp;tx_ttnews%5Bcategory%5D=&amp;cHash=e42d5b53a3a6369ed8cfeaa91232bebf" title="2 Einträge mit dem Tag Nachwuchs" style="color:#5e5e5e; font-size:8px; line-height:14px;">Nachwuchs</a></li><li><a href="http://www.gi.de/index.php?id=3756&amp;tx_tagpack_pi1%5Buid%5D=59&amp;tx_ttnews%5Bcategory%5D=&amp;cHash=fa068b8e7d94a9c7056813d64aa1270f" title="1 Eintrag mit dem Tag MINT" style="color:#5e5e5e; font-size:8px; line-height:14px;">MINT</a></li><li><a href="http://www.gi.de/index.php?id=3756&amp;tx_tagpack_pi1%5Buid%5D=48&amp;tx_ttnews%5Bcategory%5D=&amp;cHash=ab3e331353c3d951d54f8bccef57cf7f" title="61 Einträge mit dem Tag Mitgliedschaft" style="color:#5e5e5e; font-size:20px; line-height:14px;">Mitgliedschaft</a></li><li><a href="http://www.gi.de/index.php?id=3756&amp;tx_tagpack_pi1%5Buid%5D=85&amp;tx_ttnews%5Bcategory%5D=&amp;cHash=e5439d7ac737f3a5ca44e48f5a51a7ff" title="1 Eintrag mit dem Tag Posterkampagne" style="color:#5e5e5e; font-size:8px; line-height:14px;">Posterkampagne</a></li><li><a href="http://www.gi.de/index.php?id=3756&amp;tx_tagpack_pi1%5Buid%5D=61&amp;tx_ttnews%5Bcategory%5D=&amp;cHash=111704cbc6167d19126150f9c20a3cad" title="1 Eintrag mit dem Tag Präsidium" style="color:#5e5e5e; font-size:8px; line-height:14px;">Präsidium</a></li><li><a href="http://www.gi.de/index.php?id=3756&amp;tx_tagpack_pi1%5Buid%5D=22&amp;tx_ttnews%5Bcategory%5D=&amp;cHash=353731ad4f2a677f67c59b6259708410" title="6 Einträge mit dem Tag Regionalgruppen" style="color:#5e5e5e; font-size:9px; line-height:14px;">Regionalgruppen</a></li><li><a href="http://www.gi.de/index.php?id=3756&amp;tx_tagpack_pi1%5Buid%5D=44&amp;tx_ttnews%5Bcategory%5D=&amp;cHash=392db28c295031b06f2cb45d032f197b" title="3 Einträge mit dem Tag RSS" style="color:#5e5e5e; font-size:8px; line-height:14px;">RSS</a></li><li><a href="http://www.gi.de/index.php?id=3756&amp;tx_tagpack_pi1%5Buid%5D=33&amp;tx_ttnews%5Bcategory%5D=&amp;cHash=cf10960741324ee333a80bfd595fd670" title="24 Einträge mit dem Tag Publikationen" style="color:#5e5e5e; font-size:12px; line-height:14px;">Publikationen</a></li><li><a href="http://www.gi.de/index.php?id=3756&amp;tx_tagpack_pi1%5Buid%5D=63&amp;tx_ttnews%5Bcategory%5D=&amp;cHash=bb09e496ec002ef794390470af84907a" title="39 Einträge mit dem Tag Service" style="color:#5e5e5e; font-size:15px; line-height:14px;">Service</a></li><li><a href="http://www.gi.de/index.php?id=3756&amp;tx_tagpack_pi1%5Buid%5D=36&amp;tx_ttnews%5Bcategory%5D=&amp;cHash=9c93e02998acd8f1498ed91f4751419a" title="1 Eintrag mit dem Tag Stellenangebote" style="color:#5e5e5e; font-size:8px; line-height:14px;">Stellenangebote</a></li><li><a href="http://www.gi.de/index.php?id=3756&amp;tx_tagpack_pi1%5Buid%5D=40&amp;tx_ttnews%5Bcategory%5D=&amp;cHash=636e5289b2f336baf1604b0fa16ee18d" title="8 Einträge mit dem Tag Studierende" style="color:#5e5e5e; font-size:9px; line-height:14px;">Studierende</a></li><li><a href="http://www.gi.de/index.php?id=3756&amp;tx_tagpack_pi1%5Buid%5D=45&amp;tx_ttnews%5Bcategory%5D=&amp;cHash=3f960883a20588af05165b34f5feed80" title="1 Eintrag mit dem Tag Wettbewerbe" style="color:#5e5e5e; font-size:8px; line-height:14px;">Wettbewerbe</a></li></ul></div></div></div>
+					</div></div>
+      
+      &nbsp;
+    </div>
+  </div>
+  <div id="col3">
+    <div id="col3_content" class="clearfix">
+      
+        <a name="c5755" id="c5755"></a><div id="c5755" class="csc-default"><div class="tx-cal-controller ">
+		<div id="calendar-event">
+	
+
+<h2 class="blue"><div>CoderDojo Potsdam&nbsp;(ganztägig)</div></h2>
+<div class="event-description"><label>Datum:</label>&nbsp;<div class="desc">27.09 </div></div>
+
+
+<div class="event-description"><label>Organisator:</label>&nbsp;<div class="desc"><a href="javascript:linkTo_UnCryptMailto('pdlowr-vfkxhohudndghplhCksl1gh');" title="CoderDojo Potsdam">Hasso-Plattner-Institut</a></div></div>
+<div class="event-description"><label>Ort:</label>&nbsp;<div class="desc"><a target="_blank" title="CoderDojo Potsdam" href="https://zen.coderdojo.com/dojo/861"><span class="location_zipcode">14482</span> <span class="location_place">Potsdam</span></a></div></div>
+<div class="event-description"><label>Beschreibung:</label>&nbsp;<div class="desc"><p class="bodytext">Am
+ 27.09.2014 findet der erste Coder Dojo Potsdam am 
+Hasso-Plattner-Institut in Potsdam Griebnitzsee statt. Der CodeDojo ist 
+ein Klub für Kinder und Jugendliche, um Programmieren zu lernen.
+</p>
+<p class="bodytext">Kinder und Jugendliche können hier lernen, wie man 
+zum Beispiel Webseiten erstellt, Spiele selber baut und Apps 
+programmiert. Aber auch Mentoren sind herzlich willkommen, um dieses 
+Wissen zu vermitteln. 
+</p>
+<p class="bodytext">Alle Informationen sind unter https://zen.coderdojo.com/dojo/861 zu finden.
+</p>
+<p class="bodytext">&nbsp;</p></div></div>
+
+
+
+
+<div><a href="http://www.gi.de/index.php?id=1669&amp;type=150&amp;no_cache=1&amp;tx_cal_controller%5Bview%5D=single_ics&amp;tx_cal_controller%5Bgetdate%5D=20140927&amp;tx_cal_controller%5Btype%5D=tx_cal_phpicalendar&amp;tx_cal_controller%5Buid%5D=3176&amp;tx_cal_controller%5Blastview%5D=view-event%7Cpage_id-1669%7Cuid-3176%7Ctype-tx_cal_phpicalendar" title="Diesen Termin als *.ics-Kalendereintrag beziehen" class="url"><img src="2014.09.27%20-%20CoderDojo%20Potsdam%C2%A0-%C2%A0GI%20-%20Gesellschaft%20f%C3%BCr%20Informatik%20e.V_files/ics.gif" alt="" border="0"></a></div>
+
+
+
+
+
+</div>
+<div class="calendar-event horz_cal_nav">
+	<div class="browse">
+		<span><a href="http://www.gi.de/index.php?id=1669&amp;no_cache=1&amp;no_cache=1&amp;tx_cal_controller%5Bview%5D=event&amp;tx_cal_controller%5Bgetdate%5D=20140927&amp;tx_cal_controller%5Btype%5D=tx_cal_phpicalendar&amp;tx_cal_controller%5Buid%5D=3176&amp;tx_cal_controller%5Bcategory%5D=&amp;tx_cal_controller%5Blastview%5D=#" onclick="history.back(); return false;" class="backlink">Zurück</a></span>
+	</div>
+	<div class="cal_view_links clearfix">
+		<span>Ansicht:&nbsp;</span>
+		<a href="http://www.gi.de/index.php?id=day&amp;no_cache=1" class="dayoff" title="Tagesansicht">Tagesansicht</a>
+		<a href="http://www.gi.de/index.php?id=week&amp;no_cache=1" class="weekoff" title="Wochenansicht">Wochenansicht</a>
+		<a href="http://www.gi.de/index.php?id=1664&amp;no_cache=1" class="monthoff" title="Monatsansicht">Monatsansicht</a>
+	</div>	
+</div>
+<div style="clear:both;"></div>
+</div></div>
+      
+    </div>
+    <!-- IE Column Clearing -->
+    <div id="ie_clearing"> &nbsp; </div>
+  </div>
+
+    </div>
+    <div id="footer">
+      <div id="advice">
+        
+  <label for="advice_page">Seite empfehlen:</label>
+  <input name="advice_page" id="advice_page" value="http://www.gi.de/index.php?id=1669&amp;no_cache=1" type="text">
+
+      </div>
+      <div id="sitemap" class="clearfix">
+        
+          <ul class="sitemap"><li><a href="http://www.gi.de/index.php?id=aktuelles" target="_self">Aktuelles</a><ul><li><a href="http://www.gi.de/index.php?id=4304" target="_self">INFORMATIK 2016</a></li><li><a href="http://www.gi.de/index.php?id=3745" target="_self">Meldungen</a></li><li><a href="http://www.gi.de/index.php?id=4302" target="_self">Smart Data Begleitforschung</a></li><li><a href="http://www.gi.de/index.php?id=1664&amp;no_cache=1" target="_self">Terminkalender</a></li><li><a href="http://www.gi.de/index.php?id=3904" target="_self">Bewegungsmelder</a></li><li><a href="http://www.gi.de/index.php?id=4270" target="_self">Zur Diskussion</a></li></ul></li><li><a href="http://www.gi.de/index.php?id=44" target="_self">Themen</a><ul><li><a href="http://www.gi.de/index.php?id=68" target="_self">Aus- und Weiterbildung</a></li><li><a href="http://www.gi.de/index.php?id=3452" target="_self">Bild der Informatik</a></li><li><a href="http://www.gi.de/index.php?id=328" target="_self">Datenschutz</a></li><li><a href="http://www.gi.de/index.php?id=65" target="_self">Frauen in der Informatik</a></li><li><a href="http://www.gi.de/index.php?id=320" target="_self">Geistiges Eigentum und Schutzrechte</a></li><li><a href="http://www.gi.de/index.php?id=402" target="_self">Geschichte der Informatik</a></li><li><a href="http://www.gi.de/index.php?id=grand-challenges" target="_self">Grand Challenges der Informatik</a></li><li><a href="http://www.gi.de/index.php?id=69" target="_self">Hochschule</a></li><li><a href="http://www.gi.de/index.php?id=816" target="_self">Informationsgesellschaft</a></li><li><a href="http://www.gi.de/index.php?id=mint" target="_self">MINT</a></li><li><a href="http://www.gi.de/index.php?id=1155" target="_self">Nachwuchsförderung</a></li><li><a href="http://www.gi.de/index.php?id=63" target="_self">Informatik in der Schule</a></li><li><a href="http://www.gi.de/index.php?id=311" target="_self">Sicherheit</a></li><li><a href="http://www.gi.de/index.php?id=3899" target="_self">Digitale Überwachung</a></li><li><a href="http://www.gi.de/index.php?id=327" target="_self">Was ist Informatik?</a></li></ul></li><li><a href="http://www.gi.de/index.php?id=43" target="_self">Gliederungen</a><ul><li><a href="http://www.gi.de/index.php?id=51" target="_self">Fachbereiche</a></li><li><a href="http://www.gi.de/index.php?id=681" target="_self">Regionalgruppen</a></li><li><a href="http://www.gi.de/index.php?id=50" target="_self">Präsidiumsarbeitskreise</a></li><li><a href="http://www.gi.de/index.php?id=49" target="_self">Beiräte</a></li><li><a href="http://www.gi.de/index.php?id=3801" target="_self">Hochschulgruppen</a></li></ul></li><li><a href="http://www.gi.de/index.php?id=42" target="_self">Service</a><ul><li><a href="http://www.gi.de/index.php?id=79" target="_self">Digitale Bibliotheken</a></li><li><a href="http://www.gi.de/index.php?id=78" target="_self">Downloads</a></li><li><a href="http://www.gi.de/index.php?id=4238" target="_self">China-Reise</a></li><li><a href="http://www.gi.de/index.php?id=77" target="_self">Informatiklexikon</a></li><li><a href="http://www.gi.de/index.php?id=1534" target="_self">Informatik-Studiengänge</a></li><li><a href="http://www.gi.de/index.php?id=76" target="_self">Publikationen</a></li><li><a href="http://www.gi.de/index.php?id=332" target="_self">RSS-Feeds</a></li><li><a href="https://www.gi.de/index.php?id=82" target="_self">Stellen anbieten</a></li><li><a href="http://www.gi.de/index.php?id=1418&amp;no_cache=1" target="_self">Stellen suchen</a></li><li><a href="https://www.gi.de/index.php?id=411" target="_self">Veranstaltungen anmelden</a></li><li><a href="http://www.gi.de/index.php?id=1220" target="_self">Unsere Angebote und Ihre Vorteile</a></li><li><a href="http://www.gi.de/index.php?id=229" target="_self">Wie Mitglied werden</a></li></ul></li><li><a href="http://www.gi.de/index.php?id=41" target="_self">Presse</a><ul><li><a href="http://www.gi.de/index.php?id=381" target="_self">Pressespiegel</a></li><li><a href="http://www.gi.de/index.php?id=3750" target="_self">Pressearchiv</a></li></ul></li><li><a href="http://www.gi.de/index.php?id=40" target="_self">Wir über uns</a><ul><li><a href="http://www.gi.de/index.php?id=89" target="_self">Ziele und Aufgaben</a></li><li><a href="http://www.gi.de/index.php?id=87" target="_self">Unsere Grundsätze</a></li><li><a href="http://www.gi.de/index.php?id=412" target="_self">Unsere Mitglieder</a></li><li><a href="http://www.gi.de/index.php?id=4198" target="_self">Unsere Jahrestagungen</a></li><li><a href="http://www.gi.de/index.php?id=3765" target="_self">Testimonials</a></li><li><a href="http://www.gi.de/index.php?id=4229" target="_self">GI-Mitglieder einmal anders</a></li><li><a href="http://www.gi.de/index.php?id=123" target="_self">Leitung</a></li><li><a href="http://www.gi.de/index.php?id=147" target="_self">Personen</a></li><li><a href="http://www.gi.de/index.php?id=85" target="_self">Wettbewerbe</a></li><li><a href="http://www.gi.de/index.php?id=685" target="_self">Unsere Partner</a></li><li><a href="http://www.gi.de/index.php?id=3787" target="_self">Unsere Botschafter</a></li><li><a href="http://www.gi.de/index.php?id=1125" target="_self">Assoziierte Gesellschaften</a></li><li><a href="http://www.gi.de/index.php?id=393" target="_self">Ansprechpartner/innen</a></li><li><a href="http://www.gi.de/index.php?id=157" target="_self">Geschäftsstelle</a></li></ul></li><li><a href="https://www.gi.de/index.php?id=288" target="_self">Mitgliedschaft</a><ul><li><a href="https://www.gi.de/index.php?id=4169" target="_self">Mitglied werden</a></li><li><a href="http://www.gi.de/index.php?id=4307" target="_self">Beitragsinformationen</a></li><li><a href="http://www.gi.de/index.php?id=1876" target="_self">Ziele und Aufgaben</a></li><li><a href="http://www.gi.de/index.php?id=1877" target="_self">Unsere Grundsätze</a></li><li><a href="http://www.gi.de/index.php?id=4167" target="_self">Unsere Mitglieder</a></li><li><a href="http://www.gi.de/index.php?id=4168" target="_self">Vorteile und Angebote</a></li><li><a href="http://www.gi.de/index.php?id=4170" target="_self">Korporative Mitgliedschaft</a></li><li><a href="http://www.gi.de/index.php?id=4256" target="_self">SEPA Mandat</a></li></ul></li></ul>
+        
+      </div>
+      <div id="meta_footer" class="clearfix">
+        <div class="left">
+          
+            <ul class="clearfix"><li><a href="http://www.gi.de/allgemein/sitemap/" target="_blank">Sitemap</a></li><li><a href="http://www.gi.de/allgemein/kontakt/" target="_blank">Kontakt</a></li><li><a href="http://www.gi.de/allgemein/feedback/" target="_blank">Feedback</a></li><li><a href="http://www.gi.de/allgemein/impressum/" target="_blank">Impressum</a></li><li><a href="http://www.gi.de/allgemein/datenschutzerklaerung/" target="_blank">Datenschutzerklärung</a></li><li> <a href="http://www.gi.de/index.php?id=1669&amp;no_cache=1&amp;no_cache=1&amp;tx_cal_controller%5Bview%5D=event&amp;tx_cal_controller%5Bgetdate%5D=20140927&amp;tx_cal_controller%5Btype%5D=tx_cal_phpicalendar&amp;tx_cal_controller%5Buid%5D=3176&amp;tx_cal_controller%5Bcategory%5D=&amp;tx_cal_controller%5Blastview%5D=&amp;type=98" target="_blank">Druckversion</a> </li></ul>
+          
+          <p>© Gesellschaft für Informatik e.V. | am&nbsp;30.11.2015&nbsp;zuletzt geändert:&nbsp;<a href="http://www.gi.de/index.php?id=328">Präsidiumsarbeitskreis "Datenschutz und IT-Sicherheit"</a></p>
+        </div>
+        <div class="right">
+          
+            <div class="csc-textpic csc-textpic-center csc-textpic-above csc-textpic-caption-c csc-textpic-equalheight"><div class="csc-textpic-imagewrap" style="width:450px;"><dl class="csc-textpic-image csc-textpic-firstcol" style="width:46px;"><dt><a href="http://www.informatik.org/" target="_blank" title="German Chapter of the Association for Computing Machinery (ACM)"><img src="2014.09.27%20-%20CoderDojo%20Potsdam%C2%A0-%C2%A0GI%20-%20Gesellschaft%20f%C3%BCr%20Informatik%20e.V_files/953bb0149e.gif" alt="German Chapter of the Association for Computing Machinery (ACM)" border="0" height="44" width="46"></a></dt><dd class="csc-textpic-caption"><br>
+</dd></dl><dl class="csc-textpic-image" style="width:117px;"><dt><a href="http://www.gil.de/" target="_blank" title="Gesellschaft für Informatik in der Landwirtschaft"><img src="2014.09.27%20-%20CoderDojo%20Potsdam%C2%A0-%C2%A0GI%20-%20Gesellschaft%20f%C3%BCr%20Informatik%20e.V_files/428c232a76.jpg" alt="Gesellschaft für Informatik in der Landwirtschaft" border="0" height="44" width="117"></a></dt><dd class="csc-textpic-caption"><br>
+</dd></dl><dl class="csc-textpic-image" style="width:132px;"><dt><a href="http://www.s-i.ch/" target="_blank" title="SI: Schweizer Informatik Gesellschaft"><img src="2014.09.27%20-%20CoderDojo%20Potsdam%C2%A0-%C2%A0GI%20-%20Gesellschaft%20f%C3%BCr%20Informatik%20e.V_files/519280ce38.jpg" alt="SI: Schweizer Informatik Gesellschaft" border="0" height="44" width="132"></a></dt><dd class="csc-textpic-caption"><br>
+</dd></dl><dl class="csc-textpic-image csc-textpic-lastcol" style="width:125px;"><dt><img src="2014.09.27%20-%20CoderDojo%20Potsdam%C2%A0-%C2%A0GI%20-%20Gesellschaft%20f%C3%BCr%20Informatik%20e.V_files/69bd524bc1.png" alt="" border="0" height="44" width="125"></dt><dd class="csc-textpic-caption">sofern kein anderes Copyright angegeben ist</dd></dl></div></div><div class="csc-textpic-clear"><!-- --></div>
+          
+        </div>
+      </div> 
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div id="AutocompleteContainter_1449051101355" style="position: absolute; top: 191px; left: 1096.6px;"><div class="autocomplete-w1"><div class="autocomplete" id="Autocomplete_1449051101355" style="display: none; width: 250px; max-height: 400px;"></div></div></div></body></html>

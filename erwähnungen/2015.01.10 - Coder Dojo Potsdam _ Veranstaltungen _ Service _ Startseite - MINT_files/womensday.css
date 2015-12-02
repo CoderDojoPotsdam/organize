@@ -1,0 +1,27 @@
+/* ####################################
+International Women's Day */
+#wd_container, #wd_layer,#wd_content{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    position: absolute;
+    left: 0;
+    top: 0;
+	z-index: 101;
+}
+#wd_container{
+    display: none;
+}
+#wd_layer{
+    background: #816243 url(../images/wd_sepia_background.png) repeat-x; 
+    background: transparent url(../images/wd_sepia_background.png) repeat-x;
+    /* background: #816243 url(../images/wd_sepia_background.png) repeat-x; */
+    /* background-color: #5a4532 ; */
+    z-index: 102;
+    opacity: 1;
+}
+#wd_layer img{
+    display: block;
+    margin: 0 auto;
+    opacity: 1;
+}

@@ -1,0 +1,108 @@
+/* Welcome to Compass. Use this file to define print styles. Import this file using the following HTML or equivalent: <link href="/css/print.css" media="print" rel="stylesheet" type="text/css" /> */
+@import url("/typo3conf/sites/tsb/css/bs.css");
+@import url("/typo3conf/sites/tsb/css/screen.css");
+body { font-size: 75% !important; }
+
+.container { width: 630px !important; margin: 0 !important; }
+
+#headerWrap { height: 7em; width: 100% !important; position: static !important; }
+#headerWrap .head-nav, #headerWrap .head-search, #headerWrap .head-social, #headerWrap .head-white-bar { display: none !important; }
+#headerWrap .logo-small { margin-top: 0 !important; padding: 0 !important; }
+
+#ke_search_results_wrap { display: none !important; }
+
+#teaser { min-height: 0 !important; padding-bottom: 5em; }
+#teaser > .row { position: static !important; }
+#teaser .header-logo { display: none !important; }
+#teaser .header-left { left: 0 !important; width: 100% !important; position: static !important; }
+#teaser .header-left > .csc-default { position: static !important; }
+#teaser .header-right { display: none !important; }
+
+#content .navBreadcrumb { display: none !important; }
+#content .maincol { float: none !important; width: 100% !important; }
+#content .rightcol { float: none !important; }
+#content .content-left { height: auto !important; width: 100% !important; margin: 0 !important; float: none !important; }
+#content .content-left div { position: static !important; }
+#content .content-right { height: auto !important; width: 100% !important; float: none !important; }
+
+#sitemap { display: none !important; }
+
+#footer { display: none !important; }
+
+.scrollToTop { display: none !important; }
+
+#content .letter { background: #000 !important; color: #fff !important; }
+#content .rightcol { padding-left: 0 !important; }
+#content .f3-widget-paginator { display: none !important; }
+
+.contactBox { page-break-inside: avoid; }
+.contactBox .arrow-left, .contactBox .glyphicon { display: none !important; }
+.contactBox .options { display: block !important; }
+
+.googleContact { height: auto !important; }
+.googleContact .contact-text { width: 100% !important; position: static !important; }
+.googleContact .contact-text .csc-default { background: #f5f5f5 !important; }
+.googleContact .contact-text .arrow-right { display: none !important; }
+.googleContact .contact-google { display: none; }
+
+.overview { min-height: 0 !important; }
+.overview .col-sm-7 { width: 100% !important; float: none !important; }
+.overview .col-sm-5 { width: 100% !important; float: none !important; }
+.overview .col-sm-5 > div { width: 100% !important; margin: 0 !important; }
+.overview .overview-text { width: 100% !important; position: static !important; }
+body.area-issues .overview .overview-text .csc-default { background: #e60032 !important; }
+body.area-issues .overview .overview-text .csc-default h2, body.area-issues .overview .overview-text .csc-default p { color: #fff !important; }
+body.area-library .overview .overview-text .csc-default { background: #2e91d2 !important; }
+body.area-library .overview .overview-text .csc-default h2, body.area-library .overview .overview-text .csc-default p { color: #fff !important; }
+body.area-foundation .overview .overview-text .csc-default { background: #f5f5f5 !important; }
+.overview .overview-text .arrow-right { display: none !important; }
+.overview .overview-image { display: none; }
+
+.contactList > .col-sm-5 { margin-left: 0 !important; width: 41.56em !important; }
+.contactList > .col-sm-5 .listItem { page-break-inside: avoid; }
+.contactList > .col-sm-5 .imgOrigin { opacity: 1 !important; }
+.contactList > .col-sm-5 .imgBlue { opacity: 0 !important; }
+.contactList > .col-sm-3 { display: none !important; }
+
+.mediaList > .col-sm-8 { margin: 0 !important; }
+.mediaList > .col-sm-3 { display: none !important; }
+.mediaList .listItem { page-break-inside: avoid; }
+.mediaList .listItem .mediaInfo { width: 62.5% !important; }
+.mediaList .listItem .mediaInfo .mediaDesc { height: auto !important; }
+.mediaList .listItem .mediaInfo .readmore, .mediaList .listItem .mediaInfo hr.stripe { display: none !important; }
+.mediaList .listItem .mediaActions { display: none !important; }
+
+.wordList > .col-sm-8 { margin: 0 !important; width: auto !important; }
+.wordList > .col-sm-8 .listItem { padding-top: 1.875em !important; }
+.wordList > .col-sm-8 .listItem .wordImage { display: none !important; }
+.wordList > .col-sm-8 .listItem .wordInfo { border-top: 3px solid #000; padding-top: 1.875em !important; width: 100% !important; }
+.wordList > .col-sm-8 .listItem .wordInfo hr { display: none !important; }
+.wordList > .col-sm-8 .letterBox { display: none !important; }
+.wordList > .col-sm-3 { display: none !important; }
+
+.area-topics .hotTopic { width: 50% !important; float: left !important; page-break-inside: avoid; }
+.area-topics .hotTopic .csc-default { background: #1e3791 !important; }
+.area-topics .hotTopic .csc-default h2, .area-topics .hotTopic .csc-default p { color: #fff !important; }
+.area-topics .hotTopic .csc-default .csc-linkwrap { display: none; }
+
+.newsList .listItem, .eventList .listItem { page-break-inside: avoid; }
+.newsList .listItem .col-sm-4, .eventList .listItem .col-sm-4 { width: 19.75em !important; float: left !important; }
+.newsList .listItem .col-sm-5, .eventList .listItem .col-sm-5 { width: 30em !important; float: left !important; }
+.newsList .listItem .csc-linkwrap, .eventList .listItem .csc-linkwrap { display: none; }
+.newsList .eventListSwitch, .eventList .eventListSwitch { display: none; }
+
+.newsDetail > .row > .col-sm-9, .eventDetail > .row > .col-sm-9 { width: 100% !important; float: none !important; }
+.newsDetail > .row > .col-sm-3, .eventDetail > .row > .col-sm-3 { width: 100% !important; float: none !important; }
+.newsDetail .backLink, .eventDetail .backLink { display: none !important; }
+.newsDetail .newsShare, .newsDetail .eventShare, .eventDetail .newsShare, .eventDetail .eventShare { display: none !important; }
+.newsDetail .newsImageWrap, .newsDetail .eventImageWrap, .eventDetail .newsImageWrap, .eventDetail .eventImageWrap { padding: 3em 0 0 0 !important; margin: 0 !important; text-align: left !important; }
+.newsDetail .newsImageWrap .img-enlarge, .newsDetail .newsImageWrap .img-download, .newsDetail .eventImageWrap .img-enlarge, .newsDetail .eventImageWrap .img-download, .eventDetail .newsImageWrap .img-enlarge, .eventDetail .newsImageWrap .img-download, .eventDetail .eventImageWrap .img-enlarge, .eventDetail .eventImageWrap .img-download { display: none !important; }
+.newsDetail .newsText, .newsDetail .eventText, .eventDetail .newsText, .eventDetail .eventText { padding: 3em 0 0 0 !important; }
+.newsDetail .eventDownloadlist, .newsDetail .newsLinklist, .eventDetail .eventDownloadlist, .eventDetail .newsLinklist { padding: 3em 0 0 0 !important; margin-left: 0 !important; width: 100% !important; page-break-inside: avoid; }
+.newsDetail .eventDownloadlist img, .newsDetail .newsLinklist img, .eventDetail .eventDownloadlist img, .eventDetail .newsLinklist img { display: none !important; }
+.newsDetail .eventDownloadlist a, .newsDetail .newsLinklist a, .eventDetail .eventDownloadlist a, .eventDetail .newsLinklist a { max-width: 100% !important; }
+.newsDetail .eventInvitation, .eventDetail .eventInvitation { display: none !important; }
+.newsDetail .mediaContainer1, .newsDetail .mediaContainer2, .newsDetail .mediaContainer3, .newsDetail .mediaContainer4, .eventDetail .mediaContainer1, .eventDetail .mediaContainer2, .eventDetail .mediaContainer3, .eventDetail .mediaContainer4 { display: none !important; }
+.newsDetail .eventPodium, .newsDetail .eventModeration, .eventDetail .eventPodium, .eventDetail .eventModeration { width: 100% !important; }
+
+.affixContainer { position: static !important; }
