@@ -11,7 +11,7 @@ Erwähungen des Coder Dojos Potsdam
 Ziel
 ----
 
-Ziel des Ganzen ist, verschwindende Artikel über das Coder Dojo festzuhalten.
+Ziel des Ganzen ist, verschwindende Artikel über das Coder Dojo festzuhalten. Wenn Sie nicht möchten, dass Ihre Seite hier auftaucht, bitte einfach eine Issue öffnen oder Mail schreiben.
 
 Quellen
 -------
