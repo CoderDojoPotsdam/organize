@@ -1,6 +1,7 @@
 Erwähungen des Coder Dojos Potsdam
 ==================================
 
+- Unser [Blog](../blog)
 - Iwan Gabowitch - [OpenTechSummit](http://2015.opentechsummit.net/)
   - [Arduino](https://www.flickr.com/photos/qubodup/17850257771/) 
   - [Raspi](https://www.flickr.com/photos/qubodup/17849765465/)
