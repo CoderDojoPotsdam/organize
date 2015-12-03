@@ -1,5 +1,5 @@
-Erwähungen des Coder Dojos Potsdam
-==================================
+Erwähnungen des Coder Dojos Potsdam
+===================================
 
 - Unser [Blog](../blog)
 - Iwan Gabowitch - [OpenTechSummit](http://2015.opentechsummit.net/)
