@@ -20,7 +20,7 @@ Wenn alle da sind geht es los mit einer Vorstellung.
 - Gibt es was zu trinken, Tassen, wo?
 - Gibt es Aushänge oder Flyer zu interessanten Veranstaltungen?
 - Die Materialien werden präsentiert
-	- Manche werden vorher schon auf der [Coder Dojo Potsdam Seite](https://zen.coderdojo.com/dojo/861) in der Materialabteilung gelistet. 
+	- Manche werden vorher schon auf der [Coder Dojo Potsdam Seite](https://coderdojopotsdam.github.io) in der Materialabteilung gelistet. 
 	- Mentoren können dabei ihre Spezialgebiete und Projekte anpreisen, damit alle Teilnehmer wissen, was man heute machen kann. Auf jeden Fall sagt jeder Mentor was zu sich. 
 	- Wenn Teilnehmer spezielle Vorstellungen haben und Projektmitglieder haben, ist das auch der richtige Zeitpunkt für sie, was zu sagen.
 - Gibt es Fragen?

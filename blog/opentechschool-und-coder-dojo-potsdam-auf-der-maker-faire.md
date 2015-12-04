@@ -65,7 +65,7 @@ Deswegen - eigendlich immer eine gute Idee - ging das Feedback von den Mentoren/
 
 Vielen Dank an dieser Stelle an alle Mentoren und Helfer! Das an dieser Stelle mit Bestimmtheit auch im Namen vieler Teilnehmer.
 
-- [Coder Dojo Potsdam](http://zen.coderdojo.com/dojo/861)
+- [Coder Dojo Potsdam](https://coderdojopotsdam.github.io)
   - [Nicco Kunzmann](http://jugendprogrammiert.weebly.com/)
   - [Christoph Sterz](http://www.chsterz.de/)
   - Stefan Gehrmann
