@@ -68,5 +68,8 @@ Danach
 - Blogpost schreiben
 - Teilnehmer von Eventbrite kopieren und in die Google-Mailingliste einladen.
 	- Verwalten -> alle anzeigen -> Exportieren.
-	- Mit der Zeile kann man sie in Excel zum Einladen formatieren: `=N2 & " " & O2  & " <" & P2 & ">,"`
+	- Mit der Zeile kann man sie in Excel zum Einladen formatieren
+	
+            =S2 & " " & T2 & " <" & U2 & ">,"
+
 - [Coder Dojo Potsdam Seite](https://coderdojopotsdam.github.io) aktualisieren auf "Register Ahead".
