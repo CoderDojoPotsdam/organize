@@ -54,6 +54,7 @@ Kurz Vorher
 - Steckdosenleisten verteilen
 - Tische umstellen, sodass der Projektor sichtbar bleibt, auch wenn der Raum voll wird
 - Ankommenden die unterschriebenen Teilnahmebedingungen abnehmen
+- Thementische Einrichten "Hardware" "Anfänger" "Eltern" "Essen"
 
 
 [Währenddessen](Ablauf.md)
