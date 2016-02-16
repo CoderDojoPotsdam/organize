@@ -74,3 +74,8 @@ Danach
             =S2 & " " & T2 & " <" & U2 & ">,"
 
 - [Coder Dojo Potsdam Seite](https://coderdojopotsdam.github.io) aktualisieren auf "Register Ahead".
+
+Weitere Links
+-------------
+
+- [Checkliste zum Ausführen von CoderDojos](https://github.com/richardmacduff/coderDojoTools)
