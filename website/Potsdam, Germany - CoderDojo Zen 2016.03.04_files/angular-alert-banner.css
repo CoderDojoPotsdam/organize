@@ -1,0 +1,7 @@
+/**
+ * angular-alert-banner - Angular module for display alert as banner
+ * @version v1.0.0
+ * @link https://github.com/samouss/angular-alert-banner
+ * @license MIT
+ */
+.alert-message{width:100%;position:fixed;font-size:1.8rem;line-height:65px;height:0;top:0;overflow:hidden;transition:height .25s ease-in-out;text-align:center;z-index:100;color:#FFF}.alert-message.active{height:65px}.alert-message.info{background:#337ab7}.alert-message.success{background:#5cb85c}.alert-message.error{background:#d9534f}.alert-message p{display:inline;margin:0}.alert-message a{float:right;color:#FFF}.alert-message a:active,.alert-message a:hover{text-decoration:none}.alert-message a>i{vertical-align:-3px}
