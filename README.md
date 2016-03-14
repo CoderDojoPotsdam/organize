@@ -15,3 +15,4 @@ Es gibt Seiten für
 - [Material](https://github.com/CoderDojoPotsdam/material)
 - [Das Organisationsrepository](https://github.com/CoderDojoPotsdam/organize)
 - [Poster](posters) zum Aushängen
+- [Erwänungen des CoderDojo Potsdam](erwähnungen)
