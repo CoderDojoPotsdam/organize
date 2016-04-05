@@ -37,6 +37,8 @@ Sobald Wie Möglich
 - "Tiffany Conroy" tif⍟tif⚜ca und "Philip Brechler" philip⚜brechler⍟gmail⚜com sind die Organisatoren vom [Coder Dojo Berlin](https://zen.coderdojo.com/dojo/522) und können darüber informiert werden, dass es stattfindet und eingeladen werden.
 - Mit der Haustechnik FM⍟hpi⚜de am HPI klarmachen, dass die Wand zwischen den Räumen aufgemacht werden muss. Außerdem liegen Steckdosenleisten im Raum H-E.51, die, wenn sie nicht reichen, die Haustechnik nachfüllen kann.
 - Fotoklub anschreiben, vielleicht wollen sie ja Fotos machen.
+- Staubsauger bei der Haustechnik bestellen, ist im Haustechnikkeller
+- Am Empfang Bescheid sagen
 
 Freitag vorher
 --------------
