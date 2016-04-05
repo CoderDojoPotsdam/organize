@@ -18,6 +18,8 @@ Wenn alle da sind geht es los mit einer Vorstellung.
 - Es wird gesagt, was wir hier vorhaben. http://coderdojo.com/about
 - Wo sind die Toiletten?
 - Gibt es was zu trinken, Tassen, wo?
+  - Teilnehmer auf Sauberkeit hinweisen
+  - Essen nicht über Teppich genießen
 - Gibt es Aushänge oder Flyer zu interessanten Veranstaltungen?
 - Die Materialien werden präsentiert
 	- Manche werden vorher schon auf der [Coder Dojo Potsdam Seite](https://coderdojopotsdam.github.io) in der Materialabteilung gelistet. 
@@ -59,4 +61,4 @@ Ende
 
 Bei den Teilnehmern und Mentoren bedanken. Von den Mentoren sollten wir die Namen aufschreiben. Dann können wir ihnen auf einem Blogpost danken und haben den Kontakt, wenn sie vergessen haben, sich in den Verteiler einzutragen.
 
-Den Raum so verlassen, wie er vorgefunden wurde.
+Den Raum so verlassen, wie er vorgefunden wurde, sauber.
