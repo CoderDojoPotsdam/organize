@@ -17,4 +17,4 @@ Es gibt Seiten für
 - [Das Organisationsrepository](https://github.com/CoderDojoPotsdam/organize)
 - [Poster](posters) zum Aushängen
 - [Erwänungen des CoderDojo Potsdam](erwähnungen)
-- [Coder Dojo Potsdam Google Groups](https://groups.google.com/forum/#!forum/coderdojopotsda)
+- [Coder Dojo Potsdam Google Groups](https://groups.google.com/forum/#!forum/coderdojopotsdam)
