@@ -14,7 +14,7 @@ Sobald Wie Möglich
 	- Dort überprüfen, da vielleicht manche Anmeldungen wie "Coder" oder "Eltern" auch nicht richtig kopiert werden
 - Email an Verteiler
 - Twittern von [@DojoPotsdam](https://twitter.com/DojoPotsdam)
-- Eine Mail an Rosina.Geiger⍟hpi⚜de und  Alexandra Jäger Alexandra.Jager⍟hpi⚜de  schreiben, um den Raum zu reservieren.
+- Eine Mail an rosina.geiger⍟hpi⚜de und  Alexandra Jäger alexandra.jaeger⍟hpi⚜de  schreiben, um den Raum zu reservieren.
  
 2 Wochen Vorher
 ---------------
