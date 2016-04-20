@@ -69,7 +69,7 @@ Danach
 
 - [Coder Dojo Potsdam Seite](https://coderdojopotsdam.github.io) aktualisieren auf "In Planning".
 - Blogpost schreiben
-- Teilnehmer von Eventbrite kopieren und in die Google-Mailingliste einladen.
+- Teilnehmer von Eventbrite kopieren und in die [Google-Mailingliste](https://groups.google.com/forum/#!forum/coderdojopotsdam) einladen.
 	- Verwalten -> alle anzeigen -> Exportieren.
 	- Mit der Zeile kann man sie in Excel zum Einladen formatieren
 	
