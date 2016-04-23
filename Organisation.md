@@ -21,6 +21,7 @@ Sobald Wie Möglich
 
 - Finde einen [Ort](Orte.md).
 - "Sebastian Seitz" Seitz⍟tsb-berlin⚜de eine Mail schreiben, um die [Arduinos](http://arduino.cc/), [MakeyMakeys](http://www.makeymakey.com/) und [RaspberryPis](http://www.raspberrypi.org/) auszuleihen in der [Hackingbox](https://www.technologiestiftung-berlin.de/de/top-themen/work/hacking-box/).
+- Admin⍟hpi⚜de eine Mail schreiben, dass wir für das CoderDojo WLAN benötigen.
 
 1 Woche Vorher
 --------------
