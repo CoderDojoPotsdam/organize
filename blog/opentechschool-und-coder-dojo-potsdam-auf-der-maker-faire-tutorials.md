@@ -27,7 +27,7 @@ As a coach: Add your favourite material and put your name behind the materials y
  * Pi2Go - PiRobot follows the line http://peggy-sylopp.net/ (link update follows)
    * Peggy Sylopp, Janine Dalisda-Davis
 
-More can be found at: https://coderdojopotsdam.github.io and http://jugendprogrammiert.weebly.com/
+More can be found at: http://zen.coderdojo.com/dojo/861 and http://jugendprogrammiert.weebly.com/
 
 Map
 ------

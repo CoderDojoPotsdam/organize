@@ -10,7 +10,7 @@ Sobald Wie Möglich
 - Coder Dojo Potsdam Seite aktualisieren auf "Register Ahead".
 - Eventbrite Event kopieren.
 	- Dabei die Erinnerungsmail selbst nochmal kopieren, diese wird nicht automatisch kopiert.
-	- Das Event auf der [Coder Dojo Potsdam Seite](https://coderdojopotsdam.github.io) eintragen.
+	- Das Event auf der [Coder Dojo Potsdam Seite](https://zen.coderdojo.com/dojo/861) eintragen.
 	- Dort überprüfen, da vielleicht manche Anmeldungen wie "Coder" oder "Eltern" auch nicht richtig kopiert werden
 - Email an Verteiler
 - Twittern von [@DojoPotsdam](https://twitter.com/DojoPotsdam)
@@ -37,8 +37,6 @@ Sobald Wie Möglich
 - "Tiffany Conroy" tif⍟tif⚜ca und "Philip Brechler" philip⚜brechler⍟gmail⚜com sind die Organisatoren vom [Coder Dojo Berlin](https://zen.coderdojo.com/dojo/522) und können darüber informiert werden, dass es stattfindet und eingeladen werden.
 - Mit der Haustechnik FM⍟hpi⚜de am HPI klarmachen, dass die Wand zwischen den Räumen aufgemacht werden muss. Außerdem liegen Steckdosenleisten im Raum H-E.51, die, wenn sie nicht reichen, die Haustechnik nachfüllen kann.
 - Fotoklub anschreiben, vielleicht wollen sie ja Fotos machen.
-- Staubsauger bei der Haustechnik bestellen, ist im Haustechnikkeller
-- Am Empfang Bescheid sagen
 
 Freitag vorher
 --------------
@@ -56,7 +54,6 @@ Kurz Vorher
 - Steckdosenleisten verteilen
 - Tische umstellen, sodass der Projektor sichtbar bleibt, auch wenn der Raum voll wird
 - Ankommenden die unterschriebenen Teilnahmebedingungen abnehmen
-- Thementische Einrichten "Hardware" "Anfänger" "Eltern" "Essen"
 
 
 [Währenddessen](Ablauf.md)
@@ -67,17 +64,8 @@ Kurz Vorher
 Danach
 ------
 
-- [Coder Dojo Potsdam Seite](https://coderdojopotsdam.github.io) aktualisieren auf "In Planning".
+- [Coder Dojo Potsdam Seite](https://zen.coderdojo.com/dojo/861) aktualisieren auf "In Planning".
 - Blogpost schreiben
 - Teilnehmer von Eventbrite kopieren und in die Google-Mailingliste einladen.
 	- Verwalten -> alle anzeigen -> Exportieren.
-	- Mit der Zeile kann man sie in Excel zum Einladen formatieren
-	
-            =S2 & " " & T2 & " <" & U2 & ">,"
-
-- [Coder Dojo Potsdam Seite](https://coderdojopotsdam.github.io) aktualisieren auf "Register Ahead".
-
-Weitere Links
--------------
-
-- [Checkliste zum Ausführen von CoderDojos](https://github.com/richardmacduff/coderDojoTools)
+- [Coder Dojo Potsdam Seite](https://zen.coderdojo.com/dojo/861) aktualisieren auf "Register Ahead".

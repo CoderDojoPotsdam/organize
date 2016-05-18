@@ -85,7 +85,7 @@ Schedule (9:00 - 17:30)
                                    Mentoren: Nicco Kunzmann
 
 Ziel dieser Struktur ist es, die Interessen zu bündeln und den Mentoren Pausen zu geben. Die Kinder können weiter sitzen bleiben und immer an allem arbeiten.
-Du Dich gerne noch mit was anderem beschäftigen möchtest, bitte trage es hier ein. Weiteres Material gibt es hier: https://coderdojopotsdam.github.io und hier: http://jugendprogrammiert.weebly.com/programmieren
+Du Dich gerne noch mit was anderem beschäftigen möchtest, bitte trage es hier ein. Weiteres Material gibt es hier: http://zen.coderdojo.com/dojo/861 und hier: http://jugendprogrammiert.weebly.com/programmieren
 
 TODO @ OpenTechSummit
 
