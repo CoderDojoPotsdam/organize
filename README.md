@@ -17,3 +17,4 @@ Es gibt Seiten für
 - [Poster](posters) zum Aushängen
 - [Erwänungen des CoderDojo Potsdam](erwähnungen)
 - [Coder Dojo Potsdam Google Groups](https://groups.google.com/forum/#!forum/coderdojopotsdam)
+- [Google Calender](https://calendar.google.com/calendar/embed?src=jugendprogrammiert%40gmail.com&ctz=Europe/Berlin)
