@@ -1,9 +1,9 @@
 Programmieren egal in welchem Alter - Unser Workshop auf der Maker Faire
 ========================================================================
 
-Die [Maker Faire](http://makerfaire.berlin) ist eine der größten Messen. Für Bastler und Tüftler aus aller Welt. Hier in Berlin fand sie am 3. und 4. Oktober statt. Weil wir schonmal beim [OpenTechSummit](http://2015.opentechsummit.net/) das Jugend- und Kinderprogramm gemacht haben, waren wir bei der [Meshcon](http://2015.meshcon.net/) auf der Maker Faire dabei.
+Die [Maker Faire](http://makerfaire.berlin) ist eine der größten Messen für Bastler und Tüftler aus aller Welt. Hier in Berlin fand sie am 3. und 4. Oktober statt. Weil wir schonmal beim [OpenTechSummit](http://2015.opentechsummit.net/) das Jugend- und Kinderprogramm gemacht haben, waren wir bei der [Meshcon](http://2015.meshcon.net/) auf der Maker Faire dabei.
 
-Die Idee war ein Workshop für jedes Alter, zum Programmieren lernen. Wir starteten 13:00 Uhr mit der Vorstellung der [Tutorials](opentechschool-und-coder-dojo-potsdam-auf-der-maker-faire-tutorials.html). Dann teilten wir, Coaches und Teilnehmer, uns auf die Workshopräume auf, um die eigenen Tutorials zu suchen.
+Die Idee war ein Workshop für jedes Alter, zum Programmieren lernen. Deswegen war auch die [OpenTechSchool](http://www.opentechschool.org/) dabei.Wir starteten 13:00 Uhr mit der Vorstellung der [Tutorials](opentechschool-und-coder-dojo-potsdam-auf-der-maker-faire-tutorials.html). Dann teilten wir, Coaches und Teilnehmer, uns auf die Workshopräume auf, um die eigenen Tutorials zu suchen.
 
 Im Python Workshopraum lernten die Teilnehmer [Programmieren mit der Schildkröte](http://opentechschool.github.io/python-beginners/) aber auch [Code Combat](http://codecombat.com/) war mit dabei. Aber auch fortgeschrittene Themen wurden behandelt.
 
@@ -20,7 +20,7 @@ Das ganze tröpfelte dann aus, sodass am Ende keine Vorstellung von Projekten me
 
 Deswegen - eigendlich immer eine gute Idee - ging das Feedback von den Mentoren/Coaches aus. 
 
-1. Was fand ich gut?
+1. **Was fand ich gut?**
 	- Dass es so viele verschiedene Angebote gab.
 	- Dass wir genug Mentoren hatten.
 	- Verpflegung war gut
@@ -37,7 +37,7 @@ Deswegen - eigendlich immer eine gute Idee - ging das Feedback von den Mentoren/
 	- alles!!!!!
 	- Die Atmosphäre vom Team fand ich gut.
 	- Dass es ein Lernhackathon für alle Alterstufen war. 
-2. Was würde ich verbessern?
+2. **Was würde ich verbessern?**
 	- Jemanden haben, der weiß, wo sich alle Verteilerleisten befinden.
 	- Schilder aufhängen, damit man uns findet
 	- Im Programm der Maker Faire ungekündigt werden
@@ -52,7 +52,7 @@ Deswegen - eigendlich immer eine gute Idee - ging das Feedback von den Mentoren/
 	- Der Komm-Und-Mach-Ansatz liegt mir nicht so – jedenfalls nicht ohne Vorbereitung. 
 	- Der Workshop-Platz hat nicht so zum Mitmachen eingeladen und Zuschauer waren schwer abzuholen und zu integrieren. 
 	- Gleich ein eine Kooperation mit anderen denken und diese Fragen. Dadurch kann man alle besser ankündigen.
-3. Was nehme ich mit/habe ich Neues erfahren?
+3. **Was nehme ich mit/habe ich Neues erfahren?**
 	- Man sollte vorbereitet sein, dass Teilnehmer "nein danke" zu Scratch sagen, weil sie's schon können. Wäre gut, ihnen etwas anderes anbieten zu können.
 	- Touchpads sind anstrengend, Teilnehmer haben's besser mit Mäusen.
 	- Durch die Vielfalt des Angebotes hat man selbst als Coach noch neue Dinge kennen gelernt.
@@ -65,7 +65,7 @@ Deswegen - eigendlich immer eine gute Idee - ging das Feedback von den Mentoren/
 
 Vielen Dank an dieser Stelle an alle Mentoren und Helfer! Das an dieser Stelle mit Bestimmtheit auch im Namen vieler Teilnehmer.
 
-- [Coder Dojo Potsdam](http://zen.coderdojo.com/dojo/861)
+- [Coder Dojo Potsdam](https://coderdojopotsdam.github.io)
   - [Nicco Kunzmann](http://jugendprogrammiert.weebly.com/)
   - [Christoph Sterz](http://www.chsterz.de/)
   - Stefan Gehrmann
@@ -92,7 +92,7 @@ Vielen Dank an dieser Stelle an alle Mentoren und Helfer! Das an dieser Stelle m
 - [Junge Tüftler](http://junge-tueftler.de/)
   - Julia Kleeberger
 
-Dankeschön an Mario Behling für die Umgebung der Mashcon, auf der unser Workshop stattfand. Danke an [Mozilla](https://www.mozilla.org) und das [HPI](http://hpi.de/) für die Freitickets, Verteilersteckdosen und anderes Material. Vielen Dank and die [Technologiestiftung Berlin](https://www.technologiestiftung-berlin.de/) für ihre [Hackingboxen](https://www.technologiestiftung-berlin.de/de/top-themen/work/hacking-box/) mit den Arduinos.
+Dankeschön an Mario Behling für die Umgebung der Meshcon, auf der unser Workshop stattfand. Danke an [Mozilla](https://www.mozilla.org) und das [HPI](http://hpi.de/) für die Freitickets, Verteilersteckdosen und anderes Material. Vielen Dank and die [Technologiestiftung Berlin](https://www.technologiestiftung-berlin.de/) für ihre [Hackingboxen](https://www.technologiestiftung-berlin.de/de/top-themen/work/hacking-box/) mit den Arduinos.
 
 Die Tutorialseite ist [hier](opentechschool-und-coder-dojo-potsdam-auf-der-maker-faire-tutorials.md) einzusehen, das Orgadokument ist [hier](opentechschool-und-coder-dojo-potsdam-auf-der-maker-faire-orga.md). Meetup waren vom [Coder Dojo](http://www.meetup.com/OpenXLab/events/225644499/) und der [OpenTechSchool](http://www.meetup.com/opentechschool-berlin/events/225532149/).
 

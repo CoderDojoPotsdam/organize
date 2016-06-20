@@ -10,7 +10,7 @@ Sobald Wie Möglich
 - Coder Dojo Potsdam Seite aktualisieren auf "Register Ahead".
 - Eventbrite Event kopieren.
 	- Dabei die Erinnerungsmail selbst nochmal kopieren, diese wird nicht automatisch kopiert.
-	- Das Event auf der [Coder Dojo Potsdam Seite](https://zen.coderdojo.com/dojo/861) eintragen.
+	- Das Event auf der [Coder Dojo Potsdam Seite](https://coderdojopotsdam.github.io) eintragen.
 	- Dort überprüfen, da vielleicht manche Anmeldungen wie "Coder" oder "Eltern" auch nicht richtig kopiert werden
 - Email an Verteiler
 - Twittern von [@DojoPotsdam](https://twitter.com/DojoPotsdam)
@@ -50,6 +50,7 @@ Kurz Vorher
 - Steckdosenleisten verteilen
 - Tische umstellen, sodass der Projektor sichtbar bleibt, auch wenn der Raum voll wird
 - Ankommenden die unterschriebenen Teilnahmebedingungen abnehmen
+- Thementische Einrichten "Hardware" "Anfänger" "Eltern" "Essen"
 
 [Währenddessen](Ablauf.md)
 --------------------------
@@ -59,8 +60,17 @@ Kurz Vorher
 Danach
 ------
 
-- [Coder Dojo Potsdam Seite](https://zen.coderdojo.com/dojo/861) aktualisieren auf "In Planning".
+- [Coder Dojo Potsdam Seite](https://coderdojopotsdam.github.io) aktualisieren auf "In Planning".
 - Blogpost schreiben
 - Teilnehmer von Eventbrite kopieren und in die [Google-Mailingliste](https://groups.google.com/forum/#!forum/coderdojopotsdam) einladen.
 	- Verwalten -> alle anzeigen -> Exportieren.
-- [Coder Dojo Potsdam Seite](https://zen.coderdojo.com/dojo/861) aktualisieren auf "Register Ahead".
+	- Mit der Zeile kann man sie in Excel zum Einladen formatieren
+	
+            =S2 & " " & T2 & " <" & U2 & ">,"
+
+- [Coder Dojo Potsdam Seite](https://coderdojopotsdam.github.io) aktualisieren auf "Register Ahead".
+
+Weitere Links
+-------------
+
+- [Checkliste zum Ausführen von CoderDojos](https://github.com/richardmacduff/coderDojoTools)

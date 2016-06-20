@@ -5,13 +5,13 @@
   <STRONG>
     Bitte bringe eine <A HREF="http://owncloud.hpi.de/public.php?service=files&t=8c2182f20736cf759936933aec5176a2&download">unterschriebene Teilnahmebedingnung</A>[1] mit oder schicke sie an mich als Antwort auf diese Mail.
   </STRONG>
-  Diese findest du auch auf der <A HREF="http://zen.coderdojo.com/dojo/861">Webseite</A>[2]. 
+  Diese findest du auch auf der <A HREF="https://coderdojopotsdam.github.io">Webseite</A>[2]. 
 </P>
 <P>Bis dann!<BR/>Nicco Kunzmann</P>
 
 <P>
 [1] http://owncloud.hpi.de/public.php?service=files&t=8c2182f20736cf759936933aec5176a2&download <BR />
-[2] http://zen.coderdojo.com/dojo/861
+[2] https://coderdojopotsdam.github.io
 </P>
 
 
@@ -24,4 +24,4 @@ Nicco Kunzmann
 
 
 [1] http://owncloud.hpi.de/public.php?service=files&t=8c2182f20736cf759936933aec5176a2&download
-[2] http://zen.coderdojo.com/dojo/861
+[2] https://coderdojopotsdam.github.io
