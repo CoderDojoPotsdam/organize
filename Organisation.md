@@ -76,7 +76,7 @@ Danach
           > dies ist eine Einladung in den CoderDojo Newsletter.
           > Wenn Du diese Einladung annimmst, erhältst Du Erinnerungen und Neuigkeiten zum CoderDojo und ähnlichen Veranstaltungen.
           > 
-          > Viele Grüße,
+          > Viele Grüße,  
           > Nicco
           >
 
