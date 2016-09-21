@@ -4,7 +4,7 @@ Coder Dojo Potsdam
 Dieses Repository ist für die Organisation des Dojos gedacht.
 Es gibt Seiten für
 
-- [Die Hauptseite des Coder Dojo Potsdam](https://CoderDojoPotsdam.github.io)
+- [Die Hauptseite des Coder Dojo Potsdam](https://zen.coderdojo.com/dojo/de/brandenburg/potsdam/potsdam-hpi)
 - [FAQ, häufige Fragen](FAQ.md)
 - [Wie läuft das Coder Dojo ab](Ablauf.md)
 - [Wie organisiere ich das Coder Dojo in Potsdam?](Organisation.md)
