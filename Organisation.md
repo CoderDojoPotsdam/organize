@@ -70,15 +70,14 @@ Danach
 
         - Einladetext:
         
-          > 
-          > Hallo,
-          > 
-          > dies ist eine Einladung in den CoderDojo Newsletter.
-          > Wenn Du diese Einladung annimmst, erhältst Du Erinnerungen und Neuigkeiten zum CoderDojo und ähnlichen Veranstaltungen.
-          > 
-          > Viele Grüße,  
-          > Nicco
-          >
+            Hallo,
+            
+            dies ist eine Einladung in den CoderDojo Newsletter.  
+            Wenn Du diese Einladung annimmst, erhältst Du Erinnerungen und Neuigkeiten zum CoderDojo und ähnlichen Veranstaltungen.
+            
+            Viele Grüße,  
+            Nicco
+          
 
 - [Coder Dojo Potsdam Seite](https://coderdojopotsdam.github.io) aktualisieren auf "Register Ahead".
 
