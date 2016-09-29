@@ -16,10 +16,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="CoderDojoFlyer-hinten.svg"
-   inkscape:export-filename="C:\Users\cheche\Documents\programmiertes\organize\posters\2016-09-29-flyer\CoderDojoFlyer-hinten.png"
-   inkscape:export-xdpi="200"
-   inkscape:export-ydpi="200">
+   sodipodi:docname="CoderDojoFlyer-hinten.svg">
   <title
      id="title3336">CoderDojo</title>
   <defs
@@ -66,8 +63,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.90509668"
-     inkscape:cx="527.34735"
-     inkscape:cy="339.41857"
+     inkscape:cx="664.34929"
+     inkscape:cy="251.03022"
      inkscape:document-units="mm"
      inkscape:current-layer="layer3"
      showgrid="false"
@@ -3747,16 +3744,12 @@ sdkXf5cd+ueP6/pRRVWvFs6pRSWnY//Z
          x="53.688717"
          sodipodi:role="line"
          id="tspan3714"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu">Aachen, <tspan
-   style="font-weight:bold"
-   id="tspan4287">Berlin Mitte</tspan>, </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu">Aachen, Berlin Mitte, </tspan><tspan
          y="115.30366"
          x="53.688717"
          sodipodi:role="line"
          id="tspan3722"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"><tspan
-   style="font-weight:bold"
-   id="tspan4289">BFZ Berlin</tspan>, Bonn, </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu">BFZ Berlin, Bonn, </tspan><tspan
          y="140.30365"
          x="53.688717"
          sodipodi:role="line"
@@ -3776,9 +3769,7 @@ sdkXf5cd+ueP6/pRRVWvFs6pRSWnY//Z
          x="53.688717"
          sodipodi:role="line"
          id="tspan3738"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"><tspan
-   style="font-weight:bold"
-   id="tspan4291">Dojo Berlin Friedrichshain</tspan>,</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu">Dojo Berlin Friedrichshain,</tspan><tspan
          y="240.30365"
          x="53.688717"
          sodipodi:role="line"
@@ -3813,9 +3804,7 @@ sdkXf5cd+ueP6/pRRVWvFs6pRSWnY//Z
          x="53.688717"
          sodipodi:role="line"
          id="tspan3770"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"><tspan
-   style="font-weight:bold"
-   id="tspan4293">Potsdam @ HPI</tspan>,</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu">Potsdam @ HPI,</tspan><tspan
          y="415.30365"
          x="53.688717"
          sodipodi:role="line"

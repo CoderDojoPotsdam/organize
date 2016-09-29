@@ -66,18 +66,7 @@ Danach
 	- Verwalten -> alle anzeigen -> Exportieren.
 	- Mit der Zeile kann man sie in Excel zum Einladen formatieren
 	
-            =N2 & " " & O2 & " <" & P2 & ">,"
-
-        - Einladetext:
-        
-            Hallo,
-            
-            dies ist eine Einladung in den CoderDojo Newsletter.  
-            Wenn Du diese Einladung annimmst, erhältst Du Erinnerungen und Neuigkeiten zum CoderDojo und ähnlichen Veranstaltungen.
-            
-            Viele Grüße,  
-            Nicco
-          
+            =S2 & " " & T2 & " <" & U2 & ">,"
 
 - [Coder Dojo Potsdam Seite](https://coderdojopotsdam.github.io) aktualisieren auf "Register Ahead".
 
