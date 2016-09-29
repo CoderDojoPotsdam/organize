@@ -1,0 +1,5 @@
+Um das PDF zu drucken:
+- scale: None
+- properties
+  -> two sided
+  - flip on short edge
