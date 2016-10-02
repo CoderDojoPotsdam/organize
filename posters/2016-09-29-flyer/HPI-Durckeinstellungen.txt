@@ -3,3 +3,6 @@ Um das PDF zu drucken:
 - properties
   -> two sided
   - flip on short edge
+  
+Im Raum C-1 steht eine Flyerfaltmaschine. 10cm Einstellen. 
+(Mit "Für Mentoren"nach unten zu sch geandt reinstecken.)
