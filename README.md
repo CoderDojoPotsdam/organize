@@ -19,3 +19,4 @@ Es gibt Seiten für
 - [Erwänungen des CoderDojo Potsdam](erwähnungen)
 - [Coder Dojo Potsdam Google Groups](https://groups.google.com/forum/#!forum/coderdojopotsdam)
 - Online Calender [CalDav](https://coderdojo.quelltext.eu/kalender/)
+- [CoderDojo Newsletter Sammelstelle von Nicco Kunzmann](https://docs.google.com/document/d/1Ea9lVOW9KTNBd_HzPF48gX6FiD03NzcJWThf7K1rBuo/edit)
