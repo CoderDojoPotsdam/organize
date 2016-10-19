@@ -18,4 +18,4 @@ Es gibt Seiten für
 - [Poster](posters) zum Aushängen
 - [Erwänungen des CoderDojo Potsdam](erwähnungen)
 - [Coder Dojo Potsdam Google Groups](https://groups.google.com/forum/#!forum/coderdojopotsdam)
-- Google Calender [HTML](https://calendar.google.com/calendar/embed?src=jugendprogrammiert%40gmail.com&ctz=Europe/Berlin) [ICal](https://calendar.google.com/calendar/ical/jugendprogrammiert%40gmail.com/public/basic.ics)
+- Google Calender [CalDav](https://coderdojo.quelltext.eu/kalender/)
