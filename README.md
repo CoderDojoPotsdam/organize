@@ -18,5 +18,5 @@ Es gibt Seiten für
 - [Poster](posters) zum Aushängen
 - [Erwänungen des CoderDojo Potsdam](erwähnungen)
 - [Coder Dojo Potsdam Google Groups](https://groups.google.com/forum/#!forum/coderdojopotsdam)
-- Online Calender [CalDav](https://coderdojo.quelltext.eu/kalender/)
+- Online Calender [ICS](https://coderdojo.quelltext.eu/kalender.ics) [CalDav](https://coderdojo.quelltext.eu/kalender/)
 - [CoderDojo Newsletter Sammelstelle von Nicco Kunzmann](https://docs.google.com/document/d/1Ea9lVOW9KTNBd_HzPF48gX6FiD03NzcJWThf7K1rBuo/edit)
