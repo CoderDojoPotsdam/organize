@@ -8,6 +8,7 @@ Erwähnungen des Coder Dojos Potsdam
 - Potsdamer Tag der Wissenschaften
   - [Impressionen](http://www.uni-potsdam.de/up-entdecken/up-erleben/potsdamer-tag-der-wissenschaft/impressionen.html) als Quelle von [2015.05.09 - Potsdamer Tag der Wissenschaften Impressionen.jpg](2015.05.09 - Potsdamer Tag der Wissenschaften Impressionen.jpg)
   - [Potsdamer Neueste Nachrichten](http://www.pnn.de/campus/964418/)
+- [Lehramtspraktikum der Uni Potsdam](http://www.uni-potsdam.de/zelb/studium/praktika/praktikumsbuero-bachelor/praktikumsboerse.html)
 
 Ziel
 ----
