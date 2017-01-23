@@ -35,9 +35,13 @@ Dann finden sich die Gruppen. Alle, die es übers Herz bringen, gehen auf Leute 
 Abschlusspräsentationen
 -----------------------
 
-Ca. eine Stunde vor Ende sollte angesagt werden, dass in einer halben Stunde Presentationen losgehen. Dabei sollte auch schon erwähnt werden, worum es da geht.
+Ca. eine halbe Stunde vor Ende sollte angesagt werden, dass in einer halben Stunde Presentationen losgehen. Dabei sollte auch schon erwähnt werden, worum es da geht.
 
-Eine halbe Stunde vor Ende werden dann Präsenationen gehalten. Wenn man eine gute Laptopkamera hat, empfiehlt es sich, mit [Google Chrome die Laptops zu filmen](http://html5-demos.appspot.com/static/getusermedia/photobooth.html), da man sich so das Umschalten des Projektors zwischen den Geräten spart.
+Eine viertel Stunde vor Ende werden dann Präsenationen gehalten. 
+
+Wenn man eine gute Laptopkamera hat oder ein Smartphone, empfiehlt es sich, damit rumzugehen und das auf dem Projekter zu zeigen, da man sich so das Umschalten des Projektors zwischen den Geräten spart. Links:
+- [Google Chrome die Laptops zu filmen](http://html5-demos.appspot.com/static/getusermedia/photobooth.html)
+- Die App IPWebCam erlaubt es, mit dem Smartphone rumzulaufen.
 
 Worum geht es bei den Präsentationen?
 
