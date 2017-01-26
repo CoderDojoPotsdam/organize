@@ -8,7 +8,7 @@ Dazu kann man bei Zen eine [Liste an Mitgliedern](https://zen.coderdojo.com/dash
 Das Script erzeugt zu jeder Datei eine Liste mit Namen,
 die nur in dieser Datei drin stehen und in keiner anderen.
 
-Beim Mailverteiler kann man immer nur 10 mit einem Mal einladen.
+[Beim Mailverteiler][einladen] kann man immer nur 10 mit einem Mal einladen.
 Leute werden nicht doppelt eingeladen, keine Sorge!
 
 Möglicher Einladungstext:
@@ -23,3 +23,5 @@ Viele Grüße,
 Nicco
 
 ```
+
+[einladen]: https://groups.google.com/forum/#!managemembers/coderdojopotsdam/invite
