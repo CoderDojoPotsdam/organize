@@ -5,6 +5,7 @@ Was ist das Coder Dojo Potsdam?
 -------------------------------
 
 CoderDojo ist ein Club für Kinder und Jugendliche im Alter von 5 bis 17 Jahren, die programmieren lernen und Spaß haben wollen. Freiwillige Mentor_innen helfen den Kindern, ihre Ideen umzusetzen. Dabei lernen sie spielerisch die Grundlagen des Programmierens. Und auch wenn sie die Grundlagen schon kennen, gibt es noch mehr als genug neue Konzepte zu lernen oder Technologien.
+Hier gibt es mehr Informationen: https://coderdojo.com/about
 
 Wie läuft es ab?
 ----------------
