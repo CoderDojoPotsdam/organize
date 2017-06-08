@@ -64,6 +64,15 @@ Bin ich zu alt?
 
 Wenn du knapp an der Altersgrenze dran bist, vielleicht 18 bist und dich das Dojo interessiert, komme einfach vorbei, sei hilfsbereit und genieße das Dojo. Lernen kann man hier immer was.
 
+Gibt es begrenzte Plätze?
+-------------------------
+
+Generell nein, alle können kommen.
+Es gibt manchmal spezielle Veranstaltungen bei Konferenzen.
+Dazu ist dann explizit beschrieben, dass man ein Ticket braucht.
+Andere Teilnehmer helfen auch und können wie Mentoren auch angesprochen werden.
+Deswegen ist es nicht abhängig von der Mentorenzahl.
+
 Fragen von Eltern
 =================
 
