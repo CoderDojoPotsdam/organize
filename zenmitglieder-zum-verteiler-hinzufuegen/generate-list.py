@@ -6,16 +6,22 @@ files.sort()
 def entries_file(file):
     return file[:-4] + ".txt"
 
+def format_entry(s):
+    return s.strip('"').strip()
+    
 def read_file(file):
     entries = []
     with open(file) as f:
         lines = iter(f)
         for heading in lines:
+            headers = [format_entry(s).lower() for s in heading.split(",")]
             break
+        name_index = headers.index("name")
+        email_index = headers.index("email")
         for user in lines:
-            name, email = user.split(",")[:2]
-            name = name.strip('"').strip()
-            email = email.strip('"').strip()
+            entry = user.split(",")
+            name = format_entry(entry[name_index])
+            email = format_entry(entry[email_index])
             if not email:
                 continue
             entries.append(name + " <" + email + ">")
