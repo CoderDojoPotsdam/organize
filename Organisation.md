@@ -14,14 +14,14 @@ Sobald Wie Möglich
 	- Dort überprüfen, da vielleicht manche Anmeldungen wie "Coder" oder "Eltern" auch nicht richtig kopiert werden
 - Email an Verteiler
 - Twittern von [@DojoPotsdam](https://twitter.com/DojoPotsdam)
-- Eine Mail an rosina.geiger⍟hpi⚜de und  Alexandra Jäger alexandra.jaeger⍟hpi⚜de  schreiben, um den Raum zu reservieren.
+- Eine Mail an Lisa Rüppner Lisa.Rueppner⍟hpi⚜de und im CC Alexandra Jäger alexandra.jaeger⍟hpi⚜de  schreiben, um den Raum zu reservieren.
  
 2 Wochen Vorher
 ---------------
 
 - Finde einen [Ort](Orte.md).
-- "Sebastian Seitz" Seitz⍟tsb-berlin⚜de eine Mail schreiben, um die [Arduinos](http://arduino.cc/), [MakeyMakeys](http://www.makeymakey.com/) und [RaspberryPis](http://www.raspberrypi.org/) auszuleihen in der [Hackingbox](https://www.technologiestiftung-berlin.de/de/top-themen/work/hacking-box/).
-- Admin⍟hpi⚜de eine Mail schreiben, dass wir für das CoderDojo WLAN benötigen.
+- "Dr. Dieter Müller" mueller⍟technologiestiftung-berlin⚜de eine Mail schreiben, um die [Arduinos](http://arduino.cc/), [MakeyMakeys](http://www.makeymakey.com/) und [RaspberryPis](http://www.raspberrypi.org/) auszuleihen in der [Hackingbox](https://www.technologiestiftung-berlin.de/de/top-themen/work/hacking-box/).
+- WLAN ist um die Zeit immer automatisch angeschaltet. Kennwort ist coderwankenobi.
 
 1 Woche Vorher
 --------------
