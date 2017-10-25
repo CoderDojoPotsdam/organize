@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import os
 
 files = [file for file in os.listdir(".") if file.lower().endswith(".csv")]
@@ -44,7 +45,7 @@ for entry, file in zip(entries, files):
             if i % 10 == 9:
                 # one can only invite 10 people at once
                 f.write("\n")
-                print()
+                print("")
                 
             
 
