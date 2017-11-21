@@ -1,8 +1,10 @@
 Inventarliste des CoderDojo-Klubs
 =================================
 
-Der Klub hat folgendes Inventar:
+Der CoderDojo-Klub besitzt folgendes Inventar:
 
-- 12x Fesplatte
-- 5x Arduino-Starterkit
-- 2x Laptops vom HPI
+Anzahl | Bezeichnung
+--- | ---
+12 | Festplatte
+5 | Arduino-Starterkit
+2 | Laptops
