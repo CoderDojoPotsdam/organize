@@ -7,7 +7,7 @@ Der Ring au-en ost doppelt, sodass es geschnitten wird,
 wenn bei dem HCI-Lasercutter folgende Einstellungen genutzt werden:
 
 
-Speed: 15%  
-PPI: 100%  
+Speed: 12%  
+PPI: 10000  
 Power: 33%  
 Z-Axis On: 3mm  
