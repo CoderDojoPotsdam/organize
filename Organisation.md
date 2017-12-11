@@ -39,20 +39,6 @@ Freitag vorher
 
 - Überprüfen, ob die Wand offen ist. Sonst braucht es etwas Glück, dass man am Samstag jemanden von der Haustechnik trifft.
 
-Kurz Vorher
------------
-
-- [Schilder](logo/schilder) aufhängen
-- Ordner mit Teilnahmebedingungen mitbringen
-- genug ausgedruckte Teilnahmebedingungen haben
-- [Rollen anschreiben][rollen]
-- Feedbackbögen ausdrucken
-- Für Getränke sorgen
-- Steckdosenleisten verteilen
-- Tische umstellen, sodass der Projektor sichtbar bleibt, auch wenn der Raum voll wird
-- Ankommenden die unterschriebenen Teilnahmebedingungen abnehmen
-- Thementische Einrichten "Hardware" "Anfänger" "Eltern" "Essen"
-
 [Währenddessen](Ablauf.md)
 --------------------------
 - siehe [Ablauf](Ablauf.md)
