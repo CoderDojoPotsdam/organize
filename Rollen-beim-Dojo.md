@@ -75,6 +75,6 @@ Legende:
   N Dojos ist die Anzahl nach der man davon ausgehen kann, dass die Leute wissen, wie es geht.
 
 
-[kurz-vorher]: Organisation.md#kurz-vorher
+[kurz-vorher]: Ablauf.md#ankommen--aufbau
 [ablauf]: Ablauf.md
 [guide]: http://opentechschool.github.io/slides/presentations/coaching/de.html
