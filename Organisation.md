@@ -44,7 +44,8 @@ Kurz Vorher
 
 - [Schilder](logo/schilder) aufhängen
 - Ordner mit Teilnahmebedingungen mitbringen
-- genug ausgedruckte Teilnahmebednigungen haben
+- genug ausgedruckte Teilnahmebedingungen haben
+- [Rollen anschreiben][rollen]
 - Feedbackbögen ausdrucken
 - Für Getränke sorgen
 - Steckdosenleisten verteilen
@@ -60,12 +61,12 @@ Kurz Vorher
 Danach
 ------
 
-- [Coder Dojo Potsdam Seite](https://coderdojopotsdam.github.io) aktualisieren auf "In Planning".
 - Blogpost schreiben
 - [Teilnehmer von kopieren](zenmitglieder-zum-verteiler-hinzufuegen) und in die [Google-Mailingliste](https://groups.google.com/forum/#!forum/coderdojopotsdam) einladen.
-- [Coder Dojo Potsdam Seite](https://coderdojopotsdam.github.io) aktualisieren auf "Register Ahead".
 
 Weitere Links
 -------------
 
 - [Checkliste zum Ausführen von CoderDojos](https://github.com/richardmacduff/coderDojoTools)
+
+[rollen]: Rollen-beim-Dojo.md
