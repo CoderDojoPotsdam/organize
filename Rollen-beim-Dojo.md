@@ -4,16 +4,11 @@ Rollen beim Dojo
 Diese Rollen braucht es für ein Dojo, mit dem alle zufrieden sind.
 Alle brauchen Menschenkenntnis und keine Programmierkenntnis (Aberglaube entschärft).
 
-Legende:
-
-- **Rollenanem** (X Leute, N Dojos)  
-  Die Rollen sind flexibel für jedes Dojo anpassbar.
-  Dahinter steht immer, wie viele Leute erwartet werden, damit es Spaß macht, schnell geht bzw. alle abgedeckt werden.
-  Die Dojo-Größe ist ca. 20 Kinder 15 Eltern.
-  N Dojos ist die Anzahl nach der man davon ausgehen kann, dass die Leute wissen, wie es geht.
-
 Rollen
 ------
+
+Bitte wähle die eine Rolle, die dir gefällt. Vielleicht machen andere in Zukunft Spaß.
+Das sind Rollen für alle Menschen, die da sind, Eltern, Kinder, Jugendliche, ...,  wie sie alle heißen mögen.
 
 - **Aufbau** (3 Leute, waren 1x da)  
   Siehe [Kurz Vorher][kurz-vorher]
@@ -65,14 +60,21 @@ Rollen
   Egal ist, was sie machen.
   Ziel ist es, die zu finden, die sich abspalten oder frustrieert allein sitzen, vielleicht
   auch welche, die zu schüchtern sind - es ist eine neue Umgebung mit vielen Leuten.
-  Wenn technische Fragen auftauchen, nachdem der Frust behandelt ist, kannst du weiter verweisen an Leute, die mit am Tisch sitzen bzw. die holen, wenn die Person zu schüchtern ist. Damit zeigst du, dass es ok ist, nichts zu wissen und andere zu fragen, selbst wenn du es weißt und kannst schneller wieder zu anderen.
-- **** ()  
-- **** ()  
-- **** ()  
+  Wenn technische Fragen auftauchen, nachdem der Frust behandelt ist, kannst du weiter verweisen an Leute, die mit am Tisch sitzen bzw. die holen, wenn die Person zu schüchtern ist. Damit zeigst du, dass es ok ist, nichts zu wissen und andere zu fragen, selbst wenn du es weißt und kannst schneller wieder zu anderen.  
+  Der [Coaching Guide][guide] kann noch weiter helfen.
+- **Helfen** (0 Personen, auch Neulinge)  
+  Du bist einfach nur da, um anderen zu helfen :)
+  Lies den [Coaching Guide der OpenTechSchool][guide], damit das anderen auch langfristig gefällt.
 
+Legende:
 
-
+- **Rollenanem** (X Leute, N Dojos)  
+  Die Rollen sind flexibel für jedes Dojo anpassbar.
+  Dahinter steht immer, wie viele Leute erwartet werden, damit es Spaß macht, schnell geht bzw. alle abgedeckt werden.
+  Die Dojo-Größe ist ca. 20 Kinder 15 Eltern.
+  N Dojos ist die Anzahl nach der man davon ausgehen kann, dass die Leute wissen, wie es geht.
 
 
 [kurz-vorher]: Organisation.md#kurz-vorher
 [ablauf]: Ablauf.md
+[guide]: http://opentechschool.github.io/slides/presentations/coaching/de.html
