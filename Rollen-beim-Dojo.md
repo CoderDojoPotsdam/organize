@@ -35,15 +35,37 @@ Rollen
   - 30min vor Ende: bescheid sagen, dass es bald Präsentationen gibt
   - 15-20min vor Ende: Präsentationen ansagen
 - **Moderator Anfang** (min. 1 Person, war 2x da)  
-  - **Rollen** Dieser Moderator stößt die dezentrale Dojo-Organisation über die Rollen an.
-    1. Schreibt diese Rollennamen an, macht Kästchen hinter die Rollen für die Leuteanzahl.
-    2. Begrüßt alle zum Start, vielleicht gibt es Ansagen.
+  - **Rollen**  
+    Du stößt die dezentrale Dojo-Organisation über die Rollen an.
+    1. Schreib diese Rollennamen an, mach Kästchen hinter die Rollen für die Leuteanzahl.
+    2. Begrüß alle zum Start, vielleicht gibt es Ansagen wie Wetbewerbe, Veranstaltungen, ...
     3. Sagt, dass die Rollen wichtig sind, um ein Dojo zu machen und keine technischen Kenntnisse erfordern.
        Geht jede Rolle durch und sagt, was es bedeutet, fragt, wer mitmachen möchte.
-  - **Gruppen** 
-  
+  - **Gruppen**  
+    1. Klar machen: Es geht hier erstmal darum, Ideen zu finden, danach gibt es eine zweite Runde, wo man sich zuordnet.
+    2. Wer weiß schon ein Theme für das Dojo? Wozu seid ihr hergekommen? Alles anschreiben.
+    3. Nachdem alle ein Bild bekommen haben, was sie machen wollen, fragen, wer was machen mag wegen der Anzahl.
+       Denen Orte zuweisen, damit die Leute später noch wechseln können.
+       
+  Fertig
 - **Moderator Ende** (min. 1 Person, war 2x da)  
-- **** ()  
+  Du leitest durch die Präsentationen. Ziel dabei ist es, herauszufinden, was die Kinder interessiert, was sie gelernt haben und nicht eine Leistungskontrolle. Präsentieren ist freiwillig. Das kann man ansagen.
+  Mögliche Fragen:
+  - Wer mag was zeigen?
+  - Was hast du verwendet?
+  - Was hat dir Spaß gemacht?
+  - Was willst du in Zukunft machen?
+  - Wie funktioniert das?
+  - Was ist schwierig?
+  
+  Danach ist ja vorbei. Vielleicht gibt es noch Ansagen für andere coole Sachen...
+  Dann kannst du allen Danken und das Aufräumen einleiten.
+- **Wächter der Gemeinschaft** (2 Personen, auch Neulinge)  
+  Eine der wichtigsten Rollen: Du läufst rum und fragst Leute, wie es ihnen geht.
+  Egal ist, was sie machen.
+  Ziel ist es, die zu finden, die sich abspalten oder frustrieert allein sitzen, vielleicht
+  auch welche, die zu schüchtern sind - es ist eine neue Umgebung mit vielen Leuten.
+  Wenn technische Fragen auftauchen, nachdem der Frust behandelt ist, kannst du weiter verweisen an Leute, die mit am Tisch sitzen bzw. die holen, wenn die Person zu schüchtern ist. Damit zeigst du, dass es ok ist, nichts zu wissen und andere zu fragen, selbst wenn du es weißt und kannst schneller wieder zu anderen.
 - **** ()  
 - **** ()  
 - **** ()  
