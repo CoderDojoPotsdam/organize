@@ -47,10 +47,13 @@ Kurz Vorher
 - genug ausgedruckte Teilnahmebednigungen haben
 - Feedbackbögen ausdrucken
 - Für Getränke sorgen
-- Steckdosenleisten verteilen
+- Steckdosenleisten verteilen, gibt es am Empfang oder im Schülerklubraum
 - Tische umstellen, sodass der Projektor sichtbar bleibt, auch wenn der Raum voll wird
 - Ankommenden die unterschriebenen Teilnahmebedingungen abnehmen
 - Thementische Einrichten "Hardware" "Anfänger" "Eltern" "Essen"
+- Anschreiben:
+  - WLAN: "coderdojo" PW: "coderwankenobi"
+  - Materialseite: https://material.quelltext.eu
 
 [Währenddessen](Ablauf.md)
 --------------------------
