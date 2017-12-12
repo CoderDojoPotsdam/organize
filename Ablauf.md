@@ -16,13 +16,17 @@ Wenn du ankommst, kannst du das alles machen, helfen, da der Organisator nicht a
 - [Rollen anschreiben][rollen]
 - Feedbackbögen ausdrucken
 - Für Getränke sorgen
-- Steckdosenleisten verteilen
+- Steckdosenleisten verteilen, gibt es am Empfang oder im Schülerklubraum
 - Tische umstellen, sodass der Projektor sichtbar bleibt, auch wenn der Raum voll wird
 - Ankommenden die unterschriebenen Teilnahmebedingungen abnehmen
 - Thementische Einrichten "Hardware" "Anfänger" "Eltern" "Essen"
 - Die Tische brauchen alle Strom. Steckerleisten liegen oder gibt es am Empfang,
   fühl' dich frei, sie so zu verteilen, dass überall Strom ist.
 - Am Eingang kann jemand die [unterschriebenen Teilnahmebedingungen](https://github.com/CoderDojoPotsdam/organize/blob/master/Teilnahmebedingungen-CoderDojo-Potsdam.pdf?raw=true) geordnet abheften. Diese beinhalten die Kontaktadressen für den Notfall. Manche sind schon registriert und müssen es nicht zweimal abgeben.
+- Anschreiben:
+  - WLAN: "coderdojo" PW: "coderwankenobi"
+  - Materialseite: https://material.quelltext.eu
+
 
 Begrüßungsrede
 --------------
