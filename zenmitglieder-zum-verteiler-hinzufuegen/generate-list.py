@@ -1,7 +1,10 @@
 #!/usr/bin/python
+# coding: utf-8
 import os
 
-files = [file for file in os.listdir(".") if file.lower().endswith(".csv")]
+HERE = os.path.dirname(__file__)
+
+files = [os.path.join(HERE, file) for file in os.listdir(HERE) if file.lower().endswith(".csv")]
 files.sort()
 
 def entries_file(file):
@@ -47,5 +50,12 @@ for entry, file in zip(entries, files):
                 f.write("\n")
                 print("")
                 
-            
+print('''
 
+Hallo, 
+
+dies ist eine Einladung in den CoderDojo Potsdam Mailverteiler. Wenn Du die Einladung annimmst, erhältst Du Erinnerungen und Neuigkeiten zum CoderDojo und ähnlichen Veranstaltungen.
+
+Viele Grüße,
+Nicco
+''')
