@@ -39,19 +39,6 @@ Freitag vorher
 
 - Überprüfen, ob die Wand offen ist. Sonst braucht es etwas Glück, dass man am Samstag jemanden von der Haustechnik trifft.
 
-Kurz Vorher
------------
-
-- [Schilder](logo/schilder) aufhängen
-- Ordner mit Teilnahmebedingungen mitbringen
-- genug ausgedruckte Teilnahmebednigungen haben
-- Feedbackbögen ausdrucken
-- Für Getränke sorgen
-- Steckdosenleisten verteilen
-- Tische umstellen, sodass der Projektor sichtbar bleibt, auch wenn der Raum voll wird
-- Ankommenden die unterschriebenen Teilnahmebedingungen abnehmen
-- Thementische Einrichten "Hardware" "Anfänger" "Eltern" "Essen"
-
 [Währenddessen](Ablauf.md)
 --------------------------
 - siehe [Ablauf](Ablauf.md)
@@ -60,12 +47,12 @@ Kurz Vorher
 Danach
 ------
 
-- [Coder Dojo Potsdam Seite](https://coderdojopotsdam.github.io) aktualisieren auf "In Planning".
 - Blogpost schreiben
 - [Teilnehmer von kopieren](zenmitglieder-zum-verteiler-hinzufuegen) und in die [Google-Mailingliste](https://groups.google.com/forum/#!forum/coderdojopotsdam) einladen.
-- [Coder Dojo Potsdam Seite](https://coderdojopotsdam.github.io) aktualisieren auf "Register Ahead".
 
 Weitere Links
 -------------
 
 - [Checkliste zum Ausführen von CoderDojos](https://github.com/richardmacduff/coderDojoTools)
+
+[rollen]: Rollen-beim-Dojo.md

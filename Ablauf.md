@@ -1,36 +1,43 @@
 Ablauf
 ======
 
-Ankommen
---------
+Vorher
+------
+
+Wählt [Rollen][rollen], auch schon zu Hause, die ihr gern einnehmen mögt.
+
+Ankommen & Aufbau
+-----------------
 
 Wenn du ankommst, kannst du das alles machen, helfen, da der Organisator nicht alles selbst machen kann:
-
-- Wir müssen die Tische so stellen, dass genug Platz ist zum Durchgehen und ein guter Blick auf den Beamer.
-- Die Tische brauchen alle Strom. Steckerleisten liegen rum, fühl' dich frei, sie so zu verteilen, dass überall Strom ist.
+- [Schilder](logo/schilder) aufhängen
+- Ordner mit Teilnahmebedingungen mitbringen
+- genug ausgedruckte Teilnahmebedingungen haben
+- [Rollen anschreiben][rollen]
+- Feedbackbögen ausdrucken
+- Für Getränke sorgen
+- Steckdosenleisten verteilen, gibt es am Empfang oder im Schülerklubraum
+- Tische umstellen, sodass der Projektor sichtbar bleibt, auch wenn der Raum voll wird
+- Ankommenden die unterschriebenen Teilnahmebedingungen abnehmen
+- Thementische Einrichten "Hardware" "Anfänger" "Eltern" "Essen"
+- Die Tische brauchen alle Strom. Steckerleisten liegen oder gibt es am Empfang,
+  fühl' dich frei, sie so zu verteilen, dass überall Strom ist.
 - Am Eingang kann jemand die [unterschriebenen Teilnahmebedingungen](https://github.com/CoderDojoPotsdam/organize/blob/master/Teilnahmebedingungen-CoderDojo-Potsdam.pdf?raw=true) geordnet abheften. Diese beinhalten die Kontaktadressen für den Notfall. Manche sind schon registriert und müssen es nicht zweimal abgeben.
+- Anschreiben:
+  - WLAN: "coderdojo" PW: "coderwankenobi"
+  - Materialseite: https://material.quelltext.eu
+
 
 Begrüßungsrede
 --------------
 
-Wenn alle da sind geht es los mit einer Vorstellung.
-
-- Es wird gesagt, was wir hier vorhaben. http://coderdojo.com/about
-- Wo sind die Toiletten?
-- Gibt es was zu trinken, Tassen, wo?
-  - Teilnehmer auf Sauberkeit hinweisen
-  - Essen nicht über Teppich genießen
-- Gibt es Aushänge oder Flyer zu interessanten Veranstaltungen?
-- Die Materialien werden präsentiert
-	- Manche werden vorher schon auf der [Coder Dojo Potsdam Seite](https://coderdojopotsdam.github.io) in der Materialabteilung gelistet. 
-	- Mentoren können dabei ihre Spezialgebiete und Projekte anpreisen, damit alle Teilnehmer wissen, was man heute machen kann. Auf jeden Fall sagt jeder Mentor was zu sich. 
-	- Wenn Teilnehmer spezielle Vorstellungen haben und Projektmitglieder haben, ist das auch der richtige Zeitpunkt für sie, was zu sagen.
-- Gibt es Fragen?
+Wenn alle da sind geht es los mit der Verteilung der [Rollen][rollen].
+Klar sollte dafür sein, wer die Anfangsmoderation macht.
 
 Programmieren
 -------------
 
-Dann finden sich die Gruppen. Alle, die es übers Herz bringen, gehen auf Leute zu, die aussehen, als bräuchten sie Hilfe.
+Alle machen was, wissen welche Rolle sie haben. ca. 2:30h
 
 Abschlusspräsentationen
 -----------------------
@@ -66,3 +73,5 @@ Ende
 Bei den Teilnehmern und Mentoren bedanken. Von den Mentoren sollten wir die Namen aufschreiben. Dann können wir ihnen auf einem Blogpost danken und haben den Kontakt, wenn sie vergessen haben, sich in den Verteiler einzutragen.
 
 Den Raum so verlassen, wie er vorgefunden wurde, sauber.
+
+[rollen]: Rollen-beim-Dojo.md
