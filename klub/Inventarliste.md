@@ -21,7 +21,7 @@ Das sind Abgaben/Spenden an das CoderDojo Potsdam.
 
 Anzahl | Bezeichnung | Status
 --- | --- | ---
-7 | Mäuse | funktionieren
+8 | Mäuse | funktionieren
 8 | Rechner | funktionieren
 1 | Rechner | kaputt, bei Nicco
 1 | Rechner | bei Nicco, Netzteil wird gesucht
