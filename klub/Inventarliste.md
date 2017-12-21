@@ -25,6 +25,8 @@ Anzahl | Bezeichnung | Status
 8 | Rechner | funktionieren
 1 | Rechner | kaputt, bei Nicco
 1 | Rechner | bei Nicco, Netzteil wird gesucht
+8 | kleine Kopfhörer | in Kotztüte
+1 | weißes Headset | in Laptoptasche
 
 
 Inventarliste des Wissenschaftsladens
