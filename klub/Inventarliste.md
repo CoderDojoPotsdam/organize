@@ -39,6 +39,8 @@ Anzahl | Bezeichnung | Status
 --- | --- | ---
 10 | Lenovo Thinkpad T510 | mit CoderDojo-Festplatte
 2 | Lenovo Thinkpad T500 | mit CoderDojo-Festplatte bei Nicco
+10 | Lenovonetzteile | funktionieren
+10 | Dockeing Station Lenovo T510 | Im Schrank, braucht niemand das Zeug
 
 [vmk]: https://www.amazon.de/Velleman-MiniKits-MK150-Minikits-Sch%C3%BCtteln/dp/B004NVVV3W/ref=pd_sim_23_3?_encoding=UTF8&psc=1&refRID=ZRHHBCP65GMJMC7WXD7R
 [ltv]: https://www.amazon.de/Velleman-MK136-Mini-Kit-Stereo-Ger%C3%A4uschverst%C3%A4rker-Gemischt/dp/B0006HJSLE/ref=pd_sbs_107_17?_encoding=UTF8&psc=1&refRID=RJ433G6EBJEY9GGW1GB3
