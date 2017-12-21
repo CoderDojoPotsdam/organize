@@ -7,7 +7,7 @@ Anzahl | Bezeichnung | Status
 --- | --- | ---
 12 | Festplatte | funktionieren
 5 | Arduino-Starterkit | sind 4 vorhanden
-2 | Laptops | funktionieren
+2 | Laptops Toshiba HPI-Eigentum | funktionieren
 10 | [Optische Maus MM019][maus1] | funktionieren
 3 | [Lötkits Schüttelwürfel][vmk] | Benutzbar
 3 | [Lötkit Verstärker][ltv] | Benutzbar
