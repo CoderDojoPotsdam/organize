@@ -21,7 +21,10 @@ Das sind Abgaben/Spenden an das CoderDojo Potsdam.
 
 Anzahl | Bezeichnung | Status
 --- | --- | ---
- |  | 
+7 | Mäuse | funktionieren
+8 | Rechner | funktionieren
+1 | Rechner | kaputt, bei Nicco
+1 | Rechner | bei Nicco, Netzteil wird gesucht
 
 
 Inventarliste des Wissenschaftsladens
@@ -32,7 +35,8 @@ Sie sind nicht Eigentum des CoderDojos.
 
 Anzahl | Bezeichnung | Status
 --- | --- | ---
- |  | 
+10 | Lenovo Thinkpad T510 | mit CoderDojo-Festplatte
+2 | Lenovo Thinkpad T500 | mit CoderDojo-Festplatte bei Nicco
 
 [vmk]: https://www.amazon.de/Velleman-MiniKits-MK150-Minikits-Sch%C3%BCtteln/dp/B004NVVV3W/ref=pd_sim_23_3?_encoding=UTF8&psc=1&refRID=ZRHHBCP65GMJMC7WXD7R
 [ltv]: https://www.amazon.de/Velleman-MK136-Mini-Kit-Stereo-Ger%C3%A4uschverst%C3%A4rker-Gemischt/dp/B0006HJSLE/ref=pd_sbs_107_17?_encoding=UTF8&psc=1&refRID=RJ433G6EBJEY9GGW1GB3
