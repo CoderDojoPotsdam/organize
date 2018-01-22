@@ -10,26 +10,26 @@ Rollen
 Bitte wähle die eine Rolle, die dir gefällt. Vielleicht machen andere in Zukunft Spaß.
 Das sind Rollen für alle Menschen, die da sind, Eltern, Kinder, Jugendliche, ...,  wie sie alle heißen mögen.
 
-- **Aufbau** (3 Leute, waren 1x da)  
+- 3x **Aufbauen** (waren 1x da)  
   Siehe [Kurz Vorher][kurz-vorher]
-- **Abbau**  (3 Leute, waren 1x da)  
+- 3x **Abbauen**  (waren 1x da)  
   Umkehrung vom Aufbau. Wenn es andere mitmachen, dann lernen wir sie an.
-- **Saubermachen** (2 Leute, auch Neulinge)  
+- 2x **Saubermachen** (auch Neulinge)  
   Staubsauger ist im "Shop", Treppe hoch, 2. Etage, Hauptgebäude.
   Hinweis: Die Schokolade ist in teppichboden nicht zu entfernen. Also auf irreversibles vorher alle hinweisen.
-- **Begrüßen** (1 Person, war 1x da)  
+- 1x **Begrüßen** (war 1x da)  
   Es geht nur darum, dass Neue Leute nicht unbeachtet rumstehen.
   Dafür kannst du  Hallo sagen, die Tür aufmachen, Neue begrüßen, [groben Ablauf][ablauf] beantworten bzw. weiter verweisen,
   Rechner aufbauen, Toiletten, Essen.
   Das ist nur der erste Ansprechpartner, der auch weiter verweist, wenn es Fragen gibt.
-- **Material vorstellen** (min. 1 Person, war 2x da)  
+- 1x **Material vorstellen** (war 2x da)  
   Die Materialseite ist https://coderdojopotsdam.github.io/intro.
   Kurz vorstellen, was es gibt.
-- **Wächter der Zeit** (1 Person, auch Neulinge)  
+- 1x **Zeit beachten** (1 Person, auch Neulinge)  
   Schaut darauf, dass die Zeit eingehalten wird:
   - 30min vor Ende: bescheid sagen, dass es bald Präsentationen gibt
   - 15-20min vor Ende: Präsentationen ansagen
-- **Moderator Anfang** (min. 1 Person, war 2x da)  
+- 1x **Anfang moderieren** (war 2x da)  
   - **Rollen**  
     Du stößt die dezentrale Dojo-Organisation über die Rollen an.
     1. Schreib diese Rollennamen an, mach Kästchen hinter die Rollen für die Leuteanzahl.
@@ -43,7 +43,7 @@ Das sind Rollen für alle Menschen, die da sind, Eltern, Kinder, Jugendliche, ..
        Denen Orte zuweisen, damit die Leute später noch wechseln können.
        
   Fertig
-- **Moderator Ende** (min. 1 Person, war 2x da)  
+- 1x **Ende moderieren** (war 2x da)  
   Du leitest durch die Präsentationen. Ziel dabei ist es, herauszufinden, was die Kinder interessiert, was sie gelernt haben und nicht eine Leistungskontrolle. Präsentieren ist freiwillig. Das kann man ansagen.
   Mögliche Fragen:
   - Wer mag was zeigen?
@@ -55,20 +55,20 @@ Das sind Rollen für alle Menschen, die da sind, Eltern, Kinder, Jugendliche, ..
   
   Danach ist ja vorbei. Vielleicht gibt es noch Ansagen für andere coole Sachen...
   Dann kannst du allen Danken und das Aufräumen einleiten.
-- **Wächter der Gemeinschaft** (2 Personen, auch Neulinge)  
+- 1x **Rumlaufen und befragen** (auch Neulinge)  
   Eine der wichtigsten Rollen: Du läufst rum und fragst Leute, wie es ihnen geht.
   Egal ist, was sie machen.
   Ziel ist es, die zu finden, die sich abspalten oder frustrieert allein sitzen, vielleicht
   auch welche, die zu schüchtern sind - es ist eine neue Umgebung mit vielen Leuten.
   Wenn technische Fragen auftauchen, nachdem der Frust behandelt ist, kannst du weiter verweisen an Leute, die mit am Tisch sitzen bzw. die holen, wenn die Person zu schüchtern ist. Damit zeigst du, dass es ok ist, nichts zu wissen und andere zu fragen, selbst wenn du es weißt und kannst schneller wieder zu anderen.  
   Der [Coaching Guide][guide] kann noch weiter helfen.
-- **Helfen** (0 Personen, auch Neulinge)  
+- 0x **Helfen** (auch Neulinge)  
   Du bist einfach nur da, um anderen zu helfen :)
   Lies den [Coaching Guide der OpenTechSchool][guide], damit das anderen auch langfristig gefällt.
 
 Legende:
 
-- **Rollenanem** (X Leute, N Dojos)  
+- LEUTEx **Tätigkeit** (N Dojos)  
   Die Rollen sind flexibel für jedes Dojo anpassbar.
   Dahinter steht immer, wie viele Leute erwartet werden, damit es Spaß macht, schnell geht bzw. alle abgedeckt werden.
   Die Dojo-Größe ist ca. 20 Kinder 15 Eltern.
