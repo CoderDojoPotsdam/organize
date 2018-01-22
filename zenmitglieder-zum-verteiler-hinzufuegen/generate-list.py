@@ -58,4 +58,7 @@ dies ist eine Einladung in den CoderDojo Potsdam Mailverteiler. Wenn Du die Einl
 
 Viele Grüße,
 Nicco
+
+
+https://groups.google.com/forum/#!managemembers/coderdojopotsdam/invite
 ''')
