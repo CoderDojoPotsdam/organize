@@ -3,6 +3,7 @@ Rollen beim Dojo
 
 Diese Rollen braucht es für ein Dojo, mit dem alle zufrieden sind.
 Alle brauchen Menschenkenntnis und keine Programmierkenntnis (Aberglaube entschärft).
+Die Rollen gibt es zum Ausdrucken im Ordner [rollen].
 
 Rollen
 ------
@@ -78,3 +79,5 @@ Legende:
 [kurz-vorher]: Ablauf.md#ankommen--aufbau
 [ablauf]: Ablauf.md
 [guide]: http://opentechschool.github.io/slides/presentations/coaching/de.html
+[rollen]: ./rollen
+
