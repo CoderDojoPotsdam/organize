@@ -16,7 +16,7 @@ Es gibt Seiten für
 - [Material](https://github.com/CoderDojoPotsdam/material)
 - [Das Organisationsrepository](https://github.com/CoderDojoPotsdam/organize)
 - [Poster](posters) zum Aushängen
-- [Erwänungen des CoderDojo Potsdam](erwähnungen)
+- [Erwähnungen des CoderDojo Potsdam](erwähnungen)
 - [Coder Dojo Potsdam Google Groups](https://groups.google.com/forum/#!forum/coderdojopotsdam)
 - Online Calender [ICS](https://coderdojo.quelltext.eu/kalender.ics) [CalDav](https://coderdojo.quelltext.eu/kalender/)
 - [CoderDojo Newsletter Sammelstelle von Nicco Kunzmann](https://docs.google.com/document/d/1Ea9lVOW9KTNBd_HzPF48gX6FiD03NzcJWThf7K1rBuo/edit)
