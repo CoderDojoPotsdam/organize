@@ -1,27 +1,8 @@
-An: Stadt- und Landesbibliothek Potsdam
-
-CoderDojo - Konzept
-===================
-
-1
-
-
-In Programmierklubs wie dem CoderDojo Potsdam lernen Mädchen und Jungen unterschiedlichem Alters anhand eigener Projekte, eigene Spiele zu erstellen, Roboter zu bauen und Anwednugen wie Apps zu entwickeln. Durch den kreativen Umgang mit der uns umgebenden Technik wird mit Spaß Verstandnis und Mündigkeit gefördert. 
-
-Sie haben eine Etage für die junge Generation sowie Rechner dort stehen. Diese könnten für Veranstaltungen genutzt werden, bei denen die Kinder lernen, eigene Programme zu schreiben. Um es mit anderen Worten zu sagen: "Wir lernen nicht lesen und schreiben, damit wir alle Schriftsteller werden, sondern um uns auszutauschen. Ebenso sollten wir nicht programmierne lernen, um alle Programmierer zu werden, sondern uns im digitalen austauschen zu können." - [Mitchel Resnik, MIT](https://www.youtube.com/watch?t=399&v=uRxD-pe3PN0).
-
-Im Programmierklub "CoderDojo Potsdam" haben wir uns schon über 30 mal getroffen und mit Kindern und Jugendlichen [eigene Computerprojekte](https://github.com/CoderDojoPotsdam/projects#projects) umgesetzt. 
-
-
-
-
-
-
-Links: 
-- Mitchel Resnik, MIT - https://www.youtube.com/watch?t=399&v=uRxD-pe3PN0
-- eigene Computerprojekte - https://github.com/CoderDojoPotsdam/projects#projects
-- 
-
---------
-Webseite: [coderdojo.com](http://coderdojo.com)
-[Nach](http://de.wikihow.com/Ein-Konzept-schreiben) 
+Es haben mehr Menschen ein Smartphone als Fußball spielen. Trotzdem hat fast jeder Ort einen Fußballverein aber keinen Programmierklub.  
+CoderDojos sind Räume, in denen Kinder und Jugendliche, Mädchen und Jungen ihre digitalen Projekte umsetzen können. Dabei stehen ihnen Mentoren und andere Teilnehmer zur Seite. Es gibt eine Fülle an Tutorials, die über die ersten Hürden hinweg helfen, die spielerisch bebringen, die eigenen Pläne so zu formulieren, dass ein Computer sie versteht und ausführt, ob als Roboter, Spiel oder eigene App.  
+Damit das Wissen langfristig bleibt, die großen Probleme, die auf dem Weg zum abgeschlossenen Projekt liegen, gelöst werden können und es normal ist, sich digital ausdrücken zu können, bietet ein CoderDojo einen regelmäßigen Treff für Gleichgesinnte. Diese inspirieren sich durch diverse Projekte, die dabei vorgestellt werden und gehen mit neuen Ideen nach Hause und zum nächsten Treffen.  
+Um ein CoderDojo zu organisieren, braucht es keine Programmierkenntnisse. Es reichen ein Ort, eine Zeit, Materialien und ein paar Personen, die sich unterstützen. Das Netzwerk CoderDojo.com der CoderDojo-Stiftung bietet Hilfe und Austausch und Vernetzung zwischen den Klubs weltweit. Der CoderDojo Deutschland e.V. unterstützt die Dojos in Deutschland.
+Wie die Klubs organisiert sind, ist sehr unterschiedlich. Im CoderDojo Friedrichshain haben sie eine Platzbeschränkung für Teilnehmern, die hauptsächlich zwischen 10 und 14 sind und an eigenen Projekten arbeiten. Im CoderDojo Köln organisieren sie ein Verhältnis von 1:1 bis 3:1 für Mentoren zu Teilnehmern, um dort zu vorbereiteten Themen in Gruppen zu arbeiten. Im CoderDojo Potsdam gibt es Arduino und Raspberry Pi, kleine Roboter und die kleinen Geschwister können mitkommen, weil man ab 3 Jahren LEDs stecken und Roboter programmieren kann.  
+CoderDojos finden an öffentlichen Orten wie Universitäten, FabLabs und Hackerspaces statt bzw. auch in Firmenräumen. Dadurch sind die Mitarbeiter und Studenten mit der Umgebung vertraut und Tische, Stühle, WLAN und Strom vorhanden. Geräte wie 3d-Drucker und Lasercutter, Laptops u.ä. können vor Ort verstaut und genutzt werden. 
+Ob Mitarbeiter mit oder ohne Kinder, Pädagogen oder Freiwillige, Jung und Alt: Alle können dazu beitragen, dass das CoderDojo für alle eine angenehme, bereichernde Erfahrung ist. Wenn Sie gern ein CoderDojo in der Nähe hätten, sind Sie bestimmt nicht allein. Ich helfe gern über die Hürden hinweg, die im Weg stehen.  
+Nicco Kunzmann vom CoderDojo Deutschland e.V. <mail[ät]coderdojo-deutschland[punkt]de>
