@@ -24,7 +24,7 @@ Anzahl | Bezeichnung | Status
 8 | Mäuse | funktionieren
 8 | Rechner | funktionieren
 1 | Rechner | kaputt, bei Nicco
-1 | Rechner | bei Nicco, Netzteil wird gesucht
+2 | Rechner | bei Nicco
 8 | kleine Kopfhörer | in Kotztüte
 1 | weißes Headset | in Laptoptasche
 
