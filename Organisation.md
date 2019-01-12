@@ -14,7 +14,7 @@ Sobald Wie Möglich
 	- Dort überprüfen, da vielleicht manche Anmeldungen wie "Coder" oder "Eltern" auch nicht richtig kopiert werden
 - Email an Verteiler
 - Twittern von [@DojoPotsdam](https://twitter.com/DojoPotsdam)
-- Eine Mail an Lisa Rüppner Lisa.Rueppner⍟hpi⚜de und im CC Alexandra Jäger alexandra.jaeger⍟hpi⚜de  schreiben, um den Raum zu reservieren.
+- Eine Mail an Lisa Rüppner Lisa.Rueppner⍟hpi⚜de und im CC Katrin Augustin Katrin.Augustin⍟hpi⚜de  schreiben, um den Raum zu reservieren.
  
 2 Wochen Vorher
 ---------------
