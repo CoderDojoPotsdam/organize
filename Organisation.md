@@ -15,6 +15,7 @@ Sobald Wie Möglich
     [Manage Events](https://zen.coderdojo.com/dashboard/my-dojos/0be123e7-c9be-4002-a3cf-f0c8550f749a/events)
     → Event erstellen  
     Man kann vergangene Events kopieren.
+    ([coderdojopotsdam.github.io] zieht die Termine von der Zen-API automatisch)
     
  
 2 Wochen Vorher
@@ -57,3 +58,4 @@ Weitere Links
 - [Checkliste zum Ausführen von CoderDojos](https://github.com/richardmacduff/coderDojoTools)
 
 [rollen]: Rollen-beim-Dojo.md
+[coderdojopotsdam.github.io]: http://coderdojopotsdam.github.io/
