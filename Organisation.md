@@ -7,14 +7,15 @@ Alle Organisatorischen Sachen können über die [Mailingliste](https://groups.go
 Sobald Wie Möglich
 ------------------
 
-- Coder Dojo Potsdam Seite aktualisieren auf "Register Ahead".
-- Eventbrite Event kopieren.
-	- Dabei die Erinnerungsmail selbst nochmal kopieren, diese wird nicht automatisch kopiert.
-	- Das Event auf der [Coder Dojo Potsdam Seite](https://coderdojopotsdam.github.io) eintragen.
-	- Dort überprüfen, da vielleicht manche Anmeldungen wie "Coder" oder "Eltern" auch nicht richtig kopiert werden
 - Email an Verteiler
 - Twittern von [@DojoPotsdam](https://twitter.com/DojoPotsdam)
 - Eine Mail an Lisa Rüppner Lisa.Rueppner⍟hpi⚜de und im CC Katrin Augustin Katrin.Augustin⍟hpi⚜de  schreiben, um den Raum zu reservieren.
+- Termine eintragen:
+    https://zen.coderdojo.com → login → Meine Dojos → Potsdam @ HPI →
+    [Manage Events](https://zen.coderdojo.com/dashboard/my-dojos/0be123e7-c9be-4002-a3cf-f0c8550f749a/events)
+    → Event erstellen  
+    Man kann vergangene Events kopieren.
+    
  
 2 Wochen Vorher
 ---------------
