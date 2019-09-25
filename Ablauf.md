@@ -42,7 +42,7 @@ Alle machen was, wissen welche Rolle sie haben. ca. 2:30h
 Abschlusspräsentationen
 -----------------------
 
-Ca. eine halbe Stunde vor Ende sollte angesagt werden, dass in einer halben Stunde Presentationen losgehen. Dabei sollte auch schon erwähnt werden, worum es da geht.
+Ca. eine halbe Stunde vor Ende sollte angesagt werden, dass in einer virtel Stunde Presentationen losgehen und dannach ende ist. Dabei sollte auch schon erwähnt werden, worum es da geht.
 
 Eine viertel Stunde vor Ende werden dann Präsenationen gehalten. 
 
@@ -61,7 +61,7 @@ Folgendes sollte gut sichtbar wohin geschrieben werden:
 
 - Welche Technologien hast du benutzt?
 - Was war dein Ziel? (Was kann man mit den Technologien machen?)
-- Eventuell Demo.
+- Eventuell Demonstration
 
 Danach ein Dankeschön an alle und auf Feedbackbögen verweisen. Diese sind eine gute Möglichkeit zur Qualitätswahrung gegenüber Eltern ud Teilnehmern.
 
