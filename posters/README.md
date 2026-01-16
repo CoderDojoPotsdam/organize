@@ -1,8 +1,6 @@
 Plakate
 =======
-
-[![2015-11-18-mentoren/plakat.pdf](2015-11-18-mentoren/plakat.png)](2015-11-18-mentoren/plakat.pdf?raw=true)
-[![2015-11-18-teilnehmer/plakat.pdf](2015-11-18-teilnehmer/plakat.png)](2015-11-18-teilnehmer/plakat.pdf?raw=true)
+<img src="2024-09-flyer-mentoring/poster_de_v1_preview.png" style="width:40%;height:40%;float:left" /> <img src="2026-01-flyer-teilnehmende/prototype_poster_teilnehmende_schule_preview.png" style="width:40%;height:40%;float:left" />
 
 Flyer
 =====
