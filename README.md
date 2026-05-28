@@ -1,7 +1,7 @@
 Coder Dojo Potsdam
 ==================
 
-Dieses Repository ist für die Organisation des Dojos gedacht.
+Dieses Repository war bis zum 28.05.2026 für die Organisation des Dojos gedacht. Wegen Unübersichtlichkeit und veralteten Informationen wurde es im Zuge eines Repo-Cleanups archiviert.
 Es gibt Seiten für
 
 - [Die Hauptseite des Coder Dojo Potsdam](https://CoderDojoPotsdam.github.io)
